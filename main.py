@@ -17,7 +17,7 @@ traductor = GoogleTranslator(source='auto', target='es')
 
 # Feeds RSS de Google News por idioma
 RSS_FEEDS = {
-    "arabe": "https://news.google.com/rss/search?q=%D9%85%D9%8A%D9%86%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AF%D8%AE%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%D9%8A&hl=ar&gl=MA&ceid=MA:ar",
+    "arabe": "https://news.google.com/rss/search?q=%D9%85%D9%8A%D9%8A%D8%A7%20%D8%A7%D9%84%D8%AF%D8%AE%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%D9%8A&hl=ar&gl=MA&ceid=MA:ar",
     "frances": "https://news.google.com/rss/search?q=%22Nouveau%20port%20Dakhla%20Atlantique%22%20OR%20%22Port%20Dakhla%20Atlantique%22&hl=fr&gl=FR&ceid=FR:fr",
     "espanol": "https://news.google.com/rss/search?q=%22Puerto%20de%20Dakhla%20Atlantique%22%20OR%20%22Muelle%20de%20Dakhla%22&hl=es&gl=ES&ceid=ES:es",
     "ingles": "https://news.google.com/rss/search?q=%22Dakhla%20Atlantique%20Port%22&hl=en-US&gl=US&ceid=US:en"
@@ -31,9 +31,8 @@ def obtener_noticias_rss(url_rss):
     feed = feedparser.parse(url_rss)
     resultados = []
     
-    for entry in feed.entries[:5]: # Tomamos las 5 más recientes por idioma
+    for entry in feed.entries[:5]:  # Tomamos las 5 más recientes por idioma
         titular_orig = entry.title
-        # Limpieza básica del nombre del medio en el título de Google News
         medio = entry.source.title if hasattr(entry, 'source') else "Medio Digital"
         url = entry.link
         
@@ -91,13 +90,13 @@ def obtener_videos_youtube():
     return videos
 
 # ---------------------------------------------------------
-# 3. CONSTRUCCIÓN Y ENVÍO A TELEGRAM
+# 3. CONSTRUCCIÓN Y ENVÍO A TELEGRAM (SOPORTA MULTIPLES CHAT IDs)
 # ---------------------------------------------------------
 def enviar_reporte_telegram(noticias):
     fecha_str = datetime.datetime.now().strftime("%d/%m/%Y")
     msg = f"<b>📅 Búsqueda del {fecha_str} — Puerto de Dakhla Atlantique</b>\n\n"
 
-    # 1. Árabe (con LRM \u200E para preservar la alineación con emojis)
+    # 1. Árabe
     msg += "<b>1. Medios en árabe 🇲🇦</b>\n"
     if noticias["arabe"]:
         for idx, item in enumerate(noticias["arabe"]):
@@ -145,21 +144,29 @@ def enviar_reporte_telegram(noticias):
     else:
         msg += "No hay novedades hoy\n"
 
-    # Envío mediante la API de Telegram
+    # Separar la cadena de TELEGRAM_CHAT_ID por comas si hay más de uno
+    lista_chat_ids = [cid.strip() for cid in TELEGRAM_CHAT_ID.split(",") if cid.strip()] if TELEGRAM_CHAT_ID else []
     url_api = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID,
-        "text": msg,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True
-    }
-    requests.post(url_api, json=payload)
+
+    for chat_id in lista_chat_ids:
+        payload = {
+            "chat_id": chat_id,
+            "text": msg,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True
+        }
+        try:
+            res = requests.post(url_api, json=payload)
+            if res.status_code != 200:
+                print(f"Error enviando mensaje al CHAT_ID {chat_id}: {res.text}")
+        except Exception as e:
+            print(f"Excepción enviando mensaje al CHAT_ID {chat_id}: {e}")
 
 # ---------------------------------------------------------
 # 4. ACTUALIZACIÓN DEL REGISTRO HISTÓRICO EN GITHUB (README.md)
 # ---------------------------------------------------------
 def actualizar_registro_markdown(noticias):
-    """Agrega las noticias del día traducidas al 100% al castellano en el README.md."""
+    """Agrega las noticias del día traducidas al castellano en el README.md."""
     fecha_hoy = datetime.datetime.now()
     anio_str = fecha_hoy.strftime("%Y")
     mes_str = fecha_hoy.strftime("%m - %B")
@@ -178,7 +185,6 @@ def actualizar_registro_markdown(noticias):
     bloque_nuevo = f"\n### 📅 {dia_str}\n\n| Idioma | Medio | Titular (Traducido) | Link |\n|---|---|---|---|\n"
     bloque_nuevo += "\n".join(lineas_tabla) + "\n"
 
-    # Lectura y actualización del archivo README.md
     archivo_readme = "README.md"
     contenido_previo = ""
     if os.path.exists(archivo_readme):
