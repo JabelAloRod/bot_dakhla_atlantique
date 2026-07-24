@@ -7,6 +7,3 @@ Este repositorio contiene el registro automatizado de noticias publicadas sobre 
 ## 2026
 
 ### 📂 Mes: 07
-
-| Idioma | Medio | Titular | Link |
-|---|---|---|---|
