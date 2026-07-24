@@ -39,9 +39,7 @@ def enviar_telegram(mensaje):
         print("Error: No se han configurado los tokens de Telegram.")
         return
 
-    # Separar los IDs por comas y limpiar espacios en blanco
     chat_ids = [c.strip() for c in TELEGRAM_CHAT_ID.split(",") if c.strip()]
-    
     url_base = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     MAX_LENGTH = 4000
 
@@ -115,7 +113,7 @@ def generar_resumen_general_ia(texto_noticias):
         return ""
 
 # ==========================================
-# RASTREO DE PRENSA Y YOUTUBE
+# RASTREO DE PRENSA, YOUTUBE Y RADIOS
 # ==========================================
 def obtener_noticias_rss(urls_previas):
     """Obtiene noticias en ES, FR, AR e EN vía Google News RSS."""
@@ -127,11 +125,10 @@ def obtener_noticias_rss(urls_previas):
     ]
     
     noticias_nuevas = []
-    
     for idioma, url in busquedas:
         try:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:3]: # Tomamos las 3 más recientes por idioma
+            for entry in feed.entries[:3]:
                 link = entry.link
                 if link not in urls_previas:
                     urls_previas.add(link)
@@ -181,6 +178,32 @@ def obtener_videos_youtube(urls_previas):
         
     return videos
 
+def obtener_audios_radio(urls_previas):
+    """Obtiene boletines o programas de radio relacionados mediante fuentes RSS y Google News."""
+    busquedas_radio = [
+        ("Radio Medi1", "https://news.google.com/rss/search?q=Medi1+Port+Dakhla+Atlantique&hl=fr&gl=MA&ceid=MA:fr"),
+        ("Radio General", "https://news.google.com/rss/search?q=radio+Dakhla+Atlantic+port&hl=en&gl=US&ceid=US:en")
+    ]
+    
+    audios_nuevos = []
+    for fuente, url in busquedas_radio:
+        try:
+            feed = feedparser.parse(url)
+            for entry in feed.entries[:2]:
+                link = entry.link
+                if link not in urls_previas:
+                    urls_previas.add(link)
+                    audios_nuevos.append({
+                        "fuente": fuente,
+                        "titulo": entry.title,
+                        "link": link,
+                        "fecha": datetime.now().strftime("%Y-%m-%d")
+                    })
+        except Exception as e:
+            print(f"Error al rastrear radio ({fuente}): {e}")
+            
+    return audios_nuevos
+
 # ==========================================
 # FLUJO PRINCIPAL
 # ==========================================
@@ -194,6 +217,7 @@ def main():
     # 2. Recopilar contenido
     noticias = obtener_noticias_rss(urls_registradas)
     videos = obtener_videos_youtube(urls_registradas)
+    radios = obtener_audios_radio(urls_registradas)
     podcasts = buscar_podcasts_dakhla(dias_atras=1)
     
     # Filtrar podcasts no vistos
@@ -201,53 +225,67 @@ def main():
     for p in podcasts_nuevos:
         urls_registradas.add(p['url'])
 
-    # Si no hay novedades en ninguna fuente, abortar para no spam
-    if not noticias and not videos and not podcasts_nuevos:
+    if not noticias and not videos and not radios and not podcasts_nuevos:
         print("No se encontraron novedades nuevas hoy. Finalizando proceso.")
         return
 
-    print(f"Novedades halladas -> Noticias: {len(noticias)} | Vídeos: {len(videos)} | Podcasts: {len(podcasts_nuevos)}")
+    print(f"Novedades halladas -> Noticias: {len(noticias)} | Vídeos: {len(videos)} | Radios: {len(radios)} | Podcasts: {len(podcasts_nuevos)}")
 
-    # 3. Construir mensaje
+    # 3. Construir mensaje con secciones separadas
     fecha_hoy = datetime.now().strftime("%Y-%m-%d")
     reporte = f"🚢 **REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE** ({fecha_hoy})\n\n"
+    
+    secciones = []
     texto_para_ia = ""
 
     # Bloque de Prensa
     if noticias:
-        reporte += "📰 **NOTICIAS DE PRENSA:**\n"
+        block_noticias = "📰 **NOTICIAS DE PRENSA:**\n"
         for n in noticias:
-            reporte += f"• [{n['idioma']}] [{n['titulo']}]({n['link']})\n"
+            block_noticias += f"• [{n['idioma']}] [{n['titulo']}]({n['link']})\n"
             texto_para_ia += f"- {n['titulo']}\n"
-        reporte += "\n"
+        secciones.append(block_noticias)
 
     # Bloque de Youtube
     if videos:
-        reporte += "🎥 **VÍDEOS DESTACADOS:**\n"
+        block_videos = "🎥 **VÍDEOS DESTACADOS:**\n"
         for v in videos:
-            reporte += f"• [{v['titulo']}]({v['link']})\n"
+            block_videos += f"• [{v['titulo']}]({v['link']})\n"
             texto_para_ia += f"- {v['titulo']}\n"
-        reporte += "\n"
+        secciones.append(block_videos)
 
-    # Bloque de Podcasts (Procesados individualmente con IA)
+    # Bloque de Radio
+    if radios:
+        block_radios = "📻 **BOLETINES DE RADIO Y EMISIONES:**\n"
+        for r in radios:
+            block_radios += f"• [{r['fuente']}] [{r['titulo']}]({r['link']})\n"
+            texto_para_ia += f"- Radio ({r['fuente']}): {r['titulo']}\n"
+        secciones.append(block_radios)
+
+    # Bloque de Podcasts
     if podcasts_nuevos:
-        reporte += "🎙️ **PODCASTS Y ANÁLISIS:**\n"
+        block_podcasts = "🎙️ **PODCASTS Y ANÁLISIS:**\n"
         for pod in podcasts_nuevos:
             resumen_pod = procesar_podcast_con_gemini(pod)
             if resumen_pod:
-                reporte += resumen_pod + "\n"
+                block_podcasts += resumen_pod + "\n"
                 texto_para_ia += f"- Podcast: {pod['titulo']} ({pod['descripcion'][:100]})\n"
             else:
-                reporte += f"• **{pod['podcast']}**: [{pod['titulo']}]({pod['url']})\n"
-        reporte += "\n"
+                block_podcasts += f"• **{pod['podcast']}**: [{pod['titulo']}]({pod['url']})\n"
+        secciones.append(block_podcasts)
+
+    # Unir todas las secciones principales con un separador visual limpio
+    reporte += "\n\n───────────────────\n\n".join(secciones)
+    reporte += "\n\n"
 
     # Resumen General de IA y Firma
     resumen_global = generar_resumen_general_ia(texto_para_ia)
     if resumen_global:
+        reporte += "───────────────────\n\n"
         reporte += "🧠 **Resumen del Día:**\n"
         reporte += f"{resumen_global}\n\n"
         
-    reporte += "_resumen creado por Mamé_el_bot_"
+    reporte += "🤖 Resumen creado por Mamé_el_bot 🤖"
 
     # 4. Enviar a Telegram
     enviar_telegram(reporte)
