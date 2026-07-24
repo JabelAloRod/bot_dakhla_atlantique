@@ -34,29 +34,34 @@ def cargar_urls_registradas(readme_path="README.md"):
     return urls
 
 def enviar_telegram(mensaje):
-    """Envía el reporte final a Telegram dividiendo mensajes largos si superan el límite de caracteres."""
+    """Envía el reporte a todos los IDs configurados en TELEGRAM_CHAT_ID (separados por coma)."""
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("Error: No se han configurado los tokens de Telegram.")
         return
 
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    # Separar los IDs por comas y limpiar espacios en blanco
+    chat_ids = [c.strip() for c in TELEGRAM_CHAT_ID.split(",") if c.strip()]
     
-    # Límite seguro de Telegram (4096 caracteres por mensaje)
+    url_base = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     MAX_LENGTH = 4000
-    for i in range(0, len(mensaje), MAX_LENGTH):
-        sub_mensaje = mensaje[i:i+MAX_LENGTH]
-        payload = {
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": sub_mensaje,
-            "parse_mode": "Markdown",
-            "disable_web_page_preview": False
-        }
-        try:
-            res = requests.post(url, json=payload, timeout=10)
-            if res.status_code != 200:
-                print(f"Error enviando a Telegram: {res.text}")
-        except Exception as e:
-            print(f"Excepción al conectar con Telegram: {e}")
+
+    for chat_id in chat_ids:
+        for i in range(0, len(mensaje), MAX_LENGTH):
+            sub_mensaje = mensaje[i:i+MAX_LENGTH]
+            payload = {
+                "chat_id": chat_id,
+                "text": sub_mensaje,
+                "parse_mode": "Markdown",
+                "disable_web_page_preview": False
+            }
+            try:
+                res = requests.post(url_base, json=payload, timeout=10)
+                if res.status_code != 200:
+                    print(f"Error enviando a Telegram (Chat ID {chat_id}): {res.text}")
+                else:
+                    print(f"Reporte enviado con éxito al Chat ID: {chat_id}")
+            except Exception as e:
+                print(f"Excepción al conectar con Telegram (Chat ID {chat_id}): {e}")
 
 def procesar_podcast_con_gemini(episodio):
     """Aplica Gemini para traducir y resumir un episodio de podcast al castellano."""
