@@ -1,0 +1,37 @@
+name: Rastrear Noticias Dakhla Atlantique
+
+on:
+  schedule:
+    # 09:30 h Canaria en verano corresponde a 08:30 UTC
+    - cron: '30 8 * * *'
+  workflow_dispatch: # Permite lanzar la búsqueda manualmente cuando quieras
+
+jobs:
+  ejecutar-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar Código del Repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Entorno de Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar Librerías
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar Rastreo y Enviar a Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python main.py
+
+      - name: Guardar Histórico en GitHub
+        run: |
+          git config --global user.name "Bot Dakhla"
+          git config --global user.email "bot@dakhla.com"
+          git add README.md
+          git commit -m "Registro diario actualizado" || exit 0
+          git push
