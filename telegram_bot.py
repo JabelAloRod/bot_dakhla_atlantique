@@ -27,7 +27,7 @@ FLAG_MAP = {
     "youtube": "🔴"
 }
 
-# Diccionario de nombres de meses
+# Diccionario para convertir números de mes a texto
 MESES_NOMBRE = {
     "01": "Enero",
     "02": "Febrero",
@@ -78,10 +78,10 @@ def obtener_datos_readme() -> dict:
             datos.setdefault(current_year, {})
             continue
 
-        # Detectar Mes: busca cualquier línea con ### y "Mes: XX" o "Mes XX"
-        month_match = re.search(r'###.*Mes:?\s*(\d{2})', line_str, re.IGNORECASE)
+        # Detectar Mes: acepta 1 o 2 dígitos (\d{1,2}) y normaliza a 2 dígitos con zfill(2)
+        month_match = re.search(r'###.*Mes:?\s*(\d{1,2})', line_str, re.IGNORECASE)
         if month_match and current_year:
-            current_month = month_match.group(1)
+            current_month = month_match.group(1).zfill(2)
             datos[current_year].setdefault(current_month, [])
             continue
 
@@ -145,7 +145,7 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.edit_message_text("⚠️ No se pudo cargar la información del registro.")
         return
 
-    # 1. Nivel Año -> Mostrar Meses con nombre y contador
+    # 1. Nivel Año -> Mostrar Meses con nombre formateado y contador
     if data.startswith("year_"):
         year = data.split("_")[1]
         meses = datos.get(year, {})
@@ -153,7 +153,10 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         keyboard = []
         for month in sorted(meses.keys(), reverse=True):
             total_noticias = len(meses[month])
-            nombre_mes = MESES_NOMBRE.get(month, f"Mes {month}")
+            
+            # Garantiza la conversión del número de mes a dos dígitos para consultar el diccionario
+            clave_mes = str(month).zfill(2)
+            nombre_mes = MESES_NOMBRE.get(clave_mes, f"Mes {month}")
             
             keyboard.append([
                 InlineKeyboardButton(
@@ -175,7 +178,9 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data.startswith("month_"):
         _, year, month = data.split("_")
         noticias = datos.get(year, {}).get(month, [])
-        nombre_mes_txt = MESES_NOMBRE.get(month, month).upper()
+        
+        clave_mes = str(month).zfill(2)
+        nombre_mes_txt = MESES_NOMBRE.get(clave_mes, month).upper()
 
         if not noticias:
             keyboard = [[InlineKeyboardButton(f"🔙 Volver a Meses ({year})", callback_data=f"year_{year}")]]
