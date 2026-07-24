@@ -5,6 +5,7 @@ import datetime
 import requests
 import feedparser
 import difflib
+import google.generativeai as genai
 from deep_translator import GoogleTranslator
 
 # ---------------------------------------------------------
@@ -13,9 +14,13 @@ from deep_translator import GoogleTranslator
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 EMOJIS_NUMEROS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 traductor = GoogleTranslator(source='auto', target='es')
+
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
 
 RSS_FEEDS = {
     "arabe": "https://news.google.com/rss/search?q=%D9%85%D9%8A%D9%86%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AF%D8%AE%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%D9%8A%20when:1d&hl=ar&gl=MA&ceid=MA:ar",
@@ -28,7 +33,6 @@ RSS_FEEDS = {
 # 2. SISTEMA ANTI-DUPLICADOS
 # ---------------------------------------------------------
 def cargar_historial_previo():
-    """Lee el README.md para memorizar URLs y titulares antiguos y evitar repetirlos."""
     urls = set()
     titulares = set()
     archivo_readme = "README.md"
@@ -36,34 +40,28 @@ def cargar_historial_previo():
     if os.path.exists(archivo_readme):
         with open(archivo_readme, "r", encoding="utf-8") as f:
             content = f.read()
-            # Capturar URLs
             urls.update(re.findall(r'\[.*?\]\((https?://.*?)\)', content))
-            # Capturar Titulares (están en la 3ª columna de las tablas)
             titulares_match = re.findall(r'\|\s*[^\|]+\s*\|\s*[^\|]+\s*\|\s*([^\|]+)\s*\|', content)
             titulares.update([t.strip() for t in titulares_match])
             
     return urls, titulares
 
 def es_muy_similar(texto1, texto2, umbral=0.85):
-    """Compara dos textos. Si coinciden en más de un 85%, se consideran iguales."""
     return difflib.SequenceMatcher(None, texto1.lower(), texto2.lower()).ratio() > umbral
 
 # ---------------------------------------------------------
-# 3. FUNCIONES DE EXTRACCIÓN (A prueba de fallos)
+# 3. FUNCIONES DE EXTRACCIÓN
 # ---------------------------------------------------------
 def obtener_noticias_rss(url_rss, urls_vistas, titulares_vistos):
-    """Extrae noticias de un Feed RSS con Timeout y Deduplicación."""
     try:
-        # Petición segura con Timeout (10 seg)
         req = requests.get(url_rss, timeout=10)
         req.raise_for_status()
         feed = feedparser.parse(req.content)
     except Exception as e:
-        print(f"⚠️ Error cargando RSS ({url_rss[:30]}...): {e}")
+        print(f"⚠️ Error cargando RSS: {e}")
         return []
 
     resultados = []
-    
     for entry in feed.entries:
         if len(resultados) >= 5:
             break
@@ -72,13 +70,10 @@ def obtener_noticias_rss(url_rss, urls_vistas, titulares_vistos):
         titular_orig = entry.title
         medio = entry.source.title if hasattr(entry, 'source') else "Medio Digital"
         
-        # 1. Filtro exacto por URL
         if url in urls_vistas:
             continue
             
-        # 2. Filtro Inteligente de Titular
-        es_duplicado = any(es_muy_similar(titular_orig, t_visto) for t_visto in titulares_vistos)
-        if es_duplicado:
+        if any(es_muy_similar(titular_orig, t_visto) for t_visto in titulares_vistos):
             continue
 
         try:
@@ -93,14 +88,12 @@ def obtener_noticias_rss(url_rss, urls_vistas, titulares_vistos):
             "url": url
         })
         
-        # Añadir al registro temporal para no duplicar en la misma ejecución
         urls_vistas.add(url)
         titulares_vistos.add(titular_orig)
         
     return resultados
 
 def obtener_videos_youtube(urls_vistas, titulares_vistos):
-    """Consulta YouTube de forma segura y evita duplicados."""
     if not YOUTUBE_API_KEY:
         return []
         
@@ -151,7 +144,43 @@ def obtener_videos_youtube(urls_vistas, titulares_vistos):
     return videos
 
 # ---------------------------------------------------------
-# 4. CONSTRUCCIÓN Y ENVÍO A TELEGRAM (CON PROTECCIÓN DE LÍMITE)
+# 4. RESUMEN CON INTELIGENCIA ARTIFICIAL (GEMINI)
+# ---------------------------------------------------------
+def generar_resumen_ia(noticias):
+    if not GEMINI_API_KEY:
+        return "\n\n<i>⚠️ Falta configurar GEMINI_API_KEY en Render para generar el resumen.</i>\n\nresumen creado por Mamé_el_bot"
+        
+    # Extraer todos los titulares traducidos al español para dárselos a la IA
+    titulares = [item['titular_es'] for lista in noticias.values() for item in lista]
+    
+    if not titulares:
+        return ""
+        
+    texto_titulares = "\n".join(f"- {t}" for t in titulares)
+    
+    prompt = f"""
+    Eres un analista experto en infraestructuras y geopolítica.
+    A continuación tienes los titulares de las noticias publicadas hoy sobre el 'Puerto Dakhla Atlantique':
+    
+    {texto_titulares}
+    
+    Genera un resumen global, breve y directo al grano (máximo 2 párrafos cortos) integrando la información de estos titulares.
+    No inventes información, básate estrictamente en lo proporcionado.
+    """
+    
+    try:
+        # Usamos el modelo más rápido y eficiente
+        model = genai.GenerativeModel('gemini-1.5-flash')
+        respuesta = model.generate_content(prompt)
+        resumen_texto = respuesta.text.strip()
+        
+        return f"\n\n<b>🧠 Resumen del Día:</b>\n{resumen_texto}\n\n<i>resumen creado por Mamé_el_bot</i>"
+    except Exception as e:
+        print(f"⚠️ Error al conectar con Gemini: {e}")
+        return "\n\n<i>⚠️ Hubo un error al generar el resumen hoy.</i>\n\nresumen creado por Mamé_el_bot"
+
+# ---------------------------------------------------------
+# 5. CONSTRUCCIÓN Y ENVÍO A TELEGRAM
 # ---------------------------------------------------------
 def enviar_reporte_telegram(noticias):
     fecha_str = datetime.datetime.now().strftime("%d/%m/%Y")
@@ -173,7 +202,6 @@ def enviar_reporte_telegram(noticias):
     msg += agregar_bloque("2. Medios de habla francesa 🇫🇷", "frances")
     msg += agregar_bloque("3. Medios en español 🇪🇸", "espanol")
     
-    # Combinados
     msg += "<b>4. Medios en lengua inglesa y vídeos 🇬🇧/🇺🇸/🎥</b>\n"
     combinados_ingles = noticias["ingles"] + noticias["youtube"]
     if combinados_ingles:
@@ -184,6 +212,10 @@ def enviar_reporte_telegram(noticias):
             msg += f"{num} {tit} - <i>{med}</i> - <a href=\"{item['url']}\">Link</a>\n"
     else:
         msg += "No hay novedades en las últimas 24h\n"
+
+    # Generar y adjuntar el resumen IA al final del mensaje
+    resumen = generar_resumen_ia(noticias)
+    msg += resumen
 
     # División segura en trozos si supera los límites de Telegram
     trozos_mensaje = []
@@ -216,10 +248,9 @@ def enviar_reporte_telegram(noticias):
                 print(f"⚠️ Excepción enviando a {chat_id}: {e}")
 
 # ---------------------------------------------------------
-# 5. ACTUALIZACIÓN DEL REGISTRO HISTÓRICO EN GITHUB
+# 6. ACTUALIZACIÓN DEL REGISTRO HISTÓRICO EN GITHUB
 # ---------------------------------------------------------
 def actualizar_registro_markdown(noticias):
-    """Agrega las noticias del día al final del README.md usando modo append."""
     fecha_hoy = datetime.datetime.now()
     dia_str = fecha_hoy.strftime("%d/%m/%Y")
 
@@ -231,30 +262,24 @@ def actualizar_registro_markdown(noticias):
             )
 
     if not lineas_tabla:
-        print("Sin noticias nuevas. No se altera el README.")
         return
 
-    # Creamos el bloque del día con su propia tabla
     bloque_nuevo = f"\n### 📅 {dia_str}\n\n| Idioma | Medio | Titular (Traducido) | Link |\n|---|---|---|---|\n"
     bloque_nuevo += "\n".join(lineas_tabla) + "\n"
 
     archivo_readme = "README.md"
     
-    # Abrimos el archivo en modo "a" (append) para añadir siempre al final
     with open(archivo_readme, "a", encoding="utf-8") as f:
         f.write(bloque_nuevo)
 
 # ---------------------------------------------------------
-# 6. EJECUCIÓN PRINCIPAL
+# 7. EJECUCIÓN PRINCIPAL
 # ---------------------------------------------------------
 if __name__ == "__main__":
     print("Iniciando rastreo de noticias (Últimas 24 horas)...")
     
-    # 1. Cargar memoria de noticias previas
     urls_vistas, titulares_vistos = cargar_historial_previo()
-    print(f"Memoria cargada: {len(urls_vistas)} URLs previas detectadas.")
     
-    # 2. Rastrear fuentes filtrando duplicados
     noticias_todas = {
         "arabe": obtener_noticias_rss(RSS_FEEDS["arabe"], urls_vistas, titulares_vistos),
         "frances": obtener_noticias_rss(RSS_FEEDS["frances"], urls_vistas, titulares_vistos),
@@ -268,7 +293,6 @@ if __name__ == "__main__":
     if total_nuevas > 0:
         print(f"Se encontraron {total_nuevas} noticias NUEVAS. Enviando a Telegram...")
         enviar_reporte_telegram(noticias_todas)
-        
         print("Actualizando registro Markdown en GitHub...")
         actualizar_registro_markdown(noticias_todas)
     else:
