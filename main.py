@@ -15,12 +15,12 @@ YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 EMOJIS_NUMEROS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 traductor = GoogleTranslator(source='auto', target='es')
 
-# Feeds RSS de Google News por idioma
+# Feeds RSS de Google News por idioma con filtro estricto de 24 horas (when:1d)
 RSS_FEEDS = {
-    "arabe": "https://news.google.com/rss/search?q=%D9%85%D9%8A%D9%8A%D8%A7%20%D8%A7%D9%84%D8%AF%D8%AE%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%D9%8A&hl=ar&gl=MA&ceid=MA:ar",
-    "frances": "https://news.google.com/rss/search?q=%22Nouveau%20port%20Dakhla%20Atlantique%22%20OR%20%22Port%20Dakhla%20Atlantique%22&hl=fr&gl=FR&ceid=FR:fr",
-    "espanol": "https://news.google.com/rss/search?q=%22Puerto%20de%20Dakhla%20Atlantique%22%20OR%20%22Muelle%20de%20Dakhla%22&hl=es&gl=ES&ceid=ES:es",
-    "ingles": "https://news.google.com/rss/search?q=%22Dakhla%20Atlantique%20Port%22&hl=en-US&gl=US&ceid=US:en"
+    "arabe": "https://news.google.com/rss/search?q=%D9%85%D9%8A%D9%86%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AF%D8%AE%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%D9%8A%20when:1d&hl=ar&gl=MA&ceid=MA:ar",
+    "frances": "https://news.google.com/rss/search?q=(%22Nouveau%20port%20Dakhla%20Atlantique%22%20OR%20%22Port%20Dakhla%20Atlantique%22)%20when:1d&hl=fr&gl=FR&ceid=FR:fr",
+    "espanol": "https://news.google.com/rss/search?q=(%22Puerto%20de%20Dakhla%20Atlantique%22%20OR%20%22Muelle%20de%20Dakhla%22)%20when:1d&hl=es&gl=ES&ceid=ES:es",
+    "ingles": "https://news.google.com/rss/search?q=%22Dakhla%20Atlantique%20Port%22%20when:1d&hl=en-US&gl=US&ceid=US:en"
 }
 
 # ---------------------------------------------------------
@@ -31,7 +31,7 @@ def obtener_noticias_rss(url_rss):
     feed = feedparser.parse(url_rss)
     resultados = []
     
-    for entry in feed.entries[:5]:  # Tomamos las 5 más recientes por idioma
+    for entry in feed.entries[:5]:  # Tomamos hasta 5 más recientes de las últimas 24h
         titular_orig = entry.title
         medio = entry.source.title if hasattr(entry, 'source') else "Medio Digital"
         url = entry.link
@@ -50,16 +50,20 @@ def obtener_noticias_rss(url_rss):
     return resultados
 
 def obtener_videos_youtube():
-    """Consulta la API de YouTube para vídeos recientes sobre Dakhla Atlantique."""
+    """Consulta la API de YouTube para vídeos publicados EN LAS ÚLTIMAS 24 HORAS."""
     if not YOUTUBE_API_KEY:
         return []
         
+    # Calcular fecha/hora de hace exactamente 24 horas en formato ISO 8601
+    hace_24h = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    
     url = "https://www.googleapis.com/youtube/v3/search"
     params = {
         "part": "snippet",
         "q": "Dakhla Atlantique Port",
         "type": "video",
         "order": "date",
+        "publishedAfter": hace_24h, # Solo vídeos subidos en las últimas 24 horas
         "maxResults": 3,
         "key": YOUTUBE_API_KEY
     }
@@ -94,7 +98,7 @@ def obtener_videos_youtube():
 # ---------------------------------------------------------
 def enviar_reporte_telegram(noticias):
     fecha_str = datetime.datetime.now().strftime("%d/%m/%Y")
-    msg = f"<b>📅 Búsqueda del {fecha_str} — Puerto de Dakhla Atlantique</b>\n\n"
+    msg = f"<b>📅 Búsqueda del {fecha_str} — Puerto de Dakhla Atlantique (Últimas 24h)</b>\n\n"
 
     # 1. Árabe
     msg += "<b>1. Medios en árabe 🇲🇦</b>\n"
@@ -105,7 +109,7 @@ def enviar_reporte_telegram(noticias):
             med = html.escape(item['medio'])
             msg += f"\u200E{num} {tit} - <i>{med}</i> - <a href=\"{item['url']}\">Link</a>\n"
     else:
-        msg += "No hay noticias nuevas hoy\n"
+        msg += "No hay noticias nuevas en las últimas 24h\n"
     msg += "\n"
 
     # 2. Francés
@@ -117,7 +121,7 @@ def enviar_reporte_telegram(noticias):
             med = html.escape(item['medio'])
             msg += f"{num} {tit} - <i>{med}</i> - <a href=\"{item['url']}\">Link</a>\n"
     else:
-        msg += "No hay noticias nuevas hoy\n"
+        msg += "No hay noticias nuevas en las últimas 24h\n"
     msg += "\n"
 
     # 3. Español
@@ -129,7 +133,7 @@ def enviar_reporte_telegram(noticias):
             med = html.escape(item['medio'])
             msg += f"{num} {tit} - <i>{med}</i> - <a href=\"{item['url']}\">Link</a>\n"
     else:
-        msg += "No hay noticias nuevas hoy\n"
+        msg += "No hay noticias nuevas en las últimas 24h\n"
     msg += "\n"
 
     # 4. Inglés / YouTube
@@ -142,7 +146,7 @@ def enviar_reporte_telegram(noticias):
             med = html.escape(item['medio'])
             msg += f"{num} {tit} - <i>{med}</i> - <a href=\"{item['url']}\">Link</a>\n"
     else:
-        msg += "No hay novedades hoy\n"
+        msg += "No hay novedades en las últimas 24h\n"
 
     # Separar la cadena de TELEGRAM_CHAT_ID por comas si hay más de uno
     lista_chat_ids = [cid.strip() for cid in TELEGRAM_CHAT_ID.split(",") if cid.strip()] if TELEGRAM_CHAT_ID else []
@@ -200,7 +204,7 @@ def actualizar_registro_markdown(noticias):
 # 5. EJECUCIÓN PRINCIPAL
 # ---------------------------------------------------------
 if __name__ == "__main__":
-    print("Iniciando rastreo de noticias...")
+    print("Iniciando rastreo de noticias (Últimas 24 horas)...")
     
     noticias_todas = {
         "arabe": obtener_noticias_rss(RSS_FEEDS["arabe"]),
