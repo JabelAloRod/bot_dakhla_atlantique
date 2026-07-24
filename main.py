@@ -54,7 +54,7 @@ def es_muy_similar(texto1, texto2, umbral=0.85):
 def obtener_noticias_rss(url_rss, urls_vistas, titulares_vistos):
     """Extrae noticias de un Feed RSS con Timeout y Deduplicación."""
     try:
-        # Petición segura con Timeout (10 seg) en vez de usar directo feedparser
+        # Petición segura con Timeout (10 seg)
         req = requests.get(url_rss, timeout=10)
         req.raise_for_status()
         feed = feedparser.parse(req.content)
@@ -76,7 +76,7 @@ def obtener_noticias_rss(url_rss, urls_vistas, titulares_vistos):
         if url in urls_vistas:
             continue
             
-        # 2. Filtro Inteligente de Titular (Evita la misma noticia de distintos periódicos)
+        # 2. Filtro Inteligente de Titular
         es_duplicado = any(es_muy_similar(titular_orig, t_visto) for t_visto in titulares_vistos)
         if es_duplicado:
             continue
@@ -219,6 +219,7 @@ def enviar_reporte_telegram(noticias):
 # 5. ACTUALIZACIÓN DEL REGISTRO HISTÓRICO EN GITHUB
 # ---------------------------------------------------------
 def actualizar_registro_markdown(noticias):
+    """Agrega las noticias del día al final del README.md usando modo append."""
     fecha_hoy = datetime.datetime.now()
     dia_str = fecha_hoy.strftime("%d/%m/%Y")
 
@@ -233,31 +234,15 @@ def actualizar_registro_markdown(noticias):
         print("Sin noticias nuevas. No se altera el README.")
         return
 
-    bloque_nuevo = f"### 📅 {dia_str}\n\n| Idioma | Medio | Titular (Traducido) | Link |\n|---|---|---|---|\n"
-    bloque_nuevo += "\n".join(lineas_tabla) + "\n\n"
+    # Creamos el bloque del día con su propia tabla
+    bloque_nuevo = f"\n### 📅 {dia_str}\n\n| Idioma | Medio | Titular (Traducido) | Link |\n|---|---|---|---|\n"
+    bloque_nuevo += "\n".join(lineas_tabla) + "\n"
 
     archivo_readme = "README.md"
-    contenido_previo = ""
-    if os.path.exists(archivo_readme):
-        with open(archivo_readme, "r", encoding="utf-8") as f:
-            contenido_previo = f.read()
-
-    # Si por casualidad el README no tiene cabeceras base, se las ponemos (aunque deberías tenerlas ya puestas a mano)
-    if "## 2026" not in contenido_previo:
-        anio_str = fecha_hoy.strftime("%Y")
-        mes_str = fecha_hoy.strftime("%m")
-        cabecera_base = f"# 📌 Registro Histórico Dakhla Atlantique\n\n## {anio_str}\n### 📂 Mes: {mes_str}\n\n"
-        nuevo_contenido = cabecera_base + bloque_nuevo + contenido_previo
-    else:
-        # Inserta las noticias justo debajo de la cabecera del mes
-        # Busca el patrón del mes actual para inyectar debajo (simplificado insertando arriba)
-        nuevo_contenido = contenido_previo.replace("---", f"---\n\n{bloque_nuevo}", 1) 
-        
-        # Nota: He usado un 'replace' sobre el divisor '---' para que las nuevas entren arriba. 
-        # Asegúrate de tener '---' debajo de la intro de tu README como te sugerí antes.
-
-    with open(archivo_readme, "w", encoding="utf-8") as f:
-        f.write(nuevo_contenido)
+    
+    # Abrimos el archivo en modo "a" (append) para añadir siempre al final
+    with open(archivo_readme, "a", encoding="utf-8") as f:
+        f.write(bloque_nuevo)
 
 # ---------------------------------------------------------
 # 6. EJECUCIÓN PRINCIPAL
