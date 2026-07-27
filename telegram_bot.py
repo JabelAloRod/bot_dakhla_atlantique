@@ -24,24 +24,24 @@ FLAG_MAP = {
     "francés": "🇫🇷",
     "espanol": "🇪🇸",
     "español": "🇪🇸",
-    "youtube": "🔴"
+    "ingles": "🇬🇧",
+    "inglés": "🇬🇧",
 }
 
 # Diccionario para convertir números de mes a texto
 MESES_NOMBRE = {
-    "01": "Enero",
-    "02": "Febrero",
-    "03": "Marzo",
-    "04": "Abril",
-    "05": "Mayo",
-    "06": "Junio",
-    "07": "Julio",
-    "08": "Agosto",
-    "09": "Septiembre",
-    "10": "Octubre",
-    "11": "Noviembre",
-    "12": "Diciembre"
+    "01": "Enero", "02": "Febrero", "03": "Marzo", "04": "Abril",
+    "05": "Mayo", "06": "Junio", "07": "Julio", "08": "Agosto",
+    "09": "Septiembre", "10": "Octubre", "11": "Noviembre", "12": "Diciembre"
 }
+
+# Detecta líneas tipo:
+#   • [Español] [Título de la noticia](https://enlace)
+#   • [Título del vídeo](https://enlace)          <- sin etiqueta de idioma/fuente
+LINEA_BULLET_RE = re.compile(
+    r'^•\s*(?:\[(?P<tag>[^\]]+)\]\s*)?\[(?P<titulo>[^\]]+)\]\((?P<link>https?://[^\)]+)\)'
+)
+
 
 def limpiar_texto_markdown(texto: str) -> str:
     """Elimina o limpia caracteres que rompen el formato Markdown básico de Telegram"""
@@ -51,8 +51,20 @@ def limpiar_texto_markdown(texto: str) -> str:
     texto = texto.replace("*", "").replace("_", "").replace("`", "")
     return texto.strip()
 
+
 def obtener_datos_readme() -> dict:
-    """Descarga y extrae las noticias del README.md de GitHub de forma segura"""
+    """
+    Descarga el README.md del repositorio y extrae las noticias/vídeos/radios
+    registrados cada día. Entiende el formato real que genera main.py:
+
+    ## 2026
+    ### 📂 Mes: 07
+    ### Registro 2026-07-27
+    📰 **NOTICIAS DE PRENSA:**
+    • [Español] [Título](enlace)
+    🎥 **VÍDEOS DESTACADOS:**
+    • [Título](enlace)
+    """
     try:
         response = requests.get(README_RAW_URL, timeout=10)
         if response.status_code != 200:
@@ -78,41 +90,44 @@ def obtener_datos_readme() -> dict:
             datos.setdefault(current_year, {})
             continue
 
-        # Detectar Mes: acepta 1 o 2 dígitos (\d{1,2}) y normaliza a 2 dígitos con zfill(2)
+        # Detectar Mes: acepta 1 o 2 dígitos y normaliza a 2 dígitos
         month_match = re.search(r'###.*Mes:?\s*(\d{1,2})', line_str, re.IGNORECASE)
         if month_match and current_year:
             current_month = month_match.group(1).zfill(2)
             datos[current_year].setdefault(current_month, [])
             continue
 
-        # Detectar Fecha: busca XX/XX/XXXX en líneas ###
-        date_match = re.search(r'###.*(\d{2}/\d{2}/\d{4})', line_str)
+        # Detectar Fecha: "### Registro 2026-07-27" (formato AAAA-MM-DD real del bot)
+        date_match = re.search(r'###\s*Registro\s+(\d{4}-\d{2}-\d{2})', line_str)
         if date_match:
             current_date = date_match.group(1)
             continue
 
-        # Parsear filas de la tabla Markdown: | Idioma | Medio | Titular | Link |
-        if line_str.startswith("|") and not line_str.startswith("| Idioma") and not line_str.startswith("|---"):
-            cols = [c.strip() for c in line_str.split("|")[1:-1]]
-            if len(cols) >= 4 and current_year and current_month:
-                idioma_raw = cols[0].lower()
-                titular_raw = cols[2]
+        # Detectar entradas con viñeta: noticias, radios y vídeos
+        bullet_match = LINEA_BULLET_RE.match(line_str)
+        if bullet_match and current_year and current_month:
+            tag = bullet_match.group("tag")
+            titulo = bullet_match.group("titulo")
+            link = bullet_match.group("link")
 
-                # Extraer URL
-                link_match = re.search(r'\((https?://[^\)]+)\)', cols[3])
-                link = link_match.group(1) if link_match else "#"
+            if tag:
+                bandera = FLAG_MAP.get(tag.strip().lower(), "🌐")
+                etiqueta = tag.strip()
+            else:
+                # Sin etiqueta -> es un vídeo de YouTube
+                bandera = "🔴"
+                etiqueta = "Vídeo"
 
-                flag = FLAG_MAP.get(idioma_raw, "🌐")
-                titular_limpio = limpiar_texto_markdown(titular_raw)
-
-                datos[current_year][current_month].append({
-                    "fecha": current_date or "Sin fecha",
-                    "bandera": flag,
-                    "titular": titular_limpio,
-                    "link": link
-                })
+            datos[current_year][current_month].append({
+                "fecha": current_date or "Sin fecha",
+                "bandera": bandera,
+                "etiqueta": etiqueta,
+                "titular": limpiar_texto_markdown(titulo),
+                "link": link
+            })
 
     return datos
+
 
 async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Comando /registro o /historico: Muestra el primer nivel (Años)"""
@@ -134,6 +149,7 @@ async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode="Markdown"
     )
 
+
 async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Gestor principal para todos los botones interactivos"""
     query = update.callback_query
@@ -153,14 +169,12 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         keyboard = []
         for month in sorted(meses.keys(), reverse=True):
             total_noticias = len(meses[month])
-            
-            # Garantiza la conversión del número de mes a dos dígitos para consultar el diccionario
             clave_mes = str(month).zfill(2)
             nombre_mes = MESES_NOMBRE.get(clave_mes, f"Mes {month}")
-            
+
             keyboard.append([
                 InlineKeyboardButton(
-                    f"📂 {nombre_mes} ({total_noticias} noticias)", 
+                    f"📂 {nombre_mes} ({total_noticias} noticias)",
                     callback_data=f"month_{year}_{month}"
                 )
             ])
@@ -178,7 +192,7 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data.startswith("month_"):
         _, year, month = data.split("_")
         noticias = datos.get(year, {}).get(month, [])
-        
+
         clave_mes = str(month).zfill(2)
         nombre_mes_txt = MESES_NOMBRE.get(clave_mes, month).upper()
 
@@ -217,7 +231,7 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if len(bloques) > 1:
             for b in bloques[:-1]:
                 await query.message.reply_text(b, parse_mode="Markdown", disable_web_page_preview=True)
-            
+
             await query.message.reply_text(
                 bloques[-1],
                 reply_markup=reply_markup,
@@ -235,7 +249,7 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 3. Volver al Menú Principal (Inicio)
     elif data == "home":
         keyboard = [
-            [InlineKeyboardButton(f"📂 Año {y}", callback_data=f"year_{y}")] 
+            [InlineKeyboardButton(f"📂 Año {y}", callback_data=f"year_{y}")]
             for y in sorted(datos.keys(), reverse=True)
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -245,13 +259,14 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
             parse_mode="Markdown"
         )
 
+
 def main():
     if not TELEGRAM_TOKEN:
         logger.error("No se ha configurado la variable de entorno TELEGRAM_TOKEN")
         return
 
     app = Application.builder().token(TELEGRAM_TOKEN).build()
-    
+
     # Handlers para comandos y botones
     app.add_handler(CommandHandler("registro", comando_registro))
     app.add_handler(CommandHandler("historico", comando_registro))
@@ -259,6 +274,7 @@ def main():
 
     logger.info("Bot iniciado correctamente y escuchando peticiones...")
     app.run_polling()
+
 
 if __name__ == "__main__":
     main()
