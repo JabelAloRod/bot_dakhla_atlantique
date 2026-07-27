@@ -229,7 +229,7 @@ async def comando_forzar(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         response = requests.post(url, json={"ref": "main"}, headers=headers, timeout=10)
         if response.status_code == 204:
-            msg = "🚀 **¡Reporte forzado con éxito!**\n\nEl workflow se ha iniciado en GitHub Actions. Recibirás el mensaje en Telegram en un par de minutos."
+            msg = "🤖 Estoy trabajando en ello, en unos minutos te facilito la información. Siéntate y tómate un café. ☕"
         else:
             msg = f"⚠️ No se pudo disparar el workflow (Código HTTP {response.status_code})."
     except Exception as e:
