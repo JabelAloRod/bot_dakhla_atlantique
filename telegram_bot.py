@@ -1,11 +1,12 @@
 import os
 import re
-import csv
 import io
 import logging
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import requests
+from openpyxl import Workbook
+from openpyxl.styles import Font, Alignment
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
@@ -138,8 +139,8 @@ TEXTO_AYUDA = (
     "📌 /registro (o /historico)\n"
     "Consulta el archivo histórico de noticias, navegando por año y mes.\n\n"
     "📤 /exportar\n"
-    "Descarga en un archivo CSV (para abrir en Excel/Sheets) las noticias "
-    "registradas de un mes concreto.\n\n"
+    "Descarga en un archivo Excel (.xlsx) las noticias registradas de un mes "
+    "concreto, con columnas separadas y enlaces en los que se puede hacer clic.\n\n"
     "❓ /ayuda\n"
     "Muestra este mensaje.\n\n"
     "El reporte diario se envía automáticamente todos los días a las 8:00 "
@@ -188,22 +189,45 @@ async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
-        "📤 *Exportar registro a CSV*\n\nSelecciona el año:",
+        "📤 *Exportar registro a Excel*\n\nSelecciona el año:",
         reply_markup=reply_markup,
         parse_mode="Markdown"
     )
 
 
-def generar_csv_mes(noticias, year, month) -> io.BytesIO:
-    """Construye un archivo CSV en memoria con las noticias de un mes."""
-    buffer_texto = io.StringIO()
-    escritor = csv.writer(buffer_texto)
-    escritor.writerow(["Fecha", "Categoría", "Titular", "Enlace"])
-    for item in noticias:
-        escritor.writerow([item["fecha"], item["etiqueta"], item["titular"], item["link"]])
+def generar_excel_mes(noticias, year, month) -> io.BytesIO:
+    """Construye un archivo Excel (.xlsx) en memoria con las noticias de un mes,
+    con columnas reales, encabezado en negrita y enlaces en los que se puede
+    hacer clic. A diferencia de un CSV, se abre bien en cualquier Excel sin
+    depender de la configuración regional (coma vs. punto y coma)."""
+    libro = Workbook()
+    hoja = libro.active
+    hoja.title = f"{year}-{month}"
 
-    buffer_bytes = io.BytesIO(buffer_texto.getvalue().encode("utf-8-sig"))  # BOM para que Excel abra bien los acentos
-    buffer_bytes.name = f"dakhla_registro_{year}-{month}.csv"
+    encabezados = ["Fecha", "Categoría", "Titular", "Enlace"]
+    hoja.append(encabezados)
+    for celda in hoja[1]:
+        celda.font = Font(bold=True)
+        celda.alignment = Alignment(horizontal="center")
+
+    for item in noticias:
+        hoja.append([item["fecha"], item["etiqueta"], item["titular"], item["link"]])
+        fila = hoja.max_row
+        celda_enlace = hoja.cell(row=fila, column=4)
+        celda_enlace.hyperlink = item["link"]
+        celda_enlace.font = Font(color="0563C1", underline="single")
+
+    # Anchos de columna legibles
+    hoja.column_dimensions["A"].width = 14
+    hoja.column_dimensions["B"].width = 16
+    hoja.column_dimensions["C"].width = 70
+    hoja.column_dimensions["D"].width = 55
+    hoja.freeze_panes = "A2"  # el encabezado queda fijo al hacer scroll
+
+    buffer_bytes = io.BytesIO()
+    libro.save(buffer_bytes)
+    buffer_bytes.seek(0)
+    buffer_bytes.name = f"dakhla_registro_{year}-{month}.xlsx"
     return buffer_bytes
 
 
@@ -352,13 +376,13 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await query.answer("No hay noticias registradas en ese mes.", show_alert=True)
             return
 
-        archivo_csv = generar_csv_mes(noticias, year, month)
+        archivo_excel = generar_excel_mes(noticias, year, month)
         clave_mes = str(month).zfill(2)
         nombre_mes = MESES_NOMBRE.get(clave_mes, month)
 
         await context.bot.send_document(
             chat_id=query.message.chat_id,
-            document=InputFile(archivo_csv, filename=archivo_csv.name),
+            document=InputFile(archivo_excel, filename=archivo_excel.name),
             caption=f"📤 Registro de {nombre_mes} {year} ({len(noticias)} noticias)"
         )
         await query.answer("Archivo enviado ✅")
@@ -371,7 +395,7 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await query.edit_message_text(
-            "📤 *Exportar registro a CSV*\n\nSelecciona el año:",
+            "📤 *Exportar registro a Excel*\n\nSelecciona el año:",
             reply_markup=reply_markup,
             parse_mode="Markdown"
         )
