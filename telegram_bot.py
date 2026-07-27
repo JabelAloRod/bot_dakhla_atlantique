@@ -1,6 +1,8 @@
 import os
 import re
 import logging
+import threading
+from http.server import BaseHTTPRequestHandler, HTTPServer
 import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
@@ -260,10 +262,36 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
 
+class _HealthCheckHandler(BaseHTTPRequestHandler):
+    """Responde 200 OK a cualquier petición. Sirve únicamente para que Render
+    detecte tráfico entrante y no ponga a dormir el servicio gratuito."""
+
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-Type", "text/plain; charset=utf-8")
+        self.end_headers()
+        self.wfile.write("Bot de Telegram activo.".encode("utf-8"))
+
+    def log_message(self, format, *args):
+        pass  # Silenciar el log de cada ping para no ensuciar la consola
+
+
+def iniciar_servidor_salud():
+    """Arranca un servidor HTTP mínimo en el puerto que indique Render (variable PORT)."""
+    puerto = int(os.environ.get("PORT", "10000"))
+    servidor = HTTPServer(("0.0.0.0", puerto), _HealthCheckHandler)
+    logger.info(f"Servidor de salud escuchando en el puerto {puerto}")
+    servidor.serve_forever()
+
+
 def main():
     if not TELEGRAM_TOKEN:
         logger.error("No se ha configurado la variable de entorno TELEGRAM_TOKEN")
         return
+
+    # Arrancamos el servidor de salud en un hilo aparte, en paralelo al bot.
+    hilo_salud = threading.Thread(target=iniciar_servidor_salud, daemon=True)
+    hilo_salud.start()
 
     app = Application.builder().token(TELEGRAM_TOKEN).build()
 
