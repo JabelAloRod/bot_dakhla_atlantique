@@ -3,3 +3,4 @@ feedparser
 google-genai
 tzdata
 python-telegram-bot==20.7
+openpyxl
