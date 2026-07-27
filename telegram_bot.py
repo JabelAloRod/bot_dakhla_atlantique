@@ -19,6 +19,7 @@ logger = logging.getLogger(__name__)
 
 # Configuración de variables de entorno
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "tu_usuario/bot-dakhla-atlantique")
 README_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/README.md"
 
@@ -33,23 +34,18 @@ FLAG_MAP = {
     "inglés": "🇬🇧",
 }
 
-# Diccionario para convertir números de mes a texto
 MESES_NOMBRE = {
     "01": "Enero", "02": "Febrero", "03": "Marzo", "04": "Abril",
     "05": "Mayo", "06": "Junio", "07": "Julio", "08": "Agosto",
     "09": "Septiembre", "10": "Octubre", "11": "Noviembre", "12": "Diciembre"
 }
 
-# Detecta líneas tipo:
-#   • [Español] [Título de la noticia](https://enlace)
-#   • [Título del vídeo](https://enlace)          <- sin etiqueta de idioma/fuente
 LINEA_BULLET_RE = re.compile(
     r'^•\s*(?:\[(?P<tag>[^\]]+)\]\s*)?\[(?P<titulo>[^\]]+)\]\((?P<link>https?://[^\)]+)\)'
 )
 
 
 def limpiar_texto_markdown(texto: str) -> str:
-    """Elimina o limpia caracteres que rompen el formato Markdown básico de Telegram"""
     if not texto:
         return ""
     texto = texto.replace("[", "(").replace("]", ")")
@@ -58,10 +54,6 @@ def limpiar_texto_markdown(texto: str) -> str:
 
 
 def obtener_datos_readme() -> dict:
-    """
-    Descarga el README.md del repositorio y extrae las noticias/vídeos/radios
-    registrados cada día.
-    """
     try:
         response = requests.get(README_RAW_URL, timeout=10)
         if response.status_code != 200:
@@ -80,27 +72,23 @@ def obtener_datos_readme() -> dict:
     for line in content.splitlines():
         line_str = line.strip()
 
-        # Detectar Año: ## 2026
         year_match = re.search(r'##\s*(\d{4})', line_str)
         if year_match:
             current_year = year_match.group(1)
             datos.setdefault(current_year, {})
             continue
 
-        # Detectar Mes: acepta 1 o 2 dígitos y normaliza a 2 dígitos
         month_match = re.search(r'###.*Mes:?\s*(\d{1,2})', line_str, re.IGNORECASE)
         if month_match and current_year:
             current_month = month_match.group(1).zfill(2)
             datos[current_year].setdefault(current_month, [])
             continue
 
-        # Detectar Fecha: "### Registro 2026-07-27"
         date_match = re.search(r'###\s*Registro\s+(\d{4}-\d{2}-\d{2})', line_str)
         if date_match:
             current_date = date_match.group(1)
             continue
 
-        # Detectar entradas con viñeta: noticias, radios y vídeos
         bullet_match = LINEA_BULLET_RE.match(line_str)
         if bullet_match and current_year and current_month:
             tag = bullet_match.group("tag")
@@ -130,19 +118,23 @@ TEXTO_AYUDA = (
     "📌 *Registro Histórico*\n"
     "Consulta el archivo histórico de noticias, navegando año a año y mes a mes.\n\n"
     "📤 *Exportar a Excel*\n"
-    "Descarga en un archivo Excel (.xlsx) las noticias registradas de cualquier mes, "
-    "con formato limpio y enlaces directos funcionales.\n\n"
-    "El reporte diario se envía de forma totalmente automática todos los días a las "
-    "08:00 hora de Canarias."
+    "Descarga en un archivo Excel (.xlsx) las noticias registradas de cualquier mes.\n\n"
+    "🔄 *Forzar Reporte*\n"
+    "Dispara manualmente la ejecución del bot en GitHub Actions al momento.\n\n"
+    "📊 *Estado del Sistema*\n"
+    "Comprueba el estado de la última ejecución y salud general del bot.\n\n"
+    "El reporte diario se envía automáticamente todos los días a las 08:00 hora de Canarias."
 )
 
 
 async def comando_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Muestra el panel de control interactivo estilo BotFather con los botones principales."""
+    """Muestra el panel de control interactivo con todas las opciones."""
     keyboard = [
-        [InlineKeyboardButton("❓ /ayuda", callback_data="menu_ayuda")],
+        [InlineKeyboardButton("🔄 Forzar Reporte", callback_data="menu_forzar")],
+        [InlineKeyboardButton("📊 Estado del Sistema", callback_data="menu_estado")],
         [InlineKeyboardButton("📜 /registro-historico", callback_data="menu_historico")],
-        [InlineKeyboardButton("📊 /exportar", callback_data="menu_exportar")]
+        [InlineKeyboardButton("📊 /exportar", callback_data="menu_exportar")],
+        [InlineKeyboardButton("❓ /ayuda", callback_data="menu_ayuda")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     texto = "🎛️ *Panel de Control — Dakhla Atlantique*\n\nSelecciona una opción del menú:"
@@ -155,7 +147,6 @@ async def comando_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def comando_ayuda(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Comando /ayuda."""
     keyboard = [[InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")]]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
@@ -167,7 +158,6 @@ async def comando_ayuda(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Comando /registro o /historico: Muestra el primer nivel (Años)."""
     datos = obtener_datos_readme()
     if not datos:
         msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
@@ -193,7 +183,6 @@ async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Comando /exportar: primer paso, elegir el año a exportar."""
     datos = obtener_datos_readme()
     if not datos:
         msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
@@ -218,8 +207,88 @@ async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
 
 
+async def comando_forzar(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Dispara manualmente el workflow de GitHub Actions"""
+    query = update.callback_query if update.callback_query else None
+    if query:
+        await query.answer("Lanzando reporte...")
+
+    if not GITHUB_TOKEN:
+        msg = "⚠️ Error: No se ha configurado GITHUB_TOKEN en las variables de entorno."
+        if query:
+            await query.message.reply_text(msg)
+        else:
+            await update.message.reply_text(msg)
+        return
+
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/daily_bot.yml/dispatches"
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+    try:
+        response = requests.post(url, json={"ref": "main"}, headers=headers, timeout=10)
+        if response.status_code == 204:
+            msg = "🚀 **¡Reporte forzado con éxito!**\n\nEl workflow se ha iniciado en GitHub Actions. Recibirás el mensaje en Telegram en un par de minutos."
+        else:
+            msg = f"⚠️ No se pudo disparar el workflow (Código HTTP {response.status_code})."
+    except Exception as e:
+        msg = f"❌ Excepción al conectar con GitHub: {e}"
+
+    keyboard = [[InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")]]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    if query:
+        await query.message.edit_text(msg, reply_markup=reply_markup, parse_mode="Markdown")
+    else:
+        await update.message.reply_text(msg, reply_markup=reply_markup, parse_mode="Markdown")
+
+
+async def comando_estado(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Consulta el estado de la última ejecución en GitHub Actions"""
+    query = update.callback_query if update.callback_query else None
+    if query:
+        await query.answer("Comprobando estado...")
+
+    headers = {"Accept": "application/vnd.github.v3+json"}
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"token {GITHUB_TOKEN}"
+
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/runs?per_page=1"
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code == 200:
+            runs = response.json().get("workflow_runs", [])
+            if runs:
+                run = runs[0]
+                estado = run.get("conclusion") or run.get("status")
+                fecha = run.get("created_at", "")[:19].replace("T", " ")
+                html_url = run.get("html_url")
+                
+                icono_estado = "✅" if estado == "success" else ("⏳" if estado in ["queued", "in_progress"] else "❌")
+                msg = (
+                    f"📊 *Estado del Sistema — GitHub Actions*\n\n"
+                    f"{icono_estado} **Último estado:** `{estado}`\n"
+                    f"🗓️ **Fecha:** `{fecha} UTC`\n\n"
+                    f"🔗 [Ver detalles en GitHub]({html_url})"
+                )
+            else:
+                msg = "ℹ️ No se encontraron ejecuciones recientes en el repositorio."
+        else:
+            msg = f"⚠️ Error al consultar la API de GitHub (Código HTTP {response.status_code})."
+    except Exception as e:
+        msg = f"❌ Excepción al consultar el estado: {e}"
+
+    keyboard = [[InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")]]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    if query:
+        await query.message.edit_text(msg, reply_markup=reply_markup, parse_mode="Markdown", disable_web_page_preview=True)
+    else:
+        await update.message.reply_text(msg, reply_markup=reply_markup, parse_mode="Markdown", disable_web_page_preview=True)
+
+
 def generar_excel_mes(noticias, year, month) -> io.BytesIO:
-    """Construye un archivo Excel (.xlsx) en memoria con las noticias de un mes."""
     libro = Workbook()
     hoja = libro.active
     hoja.title = f"{year}-{month}"
@@ -251,12 +320,10 @@ def generar_excel_mes(noticias, year, month) -> io.BytesIO:
 
 
 async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Gestor principal para todos los botones interactivos"""
     query = update.callback_query
     await query.answer()
     data = query.data
 
-    # Accesos rápidos desde el menú principal BotFather
     if data == "menu_main":
         await comando_menu(update, context)
         return
@@ -269,13 +336,18 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data == "menu_exportar":
         await comando_exportar(update, context)
         return
+    elif data == "menu_forzar":
+        await comando_forzar(update, context)
+        return
+    elif data == "menu_estado":
+        await comando_estado(update, context)
+        return
 
     datos = obtener_datos_readme()
     if not datos:
         await query.edit_message_text("⚠️ No se pudo cargar la información del registro.")
         return
 
-    # 1. Nivel Año -> Mostrar Meses con contador
     if data.startswith("year_"):
         year = data.split("_")[1]
         meses = datos.get(year, {})
@@ -302,7 +374,6 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
             parse_mode="Markdown"
         )
 
-    # 2. Nivel Mes -> Mostrar Listado Simplificado
     elif data.startswith("month_"):
         _, year, month = data.split("_")
         noticias = datos.get(year, {}).get(month, [])
@@ -360,7 +431,6 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 disable_web_page_preview=True
             )
 
-    # 4. Exportar - Nivel Año -> Mostrar Meses exportables
     elif data.startswith("exp_year_"):
         year = data.split("_")[2]
         meses = datos.get(year, {})
@@ -387,7 +457,6 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
             parse_mode="Markdown"
         )
 
-    # 5. Exportar - Nivel Mes -> Generar y enviar el Excel
     elif data.startswith("exp_month_"):
         _, _, year, month = data.split("_")
         noticias = datos.get(year, {}).get(month, [])
@@ -409,8 +478,6 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 class _HealthCheckHandler(BaseHTTPRequestHandler):
-    """Responde 200 OK para evitar que Render duerma el servicio gratuito."""
-
     def do_GET(self):
         self.send_response(200)
         self.send_header("Content-Type", "text/plain; charset=utf-8")
@@ -433,7 +500,6 @@ def main():
         logger.error("No se ha configurado la variable de entorno TELEGRAM_TOKEN")
         return
 
-    # Arranca el servidor de salud en segundo plano para Render
     hilo_salud = threading.Thread(target=iniciar_servidor_salud, daemon=True)
     hilo_salud.start()
 
@@ -446,9 +512,11 @@ def main():
     app.add_handler(CommandHandler("registro", comando_registro))
     app.add_handler(CommandHandler("historico", comando_registro))
     app.add_handler(CommandHandler("exportar", comando_exportar))
+    app.add_handler(CommandHandler("actualizar", comando_forzar))
+    app.add_handler(CommandHandler("estado", comando_estado))
     app.add_handler(CallbackQueryHandler(manejar_botones))
 
-    logger.info("Bot iniciado correctamente con menú interactivo y escuchando peticiones...")
+    logger.info("Bot iniciado correctamente con panel completo y escuchando peticiones...")
     app.run_polling()
 
 
