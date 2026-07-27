@@ -1,10 +1,12 @@
 import os
 import re
+import csv
+import io
 import logging
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import requests
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Configuración de logs
@@ -131,6 +133,25 @@ def obtener_datos_readme() -> dict:
     return datos
 
 
+TEXTO_AYUDA = (
+    "🤖 *Bot Dakhla Atlantique — Comandos disponibles*\n\n"
+    "📌 /registro (o /historico)\n"
+    "Consulta el archivo histórico de noticias, navegando por año y mes.\n\n"
+    "📤 /exportar\n"
+    "Descarga en un archivo CSV (para abrir en Excel/Sheets) las noticias "
+    "registradas de un mes concreto.\n\n"
+    "❓ /ayuda\n"
+    "Muestra este mensaje.\n\n"
+    "El reporte diario se envía automáticamente todos los días a las 8:00 "
+    "hora de Canarias, no hace falta pedirlo."
+)
+
+
+async def comando_ayuda(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Comando /ayuda: muestra la lista de comandos disponibles."""
+    await update.message.reply_text(TEXTO_AYUDA, parse_mode="Markdown")
+
+
 async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Comando /registro o /historico: Muestra el primer nivel (Años)"""
     datos = obtener_datos_readme()
@@ -150,6 +171,40 @@ async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup=reply_markup,
         parse_mode="Markdown"
     )
+
+
+async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Comando /exportar: primer paso, elegir el año a exportar."""
+    datos = obtener_datos_readme()
+    if not datos:
+        await update.message.reply_text(
+            "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
+        )
+        return
+
+    keyboard = []
+    for year in sorted(datos.keys(), reverse=True):
+        keyboard.append([InlineKeyboardButton(f"📂 Año {year}", callback_data=f"exp_year_{year}")])
+
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await update.message.reply_text(
+        "📤 *Exportar registro a CSV*\n\nSelecciona el año:",
+        reply_markup=reply_markup,
+        parse_mode="Markdown"
+    )
+
+
+def generar_csv_mes(noticias, year, month) -> io.BytesIO:
+    """Construye un archivo CSV en memoria con las noticias de un mes."""
+    buffer_texto = io.StringIO()
+    escritor = csv.writer(buffer_texto)
+    escritor.writerow(["Fecha", "Categoría", "Titular", "Enlace"])
+    for item in noticias:
+        escritor.writerow([item["fecha"], item["etiqueta"], item["titular"], item["link"]])
+
+    buffer_bytes = io.BytesIO(buffer_texto.getvalue().encode("utf-8-sig"))  # BOM para que Excel abra bien los acentos
+    buffer_bytes.name = f"dakhla_registro_{year}-{month}.csv"
+    return buffer_bytes
 
 
 async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -261,6 +316,66 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
             parse_mode="Markdown"
         )
 
+    # 4. Exportar - Nivel Año -> Mostrar Meses exportables
+    elif data.startswith("exp_year_"):
+        year = data.split("_")[2]
+        meses = datos.get(year, {})
+
+        keyboard = []
+        for month in sorted(meses.keys(), reverse=True):
+            total_noticias = len(meses[month])
+            clave_mes = str(month).zfill(2)
+            nombre_mes = MESES_NOMBRE.get(clave_mes, f"Mes {month}")
+
+            keyboard.append([
+                InlineKeyboardButton(
+                    f"📤 {nombre_mes} ({total_noticias} noticias)",
+                    callback_data=f"exp_month_{year}_{month}"
+                )
+            ])
+
+        keyboard.append([InlineKeyboardButton("🔙 Volver a Años", callback_data="exp_home")])
+        reply_markup = InlineKeyboardMarkup(keyboard)
+
+        await query.edit_message_text(
+            f"📤 *Exportar — AÑO {year}*\n\nSelecciona el mes a exportar:",
+            reply_markup=reply_markup,
+            parse_mode="Markdown"
+        )
+
+    # 5. Exportar - Nivel Mes -> Generar y enviar el CSV
+    elif data.startswith("exp_month_"):
+        _, _, year, month = data.split("_")
+        noticias = datos.get(year, {}).get(month, [])
+
+        if not noticias:
+            await query.answer("No hay noticias registradas en ese mes.", show_alert=True)
+            return
+
+        archivo_csv = generar_csv_mes(noticias, year, month)
+        clave_mes = str(month).zfill(2)
+        nombre_mes = MESES_NOMBRE.get(clave_mes, month)
+
+        await context.bot.send_document(
+            chat_id=query.message.chat_id,
+            document=InputFile(archivo_csv, filename=archivo_csv.name),
+            caption=f"📤 Registro de {nombre_mes} {year} ({len(noticias)} noticias)"
+        )
+        await query.answer("Archivo enviado ✅")
+
+    # 6. Exportar - Volver al listado de años
+    elif data == "exp_home":
+        keyboard = [
+            [InlineKeyboardButton(f"📂 Año {y}", callback_data=f"exp_year_{y}")]
+            for y in sorted(datos.keys(), reverse=True)
+        ]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        await query.edit_message_text(
+            "📤 *Exportar registro a CSV*\n\nSelecciona el año:",
+            reply_markup=reply_markup,
+            parse_mode="Markdown"
+        )
+
 
 class _HealthCheckHandler(BaseHTTPRequestHandler):
     """Responde 200 OK a cualquier petición. Sirve únicamente para que Render
@@ -298,6 +413,9 @@ def main():
     # Handlers para comandos y botones
     app.add_handler(CommandHandler("registro", comando_registro))
     app.add_handler(CommandHandler("historico", comando_registro))
+    app.add_handler(CommandHandler("ayuda", comando_ayuda))
+    app.add_handler(CommandHandler("start", comando_ayuda))
+    app.add_handler(CommandHandler("exportar", comando_exportar))
     app.add_handler(CallbackQueryHandler(manejar_botones))
 
     logger.info("Bot iniciado correctamente y escuchando peticiones...")
