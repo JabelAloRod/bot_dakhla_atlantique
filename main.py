@@ -405,7 +405,9 @@ def main():
         print(f"El reporte de hoy ({fecha_hoy}) ya se envió anteriormente. Se omite esta ejecución.")
         return
 
-    urls_registradas = cargar_urls_registradas(contenido_readme)
+    urls_registradas = set() if EJECUCION_MANUAL else cargar_urls_registradas(contenido_readme)
+    if EJECUCION_MANUAL:
+        print("Ejecución manual: se ignora el filtro de 'ya registrado', para mostrar siempre la foto actual.")
     print(f"Memoria cargada: {len(urls_registradas)} URLs previas en registro.")
 
     # 2. Recopilar contenido
