@@ -100,3 +100,24 @@ No hay noticias.
 No hay noticias que resumir hoy.
 
 🤖 Generado por Mamé el Bot 🤖
+
+### Registro 2026-07-28
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-07-28)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+No hay noticias.
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+No hay noticias.
+
+📺 <b>YouTube & Vídeos</b>
+
+No hay noticias.
+
+🤖✨ <b>Resumen Diario de la IA</b>
+
+No hay noticias que resumir hoy.
+
+🤖 Generado por Mamé el Bot 🤖
