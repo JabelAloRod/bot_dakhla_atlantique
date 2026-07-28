@@ -56,3 +56,14 @@ Este repositorio contiene el registro automatizado de noticias publicadas sobre 
 
 
 🤖 Resumen creado por Mamé_el_bot 🤖
+
+### Registro 2026-07-28
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-07-28)
+
+📰 <b>NOTICIAS DE PRENSA:</b>
+• [Árabe] <a href="https://news.google.com/rss/articles/CBMi1gJBVV95cUxPUThnT214RWlEM3NTVDJKdEN2ZW5tM2w2UllnRGJOWDA3Ml9DS01ZRDZmd21rWDBjQXFMZERhVXJ0WTJrZko5bHU2bWNuZWZPSjVtczFQRzdPY1loX2hXLWpyNHlwSm51R0I5REEtTXVBZHZpazV3dVRtQ1RLYVNGQlF0cDJMZXVsczdKcld6V2ZKejkyTzFValgxVlkzVjM0UDlkUzZ3bFBJTk9uc19PVHdpX3NKLWJsMEx0aGRCNVZVTzhwUWpGTnZISlRFZTZaR2F4YmpMdWJMYUVmMnlVajA4WlBwdVF4NkcxTmpxbWJlbGRsMUhTVDItbm14LWJEcm1Iakl2YVQxYnJuODZ0MmFQSHVHTlRuTjZjVzdLMEJuSXlFQko2LWhaR0lDOGNkaDlHVU13ZVowVkJzNk14WjBES0FIN2N1S05RRGwtSmQ4Q3hwc0E?oc=5">وسائل إعلام أجنبية تستعرض دلالات "طريق دونالد ترامب" في المغرب - Hespress</a>
+• [Inglés] <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNeEhOdldoaFg5TndibVRvbUhqUlI5WGRobVQ1WVoyV2pGeG9ac3Y0bHJzN21WMmJ6bXN1TGczY195SUVoZmVhTE51VmxEc3dMWnpiQWFyRTA3clJLRFczUHcxV25ta1JaZlVtZG10VGNlbnlnaTJPZm9OUGpfU2gtWm8tUU9wcFYwOVFmLTlRXzhXcm81UjJxOFBYT283eWpyVjR4SGIzTEt6LWhFbmxHUnJ3?oc=5">King Mohammed VI’s port vision reshapes Morocco into a global maritime hub - The North Africa Post</a>
+• [Inglés] <a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbE56QXNYeGF3UVFkNTBaamdYcXFOYUNKamZLTk5pdWxubUJWMVlObHpldGxnYVBlamtLRjhZNHpfZDZZVE5KMFFhRjdmWkZXV1FIOUdKZW1taDlzUk0tVXNIeDJZZnBFRFRPai1CenpSVGtjOVV6Vk5vVlk4SmM3cUFsTnFqVTQwNldzTGZkRkMyeVBSMENrN2VwWnZsLU9aR1pCY05SV3dYS1M1bkxZUUJJSVQtbno4TThnMXFVaWpSVzczcnFJVlZkeFhLUzZkX3d6Ql9n?oc=5">Africa's richest monarch names a $1 billion highway designed to connect Europe and West Africa after Trump - Business Insider Africa</a>
+
+
+🤖 Resumen creado por Mamé_el_bot 🤖
