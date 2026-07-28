@@ -21,6 +21,11 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ZONA_CANARIAS = ZoneInfo("Atlantic/Canary")
 HORA_ENVIO_OBJETIVO = 8  # 8:00 hora de Canarias
 
+# Si el workflow se ha lanzado manualmente ("Forzar Reporte" en el bot, o "Run
+# workflow" en GitHub), nos saltamos tanto la comprobación de la hora como la
+# de "ya se envió hoy", para que el botón funcione a cualquier hora.
+EJECUCION_MANUAL = os.environ.get("EJECUCION_MANUAL", "false").strip().lower() == "true"
+
 # Orden y banderas de los idiomas de prensa
 IDIOMAS_ORDEN = ["Español", "Francés", "Árabe", "Inglés"]
 BANDERA_IDIOMA = {"Español": "🇪🇸", "Francés": "🇫🇷", "Árabe": "🇲🇦", "Inglés": "🇬🇧"}
@@ -378,13 +383,14 @@ def construir_bloque_resumen_ia(texto_para_ia):
 # ==========================================
 def main():
     print("Iniciando rastreo del Puerto de Dakhla Atlantique...")
+    print(f"Tipo de ejecución: {'MANUAL (forzada)' if EJECUCION_MANUAL else 'programada (cron)'}")
 
     # 0. Comprobar que es la hora de envío en Canarias.
     # El workflow de GitHub Actions se dispara dos veces (7:00 y 8:00 UTC)
     # para cubrir el cambio de horario de verano/invierno; aquí descartamos
     # la ejecución que no coincide con las 8:00 hora de Canarias.
     ahora_canarias = datetime.now(ZONA_CANARIAS)
-    if ahora_canarias.hour != HORA_ENVIO_OBJETIVO:
+    if not EJECUCION_MANUAL and ahora_canarias.hour != HORA_ENVIO_OBJETIVO:
         print(f"Hora actual en Canarias: {ahora_canarias.strftime('%H:%M')}. "
               f"No son las {HORA_ENVIO_OBJETIVO}:00, se omite esta ejecución.")
         return
@@ -395,7 +401,7 @@ def main():
     # (por ejemplo, si las dos ejecuciones programadas caen accidentalmente en
     # la misma hora de Canarias durante el cambio de horario).
     contenido_readme = cargar_readme()
-    if f"### Registro {fecha_hoy}" in contenido_readme:
+    if not EJECUCION_MANUAL and f"### Registro {fecha_hoy}" in contenido_readme:
         print(f"El reporte de hoy ({fecha_hoy}) ya se envió anteriormente. Se omite esta ejecución.")
         return
 
