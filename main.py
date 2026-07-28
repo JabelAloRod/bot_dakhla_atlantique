@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import html
 import requests
 import feedparser
@@ -19,6 +20,10 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 # Zona horaria de Canarias (gestiona sola el cambio de horario verano/invierno)
 ZONA_CANARIAS = ZoneInfo("Atlantic/Canary")
 HORA_ENVIO_OBJETIVO = 8  # 8:00 hora de Canarias
+
+# Orden y banderas de los idiomas de prensa
+IDIOMAS_ORDEN = ["Español", "Francés", "Árabe", "Inglés"]
+BANDERA_IDIOMA = {"Español": "🇪🇸", "Francés": "🇫🇷", "Árabe": "🇲🇦", "Inglés": "🇬🇧"}
 
 # Configuración de Gemini AI (SDK nuevo "google-genai"; el antiguo
 # "google-generativeai" está descontinuado por Google)
@@ -44,14 +49,17 @@ def preguntar_gemini(prompt):
 # ==========================================
 # FUNCIONES AUXILIARES
 # ==========================================
-def cargar_urls_registradas(readme_path="README.md"):
-    """Lee el README.md para extraer todas las URLs previamente guardadas y evitar duplicados."""
+def cargar_readme(readme_path="README.md"):
+    """Lee el contenido completo del README.md (o cadena vacía si no existe)."""
     if not os.path.exists(readme_path):
-        return set()
+        return ""
     with open(readme_path, "r", encoding="utf-8") as f:
-        contenido = f.read()
-    urls = set(re.findall(r'https?://[^\s\)\]]+', contenido))
-    return urls
+        return f.read()
+
+
+def cargar_urls_registradas(contenido_readme):
+    """Extrae del README todas las URLs ya guardadas, para evitar duplicados."""
+    return set(re.findall(r'https?://[^\s\)\]"]+', contenido_readme))
 
 
 def esc(texto):
@@ -87,22 +95,30 @@ def dividir_en_bloques(mensaje, max_len=3900):
 
 
 def enviar_telegram(mensaje):
-    """Envía el reporte a todos los IDs configurados en TELEGRAM_CHAT_ID (separados por coma)."""
+    """
+    Envía el reporte a todos los IDs configurados en TELEGRAM_CHAT_ID (separados por coma).
+    Devuelve True solo si TODOS los envíos a TODOS los chats tuvieron éxito, para que
+    quien llama pueda hacer fallar la ejecución si algo no ha llegado de verdad.
+    """
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        print("Error: No se han configurado los tokens de Telegram.")
-        return
+        print("Error: No se han configurado los tokens de Telegram (TELEGRAM_TOKEN / TELEGRAM_CHAT_ID).")
+        return False
 
     chat_ids = [c.strip() for c in TELEGRAM_CHAT_ID.split(",") if c.strip()]
     url_base = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
+    todo_ok = True
     for chat_id in chat_ids:
         for sub_mensaje in dividir_en_bloques(mensaje):
-            _enviar_un_mensaje(url_base, chat_id, sub_mensaje)
+            ok = _enviar_un_mensaje(url_base, chat_id, sub_mensaje)
+            todo_ok = todo_ok and ok
+
+    return todo_ok
 
 
 def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML"):
     """Envía un único mensaje. Si Telegram rechaza el formato (HTML mal formado),
-    reintenta una vez en texto plano para no perder el contenido."""
+    reintenta una vez en texto plano para no perder el contenido. Devuelve True/False."""
     payload = {
         "chat_id": chat_id,
         "text": texto,
@@ -115,7 +131,7 @@ def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML"):
         res = requests.post(url_base, json=payload, timeout=15)
         if res.status_code == 200:
             print(f"Reporte enviado con éxito al Chat ID: {chat_id}")
-            return
+            return True
 
         print(f"Error enviando a Telegram (Chat ID {chat_id}): {res.text}")
 
@@ -123,10 +139,13 @@ def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML"):
         # sin parse_mode para no perder el mensaje, quitando las etiquetas.
         if parse_mode and "can't parse entities" in res.text.lower():
             texto_plano = re.sub(r"<[^>]+>", "", texto)
-            _enviar_un_mensaje(url_base, chat_id, texto_plano, parse_mode=None)
+            return _enviar_un_mensaje(url_base, chat_id, texto_plano, parse_mode=None)
+
+        return False
 
     except Exception as e:
         print(f"Excepción al conectar con Telegram (Chat ID {chat_id}): {e}")
+        return False
 
 
 def procesar_podcast_con_gemini(episodio):
@@ -284,6 +303,77 @@ def obtener_audios_radio(urls_previas):
 
 
 # ==========================================
+# CONSTRUCCIÓN DEL REPORTE (nuevo diseño)
+# ==========================================
+def construir_bloque_prensa(noticias):
+    """📰 Prensa Escrita Internacional, agrupada por idioma con su bandera."""
+    bloque = "📰 <b>Prensa Escrita Internacional</b>\n\n"
+
+    if not noticias:
+        return bloque + "No hay noticias.\n"
+
+    for idioma in IDIOMAS_ORDEN:
+        items = [n for n in noticias if n["idioma"] == idioma]
+        if not items:
+            continue
+        bandera = BANDERA_IDIOMA.get(idioma, "🌐")
+        bloque += f"{bandera} <b>{esc(idioma)}</b>\n"
+        for n in items:
+            bloque += f"• {enlace_html(n['titulo'], n['link'])}\n"
+        bloque += "\n"
+
+    return bloque.rstrip() + "\n"
+
+
+def construir_bloque_podcasts_radio(radios, podcasts_nuevos):
+    """🎙️📻 Podcasts & Radio unificados en una sola sección."""
+    bloque = "🎙️📻 <b>Podcasts & Radio</b>\n\n"
+    hay_contenido = False
+
+    for r in radios:
+        hay_contenido = True
+        bloque += f"• [{esc(r['fuente'])}] {enlace_html(r['titulo'], r['link'])}\n"
+
+    for pod in podcasts_nuevos:
+        hay_contenido = True
+        resumen_pod = procesar_podcast_con_gemini(pod)
+        if resumen_pod:
+            bloque += resumen_pod + "\n"
+        else:
+            bloque += f"• [{esc(pod['podcast'])}] {enlace_html(pod['titulo'], pod['url'])}\n"
+
+    if not hay_contenido:
+        bloque += "No hay noticias.\n"
+
+    return bloque.rstrip() + "\n"
+
+
+def construir_bloque_youtube(videos):
+    """📺 YouTube & Vídeos."""
+    bloque = "📺 <b>YouTube & Vídeos</b>\n\n"
+
+    if not videos:
+        return bloque + "No hay noticias.\n"
+
+    for v in videos:
+        bloque += f"• {enlace_html(v['titulo'], v['link'])}\n"
+
+    return bloque.rstrip() + "\n"
+
+
+def construir_bloque_resumen_ia(texto_para_ia):
+    """🤖✨ Resumen Diario de la IA, sintetizando todo lo recopilado en el día."""
+    bloque = "🤖✨ <b>Resumen Diario de la IA</b>\n\n"
+
+    if not texto_para_ia.strip():
+        return bloque + "No hay noticias que resumir hoy."
+
+    resumen_global = generar_resumen_general_ia(texto_para_ia)
+    bloque += resumen_global if resumen_global else "No se ha podido generar el resumen automático hoy."
+    return bloque
+
+
+# ==========================================
 # FLUJO PRINCIPAL
 # ==========================================
 def main():
@@ -299,8 +389,17 @@ def main():
               f"No son las {HORA_ENVIO_OBJETIVO}:00, se omite esta ejecución.")
         return
 
-    # 1. Cargar historial
-    urls_registradas = cargar_urls_registradas()
+    fecha_hoy = ahora_canarias.strftime("%Y-%m-%d")
+
+    # 1. Cargar historial y comprobar que no se haya enviado ya el reporte de hoy
+    # (por ejemplo, si las dos ejecuciones programadas caen accidentalmente en
+    # la misma hora de Canarias durante el cambio de horario).
+    contenido_readme = cargar_readme()
+    if f"### Registro {fecha_hoy}" in contenido_readme:
+        print(f"El reporte de hoy ({fecha_hoy}) ya se envió anteriormente. Se omite esta ejecución.")
+        return
+
+    urls_registradas = cargar_urls_registradas(contenido_readme)
     print(f"Memoria cargada: {len(urls_registradas)} URLs previas en registro.")
 
     # 2. Recopilar contenido
@@ -308,81 +407,44 @@ def main():
     videos = obtener_videos_youtube(urls_registradas)
     radios = obtener_audios_radio(urls_registradas)
     podcasts = buscar_podcasts_dakhla(dias_atras=1)
-
-    # Filtrar podcasts no vistos
     podcasts_nuevos = [p for p in podcasts if p['url'] not in urls_registradas]
-    for p in podcasts_nuevos:
-        urls_registradas.add(p['url'])
-
-    if not noticias and not videos and not radios and not podcasts_nuevos:
-        print("No se encontraron novedades nuevas hoy. Finalizando proceso.")
-        return
 
     print(f"Novedades halladas -> Noticias: {len(noticias)} | Vídeos: {len(videos)} | Radios: {len(radios)} | Podcasts: {len(podcasts_nuevos)}")
 
-    # 3. Construir mensaje con secciones separadas (formato HTML, más robusto que Markdown)
-    fecha_hoy = ahora_canarias.strftime("%Y-%m-%d")
-    reporte = f"🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> ({fecha_hoy})\n\n"
-
-    secciones = []
+    # 3. Construir el texto que se le pasará a la IA para el resumen ejecutivo
     texto_para_ia = ""
+    for n in noticias:
+        texto_para_ia += f"- {n['titulo']}\n"
+    for v in videos:
+        texto_para_ia += f"- {v['titulo']}\n"
+    for r in radios:
+        texto_para_ia += f"- Radio ({r['fuente']}): {r['titulo']}\n"
+    for pod in podcasts_nuevos:
+        texto_para_ia += f"- Podcast: {pod['titulo']} ({pod['descripcion'][:100]})\n"
 
-    # Bloque de Prensa
-    if noticias:
-        block_noticias = "📰 <b>NOTICIAS DE PRENSA:</b>\n"
-        for n in noticias:
-            block_noticias += f"• [{esc(n['idioma'])}] {enlace_html(n['titulo'], n['link'])}\n"
-            texto_para_ia += f"- {n['titulo']}\n"
-        secciones.append(block_noticias)
+    # 4. Construir el reporte completo. Se envía SIEMPRE, aunque no haya
+    # novedades, mostrando "No hay noticias" en las secciones vacías.
+    reporte = f"🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> ({fecha_hoy})\n\n"
+    reporte += construir_bloque_prensa(noticias) + "\n"
+    reporte += construir_bloque_podcasts_radio(radios, podcasts_nuevos) + "\n"
+    reporte += construir_bloque_youtube(videos) + "\n"
+    reporte += construir_bloque_resumen_ia(texto_para_ia) + "\n\n"
+    reporte += "🤖 Generado por Mamé el Bot 🤖"
 
-    # Bloque de Youtube
-    if videos:
-        block_videos = "🎥 <b>VÍDEOS DESTACADOS:</b>\n"
-        for v in videos:
-            block_videos += f"• {enlace_html(v['titulo'], v['link'])}\n"
-            texto_para_ia += f"- {v['titulo']}\n"
-        secciones.append(block_videos)
+    # 5. Enviar a Telegram. Si falla de verdad (no solo "sin novedades"),
+    # hacemos que la ejecución de GitHub Actions se marque como fallida
+    # para que llegue la notificación de aviso correspondiente.
+    envio_ok = enviar_telegram(reporte)
 
-    # Bloque de Radio
-    if radios:
-        block_radios = "📻 <b>BOLETINES DE RADIO Y EMISIONES:</b>\n"
-        for r in radios:
-            block_radios += f"• [{esc(r['fuente'])}] {enlace_html(r['titulo'], r['link'])}\n"
-            texto_para_ia += f"- Radio ({r['fuente']}): {r['titulo']}\n"
-        secciones.append(block_radios)
-
-    # Bloque de Podcasts
-    if podcasts_nuevos:
-        block_podcasts = "🎙️ <b>PODCASTS Y ANÁLISIS:</b>\n"
-        for pod in podcasts_nuevos:
-            resumen_pod = procesar_podcast_con_gemini(pod)
-            if resumen_pod:
-                block_podcasts += resumen_pod + "\n"
-                texto_para_ia += f"- Podcast: {pod['titulo']} ({pod['descripcion'][:100]})\n"
-            else:
-                block_podcasts += f"• <b>{esc(pod['podcast'])}</b>: {enlace_html(pod['titulo'], pod['url'])}\n"
-        secciones.append(block_podcasts)
-
-    # Unir todas las secciones principales con un separador visual limpio
-    reporte += "\n\n───────────────────\n\n".join(secciones)
-    reporte += "\n\n"
-
-    # Resumen General de IA y Firma
-    resumen_global = generar_resumen_general_ia(texto_para_ia)
-    if resumen_global:
-        reporte += "───────────────────\n\n"
-        reporte += "🧠 <b>Resumen del Día:</b>\n"
-        reporte += f"{resumen_global}\n\n"
-
-    reporte += "🤖 Resumen creado por Mamé_el_bot 🤖"
-
-    # 4. Enviar a Telegram
-    enviar_telegram(reporte)
-
-    # 5. Actualizar historial en README.md
+    # 6. Actualizar historial en README.md (se guarda igualmente, para no
+    # perder lo recopilado aunque el envío a Telegram haya fallado)
     with open("README.md", "a", encoding="utf-8") as f:
         f.write(f"\n\n### Registro {fecha_hoy}\n")
         f.write(reporte)
+
+    if not envio_ok:
+        print("El envío a Telegram ha fallado. Marcando la ejecución como fallida.")
+        sys.exit(1)
 
     print("¡Reporte enviado y README.md actualizado con éxito!")
 
