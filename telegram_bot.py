@@ -484,6 +484,9 @@ class _HealthCheckHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write("Bot de Telegram activo.".encode("utf-8"))
 
+    def do_HEAD(self):
+        self.do_GET()
+
     def log_message(self, format, *args):
         pass
 
