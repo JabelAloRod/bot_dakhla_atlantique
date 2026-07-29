@@ -2,9 +2,10 @@ import os
 import re
 import sys
 import html
+import time
 import requests
 import feedparser
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 from google import genai
 from podcasts import buscar_podcasts_dakhla
@@ -29,6 +30,12 @@ EJECUCION_MANUAL = os.environ.get("EJECUCION_MANUAL", "false").strip().lower() =
 # Orden y banderas de los idiomas de prensa
 IDIOMAS_ORDEN = ["Español", "Francés", "Árabe", "Inglés"]
 BANDERA_IDIOMA = {"Español": "🇪🇸", "Francés": "🇫🇷", "Árabe": "🇲🇦", "Inglés": "🇬🇧"}
+
+# Antigüedad máxima permitida para considerar algo "noticia de hoy" (en días).
+# Se usan 2 días de margen (en vez de 1) para no perder publicaciones por
+# pequeños desfases horarios entre servidores, sin llegar a colar noticias
+# realmente antiguas que Google/YouTube devuelven por seguir siendo populares.
+DIAS_MAXIMOS_NOTICIA = 2
 
 # Configuración de Gemini AI (SDK nuevo "google-genai"; el antiguo
 # "google-generativeai" está descontinuado por Google)
@@ -207,8 +214,27 @@ def generar_resumen_general_ia(texto_noticias):
 # ==========================================
 # RASTREO DE PRENSA, YOUTUBE Y RADIOS
 # ==========================================
+def es_reciente_rss(entry, dias_maximos=DIAS_MAXIMOS_NOTICIA):
+    """
+    Comprueba si una entrada de un feed RSS (noticia o boletín de radio) se
+    publicó dentro de los últimos `dias_maximos` días. Si el feed no trae
+    fecha de publicación, se deja pasar (no hay forma de comprobarlo), pero
+    se avisa por consola.
+    """
+    parsed = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
+    if not parsed:
+        return True
+    try:
+        fecha_entry = datetime.fromtimestamp(time.mktime(parsed), tz=timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        return True
+    limite = datetime.now(timezone.utc) - timedelta(days=dias_maximos)
+    return fecha_entry >= limite
+
+
 def obtener_noticias_rss(urls_previas):
-    """Obtiene noticias en ES, FR, AR e EN vía Google News RSS."""
+    """Obtiene noticias en ES, FR, AR e EN vía Google News RSS, descartando
+    cualquier resultado con más de DIAS_MAXIMOS_NOTICIA días de antigüedad."""
     busquedas = [
         ("Español", "https://news.google.com/rss/search?q=Puerto+Dakhla+Atlantique&hl=es&gl=ES&ceid=ES:es"),
         ("Francés", "https://news.google.com/rss/search?q=Port+Dakhla+Atlantique&hl=fr&gl=MA&ceid=MA:fr"),
@@ -220,19 +246,26 @@ def obtener_noticias_rss(urls_previas):
     for idioma, url in busquedas:
         try:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:3]:
+            encontradas = 0
+            for entry in feed.entries:
+                if encontradas >= 3:
+                    break
                 link = getattr(entry, "link", None)
                 titulo = getattr(entry, "title", None)
                 if not link or not titulo:
                     continue
-                if link not in urls_previas:
-                    urls_previas.add(link)
-                    noticias_nuevas.append({
-                        "idioma": idioma,
-                        "titulo": titulo,
-                        "link": link,
-                        "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
-                    })
+                if link in urls_previas:
+                    continue
+                if not es_reciente_rss(entry):
+                    continue
+                urls_previas.add(link)
+                encontradas += 1
+                noticias_nuevas.append({
+                    "idioma": idioma,
+                    "titulo": titulo,
+                    "link": link,
+                    "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
+                })
         except Exception as e:
             print(f"Error en feed RSS ({idioma}): {e}")
 
@@ -262,13 +295,22 @@ def obtener_videos_youtube(urls_previas):
             for item in items:
                 video_id = item["id"]["videoId"]
                 video_url = f"https://www.youtube.com/watch?v={video_id}"
-                if video_url not in urls_previas:
-                    urls_previas.add(video_url)
-                    videos.append({
-                        "titulo": item["snippet"]["title"],
-                        "link": video_url,
-                        "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
-                    })
+                if video_url in urls_previas:
+                    continue
+                publicado_str = item["snippet"].get("publishedAt")
+                if publicado_str:
+                    try:
+                        fecha_video = datetime.fromisoformat(publicado_str.replace("Z", "+00:00"))
+                        if fecha_video < datetime.now(timezone.utc) - timedelta(days=DIAS_MAXIMOS_NOTICIA):
+                            continue
+                    except ValueError:
+                        pass  # si no se puede interpretar la fecha, lo dejamos pasar
+                urls_previas.add(video_url)
+                videos.append({
+                    "titulo": item["snippet"]["title"],
+                    "link": video_url,
+                    "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
+                })
         else:
             print(f"Error al consultar YouTube API: HTTP {res.status_code} - {res.text}")
     except Exception as e:
@@ -288,19 +330,26 @@ def obtener_audios_radio(urls_previas):
     for fuente, url in busquedas_radio:
         try:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:2]:
+            encontradas = 0
+            for entry in feed.entries:
+                if encontradas >= 2:
+                    break
                 link = getattr(entry, "link", None)
                 titulo = getattr(entry, "title", None)
                 if not link or not titulo:
                     continue
-                if link not in urls_previas:
-                    urls_previas.add(link)
-                    audios_nuevos.append({
-                        "fuente": fuente,
-                        "titulo": titulo,
-                        "link": link,
-                        "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
-                    })
+                if link in urls_previas:
+                    continue
+                if not es_reciente_rss(entry):
+                    continue
+                urls_previas.add(link)
+                encontradas += 1
+                audios_nuevos.append({
+                    "fuente": fuente,
+                    "titulo": titulo,
+                    "link": link,
+                    "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
+                })
         except Exception as e:
             print(f"Error al rastrear radio ({fuente}): {e}")
 
