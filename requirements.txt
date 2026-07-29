@@ -1,6 +1,5 @@
 requests==2.31.0
 feedparser
-google-genai
 tzdata
 python-telegram-bot==20.7
 openpyxl
