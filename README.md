@@ -240,3 +240,36 @@ No hay noticias.
 No se ha podido generar el resumen automático hoy.
 
 🤖 Generado por Mamé el Bot 🤖
+
+### Registro 2026-07-29
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-07-29)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇫🇷 <b>Francés</b>
+• <a href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMW5vd3p1SXVRV3hjSFZKbHVPN3VOSUNyenNmdXlQMjNBYzNEb3Q1NHJtUmF3Z2taOE53ZHRMbUJRTEtpQkt1MFMtWjBMT2IwUEZCTmd4MVJQUGZNck9TQ3htTU9JYlphQWFDU0NWWktRSXdtZngzY29rVHVTVk9OaU5iSkxnUWI2OUdxMUdFWG4tNUFqRTZJd1NTTDRsODIxRWRxb2ZSUng5QjJlam12X29XdUJHcTA0MENNYW9rVXVSb3NEM25mX3prSXJmSTA5RWVqZE9xRk9aUG9rSERLa1Q5TWt5RkNXT2hCazgtUnd5b21oRlJF?oc=5">De «l’autoroute Donald Trump» au port de Dakhla : l’inscription américaine et israélienne dans l’occupation du Sahara Occidental - Algerie Patriotique</a>
+
+🇲🇦 <b>Árabe</b>
+• <a href="https://news.google.com/rss/articles/CBMiyAJBVV95cUxOeHFqWmFGcmZaNVBpU3BybmdpazY3MWplR25wOWYwQUZGM2ZueDBZdy1kcVFsenBSYi0ydHY3N2JkWGxTT2NzWFdEUHZUcm9KdEU3N3MzWnlSazhWaGdhc1FWLWItZ0pBem8zeHIyQXlfb3hueDQ0MWFqZVFSRDFpMXlWNW1NTHBmYndnVkxhXzdUQ3FTbUMzVTl6LVJBLWJaQnMzQ05NYTNsa3pWTFVGOFIySEo5eTJtV3JZN25EXzBOcG1JRFU2Mk4yRmRPWE9hR012V3EyWVdTcHd5YkpqZnhhRzdSMjc3U1I2SmYxWUJ1TklpVG1vaGx0MkdORFNhU2pXRjBNQTZwSWZwNHhsSlFqQmJrWUxHRDIxMUVTZlZrS2NrdFltTlR0ZDY1MDBqdkxmWkJ4YnB5UE1GQjlCLXVXR0xuQTdu?oc=5">القناة الفرنسية TF1 تسلط الضوء على المشروع الاستراتيجي لميناء الداخلة لربط المغرب بغرب إفريقيا - المراكشية</a>
+• <a href="https://news.google.com/rss/articles/CBMi1AJBVV95cUxQLTF1TUpTWDVjcm44a19hSC03SUFqVFNSM19PY3ZSVGk2bEtTMHFSMVFzb2NEX0hHYW0tOU5HeXdPYlBUYmFJeDlZZTNnWkV3QmJGc1FoOFo0TTN3ZXdpMkFNeVZQbmpTWEFqNmhHYUQ2Y0RCRHgzS2lMTHlBSlRHY3d1NGxOX0VSbDlTa2tLQjd4Mmo5OHZVbzU1SExzZE9sYjd2U0dpcFZEOW42QkVxWGx6Vi1vcFJiNmFjZk9FN2Y5R3JCLXA4SUthMjFlTUR5RUhxQ0pSRGl5V0NsVzJYV25SS3dpZFZwOWw0Umx0MzBiMTBGbThQOU1USm5fQUhVSGtWRDhiaU90dUI2UFNfdzhIN296SndkYzhWdjlnSElKaW01R1FaUnR6UkloRWxqb05admtUM0xUU29OYUQ0cjZXbUsxR3EzTkNHSi1rRllLVnVK?oc=5">هكذا تفاعل الإعلام الدولي مع تسمية "لوطوروت" تيزنيت-الداخلة باسم ترامب - بلبريس</a>
+• <a href="https://news.google.com/rss/articles/CBMivgJBVV95cUxQczhSandZdGdpWWN2dlFBcjJfb0JVMVFZS0FrdUlNd0x4VXREdG95akZBM3BhYzREeExBS21QQXpfeGo4MmtuWmZTWWFkTzdqNm1rSDExek5JMVZVUDUtWjBXc2Z5TDNyQmhSWUdRdTJpVEIzcE1QbmVyWGp0WWwyaTN3dFJTWHFDaThCekNzS0R0QmNicWYxT1ktTnNxZ29sYzhhZ3VYcXVLWjZ3cjYzbzF4WXVYN0x1UGFtV24yZWFfVnUwaU5FRjZ6Qjl3SVloSW9IVXhGU2lzVDJvdVM5UTc3ZlRfUUV4QXZxZFlwZ3JjU21tVWR6TEFwcjhBSlZiSVczUHZnY1dYcFI1U3dWOXJJaHlNN2pLNkxSdVlqOXlJdnBRdHltM2tYamNBaE5oWEhhdGFPMjdVOGRUeEE?oc=5">تسمية طريق تيزنيت–الداخلة باسم ترامب تعيد المنظار إلى التحول التنموي بالأقاليم الجنوبية - Industrie du Maroc</a>
+
+🇬🇧 <b>Inglés</b>
+• <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNeEhOdldoaFg5TndibVRvbUhqUlI5WGRobVQ1WVoyV2pGeG9ac3Y0bHJzN21WMmJ6bXN1TGczY195SUVoZmVhTE51VmxEc3dMWnpiQWFyRTA3clJLRFczUHcxV25ta1JaZlVtZG10VGNlbnlnaTJPZm9OUGpfU2gtWm8tUU9wcFYwOVFmLTlRXzhXcm81UjJxOFBYT283eWpyVjR4SGIzTEt6LWhFbmxHUnJ3?oc=5">King Mohammed VI’s port vision reshapes Morocco into a global maritime hub - The North Africa Post</a>
+• <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBTMXlBYXlVdmVPejZ3R1VEX0M5WDFMcDJEc0VVNGxUX3IzamFNVi1pcjMtdklLbXo0ODF3M1NSaDVlRW1xQkZFZW1zeU4xV21jOHlSOG0zaDZ5X0ZsN1Rzd2QtRzhJSUtqd3JmWC1n?oc=5">Trump’s Moroccan Sahara highway just became one of Israel’s quietest strategic wins - Ynetnews</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+No hay noticias.
+
+📺 <b>YouTube & Vídeos</b>
+
+No hay noticias.
+
+🤖✨ <b>Resumen Diario de la IA</b>
+
+El Puerto de Dakhla Atlantique sigue siendo un tema de interés en la actualidad, con varias novedades que destacan su importancia estratégica y geopolítica. La infraestructura del puerto y la conexión con el resto de África Occidental a través de la ruta Tiznit-Dakhla, recientemente bautizada como "l'autoroute Donald Trump", están en el centro de la atención. Esta ruta y el puerto en sí mismo son considerados clave para el desarrollo económico de la región y para la posición de Marruecos como un centro marítimo global.
+
+Los avances en la infraestructura y las inversiones en el Puerto de Dakhla Atlantique tienen un impacto significativo en la geopolítica regional. La participación de actores internacionales, como Estados Unidos e Israel, en la región del Sahara Occidental a través de proyectos de infraestructura, refleja los intereses estratégicos de estas naciones en la zona. La visión del Rey Mohammed VI para convertir a Marruecos en un centro marítimo global se está materializando, y el Puerto de Dakhla Atlantique juega un papel crucial en este esfuerzo. La atención internacional hacia este proyecto y su potencial para conectar a Marruecos con el resto de África Occidental subraya su importancia para el crecimiento económico y la influencia regional.
+
+🤖 Generado por Mamé el Bot 🤖
