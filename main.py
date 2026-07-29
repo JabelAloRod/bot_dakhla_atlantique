@@ -7,7 +7,6 @@ import requests
 import feedparser
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
-from google import genai
 from podcasts import buscar_podcasts_dakhla
 
 # ==========================================
@@ -16,7 +15,7 @@ from podcasts import buscar_podcasts_dakhla
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 # Zona horaria de Canarias (gestiona sola el cambio de horario verano/invierno)
 ZONA_CANARIAS = ZoneInfo("Atlantic/Canary")
@@ -37,24 +36,35 @@ BANDERA_IDIOMA = {"Español": "🇪🇸", "Francés": "🇫🇷", "Árabe": "�
 # realmente antiguas que Google/YouTube devuelven por seguir siendo populares.
 DIAS_MAXIMOS_NOTICIA = 2
 
-# Configuración de Gemini AI (SDK nuevo "google-genai"; el antiguo
-# "google-generativeai" está descontinuado por Google)
-GEMINI_MODEL = "gemini-2.5-flash"
-gemini_client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
+# Configuración de la IA para el resumen diario: Groq (gratis, muy rápido,
+# modelos de código abierto tipo Llama). Se usa vía API REST compatible con
+# el formato de OpenAI, con requests, sin necesidad de instalar ninguna
+# librería nueva.
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
-def preguntar_gemini(prompt):
-    """Llama a Gemini con el SDK nuevo. Devuelve None si falla o no hay API key."""
-    if not gemini_client:
+def preguntar_ia(prompt):
+    """Llama a Groq. Devuelve None si falla o no hay API key configurada."""
+    if not GROQ_API_KEY:
         return None
     try:
-        response = gemini_client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt
+        res = requests.post(
+            GROQ_URL,
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            json={
+                "model": GROQ_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.5,
+            },
+            timeout=30
         )
-        return response.text
+        if res.status_code != 200:
+            print(f"Error llamando a la IA (Groq): HTTP {res.status_code} - {res.text}")
+            return None
+        return res.json()["choices"][0]["message"]["content"]
     except Exception as e:
-        print(f"Error llamando a Gemini: {e}")
+        print(f"Error llamando a la IA (Groq): {e}")
         return None
 
 
@@ -160,8 +170,8 @@ def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML"):
         return False
 
 
-def procesar_podcast_con_gemini(episodio):
-    """Aplica Gemini para traducir y resumir un episodio de podcast al castellano."""
+def procesar_podcast_con_ia(episodio):
+    """Aplica la IA para traducir y resumir un episodio de podcast al castellano."""
     prompt = f"""
     Eres un analista de prensa especializado en infraestructuras y geopolítica en África.
     Tengo un episodio de podcast sobre el Puerto de Dakhla Atlantique.
@@ -181,7 +191,7 @@ def procesar_podcast_con_gemini(episodio):
     Línea 1: el titular
     Línea 2: el resumen
     """
-    texto = preguntar_gemini(prompt)
+    texto = preguntar_ia(prompt)
     if not texto:
         return None
 
@@ -198,7 +208,7 @@ def procesar_podcast_con_gemini(episodio):
 
 
 def generar_resumen_general_ia(texto_noticias):
-    """Genera un resumen ejecutivo global diario utilizando Gemini."""
+    """Genera un resumen ejecutivo global diario utilizando la IA."""
     prompt = f"""
     Sintetiza las siguientes novedades de hoy sobre el Puerto de Dakhla Atlantique en un resumen ejecutivo breve (máximo 2 párrafos) en español.
     Destaca los avances en infraestructura, licitaciones o impacto geopolítico si los hay.
@@ -207,7 +217,7 @@ def generar_resumen_general_ia(texto_noticias):
     Noticias del día:
     {texto_noticias}
     """
-    texto = preguntar_gemini(prompt)
+    texto = preguntar_ia(prompt)
     return esc(texto) if texto else ""
 
 
@@ -390,7 +400,7 @@ def construir_bloque_podcasts_radio(radios, podcasts_nuevos):
 
     for pod in podcasts_nuevos:
         hay_contenido = True
-        resumen_pod = procesar_podcast_con_gemini(pod)
+        resumen_pod = procesar_podcast_con_ia(pod)
         if resumen_pod:
             bloque += resumen_pod + "\n"
         else:
