@@ -2,12 +2,18 @@ import os
 import re
 import sys
 import html
+import json
 import time
 import requests
 import feedparser
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 from podcasts import buscar_podcasts_dakhla
+
+try:
+    from googlenewsdecoder import new_decoderv1
+except ImportError:
+    new_decoderv1 = None
 
 # ==========================================
 # CONFIGURACIÓN Y VARIABLES DE ENTORNO
@@ -68,6 +74,24 @@ def preguntar_ia(prompt):
         return None
 
 
+def resolver_url_real(url):
+    """
+    Si el enlace es un redirector de Google News (news.google.com/rss/articles/...),
+    intenta resolverlo a la URL real del artículo de origen. Si la librería no está
+    disponible, falla, o tarda demasiado, se devuelve la URL original sin más:
+    nunca debe impedir que la noticia se envíe.
+    """
+    if not new_decoderv1 or "news.google.com" not in url:
+        return url
+    try:
+        resultado = new_decoderv1(url, interval=1)
+        if resultado.get("status") and resultado.get("decoded_url"):
+            return resultado["decoded_url"]
+    except Exception as e:
+        print(f"No se pudo resolver el enlace real (se deja el original): {e}")
+    return url
+
+
 # ==========================================
 # FUNCIONES AUXILIARES
 # ==========================================
@@ -82,6 +106,39 @@ def cargar_readme(readme_path="README.md"):
 def cargar_urls_registradas(contenido_readme):
     """Extrae del README todas las URLs ya guardadas, para evitar duplicados."""
     return set(re.findall(r'https?://[^\s\)\]"]+', contenido_readme))
+
+
+def cargar_registro_json(path="registro.json"):
+    """
+    Lee el registro estructurado (registro.json), la fuente de datos "de verdad"
+    que usa telegram_bot.py para /registro y /exportar. Si no existe o está
+    corrupto, se devuelve un diccionario vacío en vez de romper la ejecución.
+    """
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"Aviso: no se pudo leer {path} ({e}). Se empieza un registro nuevo.")
+        return {}
+
+
+def guardar_registro_json(registro, path="registro.json"):
+    """Guarda el registro estructurado en disco, con claves de fecha ordenadas
+    (que al ser AAAA-MM-DD también quedan ordenadas cronológicamente)."""
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(registro, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def extraer_urls_registro_json(registro):
+    """Extrae todas las URLs ya guardadas en el registro.json, para el control de duplicados."""
+    urls = set()
+    for dia in registro.values():
+        for item in dia.get("items", []):
+            if item.get("link"):
+                urls.add(item["link"])
+    return urls
 
 
 def esc(texto):
@@ -273,7 +330,7 @@ def obtener_noticias_rss(urls_previas):
                 noticias_nuevas.append({
                     "idioma": idioma,
                     "titulo": titulo,
-                    "link": link,
+                    "link": resolver_url_real(link),
                     "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
                 })
         except Exception as e:
@@ -357,7 +414,7 @@ def obtener_audios_radio(urls_previas):
                 audios_nuevos.append({
                     "fuente": fuente,
                     "titulo": titulo,
-                    "link": link,
+                    "link": resolver_url_real(link),
                     "fecha": datetime.now(ZONA_CANARIAS).strftime("%Y-%m-%d")
                 })
         except Exception as e:
@@ -456,17 +513,25 @@ def main():
 
     fecha_hoy = ahora_canarias.strftime("%Y-%m-%d")
 
-    # 1. Cargar historial y comprobar que no se haya enviado ya el reporte de hoy
-    # (por ejemplo, si las dos ejecuciones programadas caen accidentalmente en
-    # la misma hora de Canarias durante el cambio de horario).
+    # 1. Cargar historial (README para el archivo humano + registro.json para
+    # los datos estructurados) y comprobar que no se haya enviado ya el
+    # reporte de hoy (por ejemplo, si las dos ejecuciones programadas caen
+    # accidentalmente en la misma hora de Canarias durante el cambio de horario).
     contenido_readme = cargar_readme()
-    if not EJECUCION_MANUAL and f"### Registro {fecha_hoy}" in contenido_readme:
+    registro_json = cargar_registro_json()
+
+    ya_enviado_hoy = fecha_hoy in registro_json or f"### Registro {fecha_hoy}" in contenido_readme
+    if not EJECUCION_MANUAL and ya_enviado_hoy:
         print(f"El reporte de hoy ({fecha_hoy}) ya se envió anteriormente. Se omite esta ejecución.")
         return
 
-    urls_registradas = set() if EJECUCION_MANUAL else cargar_urls_registradas(contenido_readme)
     if EJECUCION_MANUAL:
+        urls_registradas = set()
         print("Ejecución manual: se ignora el filtro de 'ya registrado', para mostrar siempre la foto actual.")
+    else:
+        # Unimos las URLs ya vistas tanto del README histórico (por continuidad
+        # con lo registrado antes de tener registro.json) como del propio JSON.
+        urls_registradas = cargar_urls_registradas(contenido_readme) | extraer_urls_registro_json(registro_json)
     print(f"Memoria cargada: {len(urls_registradas)} URLs previas en registro.")
 
     # 2. Recopilar contenido
@@ -503,11 +568,46 @@ def main():
     # para que llegue la notificación de aviso correspondiente.
     envio_ok = enviar_telegram(reporte)
 
-    # 6. Actualizar historial en README.md (se guarda igualmente, para no
-    # perder lo recopilado aunque el envío a Telegram haya fallado)
+    # 6a. Construir la versión estructurada del día para registro.json: una
+    # entrada por cada noticia/vídeo/radio/podcast, con sus datos "en limpio"
+    # (sin HTML), para que telegram_bot.py pueda leerlos de forma robusta sin
+    # tener que analizar texto con expresiones regulares.
+    items_estructurados = []
+    for n in noticias:
+        items_estructurados.append({
+            "categoria": "Prensa", "idioma": n["idioma"], "etiqueta": n["idioma"],
+            "titular": n["titulo"], "link": n["link"]
+        })
+    for r in radios:
+        items_estructurados.append({
+            "categoria": "Podcasts y Radio", "etiqueta": r["fuente"],
+            "titular": r["titulo"], "link": r["link"]
+        })
+    for pod in podcasts_nuevos:
+        items_estructurados.append({
+            "categoria": "Podcasts y Radio", "etiqueta": pod["podcast"],
+            "titular": pod["titulo"], "link": pod["url"]
+        })
+    for v in videos:
+        items_estructurados.append({
+            "categoria": "YouTube", "etiqueta": "Vídeo",
+            "titular": v["titulo"], "link": v["link"]
+        })
+
+    registro_json[fecha_hoy] = {"items": items_estructurados}
+    guardar_registro_json(registro_json)
+
+    # 6b. Actualizar historial en README.md (se guarda igualmente, para no
+    # perder lo recopilado aunque el envío a Telegram haya fallado).
+    # Se envuelve cada día en una sección plegable de GitHub (<details>) para
+    # que el README no se convierta en un scroll interminable; la línea
+    # "### Registro {fecha}" se mantiene intacta dentro para que quede como
+    # copia legible de referencia (los datos "de verdad" ya viven en el JSON).
     with open("README.md", "a", encoding="utf-8") as f:
-        f.write(f"\n\n### Registro {fecha_hoy}\n")
+        f.write(f"\n\n<details>\n<summary>📅 <b>Registro {fecha_hoy}</b> — pulsa para ver el reporte completo</summary>\n\n")
+        f.write(f"### Registro {fecha_hoy}\n")
         f.write(reporte)
+        f.write("\n\n</details>\n")
 
     if not envio_ok:
         print("El envío a Telegram ha fallado. Marcando la ejecución como fallida.")
