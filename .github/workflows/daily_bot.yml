@@ -2,10 +2,13 @@ name: Ejecutar Bot Dakhla Atlantique
 
 on:
   schedule:
-    # 8:00 UTC -> 8:00 en Canarias en horario de INVIERNO (UTC+0)
-    - cron: '0 8 * * *'
-    # 7:00 UTC -> 8:00 en Canarias en horario de VERANO (UTC+1)
-    - cron: '0 7 * * *'
+    # Se dispara 4 veces por hora, en minutos "raros" (no en punto) para
+    # evitar el atasco que sufre GitHub cuando miles de repositorios
+    # programan sus tareas justo a horas exactas (0/15/30/45). main.py
+    # decide él solo si es el momento correcto de enviar (hora 8 en
+    # Canarias) y evita reenviar si ya se envió hoy, así que el resto
+    # de disparos simplemente no hacen nada.
+    - cron: '13,28,43,58 * * * *'
   workflow_dispatch: # Permite lanzarlo manualmente desde GitHub Actions
 
 jobs:
