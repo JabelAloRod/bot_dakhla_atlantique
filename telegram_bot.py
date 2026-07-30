@@ -1,6 +1,6 @@
 import os
-import re
 import io
+import json
 import logging
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -21,15 +21,14 @@ logger = logging.getLogger(__name__)
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "tu_usuario/bot-dakhla-atlantique")
-README_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/README.md"
+JSON_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/registro.json"
 
 FLAG_MAP = {
     "arabe": "🇲🇦", "árabe": "🇲🇦",
     "frances": "🇫🇷", "francés": "🇫🇷",
     "espanol": "🇪🇸", "español": "🇪🇸",
     "ingles": "🇬🇧", "inglés": "🇬🇧",
-    "youtube": "📺", "vídeo": "📺", "video": "📺",
-    "podcasts y radio": "🎙️", "podcast": "🎙️",
+    "vídeo": "📺", "video": "📺",
 }
 
 MESES_NOMBRE = {
@@ -38,164 +37,58 @@ MESES_NOMBRE = {
     "09": "Septiembre", "10": "Octubre", "11": "Noviembre", "12": "Diciembre"
 }
 
-# --- Cabeceras de categoría: contemplan el formato nuevo (HTML, agrupado) y
-#     los formatos antiguos que ya puedan existir en el histórico del README ---
-CATEGORIA_HEADERS = [
-    (re.compile(r'📰.*Prensa', re.IGNORECASE), "Prensa"),
-    (re.compile(r'🎙️.*Podcasts.*Radio', re.IGNORECASE), "Podcasts y Radio"),
-    (re.compile(r'📻.*BOLETINES', re.IGNORECASE), "Podcasts y Radio"),
-    (re.compile(r'🎙️.*PODCASTS', re.IGNORECASE), "Podcasts y Radio"),
-    (re.compile(r'📺.*YouTube', re.IGNORECASE), "YouTube"),
-    (re.compile(r'🎥.*V[ÍI]DEOS', re.IGNORECASE), "YouTube"),
-]
-
-# Subcabecera de idioma dentro de la sección de Prensa (solo formato nuevo):
-#   🇪🇸 <b>Español</b>
-IDIOMA_SUBHEADER_RE = re.compile(r'^(?:🇪🇸|🇫🇷|🇲🇦|🇬🇧)\s*<b>(?P<idioma>[^<]+)</b>')
-
-# Líneas con viñeta, en formato HTML nuevo: • [Tag] <a href="url">Título</a>
-BULLET_HTML_RE = re.compile(
-    r'^•\s*(?:\[(?P<tag>[^\]]+)\]\s*)?<a href="(?P<link>[^"]+)">(?P<titulo>[^<]+)</a>'
-)
-# Líneas con viñeta, en formato Markdown antiguo: • [Tag] [Título](url)
-BULLET_MD_RE = re.compile(
-    r'^•\s*(?:\[(?P<tag>[^\]]+)\]\s*)?\[(?P<titulo>[^\]]+)\]\((?P<link>https?://[^\)]+)\)'
-)
-# Bloques de podcast generados por IA: título en una línea, enlace en la siguiente
-PODCAST_TITULO_RE = re.compile(r'^🎙️.*\[PODCAST\]\s*(?P<titulo>[^<]+?)\s*(?:</b>)?\s*$')
-PODCAST_LINK_RE = re.compile(r'^🔗\s*(?:<a href="(?P<link_html>[^"]+)">|\[[^\]]*\]\((?P<link_md>https?://[^\)]+)\))')
-
-
-def limpiar_texto_markdown(texto: str) -> str:
-    """Elimina o limpia caracteres que rompen el formato Markdown básico de Telegram"""
-    if not texto:
-        return ""
-    texto = texto.replace("[", "(").replace("]", ")")
-    texto = texto.replace("*", "").replace("_", "").replace("`", "")
-    return texto.strip()
-
 
 def bandera_para(etiqueta: str) -> str:
-    """Devuelve el emoji más adecuado para una etiqueta (idioma, categoría o fuente)."""
+    """Devuelve el emoji más adecuado para una etiqueta (idioma, fuente de radio o podcast)."""
     clave = (etiqueta or "").strip().lower()
+    if clave in FLAG_MAP:
+        return FLAG_MAP[clave]
     if clave.startswith("radio"):
         return "📻"
-    return FLAG_MAP.get(clave, "🌐")
+    if clave:
+        return "🎙️"  # fuentes de podcast (nombre del programa)
+    return "🌐"
 
 
-def obtener_datos_readme() -> dict:
+def obtener_datos_registro() -> dict:
     """
-    Descarga el README.md del repositorio y extrae las noticias/vídeos/radios/podcasts
-    registrados cada día. Entiende tanto el formato nuevo (agrupado por categoría e
-    idioma, en HTML) como los formatos antiguos que ya puedan existir en el histórico.
+    Descarga registro.json — la fuente de datos estructurada que escribe main.py —
+    y la convierte a la forma {año: {mes: [items]}} que usa el resto del bot.
+    Al ser JSON real (no texto a analizar con expresiones regulares), esto no se
+    rompe aunque cambiemos el diseño visual del reporte de Telegram en el futuro.
     """
     try:
-        response = requests.get(README_RAW_URL, timeout=10)
+        response = requests.get(JSON_RAW_URL, timeout=10)
         if response.status_code != 200:
-            logger.error(f"Error al obtener README: HTTP status {response.status_code}")
+            logger.error(f"Error al obtener registro.json: HTTP status {response.status_code}")
             return {}
-        content = response.text
+        registro = response.json()
     except Exception as e:
-        logger.error(f"Excepción durante la descarga del README: {e}")
+        logger.error(f"Excepción al obtener/leer registro.json: {e}")
         return {}
 
     datos = {}
-    current_year = None
-    current_month = None
-    current_date = None
-    current_categoria = None
-    current_idioma = None
-    podcast_titulo_pendiente = None
-
-    for line in content.splitlines():
-        line_str = line.strip()
-
-        # Año: ## 2026
-        year_match = re.search(r'##\s*(\d{4})', line_str)
-        if year_match:
-            current_year = year_match.group(1)
-            datos.setdefault(current_year, {})
+    for fecha, contenido_dia in registro.items():
+        partes = fecha.split("-")
+        if len(partes) != 3:
             continue
+        anio, mes, _ = partes
+        datos.setdefault(anio, {}).setdefault(mes, [])
 
-        # Mes: acepta 1 o 2 dígitos y normaliza a 2 dígitos
-        month_match = re.search(r'###.*Mes:?\s*(\d{1,2})', line_str, re.IGNORECASE)
-        if month_match and current_year:
-            current_month = month_match.group(1).zfill(2)
-            datos[current_year].setdefault(current_month, [])
-            continue
-
-        # Fecha: "### Registro 2026-07-27"
-        date_match = re.search(r'###\s*Registro\s+(\d{4}-\d{2}-\d{2})', line_str)
-        if date_match:
-            current_date = date_match.group(1)
-            current_categoria = None
-            current_idioma = None
-            podcast_titulo_pendiente = None
-            continue
-
-        # Cabecera de categoría (Prensa / Podcasts y Radio / YouTube)
-        categoria_encontrada = False
-        for patron, nombre_categoria in CATEGORIA_HEADERS:
-            if patron.search(line_str):
-                current_categoria = nombre_categoria
-                current_idioma = None
-                categoria_encontrada = True
-                break
-        if categoria_encontrada:
-            continue
-
-        # Subcabecera de idioma dentro de Prensa (solo formato nuevo)
-        idioma_match = IDIOMA_SUBHEADER_RE.match(line_str)
-        if idioma_match:
-            current_idioma = idioma_match.group("idioma").strip()
-            continue
-
-        if not (current_year and current_month):
-            continue
-
-        # Bloques de podcast generados por IA (título en una línea, enlace en la siguiente)
-        podcast_titulo_match = PODCAST_TITULO_RE.match(line_str)
-        if podcast_titulo_match:
-            podcast_titulo_pendiente = limpiar_texto_markdown(podcast_titulo_match.group("titulo"))
-            continue
-
-        if podcast_titulo_pendiente:
-            podcast_link_match = PODCAST_LINK_RE.match(line_str)
-            if podcast_link_match:
-                link = podcast_link_match.group("link_html") or podcast_link_match.group("link_md")
-                datos[current_year][current_month].append({
-                    "fecha": current_date or "Sin fecha",
-                    "bandera": "🎙️",
-                    "etiqueta": "Podcast",
-                    "titular": podcast_titulo_pendiente,
-                    "link": link
-                })
-                podcast_titulo_pendiente = None
-                continue
-
-        # Líneas con viñeta: noticias, radios, vídeos (formato nuevo HTML o antiguo Markdown)
-        bullet_match = BULLET_HTML_RE.match(line_str) or BULLET_MD_RE.match(line_str)
-        if bullet_match:
-            tag = bullet_match.group("tag")
-            titulo = bullet_match.group("titulo")
-            link = bullet_match.group("link")
-
-            if current_categoria == "Prensa":
-                etiqueta = current_idioma or (tag.strip() if tag else "Prensa")
-            elif tag:
-                etiqueta = tag.strip()
-            elif current_categoria:
-                etiqueta = current_categoria
-            else:
-                etiqueta = "Vídeo"
-
-            datos[current_year][current_month].append({
-                "fecha": current_date or "Sin fecha",
+        for item in contenido_dia.get("items", []):
+            etiqueta = item.get("idioma") or item.get("etiqueta") or item.get("categoria") or "Otros"
+            datos[anio][mes].append({
+                "fecha": fecha,
                 "bandera": bandera_para(etiqueta),
                 "etiqueta": etiqueta,
-                "titular": limpiar_texto_markdown(titulo),
-                "link": link
+                "titular": item.get("titular", ""),
+                "link": item.get("link", "#")
             })
+
+    # Orden más reciente primero dentro de cada mes, igual que antes
+    for anio in datos:
+        for mes in datos[anio]:
+            datos[anio][mes].sort(key=lambda it: it["fecha"], reverse=True)
 
     return datos
 
@@ -245,7 +138,7 @@ async def comando_ayuda(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    datos = obtener_datos_readme()
+    datos = obtener_datos_registro()
     if not datos:
         msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
         if update.callback_query:
@@ -270,7 +163,7 @@ async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    datos = obtener_datos_readme()
+    datos = obtener_datos_registro()
     if not datos:
         msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
         if update.callback_query:
@@ -430,7 +323,7 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await comando_estado(update, context)
         return
 
-    datos = obtener_datos_readme()
+    datos = obtener_datos_registro()
     if not datos:
         await query.edit_message_text("⚠️ No se pudo cargar la información del registro.")
         return
