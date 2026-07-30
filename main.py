@@ -230,18 +230,18 @@ def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML"):
 def procesar_podcast_con_ia(episodio):
     """Aplica la IA para traducir y resumir un episodio de podcast al castellano."""
     prompt = f"""
-    Eres un analista de prensa especializado en infraestructuras y geopolítica en África.
-    Tengo un episodio de podcast sobre el Puerto de Dakhla Atlantique.
+    Tengo un episodio de podcast sobre el Puerto de Dakhla Atlantique. Aquí está su
+    información tal cual la proporciona la plataforma del podcast:
 
-    Información del episodio:
     - Programa: {episodio['podcast']}
     - Título: {episodio['titulo']}
     - Fecha: {episodio['fecha']}
     - Descripción / Notas: {episodio['descripcion']}
 
-    Por favor, analiza la información (tradúcela al castellano si está en otro idioma) y redacta:
+    Tradúcela al castellano si está en otro idioma y redacta, ÚNICAMENTE a partir de
+    esta información (sin añadir datos, opiniones ni análisis que no estén aquí):
     1. Un titular corto e informativo en castellano.
-    2. Un resumen breve (2 o 3 frases) con los puntos clave.
+    2. Un resumen breve (2 o 3 frases) con los puntos clave de la descripción.
 
     Responde SOLO con estas 2 líneas de texto plano, sin ningún formato Markdown ni HTML
     y sin repetir el nombre del programa ni el enlace (yo los añadiré después):
@@ -267,11 +267,19 @@ def procesar_podcast_con_ia(episodio):
 def generar_resumen_general_ia(texto_noticias):
     """Genera un resumen ejecutivo global diario utilizando la IA."""
     prompt = f"""
-    Sintetiza las siguientes novedades de hoy sobre el Puerto de Dakhla Atlantique en un resumen ejecutivo breve (máximo 2 párrafos) en español.
-    Destaca los avances en infraestructura, licitaciones o impacto geopolítico si los hay.
-    Responde solo con texto plano, sin Markdown ni HTML.
+    A continuación tienes una lista de titulares recopilados HOY sobre el Puerto de Dakhla Atlantique.
 
-    Noticias del día:
+    Redacta un resumen breve (máximo 2 párrafos) en español que sintetice ÚNICAMENTE
+    la información contenida en esos titulares.
+
+    Reglas estrictas:
+    - No añadas datos, cifras, opiniones, análisis ni interpretaciones geopolíticas que
+      no estén explícitamente en los titulares de abajo.
+    - No completes información con lo que sepas por tu cuenta sobre el tema.
+    - Limítate a resumir de forma neutra y factual qué se ha publicado hoy.
+    - Responde solo con texto plano, sin Markdown ni HTML.
+
+    Titulares de hoy:
     {texto_noticias}
     """
     texto = preguntar_ia(prompt)
