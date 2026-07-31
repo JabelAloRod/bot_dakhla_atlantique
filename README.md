@@ -58,3 +58,33 @@ Además, se destaca el crecimiento y desarrollo de las regiones del sur, incluye
 🤖 Generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-07-31</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-07-31
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-07-31)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇲🇦 <b>Árabe</b>
+• <a href="https://news.google.com/rss/articles/CBMi8wNBVV95cUxQVkFmOFNmNkFsaHdIcXJtZTZHa0dXaUJrYzhnUWphTXM4SlZxSGRQdDhtcXc2STZPWE5ZYnhuZDZLaExId3o0bFU3bUdDZFhUTTZKVmk2MXQtUldDNWpyVkp1MHdSemJvMlJlNTNLWGZIQUI0cWNXZXozS0oxVWhSQlh3QWlGYkZvMktCVmxSaHlPLVZlSlU5ZEtYMVhOcEZrQzBEU0dsWjdnZUxhVXI1SUlucG05N3FvWEVGeTZ6eFdNYUlmVF9kTDhpeURMX0VOLXhhYU0yd0pJS0dVUTJFWXdWZ0x6QUI3XzItakdVVzR6Mm1UUjJUb2xTZTZ6U1MwNEVGeGV4WkQyYmhKaUkwZ25ZcGxvYTNHQ2lhaGhTbjM5TDNnSnVyTDB6WHZXamxuNThocnZKNnhhdlM5dlRId3BsMjdlTjhYZl9jbDk1ZS1zOTQxN0VKNVZyT0V6Wkg3NkZVUFRqZzBlcW1kRzFybEYwUFpxN0lrU0xoQUpobXVlWVJXZkFVMmxBdkpaTGpUNjNBT1VGSGJjSTh6SDJQVzdBYktwM2M4eHc1b3RybHcxSWpOMVBmVExmREt1Q3d3MWdtWEhra0ZUOERuNzljclhiOTZBSzVMTmcteGhUSEdTYS1Eek9hcUVFTzlhOG9HQ0h3?oc=5">جهة الداخلة-وادي الذهب، قطب تنموي منفتح على محيطه الإقليمي (فاعل جمعوي) - 2m.ma</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+No hay noticias.
+
+📺 <b>YouTube & Vídeos</b>
+
+• <a href="https://www.youtube.com/watch?v=6tYG_3Ts3NU">DAKHLA ATLANTIQUE , UN ATOUT POUR L’OUEST AFRICAIN ? #dakhlaatlantique #aes</a>
+
+🤖✨ <b>Resumen Diario de la IA</b>
+
+Hoy se han publicado titulares sobre el Puerto de Dakhla Atlantique. Un titular lo describe como un polo de desarrollo abierto a su entorno regional en la región de Dakhla-Oued Ed-Dahab.
+
+Otro titular se refiere a Dakhla Atlantique como un activo para el oeste africano, aunque no proporciona más detalles sobre en qué sentido es considerado como tal.
+
+🤖 Generado por Mamé el Bot 🤖
+
+</details>
