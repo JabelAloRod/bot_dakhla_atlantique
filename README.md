@@ -88,3 +88,33 @@ Otro titular se refiere a Dakhla Atlantique como un activo para el oeste african
 🤖 Generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-01</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-01
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-01)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇫🇷 <b>Francés</b>
+• <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxONjlEMERzdTllMUhIMmJ6cEdnQjktMWRkcWU3SFRfSFRpRUR5eDRpLXl1TlJwWlFCT0x4eFVhUXFCVDh6VnNtZHdtRXNrNDB0ZjhBMDRuNktqaUN6UXlqd1ZId1YxRDFOTFZYeUxtM0VTNXlpWTBfVlVLaUhWMmdxWUIxaDliVTBiZVdqNG5YemtEeHhpZjF6eG9kQm5ZMkV4UGp0c2l5NGpvd0k3b1k1WHVBN21Ib050THJjaVhFWjMxYWxTNUw5LUIycW8zSDRzUDFKX1lBU3liLWcxQjlLQXZHOUxOZw?oc=5">Port Dakhla Atlantique : l’état d’avancement du chantier atteint les 65 %, la mise en service programmée pour 2029 - Maroc Hebdo</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+No hay noticias.
+
+📺 <b>YouTube & Vídeos</b>
+
+• <a href="https://www.youtube.com/watch?v=6tYG_3Ts3NU">DAKHLA ATLANTIQUE , UN ATOUT POUR L’OUEST AFRICAIN ? #dakhlaatlantique #aes</a>
+
+🤖✨ <b>Resumen Diario de la IA</b>
+
+Según los titulares publicados hoy, el estado de avance del proyecto del Puerto de Dakhla Atlantique ha alcanzado el 65%. La fecha prevista para la puesta en servicio del puerto es 2029.
+
+Además, se menciona que Dakhla Atlantique podría ser un activo para el oeste de África, aunque no se proporcionan más detalles sobre este aspecto.
+
+🤖 Generado por Mamé el Bot 🤖
+
+</details>
