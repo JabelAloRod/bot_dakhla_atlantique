@@ -2,14 +2,18 @@ name: Ejecutar Bot Dakhla Atlantique
 
 on:
   schedule:
-    # Se dispara 4 veces por hora, en minutos "raros" (no en punto) para
-    # evitar el atasco que sufre GitHub cuando miles de repositorios
-    # programan sus tareas justo a horas exactas (0/15/30/45). main.py
-    # decide él solo si es el momento correcto de enviar (hora 8 en
-    # Canarias) y evita reenviar si ya se envió hoy, así que el resto
-    # de disparos simplemente no hacen nada.
+    # Se deja como red de seguridad, aunque hemos comprobado que GitHub no
+    # siempre respeta la frecuencia configurada en cuentas gratuitas. La
+    # fuente fiable del envío diario es ahora el reloj interno de
+    # telegram_bot.py (corriendo 24h en Render), que dispara este mismo
+    # workflow mediante workflow_dispatch a las 8:00 hora de Canarias.
     - cron: '13,28,43,58 * * * *'
-  workflow_dispatch: # Permite lanzarlo manualmente desde GitHub Actions
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'manual = botón Forzar Reporte (siempre envía); automatico = reloj diario (respeta hora y evita duplicados)'
+        required: false
+        default: 'manual'
 
 jobs:
   ejecutar-bot:
@@ -39,7 +43,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          EJECUCION_MANUAL: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+          EJECUCION_MANUAL: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.modo != 'automatico') && 'true' || 'false' }}
         run: |
           python main.py
 
