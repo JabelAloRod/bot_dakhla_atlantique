@@ -434,65 +434,88 @@ def obtener_audios_radio(urls_previas):
 # ==========================================
 # CONSTRUCCIÓN DEL REPORTE (nuevo diseño)
 # ==========================================
-def construir_bloque_prensa(noticias):
-    """📰 Prensa Escrita Internacional, agrupada por idioma con su bandera."""
-    bloque = "📰 <b>Prensa Escrita Internacional</b>\n\n"
+NUMEROS_EMOJI = ["0️⃣", "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 
-    if not noticias:
-        return bloque + "No hay noticias.\n"
+# Marca de izquierda-a-derecha (invisible): al ponerla delante de una línea que
+# empieza en árabe, obliga a Telegram a alinear esa línea a la izquierda
+# (como el resto del reporte) sin cambiar el sentido de lectura del árabe en sí.
+LRM = "\u200e"
+
+
+def numero_emoji(n):
+    """Devuelve el emoji de número correspondiente (1️⃣, 2️⃣...); para más de 10, usa '11.', '12.', etc."""
+    if 0 <= n <= 10:
+        return NUMEROS_EMOJI[n]
+    return f"{n}."
+
+
+def linea_item(numero, titulo, link, idioma=None):
+    """Construye una línea con el formato: [número emoji] Titular 🔗LINK.
+    Si el idioma es Árabe, se antepone la marca invisible que fuerza la
+    alineación a la izquierda de toda la línea."""
+    prefijo = LRM if idioma == "Árabe" else ""
+    return f"{prefijo}{numero_emoji(numero)} {esc(titulo)} 🔗{enlace_html('LINK', link)}\n"
+
+
+def construir_bloque_prensa(noticias):
+    """📰 Prensa Escrita Internacional, agrupada por idioma con su bandera.
+    Todos los idiomas se muestran siempre, aunque no haya noticias en alguno."""
+    bloque = "📰 <b>Prensa Escrita Internacional</b>\n\n"
 
     for idioma in IDIOMAS_ORDEN:
         items = [n for n in noticias if n["idioma"] == idioma]
-        if not items:
-            continue
         bandera = BANDERA_IDIOMA.get(idioma, "🌐")
         bloque += f"{bandera} <b>{esc(idioma)}</b>\n"
-        for n in items:
-            bloque += f"• {enlace_html(n['titulo'], n['link'])}\n"
+        if not items:
+            bloque += "• No hay noticias\n\n"
+            continue
+        for i, n in enumerate(items, start=1):
+            bloque += linea_item(i, n["titulo"], n["link"], idioma=idioma)
         bloque += "\n"
 
     return bloque.rstrip() + "\n"
 
 
 def construir_bloque_podcasts_radio(radios, podcasts_nuevos):
-    """🎙️📻 Podcasts & Radio unificados en una sola sección."""
+    """🎙️📻 Podcasts & Radio unificados en una sola sección, numerados."""
     bloque = "🎙️📻 <b>Podcasts & Radio</b>\n\n"
-    hay_contenido = False
+    contador = 0
 
     for r in radios:
-        hay_contenido = True
-        bloque += f"• [{esc(r['fuente'])}] {enlace_html(r['titulo'], r['link'])}\n"
+        contador += 1
+        bloque += linea_item(contador, r["titulo"], r["link"])
 
     for pod in podcasts_nuevos:
-        hay_contenido = True
         resumen_pod = procesar_podcast_con_ia(pod)
         if resumen_pod:
-            bloque += resumen_pod + "\n"
+            contador += 1
+            bloque += f"{numero_emoji(contador)} {resumen_pod}\n"
         else:
-            bloque += f"• [{esc(pod['podcast'])}] {enlace_html(pod['titulo'], pod['url'])}\n"
+            contador += 1
+            bloque += linea_item(contador, pod["titulo"], pod["url"])
 
-    if not hay_contenido:
-        bloque += "No hay noticias.\n"
+    if contador == 0:
+        bloque += "• No hay noticias\n"
 
     return bloque.rstrip() + "\n"
 
 
 def construir_bloque_youtube(videos):
-    """📺 YouTube & Vídeos."""
+    """📺 YouTube & Vídeos, numerados."""
     bloque = "📺 <b>YouTube & Vídeos</b>\n\n"
 
     if not videos:
-        return bloque + "No hay noticias.\n"
+        return bloque + "• No hay noticias\n"
 
-    for v in videos:
-        bloque += f"• {enlace_html(v['titulo'], v['link'])}\n"
+    for i, v in enumerate(videos, start=1):
+        bloque += linea_item(i, v["titulo"], v["link"])
 
     return bloque.rstrip() + "\n"
 
 
 def construir_bloque_resumen_ia(texto_para_ia):
     """🤖✨ Resumen Diario de la IA, sintetizando todo lo recopilado en el día."""
-    bloque = "🤖✨ <b>Resumen Diario de la IA</b>\n\n"
+    bloque = "🤖✨ <b>Resumen Diario de la IA</b> ✨🤖\n\n"
 
     if not texto_para_ia.strip():
         return bloque + "No hay noticias que resumir hoy."
@@ -569,7 +592,7 @@ def main():
     reporte += construir_bloque_podcasts_radio(radios, podcasts_nuevos) + "\n"
     reporte += construir_bloque_youtube(videos) + "\n"
     reporte += construir_bloque_resumen_ia(texto_para_ia) + "\n\n"
-    reporte += "🤖 Generado por Mamé el Bot 🤖"
+    reporte += "🤖 Informe generado por Mamé el Bot 🤖"
 
     # 5. Enviar a Telegram. Si falla de verdad (no solo "sin novedades"),
     # hacemos que la ejecución de GitHub Actions se marque como fallida
