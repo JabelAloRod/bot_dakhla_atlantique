@@ -1,8 +1,11 @@
 import os
 import io
 import json
+import time
 import logging
 import threading
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import requests
 from openpyxl import Workbook
@@ -22,6 +25,9 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "tu_usuario/bot-dakhla-atlantique")
 JSON_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/registro.json"
+
+ZONA_CANARIAS = ZoneInfo("Atlantic/Canary")
+HORA_ENVIO_OBJETIVO = 8  # 8:00 hora de Canarias
 
 FLAG_MAP = {
     "arabe": "🇲🇦", "árabe": "🇲🇦",
@@ -187,19 +193,18 @@ async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
 
 
-async def comando_forzar(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Dispara manualmente el workflow de GitHub Actions"""
-    query = update.callback_query if update.callback_query else None
-    if query:
-        await query.answer("Lanzando reporte...")
-
+def disparar_workflow_github(modo="manual"):
+    """
+    Llama a la API de GitHub para lanzar daily_bot.yml (workflow_dispatch).
+    modo="manual" -> el usuario pulsó "Forzar Reporte": ignora la hora y el
+                      filtro de "ya enviado hoy" (siempre foto actual).
+    modo="automatico" -> lo dispara el reloj interno de este mismo bot a las
+                      8:00 de Canarias: se comporta como el envío programado
+                      normal (respeta hora y evita duplicados).
+    Devuelve (ok: bool, mensaje: str).
+    """
     if not GITHUB_TOKEN:
-        msg = "⚠️ Error: No se ha configurado GITHUB_TOKEN en las variables de entorno."
-        if query:
-            await query.message.reply_text(msg)
-        else:
-            await update.message.reply_text(msg)
-        return
+        return False, "⚠️ Error: No se ha configurado GITHUB_TOKEN en las variables de entorno."
 
     url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/daily_bot.yml/dispatches"
     headers = {
@@ -207,13 +212,51 @@ async def comando_forzar(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Accept": "application/vnd.github.v3+json"
     }
     try:
-        response = requests.post(url, json={"ref": "main"}, headers=headers, timeout=10)
+        response = requests.post(
+            url,
+            json={"ref": "main", "inputs": {"modo": modo}},
+            headers=headers,
+            timeout=10
+        )
         if response.status_code == 204:
-            msg = "🤖 Estoy trabajando en ello, en unos minutos te facilito la información. Siéntate y tómate un café. ☕"
-        else:
-            msg = f"⚠️ No se pudo disparar el workflow (Código HTTP {response.status_code})."
+            return True, "🤖 Estoy trabajando en ello, en unos minutos te facilito la información. Siéntate y tómate un café. ☕"
+        return False, f"⚠️ No se pudo disparar el workflow (Código HTTP {response.status_code})."
     except Exception as e:
-        msg = f"❌ Excepción al conectar con GitHub: {e}"
+        return False, f"❌ Excepción al conectar con GitHub: {e}"
+
+
+def iniciar_reloj_disparo_diario():
+    """
+    Hilo de fondo (Render mantiene este proceso vivo 24h con ayuda de
+    UptimeRobot): cada minuto comprueba si son las 8:00 en Canarias y, de ser
+    así, dispara el reporte diario mediante la API de GitHub, sin depender
+    del 'schedule' de GitHub Actions (que hemos comprobado que puede
+    retrasarse horas o directamente no dispararse en cuentas gratuitas).
+    """
+    ultimo_dia_disparado = None
+    while True:
+        try:
+            ahora = datetime.now(ZONA_CANARIAS)
+            hoy = ahora.strftime("%Y-%m-%d")
+            if ahora.hour == HORA_ENVIO_OBJETIVO and hoy != ultimo_dia_disparado:
+                logger.info(f"Reloj interno: son las {ahora.strftime('%H:%M')} en Canarias, disparando el reporte diario.")
+                ok, _ = disparar_workflow_github(modo="automatico")
+                if ok:
+                    ultimo_dia_disparado = hoy
+                else:
+                    logger.error("El reloj interno no pudo disparar el workflow; se reintentará en el siguiente minuto.")
+        except Exception as e:
+            logger.error(f"Error en el reloj de disparo diario: {e}")
+        time.sleep(60)
+
+
+async def comando_forzar(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Dispara manualmente el workflow de GitHub Actions (botón/comando del usuario)"""
+    query = update.callback_query if update.callback_query else None
+    if query:
+        await query.answer("Lanzando reporte...")
+
+    _, msg = disparar_workflow_github(modo="manual")
 
     keyboard = [[InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")]]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -485,6 +528,9 @@ def main():
 
     hilo_salud = threading.Thread(target=iniciar_servidor_salud, daemon=True)
     hilo_salud.start()
+
+    hilo_reloj = threading.Thread(target=iniciar_reloj_disparo_diario, daemon=True)
+    hilo_reloj.start()
 
     app = Application.builder().token(TELEGRAM_TOKEN).build()
 
