@@ -151,3 +151,42 @@ Además, se menciona que el proyecto del Puerto de Dakhla Atlantique se consider
 🤖 Generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-03</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-03
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-03)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الأطلسي المغربي .. من مجال جغرافي إلى مشروع إستراتيجي - Albahr News 🔗<a href="https://news.google.com/rss/articles/CBMivAJBVV95cUxPV1lIUzNXY0FsNS1TLTlMbm5IdGhMTjh4WHpJUldLOGZyS055X1dNUTlsbFlGWC00UnBsMjBkZHM0TmpTU29VWjFYd0k2ZzE5a2l6QkZtemJqZXQ4VGNLWGduZGhWRDFCSEhGUjBLN2RCM0lHaXhfQXl2ckRCd21tY1JMb2tuQW5pZTQ1WE91UmprNmZ3Rm9pRUVBWUFRaWNMY0xpY0t3d1BZWUZmZncwTGxNNW5IbDhrR3lXTDZEWGNfMlAtTUNad19ZS1lQeTRWMnYwSWZ1aHA4VnhwQzRBRXViaE5CclAyQWM0SmNsaVdDSFRRYXdYY0kzRDZ4ZUlUR2VTdTM2b3lRZGxTTFhjMWVqeUdvSkxFMjl2QjRBSkdVamQ3ZVV0OFFlTktTYUhMT1ZKX1RyRlY0dU82?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado titulares sobre el Puerto de Dakhla Atlantique. Uno de los titulares publicados es "الأطلسي المغربي .. من مجال جغرافي إلى مشروع إستراتيجي" por Albahr News.
+
+Este titular sugiere que el Puerto de Dakhla Atlantique está siendo considerado como un proyecto estratégico, aunque no se proporciona más información sobre el contenido del artículo. No hay más titulares disponibles para resumir.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
