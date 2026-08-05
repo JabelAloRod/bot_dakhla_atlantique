@@ -266,3 +266,42 @@ Otros titulares destacan declaraciones sobre el puerto y su entorno, como la com
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-05</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-05
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-05)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla-Oued Eddahab : dix ans de chantiers au service de l’investissement - LesEco.ma 🔗<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPNXk4ZVFkVkdwdmVFYjMyUkVxUDUzQ3hROHZXQndSSlZFQVVjVDdKRDVwYXlQTFpuRnhYSWVNVWxNOHpYSmNOcHhfRFhHY2JtZVlvVF9lUEc2OWpvZWVDeHVHLW1RRzJKd09sVi1LdDZGMEhCOEt6ZV90NXM0N0hvWVFUcFd0T3g3WFEtUC1MblF1T0FBWHlDX3NneUZZWXJS?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ أريري: ميناء الداخلة يكشف الفرق بين عسكر يزرع ألغام القتل وجيش يزرع أسباب الحياة - siyassi.com 🔗<a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aY2puQ0pxOW5XUWdBdEdsYU1lMVppNHhleG5xR3FEWDE3WVFuNzhpejlJUjVwTHVLU0I5WVUyNUxzdFVPaWJFWmdWVFk?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ Morocco names longest highway after Donald Trump - The Jerusalem Post 🔗<a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BRVpxX3Y3RlZxT1p1VW5DQ25ram8yU1VMcFhmTFQ0T0NRcjNnYVJGNHROYUNGNlBOUG1Ob0o5MlJISXlha1NIR2dBLWg0WnFaRWlOZ1JYRVZ3SFVCMk1z?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado varios titulares relacionados con el Puerto de Dakhla Atlantique. Un titular destaca que Dakhla-Oued Eddahab ha tenido diez años de proyectos al servicio de la inversión, según LesEco.ma.
+
+Otros titulares mencionan al puerto, como el de siyassi.com, que cita a أريري sobre la diferencia entre ejércitos que plantan minas y aquellos que plantan razones de vida, y otro de The Jerusalem Post que informa sobre la decisión de Marruecos de nombrar la carretera más larga en honor a Donald Trump, aunque este último no se refiere directamente al puerto.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
