@@ -56,17 +56,12 @@ def bandera_para(etiqueta: str) -> str:
     if clave.startswith("radio"):
         return "📻"
     if clave:
-        return "🎙️"  # fuentes de podcast (nombre del programa)
+        return "🎙️"
     return "🌐"
 
 
 def obtener_datos_registro() -> dict:
-    """
-    Descarga registro.json — la fuente de datos estructurada que escribe main.py —
-    y la convierte a la forma {año: {mes: [items]}} que usa el resto del bot.
-    Al ser JSON real (no texto a analizar con expresiones regulares), esto no se
-    rompe aunque cambiemos el diseño visual del reporte de Telegram en el futuro.
-    """
+    """Descarga registro.json y la convierte a la forma {año: {mes: [items]}}."""
     try:
         response = requests.get(JSON_RAW_URL, timeout=10)
         if response.status_code != 200:
@@ -95,7 +90,6 @@ def obtener_datos_registro() -> dict:
                 "link": item.get("link", "#")
             })
 
-    # Orden más reciente primero dentro de cada mes, igual que antes
     for anio in datos:
         for mes in datos[anio]:
             datos[anio][mes].sort(key=lambda it: it["fecha"], reverse=True)
@@ -204,8 +198,7 @@ def generar_resumen_mensual_general(texto_titulares, mes_nombre, anio):
 
 
 def generar_resumen_mensual_analista(texto_titulares, mes_nombre, anio):
-    """Resumen del mes con perspectiva de analista de inteligencia: conecta
-    hechos y detecta patrones, pero sin emitir juicios ni valoraciones."""
+    """Resumen del mes con perspectiva de analista de inteligencia."""
     prompt = f"""
     A continuación tienes TODOS los titulares recopilados durante {mes_nombre} de {anio}
     sobre el Puerto de Dakhla Atlantique, en orden cronológico.
@@ -252,28 +245,97 @@ async def comando_resumen_mensual(update: Update, context: ContextTypes.DEFAULT_
         await update.callback_query.message.edit_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
     elif update.message:
         await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
+
+
+async def resmes_year_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    data_parts = query.data.split("_")
+    year = data_parts[2]
+
     datos = obtener_datos_registro()
-    if not datos:
-        msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
-        if update.callback_query:
-            await update.callback_query.answer(msg, show_alert=True)
-        else:
-            await update.message.reply_text(msg)
+    if year not in datos:
+        await query.message.edit_text("⚠️ No hay datos para este año.", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("« Volver", callback_data="menu_resumenmes")]]))
         return
 
     keyboard = []
-    for year in sorted(datos.keys(), reverse=True):
-        keyboard.append([InlineKeyboardButton(f"📂 Año {year}", callback_data=f"year_{year}")])
-    
-    keyboard.append([InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")])
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    texto = "📌 *Registro Histórico Dakhla Atlantique*\n\nSelecciona un año para consultar los meses disponibles:"
+    for mes_num in sorted(datos[year].keys(), reverse=True):
+        nombre_mes = MESES_NOMBRE.get(mes_num, mes_num)
+        keyboard.append([InlineKeyboardButton(f"📅 {nombre_mes} {year}", callback_data=f"resmes_month_{year}_{mes_num}")])
 
-    if update.callback_query:
-        await update.callback_query.answer()
-        await update.callback_query.message.edit_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
-    elif update.message:
-        await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
+    keyboard.append([InlineKeyboardButton("« Volver a Años", callback_data="menu_resumenmes")])
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await query.message.edit_text(f"⚓ *Resumen Mensual — Año {year}*\n\nSelecciona el mes:", reply_markup=reply_markup, parse_mode="Markdown")
+
+
+async def resmes_month_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    data_parts = query.data.split("_")
+    year = data_parts[2]
+    mes_num = data_parts[3]
+
+    nombre_mes = MESES_NOMBRE.get(mes_num, mes_num)
+    keyboard = [
+        [InlineKeyboardButton("📄 Resumen Factual (Extractivo)", callback_data=f"resmes_gen_{year}_{mes_num}")],
+        [InlineKeyboardButton("🧠 Resumen Analista (Inteligencia)", callback_data=f"resmes_ana_{year}_{mes_num}")],
+        [InlineKeyboardButton("« Volver a Meses", callback_data=f"resmes_year_{year}")]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await query.message.edit_text(
+        f"⚓ *Resumen Mensual — {nombre_mes} {year}*\n\nSelecciona el enfoque del resumen:",
+        reply_markup=reply_markup,
+        parse_mode="Markdown"
+    )
+
+
+async def resmes_generar_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer("Generando resumen con IA...", show_alert=False)
+
+    data_parts = query.data.split("_")
+    tipo = data_parts[1]
+    year = data_parts[2]
+    mes_num = data_parts[3]
+
+    nombre_mes = MESES_NOMBRE.get(mes_num, mes_num)
+    datos = obtener_datos_registro()
+    items_mes = datos.get(year, {}).get(mes_num, [])
+    
+    if not items_mes:
+        await query.message.edit_text(
+            f"⚠️ No hay registros de noticias para {nombre_mes} {year}.",
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("« Volver", callback_data=f"resmes_year_{year}")]])
+        )
+        return
+
+    await query.message.edit_text(f"⏳ Generando resumen de {nombre_mes} {year} con IA... Esto puede tardar unos segundos.")
+
+    texto_titulares = construir_texto_titulares_mes(items_mes)
+
+    if tipo == "gen":
+        resumen = generar_resumen_mensual_general(texto_titulares, nombre_mes, year)
+        titulo_resumen = f"⚓ *Resumen Mensual Factual — {nombre_mes} {year}*"
+    else:
+        resumen = generar_resumen_mensual_analista(texto_titulares, nombre_mes, year)
+        titulo_resumen = f"🧠 *Resumen Mensual de Analista — {nombre_mes} {year}*"
+
+    if not resumen:
+        resumen = "⚠️ Hubo un error al generar el resumen con la IA. Inténtalo de nuevo más tarde."
+
+    mensaje_final = f"{titulo_resumen}\n\n{resumen}"
+
+    keyboard = [
+        [InlineKeyboardButton(f"« Volver a {nombre_mes} {year}", callback_data=f"resmes_month_{year}_{mes_num}")],
+        [InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    if len(mensaje_final) > 4000:
+        await query.message.reply_text(mensaje_final[:4000], parse_mode="Markdown")
+        await query.message.reply_text(mensaje_final[4000:], reply_markup=reply_markup, parse_mode="Markdown")
+    else:
+        await query.message.reply_text(mensaje_final, reply_markup=reply_markup, parse_mode="Markdown")
 
 
 async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -302,15 +364,6 @@ async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def disparar_workflow_github(modo="manual"):
-    """
-    Llama a la API de GitHub para lanzar daily_bot.yml (workflow_dispatch).
-    modo="manual" -> el usuario pulsó "Forzar Reporte": ignora la hora y el
-                      filtro de "ya enviado hoy" (siempre foto actual).
-    modo="automatico" -> lo dispara el reloj interno de este mismo bot a las
-                      8:00 de Canarias: se comporta como el envío programado
-                      normal (respeta hora y evita duplicados).
-    Devuelve (ok: bool, mensaje: str).
-    """
     if not GITHUB_TOKEN:
         return False, "⚠️ Error: No se ha configurado GITHUB_TOKEN en las variables de entorno."
 
@@ -334,13 +387,6 @@ def disparar_workflow_github(modo="manual"):
 
 
 def iniciar_reloj_disparo_diario():
-    """
-    Hilo de fondo (Render mantiene este proceso vivo 24h con ayuda de
-    UptimeRobot): cada minuto comprueba si son las 8:00 en Canarias y, de ser
-    así, dispara el reporte diario mediante la API de GitHub, sin depender
-    del 'schedule' de GitHub Actions (que hemos comprobado que puede
-    retrasarse horas o directamente no dispararse en cuentas gratuitas).
-    """
     ultimo_dia_disparado = None
     while True:
         try:
@@ -351,21 +397,17 @@ def iniciar_reloj_disparo_diario():
                 ok, _ = disparar_workflow_github(modo="automatico")
                 if ok:
                     ultimo_dia_disparado = hoy
-                else:
-                    logger.error("El reloj interno no pudo disparar el workflow; se reintentará en el siguiente minuto.")
         except Exception as e:
             logger.error(f"Error en el reloj de disparo diario: {e}")
         time.sleep(60)
 
 
 async def comando_forzar(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Dispara manualmente el workflow de GitHub Actions (botón/comando del usuario)"""
     query = update.callback_query if update.callback_query else None
     if query:
         await query.answer("Lanzando reporte...")
 
     _, msg = disparar_workflow_github(modo="manual")
-
     keyboard = [[InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")]]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
@@ -376,7 +418,6 @@ async def comando_forzar(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def comando_estado(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Consulta el estado de la última ejecución en GitHub Actions"""
     query = update.callback_query if update.callback_query else None
     if query:
         await query.answer("Comprobando estado...")
@@ -437,316 +478,12 @@ def generar_excel_mes(noticias, year, month) -> io.BytesIO:
         celda_enlace.hyperlink = item["link"]
         celda_enlace.font = Font(color="0563C1", underline="single")
 
-    hoja.column_dimensions["A"].width = 14
-    hoja.column_dimensions["B"].width = 16
-    hoja.column_dimensions["C"].width = 70
-    hoja.column_dimensions["D"].width = 55
-    hoja.freeze_panes = "A2"
+    hoja.column_dimensions["A"].width = 12
+    hoja.column_dimensions["B"].width = 20
+    hoja.column_dimensions["C"].width = 60
+    hoja.column_dimensions["D"].width = 40
 
-    buffer_bytes = io.BytesIO()
-    libro.save(buffer_bytes)
-    buffer_bytes.seek(0)
-    buffer_bytes.name = f"dakhla_registro_{year}-{month}.xlsx"
-    return buffer_bytes
-
-
-async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.callback_query
-    await query.answer()
-    data = query.data
-
-    if data == "menu_main":
-        await comando_menu(update, context)
-        return
-    elif data == "menu_ayuda":
-        await comando_ayuda(update, context)
-        return
-    elif data == "menu_historico":
-        await comando_registro(update, context)
-        return
-    elif data == "menu_exportar":
-        await comando_exportar(update, context)
-        return
-    elif data == "menu_forzar":
-        await comando_forzar(update, context)
-        return
-    elif data == "menu_estado":
-        await comando_estado(update, context)
-        return
-    elif data == "menu_resumenmes":
-        await comando_resumen_mensual(update, context)
-        return
-
-    datos = obtener_datos_registro()
-    if not datos:
-        await query.edit_message_text("⚠️ No se pudo cargar la información del registro.")
-        return
-
-    if data.startswith("year_"):
-        year = data.split("_")[1]
-        meses = datos.get(year, {})
-
-        keyboard = []
-        for month in sorted(meses.keys(), reverse=True):
-            total_noticias = len(meses[month])
-            clave_mes = str(month).zfill(2)
-            nombre_mes = MESES_NOMBRE.get(clave_mes, f"Mes {month}")
-
-            keyboard.append([
-                InlineKeyboardButton(
-                    f"📂 {nombre_mes} ({total_noticias} noticias)",
-                    callback_data=f"month_{year}_{month}"
-                )
-            ])
-
-        keyboard.append([InlineKeyboardButton("🔙 Volver a Años", callback_data="menu_historico")])
-        reply_markup = InlineKeyboardMarkup(keyboard)
-
-        await query.edit_message_text(
-            f"📅 *AÑO {year}*\n\nSelecciona un mes para ver el desglose:",
-            reply_markup=reply_markup,
-            parse_mode="Markdown"
-        )
-
-    elif data.startswith("month_"):
-        _, year, month = data.split("_")
-        noticias = datos.get(year, {}).get(month, [])
-
-        clave_mes = str(month).zfill(2)
-        nombre_mes_txt = MESES_NOMBRE.get(clave_mes, month).upper()
-
-        if not noticias:
-            keyboard = [[InlineKeyboardButton(f"🔙 Volver a Meses ({year})", callback_data=f"year_{year}")]]
-            await query.edit_message_text(
-                "No hay noticias registradas en este mes.",
-                reply_markup=InlineKeyboardMarkup(keyboard)
-            )
-            return
-
-        bloques = []
-        texto_actual = f"📅 *REGISTRO — {nombre_mes_txt} {year}*\n\n"
-        fecha_actual = ""
-
-        for item in noticias:
-            linea_fecha = ""
-            if item["fecha"] != fecha_actual:
-                fecha_actual = item["fecha"]
-                linea_fecha = f"\n🗓️ *{fecha_actual}*\n"
-
-            linea_noticia = f"{item['bandera']} {item['titular']} — [Noticia]({item['link']})\n"
-            bloque_temp = linea_fecha + linea_noticia
-
-            if len(texto_actual) + len(bloque_temp) > 3800:
-                bloques.append(texto_actual)
-                texto_actual = f"📅 *REGISTRO — {nombre_mes_txt} {year} (Cont.)*\n\n" + bloque_temp
-            else:
-                texto_actual += bloque_temp
-
-        bloques.append(texto_actual)
-
-        keyboard = [[InlineKeyboardButton(f"🔙 Volver a Meses ({year})", callback_data=f"year_{year}")]]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-
-        if len(bloques) > 1:
-            for b in bloques[:-1]:
-                await query.message.reply_text(b, parse_mode="Markdown", disable_web_page_preview=True)
-
-            await query.message.reply_text(
-                bloques[-1],
-                reply_markup=reply_markup,
-                parse_mode="Markdown",
-                disable_web_page_preview=True
-            )
-        else:
-            await query.edit_message_text(
-                bloques[0],
-                reply_markup=reply_markup,
-                parse_mode="Markdown",
-                disable_web_page_preview=True
-            )
-
-    elif data.startswith("exp_year_"):
-        year = data.split("_")[2]
-        meses = datos.get(year, {})
-
-        keyboard = []
-        for month in sorted(meses.keys(), reverse=True):
-            total_noticias = len(meses[month])
-            clave_mes = str(month).zfill(2)
-            nombre_mes = MESES_NOMBRE.get(clave_mes, f"Mes {month}")
-
-            keyboard.append([
-                InlineKeyboardButton(
-                    f"📤 {nombre_mes} ({total_noticias} noticias)",
-                    callback_data=f"exp_month_{year}_{month}"
-                )
-            ])
-
-        keyboard.append([InlineKeyboardButton("🔙 Volver a Años", callback_data="menu_exportar")])
-        reply_markup = InlineKeyboardMarkup(keyboard)
-
-        await query.edit_message_text(
-            f"📤 *Exportar — AÑO {year}*\n\nSelecciona el mes a exportar:",
-            reply_markup=reply_markup,
-            parse_mode="Markdown"
-        )
-
-    elif data.startswith("exp_month_"):
-        _, _, year, month = data.split("_")
-        noticias = datos.get(year, {}).get(month, [])
-
-        if not noticias:
-            await query.answer("No hay noticias registradas en ese mes.", show_alert=True)
-            return
-
-        archivo_excel = generar_excel_mes(noticias, year, month)
-        clave_mes = str(month).zfill(2)
-        nombre_mes = MESES_NOMBRE.get(clave_mes, month)
-
-        await context.bot.send_document(
-            chat_id=query.message.chat_id,
-            document=InputFile(archivo_excel, filename=archivo_excel.name),
-            caption=f"📤 Registro de {nombre_mes} {year} ({len(noticias)} noticias)"
-        )
-        await query.answer("Archivo enviado ✅")
-
-    # --- Resumen mensual: Año -> Mes -> submenú (General / Valoración) ---
-    elif data.startswith("resmes_year_"):
-        year = data.split("_")[2]
-        meses = datos.get(year, {})
-
-        keyboard = []
-        for month in sorted(meses.keys(), reverse=True):
-            total_noticias = len(meses[month])
-            clave_mes = str(month).zfill(2)
-            nombre_mes = MESES_NOMBRE.get(clave_mes, f"Mes {month}")
-            keyboard.append([
-                InlineKeyboardButton(
-                    f"📂 {nombre_mes} ({total_noticias} noticias)",
-                    callback_data=f"resmes_month_{year}_{month}"
-                )
-            ])
-
-        keyboard.append([InlineKeyboardButton("🔙 Volver a Años", callback_data="menu_resumenmes")])
-        reply_markup = InlineKeyboardMarkup(keyboard)
-
-        await query.edit_message_text(
-            f"⚓ *Resúmenes Mensuales — AÑO {year}*\n\nSelecciona el mes:",
-            reply_markup=reply_markup,
-            parse_mode="Markdown"
-        )
-
-    elif data.startswith("resmes_month_"):
-        _, _, year, month = data.split("_")
-        clave_mes = str(month).zfill(2)
-        nombre_mes = MESES_NOMBRE.get(clave_mes, month)
-
-        keyboard = [
-            [InlineKeyboardButton("▶️ Resumen General del Mes", callback_data=f"resmes_general_{year}_{month}")],
-            [InlineKeyboardButton("🕵️ Valoración de " + nombre_mes, callback_data=f"resmes_valoracion_{year}_{month}")],
-            [InlineKeyboardButton("🔙 Volver a Meses", callback_data=f"resmes_year_{year}")]
-        ]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        texto = (
-            f"⚓ *Resúmenes Mensuales — {nombre_mes.upper()} {year}* ⚓\n\n"
-            f"▶️ *Resumen General del Mes*\n"
-            f"(Resumen de las noticias del mes sin valoración)\n\n"
-            f"🕵️ *Valoración de {nombre_mes}*\n"
-            f"(Resumen de las noticias del mes con enfoque de analista de inteligencia, sin valoraciones)"
-        )
-        await query.edit_message_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
-
-    elif data.startswith("resmes_general_") or data.startswith("resmes_valoracion_"):
-        es_valoracion = data.startswith("resmes_valoracion_")
-        prefijo = "resmes_valoracion_" if es_valoracion else "resmes_general_"
-        year, month = data[len(prefijo):].split("_")
-        items_mes = datos.get(year, {}).get(month, [])
-
-        clave_mes = str(month).zfill(2)
-        nombre_mes = MESES_NOMBRE.get(clave_mes, month)
-
-        if not items_mes:
-            await query.answer("No hay noticias registradas en ese mes.", show_alert=True)
-            return
-
-        await query.answer("Generando resumen, puede tardar unos segundos...")
-        await query.message.reply_text(f"⏳ Generando el resumen de {nombre_mes} {year}, espera un momento...")
-
-        texto_titulares = construir_texto_titulares_mes(items_mes)
-        if es_valoracion:
-            resumen = generar_resumen_mensual_analista(texto_titulares, nombre_mes, year)
-            titulo = f"🕵️ <b>VALORACIÓN DE {html.escape(nombre_mes.upper())} {year}</b>"
-        else:
-            resumen = generar_resumen_mensual_general(texto_titulares, nombre_mes, year)
-            titulo = f"▶️ <b>RESUMEN GENERAL DE {html.escape(nombre_mes.upper())} {year}</b>"
-
-        if not resumen:
-            await query.message.reply_text(
-                "⚠️ No se ha podido generar el resumen (revisa que GROQ_API_KEY esté configurado en Render)."
-            )
-            return
-
-        keyboard = [[InlineKeyboardButton("🔙 Volver", callback_data=f"resmes_month_{year}_{month}")]]
-        mensaje_final = f"{titulo}\n\n{html.escape(resumen)}"
-        for i in range(0, len(mensaje_final), 3900):
-            trozo = mensaje_final[i:i + 3900]
-            es_ultimo = i + 3900 >= len(mensaje_final)
-            await query.message.reply_text(
-                trozo,
-                reply_markup=InlineKeyboardMarkup(keyboard) if es_ultimo else None,
-                parse_mode="HTML"
-            )
-
-
-class _HealthCheckHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-Type", "text/plain; charset=utf-8")
-        self.end_headers()
-        self.wfile.write("Bot de Telegram activo.".encode("utf-8"))
-
-    def do_HEAD(self):
-        self.do_GET()
-
-    def log_message(self, format, *args):
-        pass
-
-
-def iniciar_servidor_salud():
-    puerto = int(os.environ.get("PORT", "10000"))
-    servidor = HTTPServer(("0.0.0.0", puerto), _HealthCheckHandler)
-    logger.info(f"Servidor de salud escuchando en el puerto {puerto}")
-    servidor.serve_forever()
-
-
-def main():
-    if not TELEGRAM_TOKEN:
-        logger.error("No se ha configurado la variable de entorno TELEGRAM_TOKEN")
-        return
-
-    hilo_salud = threading.Thread(target=iniciar_servidor_salud, daemon=True)
-    hilo_salud.start()
-
-    hilo_reloj = threading.Thread(target=iniciar_reloj_disparo_diario, daemon=True)
-    hilo_reloj.start()
-
-    app = Application.builder().token(TELEGRAM_TOKEN).build()
-
-    # Handlers para comandos y menú interactivo
-    app.add_handler(CommandHandler("start", comando_menu))
-    app.add_handler(CommandHandler("menu", comando_menu))
-    app.add_handler(CommandHandler("ayuda", comando_ayuda))
-    app.add_handler(CommandHandler("registro", comando_registro))
-    app.add_handler(CommandHandler("historico", comando_registro))
-    app.add_handler(CommandHandler("exportar", comando_exportar))
-    app.add_handler(CommandHandler("resume_mes", comando_resumen_mensual))
-    app.add_handler(CommandHandler("actualizar", comando_forzar))
-    app.add_handler(CommandHandler("estado", comando_estado))
-    app.add_handler(CallbackQueryHandler(manejar_botones))
-
-    logger.info("Bot iniciado correctamente con panel completo y escuchando peticiones...")
-    app.run_polling()
-
-
-if __name__ == "__main__":
-    main()
+    buffer = io.BytesIO()
+    libro.save(buffer)
+    buffer.seek(0)
+    return buffer
