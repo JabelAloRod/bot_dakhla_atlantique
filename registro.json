@@ -102,5 +102,30 @@
   },
   "2026-08-04": {
     "items": []
+  },
+  "2026-08-05": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNXk4ZVFkVkdwdmVFYjMyUkVxUDUzQ3hROHZXQndSSlZFQVVjVDdKRDVwYXlQTFpuRnhYSWVNVWxNOHpYSmNOcHhfRFhHY2JtZVlvVF9lUEc2OWpvZWVDeHVHLW1RRzJKd09sVi1LdDZGMEhCOEt6ZV90NXM0N0hvWVFUcFd0T3g3WFEtUC1MblF1T0FBWHlDX3NneUZZWXJS?oc=5",
+        "titular": "Dakhla-Oued Eddahab : dix ans de chantiers au service de l’investissement - LesEco.ma"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aY2puQ0pxOW5XUWdBdEdsYU1lMVppNHhleG5xR3FEWDE3WVFuNzhpejlJUjVwTHVLU0I5WVUyNUxzdFVPaWJFWmdWVFk?oc=5",
+        "titular": "أريري: ميناء الداخلة يكشف الفرق بين عسكر يزرع ألغام القتل وجيش يزرع أسباب الحياة - siyassi.com"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Inglés",
+        "idioma": "Inglés",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BRVpxX3Y3RlZxT1p1VW5DQ25ram8yU1VMcFhmTFQ0T0NRcjNnYVJGNHROYUNGNlBOUG1Ob0o5MlJISXlha1NIR2dBLWg0WnFaRWlOZ1JYRVZ3SFVCMk1z?oc=5",
+        "titular": "Morocco names Western Sahara highway after Donald Trump - The Jerusalem Post"
+      }
+    ]
   }
 }
