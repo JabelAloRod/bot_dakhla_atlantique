@@ -2,6 +2,7 @@ import os
 import io
 import json
 import time
+import html
 import logging
 import threading
 from datetime import datetime
@@ -24,7 +25,10 @@ logger = logging.getLogger(__name__)
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "tu_usuario/bot-dakhla-atlantique")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 JSON_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/registro.json"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 ZONA_CANARIAS = ZoneInfo("Atlantic/Canary")
 HORA_ENVIO_OBJETIVO = 8  # 8:00 hora de Canarias
@@ -105,6 +109,10 @@ TEXTO_AYUDA = (
     "Consulta el archivo histórico de noticias, navegando año a año y mes a mes.\n\n"
     "📤 *Exportar a Excel*\n"
     "Descarga en un archivo Excel (.xlsx) las noticias registradas de cualquier mes.\n\n"
+    "⚓ *Resumen Mensual*\n"
+    "Genera, cuando tú lo pidas, un resumen del mes completo en dos versiones: "
+    "una puramente factual y otra con perspectiva de analista (sin valoraciones). "
+    "No se envía nunca automáticamente.\n\n"
     "🔄 *Forzar Reporte*\n"
     "Dispara manualmente la ejecución del bot en GitHub Actions al momento.\n\n"
     "📊 *Estado del Sistema*\n"
@@ -120,6 +128,7 @@ async def comando_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("📊 Estado del Sistema", callback_data="menu_estado")],
         [InlineKeyboardButton("📜 /registro-historico", callback_data="menu_historico")],
         [InlineKeyboardButton("📊 /exportar", callback_data="menu_exportar")],
+        [InlineKeyboardButton("⚓ /resume_mes", callback_data="menu_resumenmes")],
         [InlineKeyboardButton("❓ /ayuda", callback_data="menu_ayuda")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -143,7 +152,106 @@ async def comando_ayuda(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(TEXTO_AYUDA, reply_markup=reply_markup, parse_mode="Markdown")
 
 
-async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
+def preguntar_ia(prompt: str):
+    """Llama a Groq (mismo proveedor que usa main.py para el resumen diario)."""
+    if not GROQ_API_KEY:
+        return None
+    try:
+        res = requests.post(
+            GROQ_URL,
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            json={
+                "model": GROQ_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.5,
+            },
+            timeout=60
+        )
+        if res.status_code != 200:
+            logger.error(f"Error llamando a la IA (Groq): HTTP {res.status_code} - {res.text}")
+            return None
+        return res.json()["choices"][0]["message"]["content"]
+    except Exception as e:
+        logger.error(f"Error llamando a la IA (Groq): {e}")
+        return None
+
+
+def construir_texto_titulares_mes(items_mes):
+    """Construye el listado de titulares del mes, en orden cronológico, para pasárselo a la IA."""
+    items_ordenados = sorted(items_mes, key=lambda it: it["fecha"])
+    return "\n".join(f"- [{it['fecha']}] {it['titular']}" for it in items_ordenados)
+
+
+def generar_resumen_mensual_general(texto_titulares, mes_nombre, anio):
+    """Resumen puramente extractivo del mes: sin interpretación ni añadidos."""
+    prompt = f"""
+    A continuación tienes TODOS los titulares recopilados durante {mes_nombre} de {anio}
+    sobre el Puerto de Dakhla Atlantique, en orden cronológico.
+
+    Redacta un resumen factual (varios párrafos si hace falta) que sintetice
+    ÚNICAMENTE la información contenida en estos titulares.
+
+    Reglas estrictas:
+    - No añadas opiniones, valoraciones, interpretaciones ni conclusiones propias.
+    - No completes con datos que no estén en la lista.
+    - Limítate a describir de forma neutra qué se ha publicado durante el mes.
+    - Responde solo con texto plano, sin Markdown ni HTML.
+
+    Titulares del mes:
+    {texto_titulares}
+    """
+    return preguntar_ia(prompt)
+
+
+def generar_resumen_mensual_analista(texto_titulares, mes_nombre, anio):
+    """Resumen del mes con perspectiva de analista de inteligencia: conecta
+    hechos y detecta patrones, pero sin emitir juicios ni valoraciones."""
+    prompt = f"""
+    A continuación tienes TODOS los titulares recopilados durante {mes_nombre} de {anio}
+    sobre el Puerto de Dakhla Atlantique, en orden cronológico.
+
+    Redacta un resumen con la perspectiva de un analista de inteligencia: organiza
+    la información por temas o actores relevantes, conecta hechos relacionados
+    entre sí y señala patrones o líneas de desarrollo que se repitan a lo largo
+    del mes.
+
+    Reglas estrictas:
+    - NO emitas valoraciones, juicios personales, opiniones ni predicciones.
+    - No califiques los hechos como positivos, negativos, preocupantes, etc.
+    - Limítate a mostrar relaciones y patrones objetivos entre los hechos
+      publicados, sin añadir información que no esté en los titulares.
+    - Responde solo con texto plano, sin Markdown ni HTML.
+
+    Titulares del mes:
+    {texto_titulares}
+    """
+    return preguntar_ia(prompt)
+
+
+async def comando_resumen_mensual(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Punto de entrada: muestra los años disponibles para el resumen mensual."""
+    datos = obtener_datos_registro()
+    if not datos:
+        msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
+        if update.callback_query:
+            await update.callback_query.answer(msg, show_alert=True)
+        else:
+            await update.message.reply_text(msg)
+        return
+
+    keyboard = []
+    for year in sorted(datos.keys(), reverse=True):
+        keyboard.append([InlineKeyboardButton(f"📂 Año {year}", callback_data=f"resmes_year_{year}")])
+
+    keyboard.append([InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")])
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    texto = "⚓ *Resúmenes Mensuales — Puerto de Dakhla Atlantique*\n\nSelecciona el año:"
+
+    if update.callback_query:
+        await update.callback_query.answer()
+        await update.callback_query.message.edit_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
+    elif update.message:
+        await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
     datos = obtener_datos_registro()
     if not datos:
         msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
@@ -365,6 +473,9 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data == "menu_estado":
         await comando_estado(update, context)
         return
+    elif data == "menu_resumenmes":
+        await comando_resumen_mensual(update, context)
+        return
 
     datos = obtener_datos_registro()
     if not datos:
@@ -499,6 +610,93 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         await query.answer("Archivo enviado ✅")
 
+    # --- Resumen mensual: Año -> Mes -> submenú (General / Valoración) ---
+    elif data.startswith("resmes_year_"):
+        year = data.split("_")[2]
+        meses = datos.get(year, {})
+
+        keyboard = []
+        for month in sorted(meses.keys(), reverse=True):
+            total_noticias = len(meses[month])
+            clave_mes = str(month).zfill(2)
+            nombre_mes = MESES_NOMBRE.get(clave_mes, f"Mes {month}")
+            keyboard.append([
+                InlineKeyboardButton(
+                    f"📂 {nombre_mes} ({total_noticias} noticias)",
+                    callback_data=f"resmes_month_{year}_{month}"
+                )
+            ])
+
+        keyboard.append([InlineKeyboardButton("🔙 Volver a Años", callback_data="menu_resumenmes")])
+        reply_markup = InlineKeyboardMarkup(keyboard)
+
+        await query.edit_message_text(
+            f"⚓ *Resúmenes Mensuales — AÑO {year}*\n\nSelecciona el mes:",
+            reply_markup=reply_markup,
+            parse_mode="Markdown"
+        )
+
+    elif data.startswith("resmes_month_"):
+        _, _, year, month = data.split("_")
+        clave_mes = str(month).zfill(2)
+        nombre_mes = MESES_NOMBRE.get(clave_mes, month)
+
+        keyboard = [
+            [InlineKeyboardButton("▶️ Resumen General del Mes", callback_data=f"resmes_general_{year}_{month}")],
+            [InlineKeyboardButton("🕵️ Valoración de " + nombre_mes, callback_data=f"resmes_valoracion_{year}_{month}")],
+            [InlineKeyboardButton("🔙 Volver a Meses", callback_data=f"resmes_year_{year}")]
+        ]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        texto = (
+            f"⚓ *Resúmenes Mensuales — {nombre_mes.upper()} {year}* ⚓\n\n"
+            f"▶️ *Resumen General del Mes*\n"
+            f"(Resumen de las noticias del mes sin valoración)\n\n"
+            f"🕵️ *Valoración de {nombre_mes}*\n"
+            f"(Resumen de las noticias del mes con enfoque de analista de inteligencia, sin valoraciones)"
+        )
+        await query.edit_message_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
+
+    elif data.startswith("resmes_general_") or data.startswith("resmes_valoracion_"):
+        es_valoracion = data.startswith("resmes_valoracion_")
+        prefijo = "resmes_valoracion_" if es_valoracion else "resmes_general_"
+        year, month = data[len(prefijo):].split("_")
+        items_mes = datos.get(year, {}).get(month, [])
+
+        clave_mes = str(month).zfill(2)
+        nombre_mes = MESES_NOMBRE.get(clave_mes, month)
+
+        if not items_mes:
+            await query.answer("No hay noticias registradas en ese mes.", show_alert=True)
+            return
+
+        await query.answer("Generando resumen, puede tardar unos segundos...")
+        await query.message.reply_text(f"⏳ Generando el resumen de {nombre_mes} {year}, espera un momento...")
+
+        texto_titulares = construir_texto_titulares_mes(items_mes)
+        if es_valoracion:
+            resumen = generar_resumen_mensual_analista(texto_titulares, nombre_mes, year)
+            titulo = f"🕵️ <b>VALORACIÓN DE {html.escape(nombre_mes.upper())} {year}</b>"
+        else:
+            resumen = generar_resumen_mensual_general(texto_titulares, nombre_mes, year)
+            titulo = f"▶️ <b>RESUMEN GENERAL DE {html.escape(nombre_mes.upper())} {year}</b>"
+
+        if not resumen:
+            await query.message.reply_text(
+                "⚠️ No se ha podido generar el resumen (revisa que GROQ_API_KEY esté configurado en Render)."
+            )
+            return
+
+        keyboard = [[InlineKeyboardButton("🔙 Volver", callback_data=f"resmes_month_{year}_{month}")]]
+        mensaje_final = f"{titulo}\n\n{html.escape(resumen)}"
+        for i in range(0, len(mensaje_final), 3900):
+            trozo = mensaje_final[i:i + 3900]
+            es_ultimo = i + 3900 >= len(mensaje_final)
+            await query.message.reply_text(
+                trozo,
+                reply_markup=InlineKeyboardMarkup(keyboard) if es_ultimo else None,
+                parse_mode="HTML"
+            )
+
 
 class _HealthCheckHandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -541,6 +739,7 @@ def main():
     app.add_handler(CommandHandler("registro", comando_registro))
     app.add_handler(CommandHandler("historico", comando_registro))
     app.add_handler(CommandHandler("exportar", comando_exportar))
+    app.add_handler(CommandHandler("resume_mes", comando_resumen_mensual))
     app.add_handler(CommandHandler("actualizar", comando_forzar))
     app.add_handler(CommandHandler("estado", comando_estado))
     app.add_handler(CallbackQueryHandler(manejar_botones))
