@@ -420,3 +420,42 @@ No hay noticias que resumir hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-09</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-09
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-09)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : après trois années sur le chantier, le Dr Anoir Eddlimi quitte sa mission - Maroc Hebdo 🔗<a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPLXAzTmZ3VDU0NFRZUjhIYkxsdzBtZUhnVzhrX0pnNXpZVW5HSHFXQWRIclg1Q0RpR3U1bE13NFM4MVdvY3ZKTXhGZ0FIVnpXMHNJVGNIZFhOUFotU0NMLTU3Y1cxNV9BUmlkZFYyVHVSTGN0WU12V0NxWlFieldFdTFhWDg0LTgybXJBdXE3TnRrZXUtVkJFVzNyZF9lbV9rVWxISGp1R0hWN0pIak1lM0dQYm9BbWhfVmNFaExmUkFBUDcwSS0yNnowYw?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado un titular relacionado con el Puerto de Dakhla Atlantique. Según la información disponible, el Dr. Anoir Eddlimi ha abandonado su misión en el puerto después de tres años en el cargo.
+
+No hay más información disponible en los titulares proporcionados sobre el Puerto de Dakhla Atlantique. El único dato mencionado es el relacionado con el Dr. Anoir Eddlimi y su partida del proyecto después de tres años.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>

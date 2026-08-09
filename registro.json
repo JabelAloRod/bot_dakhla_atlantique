@@ -130,5 +130,16 @@
   },
   "2026-08-06": {
     "items": []
+  },
+  "2026-08-09": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLXAzTmZ3VDU0NFRZUjhIYkxsdzBtZUhnVzhrX0pnNXpZVW5HSHFXQWRIclg1Q0RpR3U1bE13NFM4MVdvY3ZKTXhGZ0FIVnpXMHNJVGNIZFhOUFotU0NMLTU3Y1cxNV9BUmlkZFYyVHVSTGN0WU12V0NxWlFieldFdTFhWDg0LTgybXJBdXE3TnRrZXUtVkJFVzNyZF9lbV9rVWxISGp1R0hWN0pIak1lM0dQYm9BbWhfVmNFaExmUkFBUDcwSS0yNnowYw?oc=5",
+        "titular": "Port Dakhla Atlantique : après trois années sur le chantier, le Dr Anoir Eddlimi quitte sa mission - Maroc Hebdo"
+      }
+    ]
   }
 }
