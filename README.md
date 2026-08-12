@@ -459,3 +459,42 @@ No hay más información disponible en los titulares proporcionados sobre el Pue
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-12</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-12
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-12)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Maroc : le port de Dakhla peut-il répliquer le modèle de Tanger Med ? - Jeune Afrique 🔗<a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWVlHOUc3SkF1X1RmQzk4d0lUVjRjaHpDc3BQQ1BqaXdNMlVsVDZ4czNkTEtqZHVUU1JLVjZ5ajJZRFRBTHJwOTRBaVFaQUlENFVPSlNpeEtCQS1KaXYwc1VHN3l2OWpacEFJZndmWkpaRGViaGZXTDF2TzhrSWlDMFVGanFQNHBlWVh0YmVzMGFKMm5GMGhRdllPSktmdGp3bGpwX3NJTm1GSTF2d1FJbmxIRGJNSTEzYkhuSlpFNzNOQQ?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado un titular sobre el Puerto de Dakhla Atlantique. El titular se pregunta si el puerto de Dakhla puede replicar el modelo de Tanger Med. 
+
+No hay más información disponible en los titulares proporcionados.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
