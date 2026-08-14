@@ -537,3 +537,40 @@ No hay más información disponible en los titulares proporcionados. Solo se men
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-14</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-14
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-14)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay noticias que resumir hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
