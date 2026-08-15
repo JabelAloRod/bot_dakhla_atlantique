@@ -574,3 +574,44 @@ No hay noticias que resumir hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-15</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-15
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-15)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Oued Eddahab : de la récupération territoriale au pari économique sur l’Atlantique - lopinion.ma 🔗<a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQjcybWZIQTh4MzljUS1RZmg0eGl3U3hPMjFQT1NHb0FYank2VE9XUUV1UTcxZ0FYMjlSbTNURkZyZEMtS0c5cFhPQWtkUU44YmstWFdGdGtNQmo3NmVzdHh4NC1KNzdiVlByQUtPelV3QXMtM0NaYlBvdHdTTElXanNXckxsTXJZTlVfTG9pWVVuRGFrZ3VTeGMtNEdhemd3WGVWM3B2UjRXSjM3RVRoRmx3LVNyVzMyQ1EyRm1GZmdnMFU4anRFZVF5TF92RFROdVhqbXh2TEVoMVhzdUhHWnlQdVdSUU84QU5tOHhyMXJtSFByeGc?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ وفد من القسمين الاقتصادي والسياسي بالسفارة الأمريكية بالمغرب يزور ميناء الداخلة - 24saa.com 🔗<a href="https://news.google.com/rss/articles/CBMivAJBVV95cUxQWVNabWJIT29yb3I2QTd3TkZNSGh0T1pNWGhCNlY0MGRGbTNYalFjZDV0QTJkVC1FS3pydXNrMWNWTEhxc2I5X3ZvVEgxUkUtaTkwZE5vbUpJRVhnZEE0ZjNlMEc4Mld3T3V5NzJWNlNUQTBvbmpNQmFmTnVVd0tYcU1mTG5Mdjg4dW1yX18ybUkzZkRWTGVqS0lhNFA5dHNaZEkyeDRNY0kyR2lqNEJ3Z0NfbGlVNTlsaXBxRkRLakI5bG45MXBqdS1FUzNneWNUWmJmVkIzQXg0NTh2TU5MQ2F4MmNEU2phVHgyU0w4R1FzZDEwcUZ6MWJzbDU2WFpnNUsyVWNqM3lnWm9HcERTNHEzbEpBWG5xbWhuTHgwUXF4R2dKRmtZZ3NTbUljVFlpQmYxZUVKYkpGbGR2?oc=5">LINK</a>
+‎2️⃣ زيارة وفد أمريكي لميناء الداخلة الأطلسي تبرز رهانات المشروع الاقتصادية والاستراتيجية - تليكسبريس - تليكسبريس 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9CRElLbkstanBlcHVDNVBoUGtOZVlETzJCZDNpbUlGdDR1S1BjSnkzWjlHNTlvT3c0bFJUNGJVZTNsMXVqT0NmVy1Gb9IBU0FVX3lxTE9HMHQwNERWN3NpYkVKN2x3QWhVRHppbkhFak5feGFBU3hoeFZDa2k3NmRSSkdrOFB0YUJTajBHTlJENkJSOWMwRWZiekR3amNxaWRr?oc=5">LINK</a>
+‎3️⃣ منطقة لوجستيكية جديدة بالعركوب تواكب التحول المنتظر مع ميناء الداخلة الأطلسي - Albahr info 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE9DTU1MWXNka3hsWGhpVUpjTHdkck5CQVlDeXkybFpYazk1QUsyY3JnYjg3LXRLaEwzMTBKM3RZRXlySC1iMXc?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Dakhla Atlantique 2026 : Le Port Géant qui Force le Sahel à Redessiner la Carte du Commerce ! 🔗<a href="https://www.youtube.com/watch?v=e4l9WVI3yHk">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado varios titulares relacionados con el Puerto de Dakhla Atlantique. Un titular destaca la visita de un grupo de la sección económica y política de la embajada estadounidense en Marruecos al puerto, lo que resalta las apuestas económicas y estratégicas del proyecto. Otro titular menciona la creación de una zona logística en el área de Arga para acompañar el cambio esperado con el puerto de Dakhla Atlantique.
+
+Además, se ha publicado un artículo que habla sobre el puerto de Dakhla Atlantique como un proyecto que obligará a rediseñar la carta del comercio en la región del Sahel. También se ha mencionado la recuperación territorial y el desafío económico en la región de Oued Eddahab en relación con el puerto de Dakhla Atlantique.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
