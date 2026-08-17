@@ -657,3 +657,46 @@ Los titulares también destacan que esta visita sigue a la manifestación de int
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-17</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-17
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-17)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique: les États-Unis renforcent leur présence économique dans le Sud marocain - lareleve.ma 🔗<a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTFBtOWQxWUJmNk9NYXlJTWRIWVNveDlVUWh2Q05EN21Gby01VVN1WkJYeFpTdnYzY3ZQTFUyV2MwS24?oc=5">LINK</a>
+2️⃣ Les ports de Dakhla et Nador pas encore lancés, l'Europe pense déjà à leur mettre des bâtons dans les roues - Bladi.net 🔗<a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQVnNieVkxLUtoeWJLbDFLdTFUUHdUcmQyNFdTaUh0ak84MnNEUUtLZk9uVnkwd1JZNnlEdEhrS1pCS3hHa2ZCbHZFRWViVTZtaG1zSlAxWTZLVW9XdkhRMFlpOV9WWnJaaDB4ODNteTYyV3E1azFwT01VVEZrTDZmTTZQd2FMTVlzS0YxeGdn?oc=5">LINK</a>
+3️⃣ Après Laâyoune, les États-Unis affichent leur intérêt pour le port atlantique de Dakhla - Hespress Français - Actualités du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEdQWklSRnNHYW9WRkRiaG0wbDRhVFJVMFJrV3FPSHBKSTI0QmFUSVA4WnZXY2VleF9tYjdZMm5zWF84OXNXRTVqUVRIbmZFbzczaG1iOEhqdE5DYkVINGVuYzBxX0FkYmRMVFUzbF9GVjFTQVRlU2dlTTVTT2RjLVk1aWl1TmQwd3VTRWk2aEdyZkNyc25zZzZRS0UzTG92X1k1MHN4alhKNzNWMGpFdWJtLXY3dFVMY1RoUnZ6Yw?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ وفد من السفارة الأمريكية يزور ميناء الداخلة الأطلسي - الصحيفة 🔗<a href="https://news.google.com/rss/articles/CBMixwJBVV95cUxON3VDMzRZdHZicV8yS0k1bS03MUMtV0RHQURDd1BYbDdBWTZJRk02c3dTWmExZTVhbWRycDRzQ09ja1JlNFJxLUNla0FLOXdMYmI3dkRCUnBSMEUyZ2VWaTZsM1l2UFdVNmJJRExxaTNNZVFkMGwwb0NaWkhFa01PSEJhOU5JcHRZRzN5R2Q0ZUJsX0ppbnhrSzlwVXM3Q2VEN2c2S2dlMVRzYTU5emx0QlBSazltM01Xa3I1SlVCVGNJaUNXX1lfSmVMdjQwSDc1YTFFZGFLOHZJN3haSUNmZmEtX0MxTFhSTmpOWmNMdDM0bmNSMzhvS1UwOVFuZk0tY1ZvNm9HYkxVMnRqWWJsU2lCd29hNjBqR0ZPVThCR2N6aWplZ0JKYkx2aGtWWmVTbzVxcXRzTEpnQzhnR0ZaWDVQb1p0VW8?oc=5">LINK</a>
+‎2️⃣ وفد من السفارة الأمريكية يزور ميناء الداخلة الأطلسي - mcg24.com 🔗<a href="https://news.google.com/rss/articles/CBMirANBVV95cUxQTjcxWjhoaVJycWMyR0hlTXNxZjdjQVdlUm9ERjRNTWdoLWlERi14VnhNZ1R5Q18zMUN6VDZWMEVjMW1xTlNLSTFUS2lZQ09YTEZIRGFidzg5T21wTnlYQmw5c0xzbkN1TERsR0tMdEgwcE5NRDFaZTBjU3RINTZ4dkdNZEhPWG1ZZGcyUEJrLTQ1bUtRS1FvSmg0RGJQR1RIU01XenI3NUFaRHl6RGJDdTh2cG5VOFVCV0RjUUJiWHh0YU9sdEQ0cHp6N24yV1I2bUVucDJOMzRPNy1RVmpTMEJPakJFNmItbGw5R05tNngweEJ3VjJhUVQ1ZTZGNUtET2t0LXI4U0N6dlIzSDIxcGNFZUl5eGoxaHhEMWY1cEUzZ1ByOVdRU1BfdG9Nb1Azcl9scW40OVFFYzlmaElZS1dmNDYxOXF5TEJoQ1V0OU1zNkhuMDlMVHk0U0FmLVRlNkpxVlNVSW1LOHJSUzFNVVhhTGhJcWxvSFJjV1hGV1ctNy1XdFA2NFJKWVZFZzJxRkVfM3VfY3hVTkpCOGl5MW5CUzMzTHJISXVjaA?oc=5">LINK</a>
+‎3️⃣ بالصور.. وفد من السفارة الأمريكية يزور ميناء الداخلة الأطلسي - مشاهد 24 🔗<a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTY2hSZEgxMVFOWUNjZmQ1cVo4WVh2NHhYWi1HUENGV2s0U1hXOElIWjNPMXFOUjhOWDBkUFY0b2p6UzhQZG0ycVR2bXl1bWVlMjZfa2pFSQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ US Embassy team visits Dakhla Atlantic Port as Washington expands economic engagement - HESPRESS English - Morocco News 🔗<a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDVCckstOUU1WHBxY3BkanF1LXBtRVkyV1VLcGE4XzFKQ2pRbDdqUjBBbzd0WXpIcXpiaENGZ0hOS3JrR19jNHBranB0UjZsOVpTZ1BCRmZIMU5ULXJsX0p4RXdoUXRwYV9tNVJjWGJxRzlqT3l5NjJtU1E1VDE3TXR5Tll0SXZ3UEJvUFY1OWo3V0FnaGVxNXBVT1Q0UGF4OUNjQ19GalVOXzk3SEZuTlhmZkRZMlZ4NEpiOTRB?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة يجذب أمريكا.. استثمار أم رسالة سياسية؟ 🔗<a href="https://www.youtube.com/watch?v=zqcVNbwpcFI">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado varios titulares relacionados con el Puerto de Dakhla Atlantique. Según estos titulares, los Estados Unidos están reforzando su presencia económica en el sur de Marruecos, específicamente en el Puerto de Dakhla Atlantique. Un equipo de la embajada estadounidense ha visitado el puerto, lo que sugiere un interés por parte de los Estados Unidos en la región.
+
+Además, se menciona que el puerto de Dakhla, al igual que el de Nador, no ha sido lanzado aún, pero ya hay especulaciones sobre posibles obstáculos que podría enfrentar por parte de Europa. También se destaca que los Estados Unidos han expresado su interés por el puerto atlantico de Dakhla después de mostrar interés por Laâyoune.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
