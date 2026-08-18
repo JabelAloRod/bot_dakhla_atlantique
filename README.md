@@ -700,3 +700,43 @@ Además, se menciona que el puerto de Dakhla, al igual que el de Nador, no ha si
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-18</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-18
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-18)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Les ports de Dakhla et Nador pas encore lancés, l'Europe pense déjà à leur mettre des bâtons dans les roues - Bladi.net 🔗<a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQVnNieVkxLUtoeWJLbDFLdTFUUHdUcmQyNFdTaUh0ak84MnNEUUtLZk9uVnkwd1JZNnlEdEhrS1pCS3hHa2ZCbHZFRWViVTZtaG1zSlAxWTZLVW9XdkhRMFlpOV9WWnJaaDB4ODNteTYyV3E1azFwT01VVEZrTDZmTTZQd2FMTVlzS0YxeGdn?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ وفد من السفارة الأمريكية يزور ميناء الداخلة الأطلسي - mcg24.com 🔗<a href="https://news.google.com/rss/articles/CBMirANBVV95cUxQTjcxWjhoaVJycWMyR0hlTXNxZjdjQVdlUm9ERjRNTWdoLWlERi14VnhNZ1R5Q18zMUN6VDZWMEVjMW1xTlNLSTFUS2lZQ09YTEZIRGFidzg5T21wTnlYQmw5c0xzbkN1TERsR0tMdEgwcE5NRDFaZTBjU3RINTZ4dkdNZEhPWG1ZZGcyUEJrLTQ1bUtRS1FvSmg0RGJQR1RIU01XenI3NUFaRHl6RGJDdTh2cG5VOFVCV0RjUUJiWHh0YU9sdEQ0cHp6N24yV1I2bUVucDJOMzRPNy1RVmpTMEJPakJFNmItbGw5R05tNngweEJ3VjJhUVQ1ZTZGNUtET2t0LXI4U0N6dlIzSDIxcGNFZUl5eGoxaHhEMWY1cEUzZ1ByOVdRU1BfdG9Nb1Azcl9scW40OVFFYzlmaElZS1dmNDYxOXF5TEJoQ1V0OU1zNkhuMDlMVHk0U0FmLVRlNkpxVlNVSW1LOHJSUzFNVVhhTGhJcWxvSFJjV1hGV1ctNy1XdFA2NFJKWVZFZzJxRkVfM3VfY3hVTkpCOGl5MW5CUzMzTHJISXVjaA?oc=5">LINK</a>
+‎2️⃣ الداخلة تدخل الحسابات الكبرى.. ميناء الأطلسي يطرق أبواب واشنطن من بوابة الاقتصاد - الميادين نيوز 🔗<a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GUDNObFRrTWpMMVA1dmx1U2JpamFVNDBoNGhnOGtJbnRUcTREQlVVWW9yYVV1Q3Z5MWxaUzMtOGVCcTJ2SVlVZkt2a3pCTnhfV0djVWZ3?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة الأطلسي.. حين تتحول الجغرافيا إلى رافعة للاقتصاد الأزرق والانفتاح على إفريقيا - إيكوبريس 🔗<a href="https://news.google.com/rss/articles/CBMinwJBVV95cUxPelVGeU1JVEYwMlc3VkpFSzVtVWh6WURCeDNKZVBpUHBDQkctUklwNHBuTHBnWUFvZy1iZ0JYTU1nU2lwcWYyTGpzSzRzT2lJZHRJQW1vRFFvd2N5RnlaWHdLdEF6dWxRZlIyQVVIdl9jSEtkX3F5NkRhWHFZQ3BzZGpvb0tKc0FDWXVwdVh5Q1VaRmxzcktXcExLVmx5VU01YkRaREhWQXpCMGxHdDlSalFTYXdMdnFQRnYxTDBzeHRRVGtINmgtWVRndTA5a29uQzd6S2l4ZElNQWpQVWthMXY4VnNBay1YSkE2MG15S0ZlOXBTMEV1d254a2Fmby1LTElqSnVOTG93bkFBM3E0RGE5cjZJV2E3TDVHN2JSVQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ Delegation from U.S. Embassy in Morocco Impressed by Dakhla Atlantic Port - The North Africa Post 🔗<a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQODh4QWdlRkg1LXNqQVZlQUNNNm90cExMOVZOajFtUDlvR0prRHZuN0hlWTROQzFNMkdpcjdkX3FHNTBSdzJpNUtfOFoyUkFyZ0J3aWhjclpFa3AzMHI0ZjRiZXNVZERfNUllRi1SdkFBM3lrMGNpU2tYcEJ0VjVzQU9ibGZjMm1Pb1ZtcGVPZWE3LVZCekpNMVVNZF9wekoyX2dxRFRnTzFBVUtvTWQ2bg?oc=5">LINK</a>
+2️⃣ Morocco Wants to Become the Sahel’s Gateway to the Atlantic - Middle East Forum 🔗<a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOR1Npc01XbElfVlVybll5eGtGbEZPQmN2TkpVV1FhSWF2T20yV0pldTRySjJaakNlUDBzVWJDNHJLOGk2VHB3eVJMY3JTVHdqWHJ3LWZJbFFrd09zM25OdzJ1d3NCR0Y3LUlhbmtfNkRiamZkU0M5S0UxdmdrMnVpb2FNUV92OGUxeXEybFppbGZuMEdOemp4T0ZzOA?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
