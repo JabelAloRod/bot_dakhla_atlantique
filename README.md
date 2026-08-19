@@ -740,3 +740,41 @@ No se ha podido generar el resumen automático hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-19</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-19
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-19)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ العركوب تعزز بنيتها اللوجستيكية استعدادا للتحول الاقتصادي المرتقب - العيون الآن 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbmcxTE5NajRXRW5Xa1VILUpUQk5Ld0pSWGpJOFV3MGd2RHlibDZjaHMtb0ZLTlQtMFZTa2tHUE55ZnhNV1VrMTFGWnp6OWJRcl9fakhKaW1JNV83Q2tBMzZ1U01aZTlsLWkxcXVNWFZfOGI0VlMxS29WVEdiQmg4Vl9iUVFkMHVjSmxYMU5nYlR4OFZUTGlKRHZacWpXRTRlaE54TnktRXRJNndUZzczemJCWmk1cllUcVV6RlhyZGVaWURLTDVMTndoQXlCbVVCbm12NlJmYmU0ZGxMRkxzZW9JRERTVF85Vm9WeVVHMWhKM3NJNVBBV19qRXZRVjlFTXRWSGhCSVdRNFo1OERZcFNJV1FoOEdZcWdhZ0p6T1VnMVktSy1XNXh6VUpoelJoQ1FtQ0pwbUdoQ3Z3RHNPNm1oZw?oc=5">LINK</a>
+‎2️⃣ بركة من الداخلة: الاستقلال يستند إلى شرعيته التاريخية ويعلن استعداده لمرحلة الحكم الذاتي - siyassi.com 🔗<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNV0JOS0llQjNfSl9FVHNhOTVGRjgyS0p4aTQtdnplSlgyZVZieEk3ZWNxc3JibjE5OVA3NERfRWQzVngtQTZ0NjVQeDl6R280a0NCQVlOZ3hHT28tR0dKYk9GTVdZbF9IdUdRSEgwRkEyRGFmXzlOR1NnTFJSRkc1c2xKMy0xcEd1Rk9kc1BsVk52eUZpeDlUa0I5TGxybVRS?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
