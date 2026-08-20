@@ -778,3 +778,40 @@ No se ha podido generar el resumen automático hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-20</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-20
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-20)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Gestion portuaire : l’ANP devient “Ports du Maroc S.A.” - LesEco.ma 🔗<a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNS1NZSzhuUVVaMVVLR0hTTUJDX0NrMDJlUUtaalpuX2k0MW40bjhLajF0LTMxeGRsVXNJWjRjTk5WN3ExM0pFWDQ1NjBRdVFGYTNwR2oydVloYmRGWTFuTEVuV3RfX29vS1pJNkFyWXpKcF9BRzJKNjF3a2VMYUNNWXM4RkM?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ⚓ Dakhla Atlantique : Le Mégaport 100% Automatisé qui va Paralyser la Concurrence 🔗<a href="https://www.youtube.com/watch?v=PVO6qZuHgSM">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
