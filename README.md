@@ -963,3 +963,40 @@ No hay noticias que resumir hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-25</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-25
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-25)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ عملاق الأطلسي ينهض جنوب المغرب.. 12.6 مليار درهم تحول الداخلة إلى بوابة لإفريقيا - alalam.ma 🔗<a href="https://news.google.com/rss/articles/CBMi5ANBVV95cUxQNC1lTGt3YTVGWnB2Y3F6bUNEZXY3dDZaS0RqU3ZsQy16bW1RZEg2NlhrR3RoSjI2LWxIMnFBU1ROdjFUZWNaVV9Yb29ZRHJNeVJfTXdhbk44aWwzdnBkYVJSSjVJamZZZTlYRVRFQXpUWF81UjNERWFFbVJSMUVfWkxINDYzd2RHaWk3MFl1ZHJ3emd0V3hNTUdUQUdtWGcxMnAyV0l3aENhRUJXWFQ0eTFPYWpLMHl4a0ZYWjFNUUN1Ykc1MWdDbHN6SllVU0Q5cGpXcDQxb3lMY0wxZ1FFUkdkbjA1T3pwbVZNZDVGNndqVFRndkdBa0s4VUQxbDlTbU1EVTJvX1dHeWhtVFloWGNqeHNFdl8zcjdXRGxRdXNzTWVzNzZBOTF5MmhQQjBKTjJEeFNDYmVMdk5iXzdCRWZGV3pGdmM3bXcyMl9BSkg4LXRXalZQQTZiZVRtczhaemZ4VjNqS05mNk9CbC12dnNtVEtrUjhleTYxWV9CZ2xfeUdqOVlFMUFMNDdDMHR6dnRMWXdodklMX1Bib3p4UnVxN1VUUkJwQnRicS1hOXBOalVrckVLTWRqRngxRktISGVtdU1xcHBQWE1ielpUcDZodHdKTmRfZlg4dFJfODBhUnRD?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ The Sahara viewed from the Canary Islands: autonomy on the horizon - Atalayar 🔗<a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVTNNWHR2cE9abW9oTnZlN1NGbVk2NFNrMmtQUFV2ZTJwbjlvTXI0NU5iZVZVSzAzUTVkeVdhZDBtNFd0WHNFWjRJakFlTmhvQW5kYUVsMm14X0plYTBOOEEweFdtV2JKckRNWmdRTG5mbEFELWl5Y0FkZ2ZBSkFWSVZTN0lSUGlfdmExdzMtcUY5VFBoNTZRQ3J2Ym9ueUtjRVJYQU1GUkZCR25nVjFUUThLNlNEZ3dmdnVNYy1DZ3gzOEhMV05BMDhfZVJHZVJETUQtNzVUaEU2UGFSc3fSAd4BQVVfeXFMUFUzTVh0dnBPWm1vaE52ZTdTRm1ZNjRTazJrUFBVdmUycG45b01yNDVOYmVWVUswM1E1ZHlXYWQwbTRXdFhzRVo0SWpBZU5ob0FuZGFFbDJteF9KZWEwTjhBMHhXbVdiSnJETVpnUUxuZmxBRC1peWNBZGdmQUpBVklWUzdJUlBpX3ZhMXczLXFGOVRQaDU2UUNydmJvbnlLY0VSWEFNRlJGQkduZ1YxVFE4SzZTRGd3ZnZ1TWMtQ2d4MzhITFdOQTA4X2VSR2VSRE1ELTc1VGhFNlBhUnN3?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ The Sahara viewed from the Canary Islands: autonomy on the horizon - Atalayar 🔗<a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMGc1YXlZNExleGtZTHQzUHkzS2RrWWwxQjlHaGdxOUU5ODl5V0lIanM5NlJIeEk5UjZvYktJV3FPRkFzbnpwTW1HYlFNb3VvSmFQT2xvTmlrMG1NTTNJMkZxY2o4V21FMmtpNUo3dUpWNGgwY0VEdkFOTHJDTE9JSkpUSDY0RzQ0VXJLSjd4bUFVSEMzWTdZTjRqUG5la1NWUHMtM3liQk8wRy1INERlNFFXQUJhVDh3aTdKazFyWW9QN0IxSVhEMDVRRUU3c3JWRVpHWlEzU2PSAd4BQVVfeXFMUFUzTVh0dnBPWm1vaE52ZTdTRm1ZNjRTazJrUFBVdmUycG45b01yNDVOYmVWVUswM1E1ZHlXYWQwbTRXdFhzRVo0SWpBZU5ob0FuZGFFbDJteF9KZWEwTjhBMHhXbVdiSnJETVpnUUxuZmxBRC1peWNBZGdmQUpBVklWUzdJUlBpX3ZhMXczLXFGOVRQaDU2UUNydmJvbnlLY0VSWEFNRlJGQkduZ1YxVFE4SzZTRGd3ZnZ1TWMtQ2d4MzhITFdOQTA4X2VSR2VSRE1ELTc1VGhFNlBhUnN3?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
