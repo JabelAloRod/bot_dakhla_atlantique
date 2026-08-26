@@ -1000,3 +1000,41 @@ No se ha podido generar el resumen automático hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-26</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-26
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-26)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ 🌍🇲🇦 LE MAROC OUVRE UNE NOUVELLE ROUTE VERS L&amp;#39;AFRIQUE : Le plan qui change tout ! 🔗<a href="https://www.youtube.com/watch?v=HUIrpy3OA5I">LINK</a>
+2️⃣ PORT DE BÉJAÏA : Voyageurs Rackettés par les Douanes .. À l&amp;#39;Entrée en Algérie !! #corruption #douane 🔗<a href="https://www.youtube.com/watch?v=dK6g2DdPR80">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
