@@ -1038,3 +1038,42 @@ No se ha podido generar el resumen automático hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-27</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-27
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-27)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ المغرب بوابة بين آسيان وإفريقيا عبر الموانئ والطاقة والرقمنة - attasiaa.com 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxOTktFN1dDNjhIRmpWZ015b1ZzRmZ6OFJmRF82bEg1dEJuaFBiRGNPMmtOLXgzcThZelhKSUdvMHBNUGJyR2t1NWZiNU5WbF91Y0FjVGZMOXFmSmwtM0huTk5vdWN5MUhXdkVuUlNyMEZTTnBQNlVlbUtjUjh5S0Q4UXlxSEVoQjNWRWI0T2laSUJBZ2FGSnFYdFJ0b3F2bVZTRzNpSzV5NzJ6ZWdjc1RXeERsT2xYRVRKQVM0RVl2T2R5VkpmaTQwQzIzU2hsSWdiLU55WG1aQm1vTmhBYzFUVVc3N2NWMkhkdElLZlVycmJwU0JtT1JYdWZWVmNLVnJ5MDAySUtBc01fTFpIYTc0cW52bTdGaXpEVFZGcXd5Q1dXMGxoajVrVFc5ZGRxYkg3YnBfWUNKU2xEZzZHTG1acm13?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ أسرار المبادرة الأطلسية 🇲🇦🇪🇲 | الجزء الأول: الخدعة المغربية لفرنسا! 🔗<a href="https://www.youtube.com/watch?v=gWBfukmEKJs">LINK</a>
+2️⃣ 🌍🇲🇦 LE MAROC OUVRE UNE NOUVELLE ROUTE VERS L&amp;#39;AFRIQUE : Le plan qui change tout ! 🔗<a href="https://www.youtube.com/watch?v=HUIrpy3OA5I">LINK</a>
+3️⃣ PORT DE BÉJAÏA : Voyageurs Rackettés par les Douanes .. À l&amp;#39;Entrée en Algérie !! #corruption #douane 🔗<a href="https://www.youtube.com/watch?v=dK6g2DdPR80">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
