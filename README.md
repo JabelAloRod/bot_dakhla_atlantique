@@ -1114,3 +1114,40 @@ No se ha podido generar el resumen automático hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-08-29</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-08-29
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-08-29)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla: plus de 600 entreprises créées à fin mai (OMPIC) - H24info 🔗<a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9BV2drRDdUdXJ0MlY2VWxVeUVsbTNJZWhnb1FmZjk4N192cTZJQjRqUXFJdVczUlJNTXI4bTBoWHZ3N01fNnZsY0p5b3I4MlVIWWdxOXZVS1pST2pNZVpYQ1dxV29jT18zZ0R0YVdSZzFDLVk?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الجغرافيا تعزز أوراق المغرب أمام أوروبا.. جخا: الرباط ترفض لعب دور “الحارس الحدودي” للقارة - العمق المغربي 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE4zZ0UwaFZuV1NHM3R2TmQ0end0VkRWRko1LV9Yd0Jhb0xtMEhCa284TmJERUZHLXJMRUhlUXpzSHo0QjFFTGc?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
