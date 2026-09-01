@@ -276,6 +276,32 @@ async def comando_resumen_mensual(update: Update, context: ContextTypes.DEFAULT_
         await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
 
 
+async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Comando /registro-historico: muestra los años disponibles."""
+    datos = obtener_datos_registro()
+    if not datos:
+        msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
+        if update.callback_query:
+            await update.callback_query.answer(msg, show_alert=True)
+        else:
+            await update.message.reply_text(msg)
+        return
+
+    keyboard = []
+    for year in sorted(datos.keys(), reverse=True):
+        keyboard.append([InlineKeyboardButton(f"📂 Año {year}", callback_data=f"year_{year}")])
+
+    keyboard.append([InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")])
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    texto = "📌 *Registro Histórico Dakhla Atlantique*\n\nSelecciona el año:"
+
+    if update.callback_query:
+        await update.callback_query.answer()
+        await update.callback_query.message.edit_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
+    elif update.message:
+        await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
+
+
 async def comando_exportar(update: Update, context: ContextTypes.DEFAULT_TYPE):
     datos = obtener_datos_registro()
     if not datos:
@@ -348,11 +374,11 @@ def iniciar_reloj_disparo_diario():
             hoy = ahora.strftime("%Y-%m-%d")
             if ahora.hour == HORA_ENVIO_OBJETIVO and hoy != ultimo_dia_disparado:
                 logger.info(f"Reloj interno: son las {ahora.strftime('%H:%M')} en Canarias, disparando el reporte diario.")
-                ok, _ = disparar_workflow_github(modo="automatico")
+                ok, motivo = disparar_workflow_github(modo="automatico")
                 if ok:
                     ultimo_dia_disparado = hoy
                 else:
-                    logger.error("El reloj interno no pudo disparar el workflow; se reintentará en el siguiente minuto.")
+                    logger.error(f"El reloj interno no pudo disparar el workflow: {motivo}")
         except Exception as e:
             logger.error(f"Error en el reloj de disparo diario: {e}")
         time.sleep(60)
