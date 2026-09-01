@@ -50,28 +50,45 @@ GROQ_MODEL = "llama-3.3-70b-versatile"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
-def preguntar_ia(prompt):
-    """Llama a Groq. Devuelve None si falla o no hay API key configurada."""
+def preguntar_ia(prompt, intentos=3):
+    """Llama a Groq. Reintenta ante fallos transitorios (red, límites
+    temporales, timeouts) antes de rendirse. Devuelve None si falla tras
+    todos los intentos o si no hay API key configurada."""
     if not GROQ_API_KEY:
         return None
-    try:
-        res = requests.post(
-            GROQ_URL,
-            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
-            json={
-                "model": GROQ_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.5,
-            },
-            timeout=30
-        )
-        if res.status_code != 200:
-            print(f"Error llamando a la IA (Groq): HTTP {res.status_code} - {res.text}")
-            return None
-        return res.json()["choices"][0]["message"]["content"]
-    except Exception as e:
-        print(f"Error llamando a la IA (Groq): {e}")
-        return None
+
+    ultimo_error = None
+    for intento in range(1, intentos + 1):
+        try:
+            res = requests.post(
+                GROQ_URL,
+                headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+                json={
+                    "model": GROQ_MODEL,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.5,
+                },
+                timeout=30
+            )
+            if res.status_code == 200:
+                return res.json()["choices"][0]["message"]["content"]
+
+            ultimo_error = f"HTTP {res.status_code} - {res.text[:300]}"
+            # Si es un límite de peticiones (429) o un error temporal del
+            # servidor (5xx), esperamos un poco y reintentamos; el resto de
+            # errores (clave inválida, etc.) no se van a arreglar reintentando.
+            if res.status_code not in (429, 500, 502, 503, 504):
+                break
+
+        except Exception as e:
+            ultimo_error = str(e)
+
+        if intento < intentos:
+            print(f"Aviso: intento {intento}/{intentos} de llamada a la IA (Groq) falló ({ultimo_error}). Reintentando...")
+            time.sleep(3 * intento)  # espera creciente entre intentos
+
+    print(f"Error llamando a la IA (Groq) tras {intentos} intentos: {ultimo_error}")
+    return None
 
 
 def resolver_url_real(url):
@@ -528,6 +545,110 @@ def construir_bloque_resumen_ia(texto_para_ia):
 # ==========================================
 # FLUJO PRINCIPAL
 # ==========================================
+MESES_NOMBRE = {
+    "01": "Enero", "02": "Febrero", "03": "Marzo", "04": "Abril",
+    "05": "Mayo", "06": "Junio", "07": "Julio", "08": "Agosto",
+    "09": "Septiembre", "10": "Octubre", "11": "Noviembre", "12": "Diciembre"
+}
+
+
+def construir_dia_readme(fecha, dia_data):
+    """Reconstruye el bloque <details> de un día para el README, a partir de
+    los datos ya guardados en registro.json (no de un texto generado aparte),
+    para que README y JSON estén siempre perfectamente sincronizados."""
+    items = dia_data.get("items", [])
+    resumen_ia_texto = dia_data.get("resumen_ia", "")
+
+    prensa = [it for it in items if it.get("categoria") == "Prensa"]
+    radio_pod = [it for it in items if it.get("categoria") == "Podcasts y Radio"]
+    youtube = [it for it in items if it.get("categoria") == "YouTube"]
+
+    cuerpo = f"🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> ({fecha})\n\n"
+
+    # Prensa, agrupada por idioma
+    cuerpo += "📰 <b>Prensa Escrita Internacional</b>\n\n"
+    for idioma in IDIOMAS_ORDEN:
+        items_idioma = [it for it in prensa if it.get("idioma") == idioma]
+        bandera = BANDERA_IDIOMA.get(idioma, "🌐")
+        cuerpo += f"{bandera} <b>{esc(idioma)}</b>\n"
+        if not items_idioma:
+            cuerpo += "• No hay noticias\n\n"
+            continue
+        for i, it in enumerate(items_idioma, start=1):
+            cuerpo += linea_item(i, it["titular"], it["link"], idioma=idioma)
+        cuerpo += "\n"
+    cuerpo = cuerpo.rstrip() + "\n\n"
+
+    # Podcasts y Radio
+    cuerpo += "🎙️📻 <b>Podcasts & Radio</b>\n\n"
+    if not radio_pod:
+        cuerpo += "• No hay noticias\n"
+    else:
+        for i, it in enumerate(radio_pod, start=1):
+            cuerpo += linea_item(i, it["titular"], it["link"])
+    cuerpo = cuerpo.rstrip() + "\n\n"
+
+    # YouTube
+    cuerpo += "📺 <b>YouTube & Vídeos</b>\n\n"
+    if not youtube:
+        cuerpo += "• No hay noticias\n"
+    else:
+        for i, it in enumerate(youtube, start=1):
+            cuerpo += linea_item(i, it["titular"], it["link"])
+    cuerpo = cuerpo.rstrip() + "\n\n"
+
+    # Resumen de IA
+    cuerpo += "🤖✨ <b>Resumen Diario de la IA</b> ✨🤖\n\n"
+    cuerpo += resumen_ia_texto if resumen_ia_texto else "No hay resumen disponible para este día."
+    cuerpo += "\n\n🤖 Informe generado por Mamé el Bot 🤖"
+
+    return (
+        f"<details>\n<summary>📅 <b>{fecha}</b> — pulsa para ver el reporte completo</summary>\n\n"
+        f"{cuerpo}\n\n</details>\n"
+    )
+
+
+def regenerar_readme(registro):
+    """
+    Reconstruye el README.md ENTERO a partir de registro.json, organizado por
+    año > mes > día (los más recientes primero). Al regenerarlo entero cada
+    vez, en vez de solo añadir texto al final, se elimina de raíz el riesgo de
+    duplicados (por ejemplo, al forzar el reporte varias veces el mismo día) y
+    se garantiza siempre el mismo orden y agrupación.
+    """
+    cabecera = (
+        "# 📌 Registro Histórico de Noticias - Dakhla Atlantique\n\n"
+        "Este repositorio contiene el registro automatizado de noticias publicadas sobre "
+        "el puerto de Dakhla Atlantique, recopiladas diariamente en español, francés, "
+        "árabe e inglés desde prensa, YouTube, radio y podcasts.\n\n"
+        "Los datos estructurados (los que usa el bot de Telegram para `/registro-historico` "
+        "y `/exportar`) se guardan en [`registro.json`](./registro.json). Este README es la "
+        "versión legible para humanos, organizada por año, mes y día.\n\n"
+        "---\n"
+    )
+
+    # Agrupar las fechas por año y mes
+    por_anio_mes = {}
+    for fecha in registro.keys():
+        partes = fecha.split("-")
+        if len(partes) != 3:
+            continue
+        anio, mes, _ = partes
+        por_anio_mes.setdefault(anio, {}).setdefault(mes, []).append(fecha)
+
+    cuerpo = ""
+    for anio in sorted(por_anio_mes.keys(), reverse=True):
+        cuerpo += f"\n## {anio}\n"
+        meses_anio = por_anio_mes[anio]
+        for mes in sorted(meses_anio.keys(), reverse=True):
+            nombre_mes = MESES_NOMBRE.get(mes, f"Mes {mes}")
+            cuerpo += f"\n### {nombre_mes}\n\n"
+            for fecha in sorted(meses_anio[mes], reverse=True):
+                cuerpo += construir_dia_readme(fecha, registro[fecha]) + "\n"
+
+    return cabecera + cuerpo
+
+
 def main():
     print("Iniciando rastreo del Puerto de Dakhla Atlantique...")
     print(f"Tipo de ejecución: {'MANUAL (forzada)' if EJECUCION_MANUAL else 'programada (cron)'}")
@@ -551,7 +672,7 @@ def main():
     contenido_readme = cargar_readme()
     registro_json = cargar_registro_json()
 
-    ya_enviado_hoy = fecha_hoy in registro_json or f"### Registro {fecha_hoy}" in contenido_readme
+    ya_enviado_hoy = fecha_hoy in registro_json
     if not EJECUCION_MANUAL and ya_enviado_hoy:
         print(f"El reporte de hoy ({fecha_hoy}) ya se envió anteriormente. Se omite esta ejecución.")
         return
@@ -587,11 +708,22 @@ def main():
 
     # 4. Construir el reporte completo. Se envía SIEMPRE, aunque no haya
     # novedades, mostrando "No hay noticias" en las secciones vacías.
+    # El resumen de IA se calcula UNA sola vez aquí (y se reutiliza tanto
+    # para el mensaje de Telegram como para guardarlo en registro.json),
+    # para no duplicar llamadas a Groq.
+    if texto_para_ia.strip():
+        resumen_ia_texto = generar_resumen_general_ia(texto_para_ia)
+        bloque_resumen_ia = "🤖✨ <b>Resumen Diario de la IA</b> ✨🤖\n\n"
+        bloque_resumen_ia += resumen_ia_texto if resumen_ia_texto else "No se ha podido generar el resumen automático hoy."
+    else:
+        resumen_ia_texto = ""
+        bloque_resumen_ia = "🤖✨ <b>Resumen Diario de la IA</b> ✨🤖\n\nNo hay noticias que resumir hoy."
+
     reporte = f"🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> ({fecha_hoy})\n\n"
     reporte += construir_bloque_prensa(noticias) + "\n"
     reporte += construir_bloque_podcasts_radio(radios, podcasts_nuevos) + "\n"
     reporte += construir_bloque_youtube(videos) + "\n"
-    reporte += construir_bloque_resumen_ia(texto_para_ia) + "\n\n"
+    reporte += bloque_resumen_ia + "\n\n"
     reporte += "🤖 Informe generado por Mamé el Bot 🤖"
 
     # 5. Enviar a Telegram. Si falla de verdad (no solo "sin novedades"),
@@ -625,20 +757,16 @@ def main():
             "titular": v["titulo"], "link": v["link"]
         })
 
-    registro_json[fecha_hoy] = {"items": items_estructurados}
+    registro_json[fecha_hoy] = {"items": items_estructurados, "resumen_ia": resumen_ia_texto}
     guardar_registro_json(registro_json)
 
-    # 6b. Actualizar historial en README.md (se guarda igualmente, para no
-    # perder lo recopilado aunque el envío a Telegram haya fallado).
-    # Se envuelve cada día en una sección plegable de GitHub (<details>) para
-    # que el README no se convierta en un scroll interminable; la línea
-    # "### Registro {fecha}" se mantiene intacta dentro para que quede como
-    # copia legible de referencia (los datos "de verdad" ya viven en el JSON).
-    with open("README.md", "a", encoding="utf-8") as f:
-        f.write(f"\n\n<details>\n<summary>📅 <b>Registro {fecha_hoy}</b> — pulsa para ver el reporte completo</summary>\n\n")
-        f.write(f"### Registro {fecha_hoy}\n")
-        f.write(reporte)
-        f.write("\n\n</details>\n")
+    # 6b. Reconstruir el README.md ENTERO a partir de registro.json, organizado
+    # por año > mes > día (más reciente primero). Regenerarlo entero cada vez,
+    # en vez de solo añadir texto al final, elimina por completo el riesgo de
+    # duplicados si se fuerza el reporte varias veces el mismo día, y mantiene
+    # siempre el orden y la agrupación correctos.
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(regenerar_readme(registro_json))
 
     if not envio_ok:
         print("El envío a Telegram ha fallado. Marcando la ejecución como fallida.")
