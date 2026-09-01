@@ -1225,3 +1225,41 @@ No hay noticias que resumir hoy.
 🤖 Informe generado por Mamé el Bot 🤖
 
 </details>
+
+
+<details>
+<summary>📅 <b>Registro 2026-09-01</b> — pulsa para ver el reporte completo</summary>
+
+### Registro 2026-09-01
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-01)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla, Nador, Tanger, Casablanca : SGTM empile 35 milliards de dirhams de chantiers - Bladi.net 🔗<a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOZGFyUGZkNzRaTUxZS0RDUFlMdEtjZVF2TkIxYzUtNHYwNzN3dUZnTW8xX1RuUXFMeVhrRUxKQ2xuVl9qdUh3R0loYlZBd1FpQkdlQW8yS3RXQmYycUF2Q0hhUHhVUnZZemZJeFE1ekFqVmx5dzEtVjItT01kWER4LVF1NHVKcHhlaWtPaWtEdlc3WTI3MTR4LVpiYVE5bmRXSzNQV0VuQQ?oc=5">LINK</a>
+2️⃣ Dakhla-Oued Eddahab: la poussée entrepreneuriale portée par les grands chantiers du Sud - Le360 🔗<a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZXhaN2loenlHZHM0MEhVMWppdTQ1ejMwa1FJMnhkTmRabXgtQVRzLWVjQ2NmZHBzQ3EtZnVJaGFiZjZHOVU5YjVjQkl4UnNoUWFaSVF3RHctbXlkT2FsZFdnS180VFF0bXFKdzN6bWJBenVhdVhNWGc3VTNJS1F5TnlUc2kyczVkTzg3ZTU3cGhDV2tzUWkyRVFLcW5sME1vRnZfdFU1M3NNOXJobmYxZTVuN3pWYjU4U2k2bENLbnJXSEFVUDVZOW9admtyN0hkTHZVRk5Tb1ZPNlk?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No se ha podido generar el resumen automático hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>

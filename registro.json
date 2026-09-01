@@ -511,5 +511,23 @@
   },
   "2026-08-31": {
     "items": []
+  },
+  "2026-09-01": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZGFyUGZkNzRaTUxZS0RDUFlMdEtjZVF2TkIxYzUtNHYwNzN3dUZnTW8xX1RuUXFMeVhrRUxKQ2xuVl9qdUh3R0loYlZBd1FpQkdlQW8yS3RXQmYycUF2Q0hhUHhVUnZZemZJeFE1ekFqVmx5dzEtVjItT01kWER4LVF1NHVKcHhlaWtPaWtEdlc3WTI3MTR4LVpiYVE5bmRXSzNQV0VuQQ?oc=5",
+        "titular": "Dakhla, Nador, Tanger, Casablanca : SGTM empile 35 milliards de dirhams de chantiers - Bladi.net"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZXhaN2loenlHZHM0MEhVMWppdTQ1ejMwa1FJMnhkTmRabXgtQVRzLWVjQ2NmZHBzQ3EtZnVJaGFiZjZHOVU5YjVjQkl4UnNoUWFaSVF3RHctbXlkT2FsZFdnS180VFF0bXFKdzN6bWJBenVhdVhNWGc3VTNJS1F5TnlUc2kyczVkTzg3ZTU3cGhDV2tzUWkyRVFLcW5sME1vRnZfdFU1M3NNOXJobmYxZTVuN3pWYjU4U2k2bENLbnJXSEFVUDVZOW9admtyN0hkTHZVRk5Tb1ZPNlk?oc=5",
+        "titular": "Dakhla-Oued Eddahab: la poussée entrepreneuriale portée par les grands chantiers du Sud - Le360"
+      }
+    ]
   }
 }
