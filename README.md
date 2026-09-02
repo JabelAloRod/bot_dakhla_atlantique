@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31685929/README.md)
 # 📌 Registro Histórico de Noticias - Dakhla Atlantique
 
 Este repositorio contiene el registro automatizado de noticias publicadas sobre el puerto de Dakhla Atlantique, recopiladas diariamente en español, francés, árabe e inglés desde prensa, YouTube, radio y podcasts.
@@ -10,6 +9,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 ## 2026
 
 ### Septiembre
+
+<details>
+<summary>📅 <b>2026-09-02</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-02)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يستوقف واشنطن.. ماذا وراء الزيارة العسكرية الأمريكية ؟ - attasiaa.com 🔗<a href="https://news.google.com/rss/articles/CBMiwAJBVV95cUxPaG0wQTFvSERocmd3YVZtQk5rTHcwOUsyX196b0hEYjV4R3hYOEJCTS1kMGZMQjczajZhUWF1Wlhra2JBYkplNjZ0Y1JHZG5nT1JzWTdhNUQ4VHBIUF9QaUMwcVo1WFJpUzlabzF0Ul9Zak5vQjlkRlkxdGdJb0RPWXJWb2IyRXlFbzFCVHY2RjFaTnBaQ2VzSDR1MllNbk8wV2FkQ0szVGhPUmdZSEZ0RmRYOTdSbWE3QVJhMm4yc2t4M2lKZjdsTlZSVUhZUll2RmY4Q3R0a2Fyb1NoeUxwVEJ6dXJLMU10alp5bExPaHNvR1VaUUJTbExSTzEzNVVnZDl5aW0wX0MyRktWR3RPbWdKRXktbkdnZm8zYnZjVzRuMFo5YkN3S3NDbmpIX0llajd4bWRid0hod3BsQ2ZmMw?oc=5">LINK</a>
+‎2️⃣ وفد عسكري أمريكي رفيع يزور ميناء الداخلة الأطلسي - الصحيفة 🔗<a href="https://news.google.com/rss/articles/CBMixwJBVV95cUxPTUt3alFRcmZGNnpmSUpnQzVlTjFSMkt1c1ZieldQODdtMzhBVWJxNWFVRWEtS19XaHNwampvUlRvc0gyZm9aN1BZZGhkTlA5UE1rRXJyUFMyN2xETUxHVGg2eEFOYVIwRzR4d2hvdlh6alVJcGc0V1BwQm9QSkc0MGxCUEVuT0ZCTUQzOVF0YkN4X0hHSTh3NzFlZ3FWZC1UV3RPR0VoMm53UU5sclBIc21MdnNoM2g2WllJSVRmcDhMdjVXNlY4ZFhYaHhtZndmYVZXS2cwM09PQzZBa1Bjb3hGTFZBNlNfaXlPWWwxMEx6eC1ST1pYZDNlUUtGMEdkZXRhQ21jT1JZSUxxSjJzLU9TNE1QOVNSQm0tR0pMd2RteG0zdDUxSkNRb1Q0VGhDNTZ3SU9WX3lVdTFEOXIyQ0dUQk1PZzg?oc=5">LINK</a>
+‎3️⃣ وفد عسكري أمريكي يزور ميناء الداخلة الأطلسي ويطلع على أهميته الاستراتيجية - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNOXJ3dm55LU5qeC1oN3doczJHa3pxMEVmRGJFU2F0TmJyanpLcVdMbl9sV0N2Y2ROd1picmEwclBwZ1F0SnFLOHd3a9IBU0FVX3lxTE9NUXlWTzR3NVp6MlU4cERCTldEUTgwUXRnbWlYUDU5dng0OHkyWWs3dklQVmVJM25vdWNaM19SVTBCX1BQUHpCTXpBZ0lEd0dldTdj?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ US Military Delegation Visits Dakhla Port Amid Deeper Washington Engagement in Sahara - Morocco World News 🔗<a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOaHI0WjZ1LW5mY2tNaHktRUZ2U2pMRVJKUl9oYVJ5Sm5JbVVIZmVqb2d0VTE0d3FhcWRUSVV1eFU2TzNfY1ZtUERkb3R1NXlYVWV0bmRDeWNCaTdSbWNnTHdoZkxNOXdZWmd6emMyd2JqTFkxcGs3QjNMOXdhWjZET1g4V0lORXgxcExzNnE4NUFJaDJqc2hJU1NpTFJ2bXlKdVJxZzRDclYwczhzX0hmZmhFX1gzVzc4M0UxRGFSZVNOd2VROVlhcEtMV2lnNTQ?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
 
 <details>
 <summary>📅 <b>2026-09-01</b> — pulsa para ver el reporte completo</summary>
