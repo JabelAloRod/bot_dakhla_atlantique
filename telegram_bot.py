@@ -183,7 +183,7 @@ def construir_texto_titulares_mes(items_mes):
 
 
 def generar_resumen_mensual_general(texto_titulares, mes_nombre, anio):
-    """Resumen puramente extractivo del mes: sin interpretación ni añadidos."""
+    """Parte 1: resumen puramente extractivo del mes, sin interpretación ni añadidos."""
     prompt = f"""
     A continuación tienes TODOS los titulares recopilados durante {mes_nombre} de {anio}
     sobre el Puerto de Dakhla Atlantique, en orden cronológico.
@@ -203,27 +203,27 @@ def generar_resumen_mensual_general(texto_titulares, mes_nombre, anio):
     return preguntar_ia(prompt)
 
 
-def generar_resumen_mensual_analista(texto_titulares, mes_nombre, anio):
-    """Resumen del mes con perspectiva de analista de inteligencia: conecta
-    hechos y detecta patrones, pero sin emitir juicios ni valoraciones."""
+def generar_valoracion_mensual(resumen_general, mes_nombre, anio):
+    """Parte 2: valoración geopolítica, construida a partir del resumen de la
+    Parte 1 (no de los titulares en bruto) desde la perspectiva de un
+    analista de inteligencia experto en geopolítica."""
     prompt = f"""
-    A continuación tienes TODOS los titulares recopilados durante {mes_nombre} de {anio}
-    sobre el Puerto de Dakhla Atlantique, en orden cronológico.
+    Eres un analista de inteligencia experto en geopolítica del norte de África
+    y el Sáhara Occidental. A continuación tienes el resumen factual de las
+    noticias publicadas durante {mes_nombre} de {anio} sobre el Puerto de
+    Dakhla Atlantique:
 
-    Redacta un resumen con la perspectiva de un analista de inteligencia: organiza
-    la información por temas o actores relevantes, conecta hechos relacionados
-    entre sí y señala patrones o líneas de desarrollo que se repitan a lo largo
-    del mes.
+    {resumen_general}
 
-    Reglas estrictas:
-    - NO emitas valoraciones, juicios personales, opiniones ni predicciones.
-    - No califiques los hechos como positivos, negativos, preocupantes, etc.
-    - Limítate a mostrar relaciones y patrones objetivos entre los hechos
-      publicados, sin añadir información que no esté en los titulares.
+    A partir de ÚNICAMENTE esta información, redacta tu valoración experta:
+    qué significan estos hechos, qué patrones o líneas estratégicas sugieren,
+    y qué relevancia tienen en el contexto geopolítico regional e internacional.
+
+    Reglas:
+    - Basa tu valoración solo en la información del resumen anterior; no
+      inventes datos, cifras ni hechos que no estén ahí.
+    - Aquí SÍ se espera tu interpretación experta y valoración fundamentada.
     - Responde solo con texto plano, sin Markdown ni HTML.
-
-    Titulares del mes:
-    {texto_titulares}
     """
     return preguntar_ia(prompt)
 
@@ -246,28 +246,6 @@ async def comando_resumen_mensual(update: Update, context: ContextTypes.DEFAULT_
     keyboard.append([InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")])
     reply_markup = InlineKeyboardMarkup(keyboard)
     texto = "⚓ *Resúmenes Mensuales — Puerto de Dakhla Atlantique*\n\nSelecciona el año:"
-
-    if update.callback_query:
-        await update.callback_query.answer()
-        await update.callback_query.message.edit_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
-    elif update.message:
-        await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
-    datos = obtener_datos_registro()
-    if not datos:
-        msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
-        if update.callback_query:
-            await update.callback_query.answer(msg, show_alert=True)
-        else:
-            await update.message.reply_text(msg)
-        return
-
-    keyboard = []
-    for year in sorted(datos.keys(), reverse=True):
-        keyboard.append([InlineKeyboardButton(f"📂 Año {year}", callback_data=f"year_{year}")])
-    
-    keyboard.append([InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")])
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    texto = "📌 *Registro Histórico Dakhla Atlantique*\n\nSelecciona un año para consultar los meses disponibles:"
 
     if update.callback_query:
         await update.callback_query.answer()
@@ -666,54 +644,41 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         _, _, year, month = data.split("_")
         clave_mes = str(month).zfill(2)
         nombre_mes = MESES_NOMBRE.get(clave_mes, month)
-
-        keyboard = [
-            [InlineKeyboardButton("▶️ Resumen General del Mes", callback_data=f"resmes_general_{year}_{month}")],
-            [InlineKeyboardButton("🕵️ Valoración de " + nombre_mes, callback_data=f"resmes_valoracion_{year}_{month}")],
-            [InlineKeyboardButton("🔙 Volver a Meses", callback_data=f"resmes_year_{year}")]
-        ]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        texto = (
-            f"⚓ *Resúmenes Mensuales — {nombre_mes.upper()} {year}* ⚓\n\n"
-            f"▶️ *Resumen General del Mes*\n"
-            f"(Resumen de las noticias del mes sin valoración)\n\n"
-            f"🕵️ *Valoración de {nombre_mes}*\n"
-            f"(Resumen de las noticias del mes con enfoque de analista de inteligencia, sin valoraciones)"
-        )
-        await query.edit_message_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
-
-    elif data.startswith("resmes_general_") or data.startswith("resmes_valoracion_"):
-        es_valoracion = data.startswith("resmes_valoracion_")
-        prefijo = "resmes_valoracion_" if es_valoracion else "resmes_general_"
-        year, month = data[len(prefijo):].split("_")
         items_mes = datos.get(year, {}).get(month, [])
-
-        clave_mes = str(month).zfill(2)
-        nombre_mes = MESES_NOMBRE.get(clave_mes, month)
 
         if not items_mes:
             await query.answer("No hay noticias registradas en ese mes.", show_alert=True)
             return
 
-        await query.answer("Generando resumen, puede tardar unos segundos...")
-        await query.message.reply_text(f"⏳ Generando el resumen de {nombre_mes} {year}, espera un momento...")
+        await query.answer("Generando resumen mensual, puede tardar unos segundos...")
+        await query.message.reply_text(
+            f"⏳ Generando el resumen de {nombre_mes} {year} (2 partes), espera un momento..."
+        )
 
         texto_titulares = construir_texto_titulares_mes(items_mes)
-        if es_valoracion:
-            resumen = generar_resumen_mensual_analista(texto_titulares, nombre_mes, year)
-            titulo = f"🕵️ <b>VALORACIÓN DE {html.escape(nombre_mes.upper())} {year}</b>"
-        else:
-            resumen = generar_resumen_mensual_general(texto_titulares, nombre_mes, year)
-            titulo = f"▶️ <b>RESUMEN GENERAL DE {html.escape(nombre_mes.upper())} {year}</b>"
 
-        if not resumen:
+        # Parte 1: resumen general, puramente factual
+        resumen_general = generar_resumen_mensual_general(texto_titulares, nombre_mes, year)
+        if not resumen_general:
             await query.message.reply_text(
                 "⚠️ No se ha podido generar el resumen (revisa que GROQ_API_KEY esté configurado en Render)."
             )
             return
 
-        keyboard = [[InlineKeyboardButton("🔙 Volver", callback_data=f"resmes_month_{year}_{month}")]]
-        mensaje_final = f"{titulo}\n\n{html.escape(resumen)}"
+        # Parte 2: valoración geopolítica, construida a partir de la Parte 1
+        valoracion = generar_valoracion_mensual(resumen_general, nombre_mes, year)
+
+        titulo = f"⚓ <b>RESÚMENES MENSUALES — {html.escape(nombre_mes.upper())} {year}</b> ⚓"
+        parte1 = f"▶️ <b>RESUMEN GENERAL DEL MES</b>\n\n{html.escape(resumen_general)}"
+        parte2 = (
+            f"🕵️ <b>VALORACIÓN DE {html.escape(nombre_mes.upper())}</b>\n\n{html.escape(valoracion)}"
+            if valoracion else
+            "🕵️ <b>VALORACIÓN DE " + html.escape(nombre_mes.upper()) + "</b>\n\n⚠️ No se ha podido generar esta parte."
+        )
+
+        keyboard = [[InlineKeyboardButton("🔙 Volver a Meses", callback_data=f"resmes_year_{year}")]]
+        mensaje_final = f"{titulo}\n\n{parte1}\n\n{'─' * 20}\n\n{parte2}"
+
         for i in range(0, len(mensaje_final), 3900):
             trozo = mensaje_final[i:i + 3900]
             es_ultimo = i + 3900 >= len(mensaje_final)
