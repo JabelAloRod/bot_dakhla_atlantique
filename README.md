@@ -11,6 +11,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 ### Septiembre
 
 <details>
+<summary>📅 <b>2026-09-04</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-04)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ وفد عسكري أمريكي يستكشف المؤهلات الاستراتيجية لميناء الداخلة الأطلسي - inews.ma 🔗<a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9LLXNDU1dsc3NZNm4zOXFGbFIxQmw4b2xtR1IwQUptdGhjSm1odEVlYklTNEJnU0FfMmFFYnVmSXU5Umc?oc=5">LINK</a>
+‎2️⃣ لماذا زار وفد عسكري أمريكي ميناء الداخلة؟.. هذه دلالات التحرك - inews.ma 🔗<a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9yR2wxVW92emFJTDJkSnJnN2FNNG5Da0dTWFg2amJrMGkzR281Mm9BRWJ1TkNDX3NfWnptVVpMbUNGWDA?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ تحول استراتيجي تاريخي: الجيش الأمريكي يرسخ وجوده رسمياً في ميناء الداخلة الأطلسي 🔗<a href="https://www.youtube.com/watch?v=wV0CMqzw4Qk">LINK</a>
+2️⃣ 🚢 Dakhla Atlantique 2027 : Le &amp;quot;Coup d&amp;#39;État&amp;quot; Logistique du Maroc qui Coupe l&amp;#39;Algérie du Sahel ! 🇲🇦💥🌍 🔗<a href="https://www.youtube.com/watch?v=3lGK-Y1Uals">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-03</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-03)

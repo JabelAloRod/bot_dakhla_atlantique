@@ -601,5 +601,36 @@
       }
     ],
     "resumen_ia": ""
+  },
+  "2026-09-04": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9LLXNDU1dsc3NZNm4zOXFGbFIxQmw4b2xtR1IwQUptdGhjSm1odEVlYklTNEJnU0FfMmFFYnVmSXU5Umc?oc=5",
+        "titular": "وفد عسكري أمريكي يستكشف المؤهلات الاستراتيجية لميناء الداخلة الأطلسي - inews.ma"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9yR2wxVW92emFJTDJkSnJnN2FNNG5Da0dTWFg2amJrMGkzR281Mm9BRWJ1TkNDX3NfWnptVVpMbUNGWDA?oc=5",
+        "titular": "لماذا زار وفد عسكري أمريكي ميناء الداخلة؟.. هذه دلالات التحرك - inews.ma"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=wV0CMqzw4Qk",
+        "titular": "تحول استراتيجي تاريخي: الجيش الأمريكي يرسخ وجوده رسمياً في ميناء الداخلة الأطلسي"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=3lGK-Y1Uals",
+        "titular": "🚢 Dakhla Atlantique 2027 : Le &quot;Coup d&#39;État&quot; Logistique du Maroc qui Coupe l&#39;Algérie du Sahel ! 🇲🇦💥🌍"
+      }
+    ],
+    "resumen_ia": ""
   }
 }
