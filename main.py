@@ -46,7 +46,7 @@ DIAS_MAXIMOS_NOTICIA = 2
 # modelos de código abierto tipo Llama). Se usa vía API REST compatible con
 # el formato de OpenAI, con requests, sin necesidad de instalar ninguna
 # librería nueva.
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
