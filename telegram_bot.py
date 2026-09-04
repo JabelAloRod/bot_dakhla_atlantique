@@ -11,7 +11,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import requests
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile, Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile, Update, BotCommand
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Configuración de logs
@@ -60,21 +60,27 @@ def bandera_para(etiqueta: str) -> str:
     return "🌐"
 
 
-def obtener_datos_registro() -> dict:
-    """
-    Descarga registro.json — la fuente de datos estructurada que escribe main.py —
-    y la convierte a la forma {año: {mes: [items]}} que usa el resto del bot.
-    Al ser JSON real (no texto a analizar con expresiones regulares), esto no se
-    rompe aunque cambiemos el diseño visual del reporte de Telegram en el futuro.
-    """
+def obtener_registro_bruto() -> dict:
+    """Descarga registro.json tal cual está: {fecha: {'items': [...], 'resumen_ia': ...}}.
+    Es la base que reutilizan tanto el histórico por año/mes como /estadisticas."""
     try:
         response = requests.get(JSON_RAW_URL, timeout=10)
         if response.status_code != 200:
             logger.error(f"Error al obtener registro.json: HTTP status {response.status_code}")
             return {}
-        registro = response.json()
+        return response.json()
     except Exception as e:
         logger.error(f"Excepción al obtener/leer registro.json: {e}")
+        return {}
+
+
+def obtener_datos_registro() -> dict:
+    """
+    Convierte el registro.json bruto a la forma {año: {mes: [items]}} que usa
+    el resto del bot (histórico, exportación a Excel, resumen mensual).
+    """
+    registro = obtener_registro_bruto()
+    if not registro:
         return {}
 
     datos = {}
@@ -126,6 +132,7 @@ async def comando_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("🔄 Forzar Reporte", callback_data="menu_forzar")],
         [InlineKeyboardButton("📊 Estado del Sistema", callback_data="menu_estado")],
+        [InlineKeyboardButton("📈 /estadisticas", callback_data="menu_estadisticas")],
         [InlineKeyboardButton("📜 /registro-historico", callback_data="menu_historico")],
         [InlineKeyboardButton("📊 /exportar", callback_data="menu_exportar")],
         [InlineKeyboardButton("⚓ /resume_mes", callback_data="menu_resumenmes")],
@@ -252,6 +259,80 @@ async def comando_resumen_mensual(update: Update, context: ContextTypes.DEFAULT_
         await update.callback_query.message.edit_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
     elif update.message:
         await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="Markdown")
+
+
+def _barra(valor, maximo, ancho=10):
+    """Construye una mini barra de progreso con caracteres de bloque, para el panel de estadísticas."""
+    if maximo <= 0:
+        return "░" * ancho
+    llenas = round((valor / maximo) * ancho)
+    return "█" * llenas + "░" * (ancho - llenas)
+
+
+async def comando_estadisticas(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Comando /estadisticas: panel con números globales del registro."""
+    registro = obtener_registro_bruto()
+    es_callback = bool(update.callback_query)
+    if es_callback:
+        await update.callback_query.answer()
+
+    if not registro:
+        msg = "⚠️ No se pudo acceder al registro histórico en este momento. Inténtalo más tarde."
+        if es_callback:
+            await update.callback_query.message.reply_text(msg)
+        else:
+            await update.message.reply_text(msg)
+        return
+
+    total_dias = len(registro)
+    total_items = 0
+    conteo_idioma = {}
+    conteo_categoria = {}
+    conteo_mes = {}
+
+    for fecha, dia in registro.items():
+        mes_clave = fecha[:7]  # AAAA-MM
+        for item in dia.get("items", []):
+            total_items += 1
+            categoria = item.get("categoria", "Otros")
+            conteo_categoria[categoria] = conteo_categoria.get(categoria, 0) + 1
+            if categoria == "Prensa":
+                idioma = item.get("idioma", "Otro")
+                conteo_idioma[idioma] = conteo_idioma.get(idioma, 0) + 1
+            conteo_mes[mes_clave] = conteo_mes.get(mes_clave, 0) + 1
+
+    texto = "📈 <b>Estadísticas — Puerto de Dakhla Atlantique</b>\n\n"
+    texto += f"🗓️ Días con reporte registrados: <b>{total_dias}</b>\n"
+    texto += f"📰 Total de elementos recopilados: <b>{total_items}</b>\n"
+    if total_dias:
+        texto += f"📊 Media diaria: <b>{total_items / total_dias:.1f}</b> elementos/día\n"
+
+    if conteo_idioma:
+        texto += "\n🌍 <b>Prensa por idioma</b>\n"
+        max_idioma = max(conteo_idioma.values())
+        for idioma, cuenta in sorted(conteo_idioma.items(), key=lambda x: -x[1]):
+            bandera = bandera_para(idioma)
+            texto += f"{bandera} {idioma}: {_barra(cuenta, max_idioma)} {cuenta}\n"
+
+    if conteo_categoria:
+        texto += "\n🗂️ <b>Por categoría</b>\n"
+        max_cat = max(conteo_categoria.values())
+        for categoria, cuenta in sorted(conteo_categoria.items(), key=lambda x: -x[1]):
+            texto += f"• {categoria}: {_barra(cuenta, max_cat)} {cuenta}\n"
+
+    if conteo_mes:
+        mes_top, cuenta_top = max(conteo_mes.items(), key=lambda x: x[1])
+        anio_top, mes_top_clave = mes_top.split("-")
+        nombre_mes_top = MESES_NOMBRE.get(mes_top_clave, mes_top_clave)
+        texto += f"\n🏆 Mes más activo: <b>{nombre_mes_top} {anio_top}</b> ({cuenta_top} elementos)"
+
+    keyboard = [[InlineKeyboardButton("« Volver al Menú Principal", callback_data="menu_main")]]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    if es_callback:
+        await update.callback_query.message.reply_text(texto, reply_markup=reply_markup, parse_mode="HTML")
+    else:
+        await update.message.reply_text(texto, reply_markup=reply_markup, parse_mode="HTML")
 
 
 async def comando_registro(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -476,6 +557,9 @@ async def manejar_botones(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     elif data == "menu_estado":
         await comando_estado(update, context)
+        return
+    elif data == "menu_estadisticas":
+        await comando_estadisticas(update, context)
         return
     elif data == "menu_resumenmes":
         await comando_resumen_mensual(update, context)
@@ -710,6 +794,26 @@ def iniciar_servidor_salud():
     servidor.serve_forever()
 
 
+async def configurar_comandos_nativos(app):
+    """
+    Registra la lista de comandos en Telegram (vía set_my_commands), para que
+    aparezcan en el botón de menú (☰) junto al campo de texto y con
+    autocompletado al escribir '/'. Se ejecuta una vez al arrancar el bot.
+    """
+    await app.bot.set_my_commands([
+        BotCommand("start", "Abrir el panel de control"),
+        BotCommand("menu", "Abrir el panel de control"),
+        BotCommand("ayuda", "Ver la ayuda y los comandos disponibles"),
+        BotCommand("estadisticas", "Ver estadísticas del registro"),
+        BotCommand("registro", "Consultar el registro histórico"),
+        BotCommand("exportar", "Exportar un mes a Excel"),
+        BotCommand("resume_mes", "Resumen mensual (2 partes)"),
+        BotCommand("actualizar", "Forzar la generación del reporte"),
+        BotCommand("estado", "Ver el estado del sistema"),
+    ])
+    logger.info("Comandos nativos registrados en Telegram (menú ☰).")
+
+
 def main():
     if not TELEGRAM_TOKEN:
         logger.error("No se ha configurado la variable de entorno TELEGRAM_TOKEN")
@@ -721,12 +825,13 @@ def main():
     hilo_reloj = threading.Thread(target=iniciar_reloj_disparo_diario, daemon=True)
     hilo_reloj.start()
 
-    app = Application.builder().token(TELEGRAM_TOKEN).build()
+    app = Application.builder().token(TELEGRAM_TOKEN).post_init(configurar_comandos_nativos).build()
 
     # Handlers para comandos y menú interactivo
     app.add_handler(CommandHandler("start", comando_menu))
     app.add_handler(CommandHandler("menu", comando_menu))
     app.add_handler(CommandHandler("ayuda", comando_ayuda))
+    app.add_handler(CommandHandler("estadisticas", comando_estadisticas))
     app.add_handler(CommandHandler("registro", comando_registro))
     app.add_handler(CommandHandler("historico", comando_registro))
     app.add_handler(CommandHandler("exportar", comando_exportar))
