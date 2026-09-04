@@ -25,7 +25,7 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 
 🇲🇦 <b>Árabe</b>
 ‎1️⃣ الداخلة: وفد عسكري أمريكي رفيع يزور ميناء الداخلة الأطلسي ويطّلع على مكوناته البحرية - أحداث.أنفو 🔗<a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxQMV96UTFBM25SbEs4V2NOMEtzMXhJc3RFSm5PTzhSbjc3UFVxRmtyMWdIcTNoY2MzRkNOYThDbGpWdDQ1MlZHc1FHNmJLdG92QjJBOThlN1NaZ3Y0NXVRVXhDTmNwbWFuOGpTQzlYT184Vnp3NmhnRGRpcXVwTTBFUmlqYmU3ZE05YlowSzExdFJtc0tfUjBzaTEzRW5mNFZ1R0lWVUNRS0p5RFhSRkFBdk9ndG51d1pybnJEMHdoV3V6Q09QZElvUjdub2ltcFdYeHVJVVFfNk5KcVpJdEJtRGU5WEVDT0dXNU5URDBlV29VQ2g5VnVMazRVNVVncUZfOHpxeHRMYlBLOGU3TWYtVlJEMDJNMl81dTBkb3hBZ1ctMFRuOUF3X1RCTWQ4T0x1bXItV05qNzdQbW9aZExqUnZJOHpudw?oc=5">LINK</a>
-‎2️⃣ وفد عسكري أمريكي يستكشف المؤهلات الاستراتيجية لميناء الداخلة الأطلسي - alittihad.info 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxPd1B5akZGS0NIMlN6SEZYV3hVVWx4bFBQWFJFSVFRZkl6Y1dUT2taRlRQMkl1Q0cwckxlbEZhYmNkUEFuTTY5dHFJSHNzVEF2T0FwazdVdVNfRVpyS0ZyWGVmQ1dsY3FaOE1iV19FVWdJY3BpbEJRakpVSjB5WkJ3UEVYcE1WVHY2STk1NHM1VG9pV0JXekxuTTU0UG1Ybmh3cmFCakJ2dXY3YnBiQ3RFeW4xYmNhMFo0LVNnUUd3cVVUOC1fd2QxNy1ObkpXM0dqV1NnZVE4eXdoeXN4TFc5NjNGblNlZ052dVBqYU5FREQtSkp1MWpDQzhMZ05qUmlRWXN4WThTLXVfelUwY3psVm0tM2NxcF83Nk1JaUZ1eDNaN3RaS1lIdlBXY1hiRDBKeEJ5X3h6NHBDdGk5NlV1eXpMbw?oc=5">LINK</a>
+‎2️⃣ وفد عسكري أمريكي يستكشف المؤهلات الاستراتيجية لميناء الداخلة الأطلسي - الاتحاد الاشتراكي 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxPd1B5akZGS0NIMlN6SEZYV3hVVWx4bFBQWFJFSVFRZkl6Y1dUT2taRlRQMkl1Q0cwckxlbEZhYmNkUEFuTTY5dHFJSHNzVEF2T0FwazdVdVNfRVpyS0ZyWGVmQ1dsY3FaOE1iV19FVWdJY3BpbEJRakpVSjB5WkJ3UEVYcE1WVHY2STk1NHM1VG9pV0JXekxuTTU0UG1Ybmh3cmFCakJ2dXY3YnBiQ3RFeW4xYmNhMFo0LVNnUUd3cVVUOC1fd2QxNy1ObkpXM0dqV1NnZVE4eXdoeXN4TFc5NjNGblNlZ052dVBqYU5FREQtSkp1MWpDQzhMZ05qUmlRWXN4WThTLXVfelUwY3psVm0tM2NxcF83Nk1JaUZ1eDNaN3RaS1lIdlBXY1hiRDBKeEJ5X3h6NHBDdGk5NlV1eXpMbw?oc=5">LINK</a>
 ‎3️⃣ ميناء الداخلة الأطلسي في صلب اهتمام وفد عسكري أمريكي - جريدة 20 دقيقة 🔗<a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZTEdZOGh4LTZMMWwwUDloaUg0VF9RV2tEVzBaMzM0dmdiQ25QM2FSQTV5UUhWOHhPb05UVGpjczUwb0R3MHU1eVVNMTVVX2lFMXJjM0lxOA?oc=5">LINK</a>
 
 🇬🇧 <b>Inglés</b>
@@ -43,7 +43,9 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 
 🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
 
-No hay resumen disponible para este día.
+Hoy varios medios informaron que una delegación militar estadounidense de alto nivel visitó el Puerto Atlántico de Dakhla, inspeccionó sus componentes navales y analizó sus capacidades estratégicas, destacando el interés y la presencia oficial de EE. UU. en el puerto.
+
+Al mismo tiempo, fuentes marroquíes anunciaron que Dakhla ha iniciado estudios para una futura zona logística y que se proyecta el desarrollo “Dakhla Atlantique 2027”, descrito en algunos titulares como un movimiento logístico que impactaría la conexión del Sahel.
 
 🤖 Informe generado por Mamé el Bot 🤖
 
