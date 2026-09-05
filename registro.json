@@ -652,5 +652,24 @@
       }
     ],
     "resumen_ia": "Hoy varios medios informaron que una delegación militar estadounidense de alto nivel visitó el Puerto Atlántico de Dakhla, inspeccionó sus componentes navales y analizó sus capacidades estratégicas, destacando el interés y la presencia oficial de EE. UU. en el puerto.\n\nAl mismo tiempo, fuentes marroquíes anunciaron que Dakhla ha iniciado estudios para una futura zona logística y que se proyecta el desarrollo “Dakhla Atlantique 2027”, descrito en algunos titulares como un movimiento logístico que impactaría la conexión del Sahel."
+  },
+  "2026-09-05": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzdmFFak5XaUpfSmdvZXlyRGxSVEZLWU4xYkxBWW9CckNGMWw4THhHaDdsY3JpdFFTMVk0NHBJQ2RsVWh3cGc?oc=5",
+        "titular": "العركوب.. مشروع لوجستي بـ134 مليون درهم يمهّد لمنظومة اقتصادية مرتبطة بميناء الداخلة الأطلسي - Albahr info"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzaVN2UFFvUUI4czFfcklPXzRkM0xLb0FfSFdzTGxMRm9JS2VhNTA3ZnNRTHUyNnpHTFpGZmZDeXlweFN5Sy05dFY0MlFJbGFYMnc40gFTQVVfeXFMUHNpU3ZQUW9RQjhzMV9ySU9fNGQzTEtvQV9IV3NMbExGb0lLZWE1MDdmc1FMdTI2ekdMWkZmZkN5eXB4U3lLLTl0VjQyUUlsYVgydzg?oc=5",
+        "titular": "العركوب.. مشروع لوجستي بـ134 مليون درهم لتعزيز بوابة المغرب نحو إفريقيا - تليكسبريس - Telexpresse"
+      }
+    ],
+    "resumen_ia": "El proyecto logístico “Al‑Arakoub”, con una inversión de 134 millones de dirhams, se presenta como una iniciativa que prepara una estructura económica vinculada al puerto de Dakhla Atlántico, según informa Albahr info.  \n\nLa misma iniciativa, citada por Telexpresse, se describe como un medio para reforzar la puerta de entrada de Marruecos hacia África."
   }
 }

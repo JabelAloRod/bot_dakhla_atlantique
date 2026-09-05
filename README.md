@@ -11,6 +11,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 ### Septiembre
 
 <details>
+<summary>📅 <b>2026-09-05</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-05)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ العركوب.. مشروع لوجستي بـ134 مليون درهم يمهّد لمنظومة اقتصادية مرتبطة بميناء الداخلة الأطلسي - Albahr info 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzdmFFak5XaUpfSmdvZXlyRGxSVEZLWU4xYkxBWW9CckNGMWw4THhHaDdsY3JpdFFTMVk0NHBJQ2RsVWh3cGc?oc=5">LINK</a>
+‎2️⃣ العركوب.. مشروع لوجستي بـ134 مليون درهم لتعزيز بوابة المغرب نحو إفريقيا - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzaVN2UFFvUUI4czFfcklPXzRkM0xLb0FfSFdzTGxMRm9JS2VhNTA3ZnNRTHUyNnpHTFpGZmZDeXlweFN5Sy05dFY0MlFJbGFYMnc40gFTQVVfeXFMUHNpU3ZQUW9RQjhzMV9ySU9fNGQzTEtvQV9IV3NMbExGb0lLZWE1MDdmc1FMdTI2ekdMWkZmZkN5eXB4U3lLLTl0VjQyUUlsYVgydzg?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El proyecto logístico “Al‑Arakoub”, con una inversión de 134 millones de dirhams, se presenta como una iniciativa que prepara una estructura económica vinculada al puerto de Dakhla Atlántico, según informa Albahr info.  
+
+La misma iniciativa, citada por Telexpresse, se describe como un medio para reforzar la puerta de entrada de Marruecos hacia África.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-04</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-04)
