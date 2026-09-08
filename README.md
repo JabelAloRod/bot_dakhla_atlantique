@@ -11,6 +11,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 ### Septiembre
 
 <details>
+<summary>📅 <b>2026-09-08</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-08)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique : la visite militaire US consacre le rôle stratégique des provinces du Sud - Hespress Français - Actualités du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQQUtkVE51RWd5TUlQSTlqS2RSSnVSZ2hSUDB3ZWpqdVlOTWd0UmRURUN2LTN5VmdSOGFiR0laRFA0eVdGcnAyUEI1Z08tOWZOMkpBY201YWVvd3VISW9ZZS1DS1lFYnZSaXA0ZTA2bW5ndVQtdk5CUHMySHFRc2MtZHJ3MHdmNTFoNkNqN1FUTUczc183SE9MQkhfckNYR3JJYkNYZVhZc3hTandQM1lONzlMMnZlZXBodXVTUjZwbmZxNWZR?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الداخلة تعيد رسم موقع الجنوب المغربي في المعادلة الأطلسية - middle-east-online.com 🔗<a href="https://news.google.com/rss/articles/CBMi2ANBVV95cUxNVkhsRm03VXBYWHNlUGhnY2R0Q1psSmFxTXBjT1dWdG5zRTg5Z3AwOGRWQ2lWazNCMW41NHRLVXVSUWJycDNpaURqTGRxNWVCTlNsTkN0RU82b0FIYXNUemd3eUp6MXNzSnR5a2NCZDBsTWxxeXpNQjdpWDNURDVRY3FFZ1RKM25zRXpqdlN3eUpheEdublY4R0xYR3NRc1ZKZFdlczlBNTYxSFZFd0ZGYklScThab1JCQmdwQUhWX3kyalptSEFYTHBCZ1dDYjJlZmdsbkM2Uk10UF9tMGo2amd0ZHVCTFRFNV9rRDFlMTNLdHVvcFRGTlRoTUVhRkxMSFNVOVIzRjhZYTdjLUNwbnFuS3hDMmxCakxiTU4xdlNOYVJkcE95Ym5kWHp0NTZ4YzNUNUFXSzQ3cEhNT01XTVBaVjRCTHFkTU9xczVmZVMwUG9oVjdLRnQxdW53dVlOWEw2aVp6NkRTOGQwcEpJVldmWGdmanNSc2w2SnZrSnEzdWpPLXdfOU91cVJadlBtdXB4M0FKNmpuSEktWlFPanlIUEpOM01GNE0wWEloT0FvempUSHBaanVoZ0pvUTg1VEQyY3VuTmMxOWFSTGg0WUVsREVUSV9r?oc=5">LINK</a>
+‎2️⃣ زيارة عسكرية أمريكية للداخلة تبرز التحولات الاستراتيجية بالواجهة الأطلسية - Hespress 🔗<a href="https://news.google.com/rss/articles/CBMi1gJBVV95cUxQdzg1OE1zX3ZIcnRBNGg2cm9PeTZUVjQ3V3FlNXkwR2c5WFhzeW9WTjJKdFFzcVpyR2s1dW5ORmJnY3VYeG1PbnI0V3pNNXVKblVld054TUtPdldmck5uWHlVQkJUUnU5VFRCRWRjWEhqcWgzSXlmaGpiSm4tbkc0UUIyUjBDZ0wxRmk4azlESFBZQnc3ZmZ2aW5HQU9tTzVtcU94RGhYanFZN010RTF2WXVJNmdaN09Tek4zRHh5SzN5YUhidWV4YlBzZ29pclRlT0g1UE5uTk8zZUJVVndFSS1aX0UtZUQ4THIwZ2NPRTR3b2VHc25BSWhzY0xWVms4MENQVDE5TzhCb2RkajhqUWtmd2pNM05xUTZySkd1U2lNSmZtLVM0VlVBLWR1T3VoOXRJVlFwcGotYWxIblVyRlJ4ckJsQy1PdDh6REY4WEpwRENHMWc?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios han publicado que una visita militar de Estados Unidos a Dakhla Atlantique ha puesto de relieve el papel estratégico de las provincias del sur de Marruecos. Los informes destacan que la presencia estadounidense subraya la importancia de la zona en la ecuación atlántica.
+
+Los titulares también señalan que la visita evidencia transformaciones estratégicas en la fachada atlántica y que Dakhla está redefiniendo la posición del sur marroquí dentro de esa dinámica.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-07</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-07)
