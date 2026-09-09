@@ -11,6 +11,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 ### Septiembre
 
 <details>
+<summary>📅 <b>2026-09-09</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-09)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : face aux hubs ouest‑africains, tandem ou duel ? - h24info.ma 🔗<a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQMXNDWFBFX2FZU0REcWJDUjNza080aEJBUnNxUlJETGFvVWJKelVyVC03R2FJM0hPQ0ttRjJ6SjBiRkxtdzlzdVlNMkJXZ2UyUjhGRWtNcDR4ZWVvaXc5TU5NMENBZWU1RkRhNHJ6WGZqeHdGendjckFwNGloNm9sUw?oc=5">LINK</a>
+2️⃣ Port Dakhla Atlantique : Les Etats-Unis s’intéressent au nouveau hub stratégique du Maroc - Le7tv.ma 🔗<a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPV1FrS0lncDl6c2JJUHk1dDc4WDI0QmxKTnduQzcwUlk2Um84LTJOakNoTm1RTGVTVm9lTUdEVkVObTZ1WllLVV94b3NfQldmemtQUWlwUm5PUi1yc1Z6c3dneVZZTUh3cm5kamYxVHlLZHJ4d0tXLVA0RXF4ZEcydHdfNl9ibWtSRHhiOEo2dlg4NncxcnF3emNkNlBEa1VsRVpxUlR4UVNRVWJHUHljRm1qUXdHTEROdkE?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يجذب الاهتمام الأمريكي ويعزز الرهان الاستراتيجي للمملكة - febrayer.com 🔗<a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LX1dvbTdlUDBWVFpWSDMtUHE5S0tXdE9lOEtGbjJTbGEwZ3VjWklWUVN4WFhPWmEtQWNxV1I1UW9JNTZ4ZEpfaQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ US military delegation visits Dakhla Atlantic Port amid growing Morocco-US cooperation - HESPRESS English - Morocco News 🔗<a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOMEt6Q3VjMWNUcDhaNmg1SVZ1UGZkTFBhUmJaMTJfZUpOMnNabHlBNGU3d3BKWUo1cEZWZmVzTWplcV9EdWZRWXJQN2xUUGtscndYT0lQUjE1NnZoZGw1RjFKY0pGQktkejFpS19vRjlqRUtNYktub3k2R2IzX2FmdnM2QTVhckxHazJFeklPWVZ3dEx0YTE1dGF5QVNXUnIxREVOUzRhSUgxWUJmSjZsb1V4a0RxRjI2NDZJcmRqdw?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los medios de hoy analizan el Puerto Dakhla Atlántico en relación con otros hubs de África occidental, planteando si su desarrollo será complementario o competitivo.  
+
+Asimismo, varios titulares destacan el interés de Estados Unidos en el puerto, describiéndolo como un nuevo hub estratégico para Marruecos y señalando la visita de una delegación militar estadounidense en el marco de una cooperación cada vez mayor entre ambos países.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-08</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-08)
