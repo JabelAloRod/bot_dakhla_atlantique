@@ -11,6 +11,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 ### Septiembre
 
 <details>
+<summary>📅 <b>2026-09-10</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-10)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Kamel REZIG et la Facture d&amp;#39;Importation :  Mensonge des $130 Milliards !! #algerie #tebboune #import 🔗<a href="https://www.youtube.com/watch?v=6CUI2phHe8w">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado un titular que menciona a Kamel REZIG y la supuesta "Facture d'Importation", calificándola de mentira y señalando una cifra de 130 mil millones de dólares. El mensaje incluye los hashtags #algerie, #tebboune y #import.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-09</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-09)
