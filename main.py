@@ -638,13 +638,15 @@ def regenerar_readme(registro):
 
     cuerpo = ""
     for anio in sorted(por_anio_mes.keys(), reverse=True):
-        cuerpo += f"\n## {anio}\n"
+        cuerpo += f"\n<details>\n<summary>📁 <b>{anio}</b></summary>\n\n"
         meses_anio = por_anio_mes[anio]
         for mes in sorted(meses_anio.keys(), reverse=True):
             nombre_mes = MESES_NOMBRE.get(mes, f"Mes {mes}")
-            cuerpo += f"\n### {nombre_mes}\n\n"
+            cuerpo += f"<details>\n<summary>📂 <b>{nombre_mes}</b></summary>\n\n"
             for fecha in sorted(meses_anio[mes], reverse=True):
                 cuerpo += construir_dia_readme(fecha, registro[fecha]) + "\n"
+            cuerpo += "</details>\n\n"
+        cuerpo += "</details>\n"
 
     return cabecera + cuerpo
 
