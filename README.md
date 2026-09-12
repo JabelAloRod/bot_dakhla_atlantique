@@ -13,6 +13,410 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-12</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-12)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-11</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-11)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-10</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-10)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Kamel REZIG et la Facture d&amp;#39;Importation :  Mensonge des $130 Milliards !! #algerie #tebboune #import 🔗<a href="https://www.youtube.com/watch?v=6CUI2phHe8w">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado un titular que menciona a Kamel REZIG y la supuesta "Facture d'Importation", calificándola de mentira y señalando una cifra de 130 mil millones de dólares. El mensaje incluye los hashtags #algerie, #tebboune y #import.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-09</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-09)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : face aux hubs ouest‑africains, tandem ou duel ? - h24info.ma 🔗<a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQMXNDWFBFX2FZU0REcWJDUjNza080aEJBUnNxUlJETGFvVWJKelVyVC03R2FJM0hPQ0ttRjJ6SjBiRkxtdzlzdVlNMkJXZ2UyUjhGRWtNcDR4ZWVvaXc5TU5NMENBZWU1RkRhNHJ6WGZqeHdGendjckFwNGloNm9sUw?oc=5">LINK</a>
+2️⃣ Port Dakhla Atlantique : Les Etats-Unis s’intéressent au nouveau hub stratégique du Maroc - Le7tv.ma 🔗<a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPV1FrS0lncDl6c2JJUHk1dDc4WDI0QmxKTnduQzcwUlk2Um84LTJOakNoTm1RTGVTVm9lTUdEVkVObTZ1WllLVV94b3NfQldmemtQUWlwUm5PUi1yc1Z6c3dneVZZTUh3cm5kamYxVHlLZHJ4d0tXLVA0RXF4ZEcydHdfNl9ibWtSRHhiOEo2dlg4NncxcnF3emNkNlBEa1VsRVpxUlR4UVNRVWJHUHljRm1qUXdHTEROdkE?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يجذب الاهتمام الأمريكي ويعزز الرهان الاستراتيجي للمملكة - febrayer.com 🔗<a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LX1dvbTdlUDBWVFpWSDMtUHE5S0tXdE9lOEtGbjJTbGEwZ3VjWklWUVN4WFhPWmEtQWNxV1I1UW9JNTZ4ZEpfaQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ US military delegation visits Dakhla Atlantic Port amid growing Morocco-US cooperation - HESPRESS English - Morocco News 🔗<a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOMEt6Q3VjMWNUcDhaNmg1SVZ1UGZkTFBhUmJaMTJfZUpOMnNabHlBNGU3d3BKWUo1cEZWZmVzTWplcV9EdWZRWXJQN2xUUGtscndYT0lQUjE1NnZoZGw1RjFKY0pGQktkejFpS19vRjlqRUtNYktub3k2R2IzX2FmdnM2QTVhckxHazJFeklPWVZ3dEx0YTE1dGF5QVNXUnIxREVOUzRhSUgxWUJmSjZsb1V4a0RxRjI2NDZJcmRqdw?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los medios de hoy analizan el Puerto Dakhla Atlántico en relación con otros hubs de África occidental, planteando si su desarrollo será complementario o competitivo.  
+
+Asimismo, varios titulares destacan el interés de Estados Unidos en el puerto, describiéndolo como un nuevo hub estratégico para Marruecos y señalando la visita de una delegación militar estadounidense en el marco de una cooperación cada vez mayor entre ambos países.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-08</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-08)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique : la visite militaire US consacre le rôle stratégique des provinces du Sud - Hespress Français - Actualités du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQQUtkVE51RWd5TUlQSTlqS2RSSnVSZ2hSUDB3ZWpqdVlOTWd0UmRURUN2LTN5VmdSOGFiR0laRFA0eVdGcnAyUEI1Z08tOWZOMkpBY201YWVvd3VISW9ZZS1DS1lFYnZSaXA0ZTA2bW5ndVQtdk5CUHMySHFRc2MtZHJ3MHdmNTFoNkNqN1FUTUczc183SE9MQkhfckNYR3JJYkNYZVhZc3hTandQM1lONzlMMnZlZXBodXVTUjZwbmZxNWZR?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الداخلة تعيد رسم موقع الجنوب المغربي في المعادلة الأطلسية - middle-east-online.com 🔗<a href="https://news.google.com/rss/articles/CBMi2ANBVV95cUxNVkhsRm03VXBYWHNlUGhnY2R0Q1psSmFxTXBjT1dWdG5zRTg5Z3AwOGRWQ2lWazNCMW41NHRLVXVSUWJycDNpaURqTGRxNWVCTlNsTkN0RU82b0FIYXNUemd3eUp6MXNzSnR5a2NCZDBsTWxxeXpNQjdpWDNURDVRY3FFZ1RKM25zRXpqdlN3eUpheEdublY4R0xYR3NRc1ZKZFdlczlBNTYxSFZFd0ZGYklScThab1JCQmdwQUhWX3kyalptSEFYTHBCZ1dDYjJlZmdsbkM2Uk10UF9tMGo2amd0ZHVCTFRFNV9rRDFlMTNLdHVvcFRGTlRoTUVhRkxMSFNVOVIzRjhZYTdjLUNwbnFuS3hDMmxCakxiTU4xdlNOYVJkcE95Ym5kWHp0NTZ4YzNUNUFXSzQ3cEhNT01XTVBaVjRCTHFkTU9xczVmZVMwUG9oVjdLRnQxdW53dVlOWEw2aVp6NkRTOGQwcEpJVldmWGdmanNSc2w2SnZrSnEzdWpPLXdfOU91cVJadlBtdXB4M0FKNmpuSEktWlFPanlIUEpOM01GNE0wWEloT0FvempUSHBaanVoZ0pvUTg1VEQyY3VuTmMxOWFSTGg0WUVsREVUSV9r?oc=5">LINK</a>
+‎2️⃣ زيارة عسكرية أمريكية للداخلة تبرز التحولات الاستراتيجية بالواجهة الأطلسية - Hespress 🔗<a href="https://news.google.com/rss/articles/CBMi1gJBVV95cUxQdzg1OE1zX3ZIcnRBNGg2cm9PeTZUVjQ3V3FlNXkwR2c5WFhzeW9WTjJKdFFzcVpyR2s1dW5ORmJnY3VYeG1PbnI0V3pNNXVKblVld054TUtPdldmck5uWHlVQkJUUnU5VFRCRWRjWEhqcWgzSXlmaGpiSm4tbkc0UUIyUjBDZ0wxRmk4azlESFBZQnc3ZmZ2aW5HQU9tTzVtcU94RGhYanFZN010RTF2WXVJNmdaN09Tek4zRHh5SzN5YUhidWV4YlBzZ29pclRlT0g1UE5uTk8zZUJVVndFSS1aX0UtZUQ4THIwZ2NPRTR3b2VHc25BSWhzY0xWVms4MENQVDE5TzhCb2RkajhqUWtmd2pNM05xUTZySkd1U2lNSmZtLVM0VlVBLWR1T3VoOXRJVlFwcGotYWxIblVyRlJ4ckJsQy1PdDh6REY4WEpwRENHMWc?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios han publicado que una visita militar de Estados Unidos a Dakhla Atlantique ha puesto de relieve el papel estratégico de las provincias del sur de Marruecos. Los informes destacan que la presencia estadounidense subraya la importancia de la zona en la ecuación atlántica.
+
+Los titulares también señalan que la visita evidencia transformaciones estratégicas en la fachada atlántica y que Dakhla está redefiniendo la posición del sur marroquí dentro de esa dinámica.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-07</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-07)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-06</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-06)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-05</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-05)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ العركوب.. مشروع لوجستي بـ134 مليون درهم يمهّد لمنظومة اقتصادية مرتبطة بميناء الداخلة الأطلسي - Albahr info 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzdmFFak5XaUpfSmdvZXlyRGxSVEZLWU4xYkxBWW9CckNGMWw4THhHaDdsY3JpdFFTMVk0NHBJQ2RsVWh3cGc?oc=5">LINK</a>
+‎2️⃣ العركوب.. مشروع لوجستي بـ134 مليون درهم لتعزيز بوابة المغرب نحو إفريقيا - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzaVN2UFFvUUI4czFfcklPXzRkM0xLb0FfSFdzTGxMRm9JS2VhNTA3ZnNRTHUyNnpHTFpGZmZDeXlweFN5Sy05dFY0MlFJbGFYMnc40gFTQVVfeXFMUHNpU3ZQUW9RQjhzMV9ySU9fNGQzTEtvQV9IV3NMbExGb0lLZWE1MDdmc1FMdTI2ekdMWkZmZkN5eXB4U3lLLTl0VjQyUUlsYVgydzg?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El proyecto logístico “Al‑Arakoub”, con una inversión de 134 millones de dirhams, se presenta como una iniciativa que prepara una estructura económica vinculada al puerto de Dakhla Atlántico, según informa Albahr info.  
+
+La misma iniciativa, citada por Telexpresse, se describe como un medio para reforzar la puerta de entrada de Marruecos hacia África.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-04</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-04)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الداخلة: وفد عسكري أمريكي رفيع يزور ميناء الداخلة الأطلسي ويطّلع على مكوناته البحرية - أحداث.أنفو 🔗<a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxQMV96UTFBM25SbEs4V2NOMEtzMXhJc3RFSm5PTzhSbjc3UFVxRmtyMWdIcTNoY2MzRkNOYThDbGpWdDQ1MlZHc1FHNmJLdG92QjJBOThlN1NaZ3Y0NXVRVXhDTmNwbWFuOGpTQzlYT184Vnp3NmhnRGRpcXVwTTBFUmlqYmU3ZE05YlowSzExdFJtc0tfUjBzaTEzRW5mNFZ1R0lWVUNRS0p5RFhSRkFBdk9ndG51d1pybnJEMHdoV3V6Q09QZElvUjdub2ltcFdYeHVJVVFfNk5KcVpJdEJtRGU5WEVDT0dXNU5URDBlV29VQ2g5VnVMazRVNVVncUZfOHpxeHRMYlBLOGU3TWYtVlJEMDJNMl81dTBkb3hBZ1ctMFRuOUF3X1RCTWQ4T0x1bXItV05qNzdQbW9aZExqUnZJOHpudw?oc=5">LINK</a>
+‎2️⃣ وفد عسكري أمريكي يستكشف المؤهلات الاستراتيجية لميناء الداخلة الأطلسي - الاتحاد الاشتراكي 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxPd1B5akZGS0NIMlN6SEZYV3hVVWx4bFBQWFJFSVFRZkl6Y1dUT2taRlRQMkl1Q0cwckxlbEZhYmNkUEFuTTY5dHFJSHNzVEF2T0FwazdVdVNfRVpyS0ZyWGVmQ1dsY3FaOE1iV19FVWdJY3BpbEJRakpVSjB5WkJ3UEVYcE1WVHY2STk1NHM1VG9pV0JXekxuTTU0UG1Ybmh3cmFCakJ2dXY3YnBiQ3RFeW4xYmNhMFo0LVNnUUd3cVVUOC1fd2QxNy1ObkpXM0dqV1NnZVE4eXdoeXN4TFc5NjNGblNlZ052dVBqYU5FREQtSkp1MWpDQzhMZ05qUmlRWXN4WThTLXVfelUwY3psVm0tM2NxcF83Nk1JaUZ1eDNaN3RaS1lIdlBXY1hiRDBKeEJ5X3h6NHBDdGk5NlV1eXpMbw?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة الأطلسي في صلب اهتمام وفد عسكري أمريكي - جريدة 20 دقيقة 🔗<a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZTEdZOGh4LTZMMWwwUDloaUg0VF9RV2tEVzBaMzM0dmdiQ25QM2FSQTV5UUhWOHhPb05UVGpjczUwb0R3MHU1eVVNMTVVX2lFMXJjM0lxOA?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ Sahara: High-Ranking U.S. Military Delegation Visited Atlantic Port of Dakhla - The North Africa Post 🔗<a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNUl9xR28xanJ1TEpUMDUwYUlEQlB0VHl2bFBvZXZuWWxRUjl2cTk2WV9OWWRXSG5wVXN0amgzTXBhVWxKaVdzVEw2V1VubmNVdk9kZ18zMTNGTWxWbHd1ZlhQZm1fMndDWl80VXNyYmpsVTUzOEZJY2xrRXVYY2tLZmVvMFV5eUtFdGRQOUtHdkxVR1NhY2JSMG5td21xUGR4Wm5KU1JxNHFpVjBCbE96cEZxZDc?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ تحول استراتيجي تاريخي: الجيش الأمريكي يرسخ وجوده رسمياً في ميناء الداخلة الأطلسي 🔗<a href="https://www.youtube.com/watch?v=wV0CMqzw4Qk">LINK</a>
+2️⃣ 🚢 Dakhla Atlantique 2027 : Le &amp;quot;Coup d&amp;#39;État&amp;quot; Logistique du Maroc qui Coupe l&amp;#39;Algérie du Sahel ! 🇲🇦💥🌍 🔗<a href="https://www.youtube.com/watch?v=3lGK-Y1Uals">LINK</a>
+3️⃣ Maroc : Dakhla lance les études de sa future zone logistique face à la concurrence des ports ouest-a 🔗<a href="https://www.youtube.com/watch?v=weDiWVHqolI">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios informaron que una delegación militar estadounidense de alto nivel visitó el Puerto Atlántico de Dakhla, inspeccionó sus componentes navales y analizó sus capacidades estratégicas, destacando el interés y la presencia oficial de EE. UU. en el puerto.
+
+Al mismo tiempo, fuentes marroquíes anunciaron que Dakhla ha iniciado estudios para una futura zona logística y que se proyecta el desarrollo “Dakhla Atlantique 2027”, descrito en algunos titulares como un movimiento logístico que impactaría la conexión del Sahel.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-03</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-03)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ وفد عسكري أمريكي يستكشف المؤهلات الاستراتيجية لميناء الداخلة الأطلسي - الاتحاد الاشتراكي 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxPd1B5akZGS0NIMlN6SEZYV3hVVWx4bFBQWFJFSVFRZkl6Y1dUT2taRlRQMkl1Q0cwckxlbEZhYmNkUEFuTTY5dHFJSHNzVEF2T0FwazdVdVNfRVpyS0ZyWGVmQ1dsY3FaOE1iV19FVWdJY3BpbEJRakpVSjB5WkJ3UEVYcE1WVHY2STk1NHM1VG9pV0JXekxuTTU0UG1Ybmh3cmFCakJ2dXY3YnBiQ3RFeW4xYmNhMFo0LVNnUUd3cVVUOC1fd2QxNy1ObkpXM0dqV1NnZVE4eXdoeXN4TFc5NjNGblNlZ052dVBqYU5FREQtSkp1MWpDQzhMZ05qUmlRWXN4WThTLXVfelUwY3psVm0tM2NxcF83Nk1JaUZ1eDNaN3RaS1lIdlBXY1hiRDBKeEJ5X3h6NHBDdGk5NlV1eXpMbw?oc=5">LINK</a>
+‎2️⃣ الداخلة: وفد عسكري أمريكي رفيع يزور ميناء الداخلة الأطلسي ويطّلع على مكوناته البحرية - أحداث.أنفو 🔗<a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxQMV96UTFBM25SbEs4V2NOMEtzMXhJc3RFSm5PTzhSbjc3UFVxRmtyMWdIcTNoY2MzRkNOYThDbGpWdDQ1MlZHc1FHNmJLdG92QjJBOThlN1NaZ3Y0NXVRVXhDTmNwbWFuOGpTQzlYT184Vnp3NmhnRGRpcXVwTTBFUmlqYmU3ZE05YlowSzExdFJtc0tfUjBzaTEzRW5mNFZ1R0lWVUNRS0p5RFhSRkFBdk9ndG51d1pybnJEMHdoV3V6Q09QZElvUjdub2ltcFdYeHVJVVFfNk5KcVpJdEJtRGU5WEVDT0dXNU5URDBlV29VQ2g5VnVMazRVNVVncUZfOHpxeHRMYlBLOGU3TWYtVlJEMDJNMl81dTBkb3hBZ1ctMFRuOUF3X1RCTWQ4T0x1bXItV05qNzdQbW9aZExqUnZJOHpudw?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة الأطلسي في صلب اهتمام وفد عسكري أمريكي - جريدة 20 دقيقة 🔗<a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZTEdZOGh4LTZMMWwwUDloaUg0VF9RV2tEVzBaMzM0dmdiQ25QM2FSQTV5UUhWOHhPb05UVGpjczUwb0R3MHU1eVVNMTVVX2lFMXJjM0lxOA?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ Sahara: High-Ranking U.S. Military Delegation Visited Atlantic Port of Dakhla - The North Africa Post 🔗<a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNUl9xR28xanJ1TEpUMDUwYUlEQlB0VHl2bFBvZXZuWWxRUjl2cTk2WV9OWWRXSG5wVXN0amgzTXBhVWxKaVdzVEw2V1VubmNVdk9kZ18zMTNGTWxWbHd1ZlhQZm1fMndDWl80VXNyYmpsVTUzOEZJY2xrRXVYY2tLZmVvMFV5eUtFdGRQOUtHdkxVR1NhY2JSMG5td21xUGR4Wm5KU1JxNHFpVjBCbE96cEZxZDc?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Maroc : Dakhla lance les études de sa future zone logistique face à la concurrence des ports ouest-a 🔗<a href="https://www.youtube.com/watch?v=weDiWVHqolI">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
+<summary>📅 <b>2026-09-02</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-02)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يستوقف واشنطن.. ماذا وراء الزيارة العسكرية الأمريكية ؟ - attasiaa.com 🔗<a href="https://news.google.com/rss/articles/CBMiwAJBVV95cUxPaG0wQTFvSERocmd3YVZtQk5rTHcwOUsyX196b0hEYjV4R3hYOEJCTS1kMGZMQjczajZhUWF1Wlhra2JBYkplNjZ0Y1JHZG5nT1JzWTdhNUQ4VHBIUF9QaUMwcVo1WFJpUzlabzF0Ul9Zak5vQjlkRlkxdGdJb0RPWXJWb2IyRXlFbzFCVHY2RjFaTnBaQ2VzSDR1MllNbk8wV2FkQ0szVGhPUmdZSEZ0RmRYOTdSbWE3QVJhMm4yc2t4M2lKZjdsTlZSVUhZUll2RmY4Q3R0a2Fyb1NoeUxwVEJ6dXJLMU10alp5bExPaHNvR1VaUUJTbExSTzEzNVVnZDl5aW0wX0MyRktWR3RPbWdKRXktbkdnZm8zYnZjVzRuMFo5YkN3S3NDbmpIX0llajd4bWRid0hod3BsQ2ZmMw?oc=5">LINK</a>
+‎2️⃣ وفد عسكري أمريكي رفيع يزور ميناء الداخلة الأطلسي - الصحيفة 🔗<a href="https://news.google.com/rss/articles/CBMixwJBVV95cUxPTUt3alFRcmZGNnpmSUpnQzVlTjFSMkt1c1ZieldQODdtMzhBVWJxNWFVRWEtS19XaHNwampvUlRvc0gyZm9aN1BZZGhkTlA5UE1rRXJyUFMyN2xETUxHVGg2eEFOYVIwRzR4d2hvdlh6alVJcGc0V1BwQm9QSkc0MGxCUEVuT0ZCTUQzOVF0YkN4X0hHSTh3NzFlZ3FWZC1UV3RPR0VoMm53UU5sclBIc21MdnNoM2g2WllJSVRmcDhMdjVXNlY4ZFhYaHhtZndmYVZXS2cwM09PQzZBa1Bjb3hGTFZBNlNfaXlPWWwxMEx6eC1ST1pYZDNlUUtGMEdkZXRhQ21jT1JZSUxxSjJzLU9TNE1QOVNSQm0tR0pMd2RteG0zdDUxSkNRb1Q0VGhDNTZ3SU9WX3lVdTFEOXIyQ0dUQk1PZzg?oc=5">LINK</a>
+‎3️⃣ وفد عسكري أمريكي يزور ميناء الداخلة الأطلسي ويطلع على أهميته الاستراتيجية - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNOXJ3dm55LU5qeC1oN3doczJHa3pxMEVmRGJFU2F0TmJyanpLcVdMbl9sV0N2Y2ROd1picmEwclBwZ1F0SnFLOHd3a9IBU0FVX3lxTE9NUXlWTzR3NVp6MlU4cERCTldEUTgwUXRnbWlYUDU5dng0OHkyWWs3dklQVmVJM25vdWNaM19SVTBCX1BQUHpCTXpBZ0lEd0dldTdj?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ US Military Delegation Visits Dakhla Port Amid Deeper Washington Engagement in Sahara - Morocco World News 🔗<a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOaHI0WjZ1LW5mY2tNaHktRUZ2U2pMRVJKUl9oYVJ5Sm5JbVVIZmVqb2d0VTE0d3FhcWRUSVV1eFU2TzNfY1ZtUERkb3R1NXlYVWV0bmRDeWNCaTdSbWNnTHdoZkxNOXdZWmd6emMyd2JqTFkxcGs3QjNMOXdhWjZET1g4V0lORXgxcExzNnE4NUFJaDJqc2hJU1NpTFJ2bXlKdVJxZzRDclYwczhzX0hmZmhFX1gzVzc4M0UxRGFSZVNOd2VROVlhcEtMV2lnNTQ?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+No hay resumen disponible para este día.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-01</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-01)
