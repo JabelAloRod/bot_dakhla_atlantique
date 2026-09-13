@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-13</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-13)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port de Dakhla Atlantique: 1,24 milliard de dirhams pour les équipements de stockage d'ammoniac et de gaz - هبة بريس 🔗<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UVnh6T085NWFjTDB3NjFNaDBCWEZDOTFJX1Q5em4xOHg2WTJIQ3ZuR21HTXhoYUNKaDFzZVNkZFY4RnBBbjJiYzhsMTRrdXllZ3E0?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El Puerto de Dakhla Atlántico ha anunciado una inversión de 1,24 mil millones de dirhams destinada a la adquisición de equipos para el almacenamiento de amoníaco y gas.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-12</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-12)

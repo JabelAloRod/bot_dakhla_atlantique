@@ -757,5 +757,17 @@
   "2026-09-12": {
     "items": [],
     "resumen_ia": ""
+  },
+  "2026-09-13": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UVnh6T085NWFjTDB3NjFNaDBCWEZDOTFJX1Q5em4xOHg2WTJIQ3ZuR21HTXhoYUNKaDFzZVNkZFY4RnBBbjJiYzhsMTRrdXllZ3E0?oc=5",
+        "titular": "Port de Dakhla Atlantique: 1,24 milliard de dirhams pour les équipements de stockage d'ammoniac et de gaz - هبة بريس"
+      }
+    ],
+    "resumen_ia": "El Puerto de Dakhla Atlántico ha anunciado una inversión de 1,24 mil millones de dirhams destinada a la adquisición de equipos para el almacenamiento de amoníaco y gas."
   }
 }
