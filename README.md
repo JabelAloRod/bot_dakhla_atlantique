@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-14</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-14)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Barrages, routes, ports, dessalement... ce que le gouvernement achève, ce qu’il laisse à son successeur - Le Matin.ma 🔗<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOV3FqQUpuMTZYTkFVaE5OS0RBdy1GaHRIaThGM0d3a29JTnVXZ0RNNk5MMHIxVi1GREpSejZyNElHV2xJWlIwZDRmOVdUUVdjb0ZhaUVRSVRDcjV1VC1aOUtkUmNPRXo0ellKbG44eTFSc2FMcXVnOS05Ny1GSVFQMk5FYjVMRTVRMmpjM2ExbjFBemRkQm5hZ2RFZjhrVFlG0gGmAUFVX3lxTE5ZUUV0VzJGTFhsbVlNM2htejZieUQ4NVRjZ1ZHM1N1cGlmOXpIOUV5RkRSdkxJRzFyTDVpbWlZUWpuNDVJNE1wQm9GWGNGYlBzc01zX2lMY0VpSy1jM2lUM1BkWFpiQ1B0WGZvNzFnMkZoNFhkWFB3aDJnUVA0U3c1WURGRVdlcm5zZlloWGdlUXQ0ZGZ3U2o4QzlpN3B4ZzZhNkFWb2c?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة المغربي يتجه لتخزين الأمونيا والغاز الطبيعي المسال - سولارابيك 🔗<a href="https://news.google.com/rss/articles/CBMi6ANBVV95cUxOWm05X3dwMnItOGwtQ3R0dkFJdW1OOW8yY3h6eHdQOFBWa243SzRTbm1OS29TWDVXdHltSGgyMGpmRVpJdkNfUk92TnBDdlBJUlc4WXZIaUV6d3ZTSXdPbUtaMGs4U25WaS0zYm1sYTYyeGFtNnFmNlh2Vkxyd3hZM3JuSE00eF9zNmZyZFk5VGZScXRnU2ZrbFhHU0J0c19mSmVqbTg2ZDZaano5ckFsZUM5V0I0a3I4aWNwYUdDOUxxUUFGQjdLaVpSVVRqS002TGpNZ1FaVzNiR1hmbHVnNzBGTFhNTnBpaTgyLTc0Nks0Z1RWQ29nd1dEcHdsZzFOVjR4c3V0OW84M2VpX3g5aXBVTHVGZUktRDhZeTJhWTFjX0dvVzIyYWxlUVM2cENaVFJCU25WaXFwVG9NWmx1Y2tYeEhvM19qRDBETWE2UTViaEdnQzBodGMwSzBQQWZsNTBENWpWMVZtSXlxSUpZWHQtQ01TTWFrMFIyOXM4X3dmWDd4TkpBTGVyQlVFY3dnM24wdWJacXNrWktqTFdtUVBoTVJ1bEVuTkEtUTI4Tk1OVDZtZHFyVjgyc0NlcEc5QUJxc3J2cHFneUZvT1RTcHg2SlpCSUhvUlI4YUI4Z0ZlRUMtaTJPag?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي يخصص 1.24 مليار درهم لمنشآت تخزين الأمونيا والغاز الطبيعي المسال - العالم 24 🔗<a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUNktoVkEyTy1MajU2U3pmOHE0R05YYnkybkwtV0UxR0NucU1CbnNnN1haenlqUnVVamVWWE9HSmtxYmpFNFpBTw?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة الأطلسي يرسخ موقعه كمنصة استراتيجية للطاقة واللوجستيك - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oSnBtTkZobmNwTE9Sa1kyNGNqMjYybUZXOU5Ib3ozT2xLdW5UMk84MXFhNEotZkMyZlB6dmgtN1ZNZkFaeG1mZGlFWdIBU0FVX3lxTE8xOTlHeDhDemg4eDA1ZU5VbTdmYjRWQWc3b3BuWnVlTV9CUGQ1bGdrd3huUjN2S00wbWdLbHdtcFd3Y3c1OHg3QUF1WHJiSUs5enhV?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة الأطلسي يخصص 1.24 مليار درهم لمنشآت تخزين الأمونيا والغاز الطبيعي المسال 🔗<a href="https://www.youtube.com/watch?v=QmEL4C1syic">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se informa que el gobierno está finalizando obras de infraestructura como presas, carreteras, puertos y desalación, mientras que algunos proyectos quedan pendientes para su sucesor. En el caso del Puerto de Dakhla Atlántico, los titulares destacan que se está orientando hacia la instalación de instalaciones de almacenamiento de amoníaco y gas natural licuado.
+
+Además, se señala que el puerto ha destinado 1,24 mil millones de dirhams para esos proyectos de almacenamiento y que busca consolidarse como una plataforma estratégica para el sector energético y logístico.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-13</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-13)
