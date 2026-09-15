@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-15</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-15)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يحظى باهتمام دول القارة الأمريكية - جورنال 24 🔗<a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTnAwUnNJaTlITjN2MHZuQlpwNDV0YUMyeTNLNWFTNEFHMnBKQ2daRkNiYXpldE81UVo3aTVEdE8xdkdBdmt2bVZVR1BkeVhBNWRoMlZDTmtrZzRmWGE5emowc1NiY0w2VHYxbnZMNlF1NTVSR05xTEM5dERya25YYVhMWkhTSUFoSkgzUVdpclFSUHpWSmFRbWIwUmxIVE9kU1NPX0dCbWh5clREVVVHeEwwTU9uMlBEemIyNGxfaFkwc3FHaXR2MnkwTjVGZ09Ud0JYYVo0THBiNTRpQmtBVUJybEk?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي يرسخ موقعه كمنصة استراتيجية للطاقة واللوجستيك - برلمان.كوم 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxPQzNoZGN1RV9XeXI3UDk4WTFCVmVhRGtaRmdFOEJ5UjRFVDd6aWp2T3NwNkxSdW1tVGV4S19KNG1vTDBWT1MxclJaZTBSTF8tQlh0U2FDb1M2aklhOU1fS0tKOEV6RHBMN0V3RDlCay0wdmVPSTUyOFpRWElsWUVXaHBfT25jMEJnekM4NkhqdEl2NkZCZFM2REVpdThuU05feE1lY2RtbW9QMjhwUngwMkpKbXdoT2JkY3h5VzRZeExXX1NnY2lxbjdfbUpLampSbFVQTXJOOHVYSWhQZ2F5SVVhTWJfTndyNWRJdmF2U09LTTNVeGF1OTRFUWtrMXJ6OUktSE9aSnc4UHRMeF8xMC1LUjkwNzlNLXlVR0xTZzZyM1g5ZTBkeXNvcmZkcXdNUlJjR1lfWThEZXNPdjVwX2RB?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة الأطلسي.. من بوابة بحرية إلى منصة للطاقة واللوجستيك - العيون الآن 🔗<a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxPbVpNTWdudVFpTTA2OF83ZjNiZlBnM2dxVHVHQzdtRVh3cHBxMW14XzJxVDRsQXhsN2NrYzhxbnk0dUVfQXE5dUdjUjh5VEN1ZnNIcno1V0FQSGxSZFc3QzNvR3RZSnlkOUlyY2ZuLVpFa1hwbHluX2NsdjZwdnBqMXk1dmptU2tFWFlVbzJwd3cyaThURXh2Zjk0aG4ta1otZGRrQVRvNUtfTFo2VFI2cnNkb2pOTDFxUHlKRFBxYk1FM2pULUZkM0xfdER3OWI1d1E5UmNrRzlFYTJaWm02S2ZnT1R2Q19wdDVvQ0ttWWZsbHRaUnR0VVZvT183TzhSTTV3NUxFY2o3cWRGMzlNTzgyaEIyaHNUeW5ncFlBZDk5LXl1YzlGVlZ2bUdEdWtxMi1xOGNJTS02eHZzV1RXa2k5MlpSUQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ بكلفة تناهز 13 مليار درهم وطاقة استيعابية مستهدفة تصل إلى 35 مليون طن سنوياً، يواصل ميناء الداخلة 🔗<a href="https://www.youtube.com/watch?v=Z6N--Nedz8I">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El Puerto de Dakhla Atlántico ha llamado la atención de los países de la América, y se está consolidando como una plataforma estratégica para los sectores de energía y logística, según los medios citados. Además, se describe su evolución de una simple puerta marítima a un centro integral de energía y logística.
+
+El desarrollo del puerto continúa con una inversión estimada en 13 000 millones de dirhams y una capacidad prevista de alcanzar los 35 millones de toneladas al año.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-14</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-14)
