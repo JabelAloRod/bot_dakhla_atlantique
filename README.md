@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-16</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-16)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ مشروع تحلية مياه البحر والري في الداخلة، “أحد أكثر المشاريع طموحا في شمال إفريقيا” - أحداث الداخلة 🔗<a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxOTVU4aXV1Z0tvWk5Wa2xaV0pxUUR6cTlYWDJjMWJ0elNWd2I5cjlKOEdKVDdhTjB3Mmc4dEtUT3BEZWpRUENrWGVkaHFvZVR3SXIyRlN1OHFuTGlqRDFlOW1ZYTNTaUxxRkpUNEtRQ0dZMmRiVmxmRFZCT01Iaks0RjZmQl84OGM5NmdZUGg3eTVFeGRXYnh3emNvcHo0ZWN5TG9mRlMyREZCWWhBbEtHOGNqTXhCNjctQVE3alYwYWpieVJEb0xhMlV4QTdpVXlGOGlaTjJMSlJGZWk2QlVpajRxa3BMR3VlWHgxVGZkdU9xbVU2dWtNdkE0eWpkQmtHNk9vY2dIT21VaFkyaDVVR25LcTJqVjVMRzA0Um1lNnBiTnNpOTExclRZSWwtWVhnR2tsT21XNW5ta2sxY1AxRUJOMTNDQQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ Dakhla Atlantic Port gets $130m for ammonia, LNG storage facilities - Quantum Commodity Intelligence 🔗<a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxONFdiX1RrNkRLS0RLTW1TdDV6dWNNbk5yZHhId2FpcnNhSHF3QzQwdWU1WndaWFRiVk1qTEtFS25PQmtuYkY1ZEtmUllhNnhqOHc5QmdGVE9pWDhyalhmYXJqVllnWWxxbk1tRmxiLTRnMVRPaTBVa1lWb0VoNnpNWGlCMUpoX1lQUF81V1BRRndYLWh4UmhsdlFDZVMwUHgxNHh0b2dNTGpZZWp3UktJWklDVllaNEU?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Infobae : Le projet de dessalement et d’irrigation à Dakhla, « l’un des plus ambitieux d’Afrique du Nord » - medi1news.com 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE10UERXeEdkVTZxdkxudDQ3ZFMzTVZIb1dkWGdzcUZYdWxSZW43MW1GTnJsQXVlVlZqRlZYZ3NONEVXeFptYjl0SEZJTUpYWkVKeG0tdFR4VHAyV0Z4?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el proyecto de desalinización de agua de mar y riego en Dakhla es considerado “uno de los más ambiciosos de África del Norte”, según varios medios locales y de prensa internacional.
+
+Además, se informa que el Puerto Atlántico de Dakhla ha recibido una financiación de 130 millones de dólares para la construcción de instalaciones de almacenamiento de amoníaco y GNL.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-15</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-15)
