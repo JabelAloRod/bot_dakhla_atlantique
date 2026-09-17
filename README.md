@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-17</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-17)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Le projet de dessalement de Dakhla salué par le grand média argentin Infobae - EcoActu 🔗<a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNRHBCS2dzcVZ2LWRpNm9fZlBSX2FSR3NRd245MXpoeWFKdnpYR1l4X09ta1d0cXRvRm1WaWl1S3k1S0lwc0tHTHpXc3FxaUlsZ01uN3NKa3l5M182TzZVaVViajVpUEpvbWhOeUhGZlFzTl9zb3VTVzRyTThBLXQ0M0htY3h5MVFqZXBEbl9PVkxER2hJYThkQjVXMzRGUktvTTdSaGxB?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة.. انخفاض مفرغات الصيد الساحلي والتقليدي بـ 62 في المائة عند متم غشت الماضي (مكتب) - Maroc24 🔗<a href="https://news.google.com/rss/articles/CBMitgVBVV95cUxNRFUtVS1qcFFROTNQZ3h5TUNibGp5R085el9QVk94X3g3WTJUdEJ6ZElETHBFUWx1T3ZXWEN2WUxDTWxza2dHSzVOV1V5cGxEZERPaTZTbGd1NkJwWk02Z2ZYZTJLeF9rOTBOZWFLZlNaSjNfX01TNFdpZ0dMdDA2Wl9EQ0poU3czZjVVeDg1eTQxNHJOX2VxeHBJZGRRcmFPLVR3VnFhYXlGRm5sLVVRdUc0cHRaZjY1VTRzaGF5UXQ0dnRkVFBETUc5OVlnZkJwbmZrZlZzZDltdE9NcjItRGVKbzhUX3h0OGVEOFBUQjVCcHh4NWlWTUxYZXo3WjVLWVpBdkxidzZySERFZXBuamhwWkFUejJVcG5fLWhEVGo4dzRlZ0t6UGJnUXJWNXVUY0k1b1NibXFPdDNaNWFOUURFay12N090Nnc5bW00aU85cGdJODR0NTVndU90STBmZW5JRHp1UVlUUE1WcFpLRVBzWXVxa0FnbnFJUVEzbHBjVkRjOUtfdWZfcWNOOWNwVEhXTlhJd2dMWFlDRHIzVzlxRTZTYWRIT3N0OG8ybVRFTTgxOXdhVkgxckFvSlU1VnQ3aXo2cERJT0dGLWlnajc3SlVWNnhNZlZWYkVSYVA0Mlg3YUZ5WU4ydnVsVlpWU3JrUmJ4eFNkSlltRFVLekZuUU9qTlpnR1J5ZE9LZmdpT1lWTHZSZTRXTDNFN3JkTC16YUNTR21jVk4yY2tBWTA4VXprTVBGUXpDaEtRNnpJeWhiZTFTd3FzVlVOSWw0TDRUd1M1Yk9VRi1ZOVpYdURxVS0yaWttWlpXSVBPaGNvOGhGeWNzcm0zckRvQ2dXVTBUWXpIYkdUVFUxTkgtclNVQS1BVzBGdG0wNk50TFVWM2VQOENrZVlSWndkYXhYLUN3VFN3?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el proyecto de desalinización de Dakhla ha sido elogiado por el importante medio argentino Infobae, según la información de EcoActu.  
+
+Asimismo, el portal Maroc24 informó que en el puerto de Dakhla las descargas de pesca costera y tradicional disminuyeron un 62 % en el mes de agosto del año pasado, según datos de la oficina correspondiente.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-16</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-16)
