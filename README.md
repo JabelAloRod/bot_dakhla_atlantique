@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-18</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-18)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ تخوفات إسبانية من صعود المغرب اللوجستي.. طنجة المتوسط والناظور والداخلة تعيد رسم خريطة التجارة البحرية - فاس24 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxQYjRoLUNpNlRoYThaTnpncG1QOWJxbENDMlhRLUJCMzRxWjZEaHJpRWJNeDkxSXdvTXlUdzJoTXozR0g0MGpWUWt2WndITGUyZUlCdlVuRllkVGZJQTNwRlZ3QjJhSkN4YVU3UFNtWl85V2FJMmE0ZnpnaUtQRHlvaWViZ3IzbUxpbFF0SVRfVDl2NG9QMS1yVXAwWEZ6bFBNbUNPemNMM0JudDZ5WTZvSmxmdVVwYk0xdGk2RTQzOFhSeHl5bVR1ZlpCV3F0MFlqTlVOUHJKdGVyUGw3MlJGMWFvU1ZvNm9JTm5nN3JBbFR1SUpBY1RRLUFWMm04OFNLbC1HaDFCVmdBU1ZweloyLUJxQzVBd2pLSkF0Y3I2QUlXY0RFa0NBbkw5NGlqdEdkc01xMUlra1BKaXBPT1pCa0tR?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los medios informan que España muestra preocupación por el creciente protagonismo logístico de Marruecos, señalando que los puertos de Tánger-Med, Nador y Dakhla están modificando la configuración del comercio marítimo.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-17</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-17)
