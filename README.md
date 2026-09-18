@@ -23,10 +23,11 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 • No hay noticias
 
 🇫🇷 <b>Francés</b>
-• No hay noticias
+1️⃣ Le projet de dessalement de Dakhla salué par le grand média argentin Infobae - EcoActu 🔗<a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNRHBCS2dzcVZ2LWRpNm9fZlBSX2FSR3NRd245MXpoeWFKdnpYR1l4X09ta1d0cXRvRm1WaWl1S3k1S0lwc0tHTHpXc3FxaUlsZ01uN3NKa3l5M182TzZVaVViajVpUEpvbWhOeUhGZlFzTl9zb3VTVzRyTThBLXQ0M0htY3h5MVFqZXBEbl9PVkxER2hJYThkQjVXMzRGUktvTTdSaGxB?oc=5">LINK</a>
 
 🇲🇦 <b>Árabe</b>
-‎1️⃣ تخوفات إسبانية من صعود المغرب اللوجستي.. طنجة المتوسط والناظور والداخلة تعيد رسم خريطة التجارة البحرية - فاس24 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxQYjRoLUNpNlRoYThaTnpncG1QOWJxbENDMlhRLUJCMzRxWjZEaHJpRWJNeDkxSXdvTXlUdzJoTXozR0g0MGpWUWt2WndITGUyZUlCdlVuRllkVGZJQTNwRlZ3QjJhSkN4YVU3UFNtWl85V2FJMmE0ZnpnaUtQRHlvaWViZ3IzbUxpbFF0SVRfVDl2NG9QMS1yVXAwWEZ6bFBNbUNPemNMM0JudDZ5WTZvSmxmdVVwYk0xdGk2RTQzOFhSeHl5bVR1ZlpCV3F0MFlqTlVOUHJKdGVyUGw3MlJGMWFvU1ZvNm9JTm5nN3JBbFR1SUpBY1RRLUFWMm04OFNLbC1HaDFCVmdBU1ZweloyLUJxQzVBd2pLSkF0Y3I2QUlXY0RFa0NBbkw5NGlqdEdkc01xMUlra1BKaXBPT1pCa0tR?oc=5">LINK</a>
+‎1️⃣ ميناء الداخلة.. انخفاض مفرغات الصيد الساحلي والتقليدي بـ 62 في المائة عند متم غشت الماضي (مكتب) - Maroc24 🔗<a href="https://news.google.com/rss/articles/CBMitgVBVV95cUxNRFUtVS1qcFFROTNQZ3h5TUNibGp5R085el9QVk94X3g3WTJUdEJ6ZElETHBFUWx1T3ZXWEN2WUxDTWxza2dHSzVOV1V5cGxEZERPaTZTbGd1NkJwWk02Z2ZYZTJLeF9rOTBOZWFLZlNaSjNfX01TNFdpZ0dMdDA2Wl9EQ0poU3czZjVVeDg1eTQxNHJOX2VxeHBJZGRRcmFPLVR3VnFhYXlGRm5sLVVRdUc0cHRaZjY1VTRzaGF5UXQ0dnRkVFBETUc5OVlnZkJwbmZrZlZzZDltdE9NcjItRGVKbzhUX3h0OGVEOFBUQjVCcHh4NWlWTUxYZXo3WjVLWVpBdkxidzZySERFZXBuamhwWkFUejJVcG5fLWhEVGo4dzRlZ0t6UGJnUXJWNXVUY0k1b1NibXFPdDNaNWFOUURFay12N090Nnc5bW00aU85cGdJODR0NTVndU90STBmZW5JRHp1UVlUUE1WcFpLRVBzWXVxa0FnbnFJUVEzbHBjVkRjOUtfdWZfcWNOOWNwVEhXTlhJd2dMWFlDRHIzVzlxRTZTYWRIT3N0OG8ybVRFTTgxOXdhVkgxckFvSlU1VnQ3aXo2cERJT0dGLWlnajc3SlVWNnhNZlZWYkVSYVA0Mlg3YUZ5WU4ydnVsVlpWU3JrUmJ4eFNkSlltRFVLekZuUU9qTlpnR1J5ZE9LZmdpT1lWTHZSZTRXTDNFN3JkTC16YUNTR21jVk4yY2tBWTA4VXprTVBGUXpDaEtRNnpJeWhiZTFTd3FzVlVOSWw0TDRUd1M1Yk9VRi1ZOVpYdURxVS0yaWttWlpXSVBPaGNvOGhGeWNzcm0zckRvQ2dXVTBUWXpIYkdUVFUxTkgtclNVQS1BVzBGdG0wNk50TFVWM2VQOENrZVlSWndkYXhYLUN3VFN3?oc=5">LINK</a>
+‎2️⃣ تخوفات إسبانية من صعود المغرب اللوجستي.. طنجة المتوسط والناظور والداخلة تعيد رسم خريطة التجارة البحرية - فاس24 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxQYjRoLUNpNlRoYThaTnpncG1QOWJxbENDMlhRLUJCMzRxWjZEaHJpRWJNeDkxSXdvTXlUdzJoTXozR0g0MGpWUWt2WndITGUyZUlCdlVuRllkVGZJQTNwRlZ3QjJhSkN4YVU3UFNtWl85V2FJMmE0ZnpnaUtQRHlvaWViZ3IzbUxpbFF0SVRfVDl2NG9QMS1yVXAwWEZ6bFBNbUNPemNMM0JudDZ5WTZvSmxmdVVwYk0xdGk2RTQzOFhSeHl5bVR1ZlpCV3F0MFlqTlVOUHJKdGVyUGw3MlJGMWFvU1ZvNm9JTm5nN3JBbFR1SUpBY1RRLUFWMm04OFNLbC1HaDFCVmdBU1ZweloyLUJxQzVBd2pLSkF0Y3I2QUlXY0RFa0NBbkw5NGlqdEdkc01xMUlra1BKaXBPT1pCa0tR?oc=5">LINK</a>
 
 🇬🇧 <b>Inglés</b>
 • No hay noticias
@@ -37,11 +38,13 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 
 📺 <b>YouTube & Vídeos</b>
 
-• No hay noticias
+1️⃣ ميناء الدخلة في الصحراء الغربية المغربية 🇦🇪 🔗<a href="https://www.youtube.com/watch?v=Mzv9vwNlyYw">LINK</a>
 
 🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
 
-Los medios informan que España muestra preocupación por el creciente protagonismo logístico de Marruecos, señalando que los puertos de Tánger-Med, Nador y Dakhla están modificando la configuración del comercio marítimo.
+El proyecto de desalinización del Puerto de Dakhla ha sido elogiado por el importante medio argentino Infobae, según la información publicada en EcoActu.  
+
+En otras noticias, se informó que las descargas de pesca costera y tradicional en el puerto disminuyeron un 62 % en agosto del año pasado, según datos de la oficina citada por Maroc24. Además, medios como Fas24 señalaron que existen temores en España por el crecimiento logístico de Marruecos, indicando que los puertos de Tánger‑Med, Nador y Dakhla están redefiniendo la cartografía del comercio marítimo. Por último, se recordó que el Puerto de Dakhla se encuentra en el territorio del Sahara Occidental bajo administración marroquí.
 
 🤖 Informe generado por Mamé el Bot 🤖
 
