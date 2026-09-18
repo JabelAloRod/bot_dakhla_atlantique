@@ -190,31 +190,53 @@ def dividir_en_bloques(mensaje, max_len=3900):
     return bloques
 
 
+def _parsear_destino(destino):
+    """
+    Interpreta un destino de TELEGRAM_CHAT_ID. Acepta dos formatos:
+      - "123456789"        -> chat normal (privado o grupo sin temas)
+      - "-1001234567:28"   -> grupo con temas: el número tras los dos puntos
+                              es el message_thread_id del tema concreto.
+    Devuelve (chat_id, thread_id) donde thread_id puede ser None.
+    Ojo: los IDs de grupo empiezan por '-', pero el separador de tema son los
+    dos puntos, así que no hay ambigüedad con el signo negativo.
+    """
+    destino = destino.strip()
+    if ":" in destino:
+        chat_id, _, thread = destino.rpartition(":")
+        thread = thread.strip()
+        if thread.isdigit():
+            return chat_id.strip(), int(thread)
+    return destino, None
+
+
 def enviar_telegram(mensaje):
     """
-    Envía el reporte a todos los IDs configurados en TELEGRAM_CHAT_ID (separados por coma).
-    Devuelve True solo si TODOS los envíos a TODOS los chats tuvieron éxito, para que
-    quien llama pueda hacer fallar la ejecución si algo no ha llegado de verdad.
+    Envía el reporte a todos los destinos configurados en TELEGRAM_CHAT_ID
+    (separados por coma). Cada destino puede ser un chat normal ("123456")
+    o un tema concreto de un grupo ("-1001234567:28").
+    Devuelve True solo si TODOS los envíos a TODOS los destinos tuvieron éxito,
+    para que quien llama pueda hacer fallar la ejecución si algo no ha llegado.
     """
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("Error: No se han configurado los tokens de Telegram (TELEGRAM_TOKEN / TELEGRAM_CHAT_ID).")
         return False
 
-    chat_ids = [c.strip() for c in TELEGRAM_CHAT_ID.split(",") if c.strip()]
+    destinos = [_parsear_destino(c) for c in TELEGRAM_CHAT_ID.split(",") if c.strip()]
     url_base = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
     todo_ok = True
-    for chat_id in chat_ids:
+    for chat_id, thread_id in destinos:
         for sub_mensaje in dividir_en_bloques(mensaje):
-            ok = _enviar_un_mensaje(url_base, chat_id, sub_mensaje)
+            ok = _enviar_un_mensaje(url_base, chat_id, sub_mensaje, thread_id=thread_id)
             todo_ok = todo_ok and ok
 
     return todo_ok
 
 
-def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML"):
+def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML", thread_id=None):
     """Envía un único mensaje. Si Telegram rechaza el formato (HTML mal formado),
-    reintenta una vez en texto plano para no perder el contenido. Devuelve True/False."""
+    reintenta una vez en texto plano para no perder el contenido. Devuelve True/False.
+    Si thread_id viene informado, el mensaje se publica en ese tema del grupo."""
     payload = {
         "chat_id": chat_id,
         "text": texto,
@@ -222,25 +244,29 @@ def _enviar_un_mensaje(url_base, chat_id, texto, parse_mode="HTML"):
     }
     if parse_mode:
         payload["parse_mode"] = parse_mode
+    if thread_id is not None:
+        payload["message_thread_id"] = thread_id
+
+    destino_log = f"{chat_id}" + (f" (tema {thread_id})" if thread_id is not None else "")
 
     try:
         res = requests.post(url_base, json=payload, timeout=15)
         if res.status_code == 200:
-            print(f"Reporte enviado con éxito al Chat ID: {chat_id}")
+            print(f"Reporte enviado con éxito a: {destino_log}")
             return True
 
-        print(f"Error enviando a Telegram (Chat ID {chat_id}): {res.text}")
+        print(f"Error enviando a Telegram ({destino_log}): {res.text}")
 
         # Si el fallo es por formato (entidades HTML mal formadas), reintentamos
         # sin parse_mode para no perder el mensaje, quitando las etiquetas.
         if parse_mode and "can't parse entities" in res.text.lower():
             texto_plano = re.sub(r"<[^>]+>", "", texto)
-            return _enviar_un_mensaje(url_base, chat_id, texto_plano, parse_mode=None)
+            return _enviar_un_mensaje(url_base, chat_id, texto_plano, parse_mode=None, thread_id=thread_id)
 
         return False
 
     except Exception as e:
-        print(f"Excepción al conectar con Telegram (Chat ID {chat_id}): {e}")
+        print(f"Excepción al conectar con Telegram ({destino_log}): {e}")
         return False
 
 
