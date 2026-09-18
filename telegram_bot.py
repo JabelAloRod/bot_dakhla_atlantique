@@ -4,6 +4,7 @@ import json
 import time
 import html
 import logging
+import resource
 import threading
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -794,6 +795,25 @@ def iniciar_servidor_salud():
     servidor.serve_forever()
 
 
+def iniciar_monitor_memoria(intervalo_segundos=1800):
+    """
+    Hilo de fondo: registra en el log el consumo de memoria del proceso cada
+    cierto tiempo (30 min por defecto). El plan gratuito de Render no da
+    acceso a la gráfica de memoria, así que esto es la forma de comprobar
+    'a mano' si el consumo va subiendo con el tiempo hasta un cierre por
+    falta de memoria (OOM), mirando simplemente los logs normales.
+    """
+    while True:
+        try:
+            # ru_maxrss viene en KB en Linux (que es el sistema que usa Render)
+            memoria_kb = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+            memoria_mb = memoria_kb / 1024
+            logger.info(f"Monitor de memoria: uso máximo del proceso hasta ahora = {memoria_mb:.1f} MB")
+        except Exception as e:
+            logger.error(f"Error en el monitor de memoria: {e}")
+        time.sleep(intervalo_segundos)
+
+
 async def configurar_comandos_nativos(app):
     """
     Registra la lista de comandos en Telegram (vía set_my_commands), para que
@@ -802,14 +822,14 @@ async def configurar_comandos_nativos(app):
     """
     await app.bot.set_my_commands([
         BotCommand("start", "Abrir el panel de control"),
-        BotCommand("menu", "Abrir el panel de control"),
-        BotCommand("ayuda", "Ver la ayuda y los comandos disponibles"),
-        BotCommand("estadisticas", "Ver estadísticas del registro"),
-        BotCommand("registro", "Consultar el registro histórico"),
-        BotCommand("exportar", "Exportar un mes a Excel"),
-        BotCommand("resume_mes", "Resumen mensual (2 partes)"),
-        BotCommand("actualizar", "Forzar la generación del reporte"),
-        BotCommand("estado", "Ver el estado del sistema"),
+        BotCommand("actualizar", "🔄 Forzar Reporte"),
+        BotCommand("estado", "📊 Estado del Sistema"),
+        BotCommand("estadisticas", "📈 Estadísticas del registro"),
+        BotCommand("registro", "📜 Registro histórico"),
+        BotCommand("exportar", "📊 Exportar un mes a Excel"),
+        BotCommand("resume_mes", "⚓ Resumen mensual (2 partes)"),
+        BotCommand("ayuda", "❓ Ayuda y comandos disponibles"),
+        BotCommand("menu", "Volver a abrir el panel de control"),
     ])
     logger.info("Comandos nativos registrados en Telegram (menú ☰).")
 
@@ -824,6 +844,9 @@ def main():
 
     hilo_reloj = threading.Thread(target=iniciar_reloj_disparo_diario, daemon=True)
     hilo_reloj.start()
+
+    hilo_memoria = threading.Thread(target=iniciar_monitor_memoria, daemon=True)
+    hilo_memoria.start()
 
     app = Application.builder().token(TELEGRAM_TOKEN).post_init(configurar_comandos_nativos).build()
 
