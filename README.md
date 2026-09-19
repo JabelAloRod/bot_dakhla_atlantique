@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-19</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-19)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ديابوراما: مشاريع ضخمة تسير نحو تغيير ملامح المغرب قبل العام 2030 - Le 360 Arabe 🔗<a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBka2NUeXZIY2RDWUV0enV3dTFXd0JjRzZ3RjVNUE50WDlrM055VDdRT0Q4OF93RjQ3YkhwbndocWJ5M01pbGVxelB3MUtvb3BvRGFIRFc2ZnpYa1dmX0ZwZ2IzbGRsWkU?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado en Le 360 Arabe un diaporama que muestra proyectos de gran envergadura que se están desarrollando con el objetivo de transformar el aspecto de Marruecos antes del año 2030.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-18</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-18)
