@@ -947,5 +947,17 @@
   "2026-09-22": {
     "items": [],
     "resumen_ia": ""
+  },
+  "2026-09-23": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Inglés",
+        "idioma": "Inglés",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc2RWZlhUanlEUjI1eF9XQ0ZRSUliWXFWTHBpelpRVXpITHhBREFrZFNRZlE2Rld6VWdzd1FVVmdsbk9meUxFNWRwMWduVWxhVGoxY21yeG5MSTMyOU5xTlVOZkV3dHR2Z0daajBNYkkyU2toQzY1MVJKWk9pNXZ1eGJlM3R0YktMSENiMEZzXzBjNGtoZ2Zvd0pNeFZFRGVOSXItXzMxWG1ZRnA0aUVZZ1dibVlzUWp2Q1gwX1llZ2drbXFm?oc=5",
+        "titular": "Morocco, Mauritania Sign Agreement to Rehabilitate Nouakchott-Dakhla Road Link - Morocco World News"
+      }
+    ],
+    "resumen_ia": "Marruecos y Mauritania firmaron hoy un acuerdo para rehabilitar el tramo de carretera que conecta Nouakchott con Dakhla. El objetivo es mejorar el enlace vial entre ambas ciudades."
   }
 }

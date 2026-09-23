@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-23</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-23)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+1️⃣ Morocco, Mauritania Sign Agreement to Rehabilitate Nouakchott-Dakhla Road Link - Morocco World News 🔗<a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOc2RWZlhUanlEUjI1eF9XQ0ZRSUliWXFWTHBpelpRVXpITHhBREFrZFNRZlE2Rld6VWdzd1FVVmdsbk9meUxFNWRwMWduVWxhVGoxY21yeG5MSTMyOU5xTlVOZkV3dHR2Z0daajBNYkkyU2toQzY1MVJKWk9pNXZ1eGJlM3R0YktMSENiMEZzXzBjNGtoZ2Zvd0pNeFZFRGVOSXItXzMxWG1ZRnA0aUVZZ1dibVlzUWp2Q1gwX1llZ2drbXFm?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Marruecos y Mauritania firmaron hoy un acuerdo para rehabilitar el tramo de carretera que conecta Nouakchott con Dakhla. El objetivo es mejorar el enlace vial entre ambas ciudades.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-22</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-22)
