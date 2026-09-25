@@ -963,5 +963,16 @@
   "2026-09-24": {
     "items": [],
     "resumen_ia": ""
+  },
+  "2026-09-25": {
+    "items": [
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=JOkhxqPER0g",
+        "titular": "SAHARA, MON PAYS — De Laâyoune à Dakhla | Hymne marocain"
+      }
+    ],
+    "resumen_ia": "Hoy se ha publicado el titular “SAHARA, MON PAYS — De Laâyoune à Dakhla | Hymne marocain”. El contenido parece referirse al Sahara y a la ruta que va de Laâyoune a Dakhla, vinculándolo con el himno marroquí."
   }
 }
