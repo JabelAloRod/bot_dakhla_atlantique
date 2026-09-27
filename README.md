@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-27</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-27)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Route Dakhla-Nouakchott : forcing marocain, ambiguïté mauritanienne et financement émirati - tsa-algerie.com 🔗<a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1dPbTBQR0J4WVQ5TnU5TDV6NnN0NmlCQU5VWGxSejdGVkZsNkRRZkhaTVN0X2gyaG1kMnFkdUM2UEJRQ1ZoQzRkd3Naak5adkpjb2NqdUEtaGY2NU5qeThTMk4ybGhZeDUzeFB3WE1XWnZhTGZNUEN3cEc5SGlRby1SVE1obmlnd0pRVVlDN0VuVXdockhUa0dNTTg1YXhhZWM1NTY3N1UzZGlyOVB2bUtSWnVvbGs?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ MAROC : Stratégie des Ports en Eau Profonde .. Une Puissance Maritime !! #maroc #algerie #ports 🔗<a href="https://www.youtube.com/watch?v=5EU1fz4eiU4">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado un titular que menciona la ruta Dakhla‑Nouakchott, señalando la presión marroquí, la ambigüedad de Mauritania y la financiación proveniente de Emiratos Árabes Unidos.
+
+Otro titular destaca la estrategia de Marruecos en puertos de aguas profundas, describiéndola como una potencia marítima.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-26</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-26)

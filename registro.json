@@ -978,5 +978,23 @@
   "2026-09-26": {
     "items": [],
     "resumen_ia": ""
+  },
+  "2026-09-27": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1dPbTBQR0J4WVQ5TnU5TDV6NnN0NmlCQU5VWGxSejdGVkZsNkRRZkhaTVN0X2gyaG1kMnFkdUM2UEJRQ1ZoQzRkd3Naak5adkpjb2NqdUEtaGY2NU5qeThTMk4ybGhZeDUzeFB3WE1XWnZhTGZNUEN3cEc5SGlRby1SVE1obmlnd0pRVVlDN0VuVXdockhUa0dNTTg1YXhhZWM1NTY3N1UzZGlyOVB2bUtSWnVvbGs?oc=5",
+        "titular": "Route Dakhla-Nouakchott : forcing marocain, ambiguïté mauritanienne et financement émirati - tsa-algerie.com"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=5EU1fz4eiU4",
+        "titular": "MAROC : Stratégie des Ports en Eau Profonde .. Une Puissance Maritime !! #maroc #algerie #ports"
+      }
+    ],
+    "resumen_ia": "Hoy se ha publicado un titular que menciona la ruta Dakhla‑Nouakchott, señalando la presión marroquí, la ambigüedad de Mauritania y la financiación proveniente de Emiratos Árabes Unidos.\n\nOtro titular destaca la estrategia de Marruecos en puertos de aguas profundas, describiéndola como una potencia marítima."
   }
 }
