@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Septiembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-09-30</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-30)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ تقرير: الكركرات وميناء الداخلة في قلب تحول لوجستي يربط المغرب بغرب إفريقيا - 2m.ma 🔗<a href="https://news.google.com/rss/articles/CBMixARBVV95cUxORTY2dnFlaXRQdU15VVFmOEpaeGh2RC1UOUxpN0RsZWIwNHlZdk8teXFyQlJVbnMxc0FiMjhFLS1HSHdWR2g2SzNfNWFWU3RuakVlVTF1eDZKRHRrZHlQU0ZsMWhiQ0hkaFNWejlSaWVVVlpuTGxQRHd4Mm1wT2dkWHRfenhOd0llSlJpQlBYOGNvanJsSVl0TUowejRaQjk4ZmVLN3c2NHowSzJmNVEtZW9QZEV2WVk5RFN4azVuQ09HYjY1c0REVVNnREZwM3pTcjZoVnpwU0FxUmZWVVJUZ1h2NW1aTVNPY0ExMWE0bFZnZlpQNldhQjlHOHpQVWFBVGNYVFVqNnJRMzQtNXBHdTZaME9MOGdjNmZrZjRqNEZrcmlsR3p5aUJHbEVCc3VPVzdRWGdKWU1MYTB6dk5XaWstcVE1RzVHaU1ZTWVvYW5sN3V6eEwwV1dJS3VEYlZSQkwtV0RVWndlZVc5UThuWlRCNXN1ak5FSlFWM2g1ZXpvSzhYbkI4YVhyUWlBMFgtaWQ3Y0xHX1dEY1FtUFhSRHpoRVpReWtWUnhMVVJRSnV4QjlTWHlKbHRPYUt0ak1pWnZkMzM2WUFPel9rclJCTHFfaUVuRFZKaUpDMnF3ZEhIZHBiM00zN3Rib0UzaHROUDcwekVDUUdtV1VwWFlWQ0YtN0I5X19Oa1RHQndmQURwb2FMWkJLYmxwSmNvRnB6a19GU1VXQkZQS1Y1OFVRUTFKZG5PY2tSd2JhVmJWMjFHSzJi?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Un informe publicado hoy en 2m.ma señala que el proyecto de Karkarat y el puerto de Dakhla se encuentran en el centro de una transformación logística que conecta a Marruecos con el África occidental.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-09-29</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-09-29)
