@@ -1020,5 +1020,16 @@
   "2026-10-01": {
     "items": [],
     "resumen_ia": ""
+  },
+  "2026-10-02": {
+    "items": [
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=0Jecv10hABE",
+        "titular": "علاش ميناء الداخلة الأطلسي غادي يحل للساحل باب التجارة العالمية؟"
+      }
+    ],
+    "resumen_ia": "Los titulares de hoy plantean la cuestión de por qué el puerto de Dakhla Atlántico se abrirá al comercio mundial."
   }
 }
