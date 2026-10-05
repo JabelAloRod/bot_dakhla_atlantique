@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-05</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-05)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique : Le tandem MFA / Punto concevra la future zone logistique d’El Argoub - Medias24 🔗<a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMV9hU3ZFcURFUU9IRkxsTXR6X2lZR25aNHhQRHFiazgxblI1ZmRaOFNDY0tpVk9saUhXRlZFdGprSC10WFE0T2FIVTVQUkl1cVVyejgxNncxcmNZWk5zTFVWdlluLVhqVGw1eVI4YXhMMDk0TXVJNU03TnFURlNySHNmdm1XM1FDcTVlbXp1MVp2Sl9tLXJBbTF5bTMyMlpwYjJMTVFuQmhjeEpBV3pvbjhqQzdlN0lBcjRMN0QwWTBFQQ?oc=5">LINK</a>
+2️⃣ Dakhla Atlantique : la future zone logistique d’El Argoub franchit une nouvelle étape - laverite.ma 🔗<a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQNUVWN2pnclBWMHEzSlNmbmVHYzNncDJxOXBGcllSMS0zNHVyVTE2bS1PdlRpcnZKcnFBeFI0M2JvQUUyTzhWcjF0ZW9IekZ4czZ5ZWRNQW9hdU1oX1BpQ3BmS3hsc0hiclluM2ZGd2pzblNOUGFKbVktSGNfczZrYmpNZnU?oc=5">LINK</a>
+3️⃣ Zone logistique d’El Argoub : l’AMDL choisit MFA et Punto pour concevoir son lotissement - Le Desk 🔗<a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1RITWtJVWhzMXptNk1IZVZiOTlhMjNubm5vamhVb0JuZlpEeTVubGJsMFN6T1VNVnB0b28zd3RuVTNNVk9QOEhTYXhYRFVJQUFEYzFCV3BYcEQ3M0Z0SUpkVm1kX0dTa3U1WnR0bV83U0d3RG13TFB4VlZSS0VGZFRUSl9QRlMzcEZWWkpDdHBrcTJ0aXlMS3dnS0ZtRTFsZkRlNlVQNFZ0QUZkb1E?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Stade Hassan 2 bensilmane, stade Tessema Casablanca. Stade de Kenitra, port de dakhla Atlantique.  🔗<a href="https://www.youtube.com/watch?v=1UJOX1ejKK4">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha anunciado que el proyecto de la futura zona logística de El Argoub, ubicada en Dakhla Atlantique, será diseñado por el dúo formado por MFA y Punto. La AMDL ha seleccionado a estas dos empresas para el loteamiento y, según los medios, la iniciativa ha avanzado a una nueva fase.
+
+En los mismos titulares se menciona, de forma aislada, los nombres de varios recintos deportivos —Stade Hassan 2 Bensilmane, Stade Tessema en Casablanca y Stade de Kenitra— y el puerto de Dakhla Atlantique.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-04</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-04)
