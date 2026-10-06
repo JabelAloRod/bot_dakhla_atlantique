@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-06</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-06)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique : la future zone logistique d’El Argoub prend forme - Infomédiaire 🔗<a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQeXdZYVNpdnR0WXA2cEFfWGZUYzIyeWpQX2JscWZ3a21sbGtwVkluNXNVZ25id3plbVVULU1mLVhyVmxpWmE1czk2dWdOb2ZLcFhDUlZ1ajNsaWZJZnFQSUpRU0x2QlVPaFZ4Qlc5RnhLM3hfZGMtZGlDYi0wajhhRFhiSnpOZ0ZRTGNtdG5qaTZvdmJ4YmxBVUdmdXc?oc=5">LINK</a>
+2️⃣ Le viaduc de Laâyoune réalisé à 56% - lnt.ma 🔗<a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE93R2FHUmluOW5nZWxXYVRtZy1rSG96bldUay1iS2ZJaDZQVEF5b2N6Ym42RG93Wk1mazMwS0xKdW56NUIwaFN3blBoNDB4NlhUcFBVNVhScmpXbW9NelJv?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الداخلة تعزز أوراقها الاقتصادية.. العرگوب يحتضن منطقة لوجستية جديدة - جريدة الساحل بريس 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxNYTRDNjJPRUU1aXhfUUJGYURuV0tybUg4Vnp5aHh2NnNTUVhXRnBLY3gxZ1BabGNjZFFPZlVnVWZWUmdkTHExNVFqckY0ZEZLRDZ2UldmODdZTmEtanhXNUlySl9QSTFoSlUzdWo4Y082bnRTa3kweGlZV0lHVGZqUnFVVmlnY1hkRWJxbDlXTkphcnl2RjlCRklsSTMwbzFMelM1RHFsT1BGVWMzQ3JKWnpMdVZTbFFyZng0RlhJSG9EM3RSV3E2LVFsMTdqdHNJbXNBcmpxYVhXZEZDeDB4al94ZHB6TTBfV1VUU0tNeGp6bGhTaGc0QUN1YWNhWW9IbmtmWUhmQ3NndXB3Q1REWl9uSU5MVWxpRXJxX0dTOEw2dHF5UmpLTGUxNThvUjNhX0w0MHR5VWF4T2NDYlFSdUxn?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que la futura zona logística de El Argoub, ubicada en Dakhla Atlantique, está tomando forma, según el medio Infomédiaire, y que El Argoub acoge una nueva zona logística, como indica la prensa árabe de la costa.  
+
+En otro informe, lnt.ma informa que el viaducto de Laâyoune ha alcanzado un 56 % de avance en su construcción. Además, la publicación árabe señala que Dakhla refuerza sus documentos económicos.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-05</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-05)
