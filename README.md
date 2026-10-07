@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-07</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-07)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : Le taux d’avancement atteint 65% - Boursenews.ma 🔗<a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnFvWU1ubl95SHZnc2RHV0Q3bU1yNi1PWDczaDhWclUwTXhVU3N1SVNITjdUd0xwMHZUM24tV202MFFSMXF6cTEyQnRjbENleTl5ajR2TGw2SHgzdnNmYnhBenZ0bHJiVGpScGdmaUZHQXpqNktwUElzNWIwLVhZVkpEUmJmUQ?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ نسبة تقدم أشغال ميناء الداخلة الاطلسي تبلغ 65 في المائة - https://inews.ma/ 🔗<a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE85emdwS05pNUZQWnFHQWQtRVYwZ3N5TlYyZ0EwU0xxMXExN3Y3Y1BjaERzQlhGdC1lZG1Rekw2Z2dMams?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي.. نسبة تقدم الأشغال تبلغ 65% - برلمان.كوم 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxOU2piYmJhN0l0MGp6ZllmaktIbmlybWxsVHUxYmMxbWVoT01SNTBPd01WdWlRWm9JRlRJNkViSnR1dlpGY2thZGZZNHRsdmJKTmhtdF9JZFpHN2RhT0J4UkotMW9lZk5pYVRWVWowQmZKNkNxM3RDM3R5dmNTbGVlMzRLWldFN2dxOHh5Q0drMUpDOTFsdVd2QjBxYTdvTm1zZDh0cWljOHdiLW1DNjNyTHlkRnZHQU5sR3pHSEJDSGpaQm1ZRTBiUjlGRWszVER5MVZqMm8xRDV3dWFXN2JySXZWNW1YcW9MVGtTUElVTDBhQWx1ZDBkREtnRm1ZUTlsbU4yX2lBTFUwUnNoQWZGTWk4ZHdGbURoVXBaX0JuWVZJbG1PdEgzSFdrQlBURTZoTnRjcncwcy1LUnQ2Q2tTZkRn?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة الأطلسي.. نسبة تقدم الأشغال تبلغ 65% - https://inews.ma/ 🔗<a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5oTDczbjFlVWx3MG03LXJpem0wcm5HNmxHTVBFWDNBcnBoUWFodHFtSWlBaGQxU1B3ZFNGQ0dPcnBVc2s?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el avance de las obras del Puerto Dakhla Atlántico ha alcanzado el 65 % según varios medios. Los titulares de Boursenews.ma, iNews.ma y otros sitios en árabe informan de la misma cifra de progreso para el puerto.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-06</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-06)
