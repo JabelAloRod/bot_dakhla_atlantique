@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-08</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-08)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يواصل تقدمه.. نسبة إنجاز المشروع تبلغ 65 في المائة - العيون الآن 🔗<a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxQbzdIVy13aHNNZmFwcnFiYUpHaGViaEowbnUzRVliRHNKTjBZLVIybkJWUXpZWXZwS0YzWHRLejZaOFZUYXh1dDk1cEVVTXFPUUl5Q0JQZGVsWk11Y3M0X183aGZ4dlF4SDE4aVN6dUJycE0xVkVMWHJyc3lFcnpYTG9zSnZ0MDBGVWMwSUdrZmhJNnhRZ1lhTkhselI5LXlhVXN2MWJPXzFrTFVkZWVpUDg2ck8tcUNCYU5xS3pRVmVuQVBybElYZTYxSmI3LXJGb2JZN09OdFJyaWUxMkZUdlFZcllvZzVON2dMZ1NmaVNYQm9pLS1UNXhUMW1NYXpNR0FzTG1seGxvMXA2UWUySmhWMWtsUHlQaTd2YnM3UVVwc2VRT0NhWkZBZy1sVEtkX2xLQzdoUmozeWVId29XTFVnRUw?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي يقترب من خط النهاية.. الأشغال تبلغ 65 في المائة وتؤسس لقطب بحري ولوجستي جديد - Albahr info 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1DNWJjOVVCRjdnamtVRkhMTTI1MlpqRHBQYlJCeldTaUVIUUwwcjFzZlFVVng0QUsxQnFKZWRkV21Zek1JRFE?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة الأطلسي.. تقدم الأشغال بنسبة 65% ومعدّات ضخمة لتعزيز الربط البحري مع إفريقيا | موقع الدار - https://inews.ma/ 🔗<a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE53MHl6UXI4RTZuODJ1eEFsVWU1QkJURjBkT3pybldQY0Y1ZTNJYkU5WmRKMTlTT0c2OXVadjY4V0tWdmM?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha informado que el puerto de Dakhla Atlántico sigue avanzando, alcanzando un 65 % de ejecución del proyecto, según varios medios. Los trabajos están próximos a la fase final y se describen como un progreso continuo.
+
+Los reportes también señalan que el puerto está destinado a convertirse en un nuevo polo marítimo y logístico, con la incorporación de equipos de gran envergadura para reforzar la conexión marítima con África.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-07</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-07)
