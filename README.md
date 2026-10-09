@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-09</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-09)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : un chantier achevé à 65% - Lebrief 🔗<a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnh6R1pwSndpeXA3elNXU3ZHemhiNE9iYm5xXzFPeXVGT09OX2g2d3BGeThRNVk2cnZFSG1sQW9rY2o3dDVveFNMVzVJNGkwSjlnaU9FaWV2WEliNUFkWDlWc0RBdHZtclEweVd6SUsxeERuLU1aWmJHZUxGT0hsaWVYSi1RRFU?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ L’élan de développement tous azimuts dans les Provinces du Sud mis en exergue devant les Nations Unies - Medi1news 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUXBta3RkbHdDNkhva1FDMVdUbURuM0ZaUlpLZ1A1bmk1M3lOUDFIWEZwdkZ1ZUptdzhFX2dqdXhxZjB2WE5uMEpkaWo0TkNIYVFRTkxlSzZ2dDdz?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Según el medio Lebrief, la obra del Puerto Dakhla Atlantique está completada en un 65 %.  
+
+Radio Medi1, citado por Medi1news, señaló que el impulso de desarrollo integral en las provincias del sur fue puesto de relieve ante las Naciones Unidas.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-08</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-08)
