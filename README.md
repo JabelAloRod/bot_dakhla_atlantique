@@ -13,6 +13,46 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-10</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-10)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Exclusif. Nisrine Iouzzi (Port Dakhla Atlantique): « l’exécution des travaux est à 74 % » - H24info 🔗<a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBKX2FuMVp1bDRjbWhUcUhJb3JhS1lSY1pxdjdhakZhRE1oNUQxQnlPQXhpMXQ1dU5sb0NWU013SWU1VWZvZC1yUnRRSVQ4aG44MnNOY2lBUlQ5OEc1TVo0VnZrVjVKbkxnUVBRX1lqdlVRTkRGdGc?oc=5">LINK</a>
+2️⃣ Dakhla Atlantique atteint 65 % d’avancement des travaux. - Industrie du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGJZV1FSa0lja3lEbXhLSFVRTzdET3NQa0w5QkktSWZBcmM5RnR4a0x4dkh1Z3pyLWhCRElDUXNXM2R6OVNmRFVUY19md3ctdTF4R3lfeU1QQ2tGaWVIclZwdzF5SjRTYWNEM3pTclhnWlJwbzl4eVhvOUFkcHQxQw?oc=5">LINK</a>
+3️⃣ Port Atlantique de Dakhla : les travaux approchent les 65% - هبة بريس 🔗<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zc1JoRlZ6S2pIZjItVFlERkxCaVNMZWczYzlrUFFOUzFVZ2U3aDFyX1lqNm40QzM2bGc2T3hlVkNSSmNmaVBnT2xjNlVDNkdRcE1z?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يقترب من إنجاز حلم اقتصادي كبير - Attasiaa 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxNQTAxZmgxTWpRTDJENVdoOVFTQXZyamFxcjlRRHNHbjVfOURmWUY5T2J4ZktMV0VPaDREVjFWci1UUHd4N3g5QldONmdubXB2OWhwYVp3ZFdMX3VRb3RqcDlnaWRZcC04M1lhYkRNblBvX05NSVRuSkJZVWYyMTFMMjJPM2JDcE4xdlhjUlFtNmhsSlpJaTM1M3N1WGtTZzR4X3NNZDU1R3ZjMWxnYk5hZ3AtTUtDVS1QeHdvQnhCMFV4a0Z1d3NFRFlTNjhfV3F6SlZaeEFUOXhuRTlpbml1ZEZMM0ZRcVZ0aWF1MHo4RGhlM2dVTnJ1S0JvWFU4aHNlZkpkX3YzSUZVWTVzb2VYQ0d2cURCdEJRc0R1QkphX3h0bXJDalplXzE4NFZvN1p4UGRCRDBnclhnTVNJWFBpdGVn?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي .. الأشغال تناهز 65 في المائة - Albahr News 🔗<a href="https://news.google.com/rss/articles/CBMivgJBVV95cUxNcTRDOXZuVW5vNldyWEdLM29BdWhvLUZ5azlKS05CTVdQNllaZkg4UEczVjhFSV93WHJtVmZpSXQyWldJY3FOVnNZaDZXNzh6aVI1elAxN0t1blA2TDF3OWtOQ2YwLTNOU2l1NEx3MjRXNHdxUWJrNkVDVVRjV29sY21lclhLNE5RWW5JY0oyVjhGTVdybkdMZ0NRWnpncnF4RHdZQTRqTFMzX3BvcU5BYW9vb2Rpb2hxSkNUenlaLVFKZDBMMmlfeGIwM3B1LVE0RjhpVHpUT29xM0pxMHlmMUcwRXVraVNIMF9weC1TallXbkVqWjZwM3RIQ0dEZkItR1RhbmIxUEgwazJ5QmdDMUg1b2RsMTVJeXhCdllDdlBOQ3lHR1l2WEJjSzkybFFsbkVPWHZrTUh3S2RXUmc?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Nisrine Iouzzi (Dakhla Atlantique): le port n’est rien sans le corridor qu’il dessert 🔗<a href="https://www.youtube.com/watch?v=vw1XmQRshrI">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se informa que los trabajos de construcción del Puerto de Dakhla Atlántico están avanzando significativamente, con varios medios indicando un progreso cercano al 65 % y, según una entrevista exclusiva, alcanzando el 74 % de ejecución.  
+
+Además, una portavoz del proyecto, Nisrine Iouzzi, señaló que el puerto no tiene relevancia sin el corredor que lo conecta, y se describió el desarrollo como la realización de un gran sueño económico para la región.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-09</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-09)
