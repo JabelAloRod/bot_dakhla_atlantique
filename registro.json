@@ -1224,5 +1224,17 @@
   "2026-10-11": {
     "items": [],
     "resumen_ia": ""
+  },
+  "2026-10-12": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Español",
+        "idioma": "Español",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbnExclFmUEl0akx5clBlaE54THhNZ2dKZXBNdWZQTHAwUUFMNld5Vi02cTJiNnVaZlJXdjlUVDRUdmJkWmRpalRSUFA5V0lxMzJlcVh2dldKUy01aXlyS1g3QVpNYzRFZEdwU3RFZUpBSjJNNmNiS0lKQlBOX004Um9WOWhrRmk1RDU4?oc=5",
+        "titular": "Canarias plantea menos tasas y nuevos combustibles para hacer frente al crecimiento de los puertos de Marruecos - Atlántico Hoy"
+      }
+    ],
+    "resumen_ia": "Canarias propone reducir las tasas y adoptar nuevos combustibles con el objetivo de responder al crecimiento de los puertos de Marruecos, según informa Atlántico Hoy."
   }
 }

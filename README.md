@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-12</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-12)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+1️⃣ Canarias plantea menos tasas y nuevos combustibles para hacer frente al crecimiento de los puertos de Marruecos - Atlántico Hoy 🔗<a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbnExclFmUEl0akx5clBlaE54THhNZ2dKZXBNdWZQTHAwUUFMNld5Vi02cTJiNnVaZlJXdjlUVDRUdmJkWmRpalRSUFA5V0lxMzJlcVh2dldKUy01aXlyS1g3QVpNYzRFZEdwU3RFZUpBSjJNNmNiS0lKQlBOX004Um9WOWhrRmk1RDU4?oc=5">LINK</a>
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Canarias propone reducir las tasas y adoptar nuevos combustibles con el objetivo de responder al crecimiento de los puertos de Marruecos, según informa Atlántico Hoy.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-11</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-11)
