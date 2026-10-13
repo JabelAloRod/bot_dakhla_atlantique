@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-13</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-13)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla : des chefs d’entreprises français en mission de prospection économique - H24info 🔗<a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOMHRpSzVZQ25uWXd6cEs2aF9WUlpXMnp5WEd3dXFYWVl0Y1RIUmlMajRLTHFIRXhkNTMwRFFXRlZ2ejNqRXp4YkhhLW9kOWswOVhwS0FyQjVGdzZ6OFJKTlR3alNYd1FEMmdjZk4xTDRxN0pwcUVlQU5DTGxrdmY3VUtKeXJkNWlqa0pycHljM3VreUV1cE1icm1RZlJHY3hXODgtTkFNMA?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يعيد رسم المنافسة البحرية.. جزر الكناري تتجه لخفض الرسوم وتحديث خدماتها - جريدة الساحل بريس 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxOTTk3bklkWWY2UmlYSHNYc2dMSzVZWFg3cFBENWFkS0pFSGhUdlRWaUxnWFliMUFlbXFteDdrSHlSZUtSQ1VEbHhOV0pJSF90UG1Vblpoc0dnMUlvMldpWEQ0MGVfZFBfZTExZWl3aHRuYTRnNjhUdmYwaG5IUUx3NFN3cGhVdE1IaVA3MmJUVHFaYXhVNnpVcUJSdHFlWFdoMmJwR3BkR09LOVFQQW9pc2N4UG5ieFY4N0s4NXhtSjM0V21rSnVTUzdpU2VyNVJ5RUhwaXExQnBMNncySmR1bVA1dmVuOTNXa2FRZlROWDE5V2FCVzVPTzB4bUg1bDk1YjBFeHBZMzI0dUdRazVucWQxSTZrME5lY1FFSnlYejJvU1ppQmwtSlRfMG5ScUlCNTV3ZV9BUG01RHd5aTA3X09iZw?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se informa que varios directores de empresas francesas se encuentran en Dakhla realizando una misión de prospección económica.  
+
+Al mismo tiempo, el puerto atlántico de Dakhla está redefiniendo la competencia marítima, mientras que las Islas Canarias anuncian la intención de reducir tarifas y modernizar sus servicios portuarios.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-12</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-12)
