@@ -1255,5 +1255,52 @@
       }
     ],
     "resumen_ia": "Hoy se informa que varios directores de empresas francesas se encuentran en Dakhla realizando una misión de prospección económica.  \n\nAl mismo tiempo, el puerto atlántico de Dakhla está redefiniendo la competencia marítima, mientras que las Islas Canarias anuncian la intención de reducir tarifas y modernizar sus servicios portuarios."
+  },
+  "2026-10-14": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGZjRkhsRVhUZU5xNWV0WW5CUFZJUi1WWlQydm5oMlNEdmNDY1FTQWk3NjFld3c4ZXhGTTBoT3B4X2ctdUNpT2ZiekZFaHFvWUZWNU9JVzJ1VW04bnk4cXl6UFdHc0tHVGllQ2doVG9MMk5adUNwUEp4YnV0b09kOVFVWQ?oc=5",
+        "titular": "Port Dakhla Atlantique : les travaux réalisés à 74% - LesEco.ma"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWWhkN1VqcVdROVlLaWREWWwtT0FxY3dBcnFxbng4QVdpNEs5Y0VXN2xQazNrWHJIRHprcjJNRzlSWTM4elVDSW5PMTA5dEtOaEpNY2diUXM5OG52SmlSa2laQzdZVW5tWXJYSkZwc193UmJudFJRUlktVDJpYU5weGVtTk40aEZGVWRGSEhpNVV1VkF4ZE9wcDlBSXdEWWI5Q1VVeE9BeW42OTMwMEVQVEJHUlVlZ05yRXJF?oc=5",
+        "titular": "Dakhla : des chefs d’entreprise français en quête d’investissements - Telquel.ma"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE53ZEozelJlMF9vaTZ1R0tsbVhHZmNBWGFBLWd0X0NpbzdYMEF6T05QT1lOV0trLXBzYi14RjA0RndsWXBqRnY5cjR3OTFQU2N3?oc=5",
+        "titular": "ميناء الداخلة الأطلسي يتقدم نحو مرحلة جديدة من الإنجاز.. - اكسبريس TV"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiyARBVV95cUxPYVFKYjZnMzktQ2hzcG9sUXZEdkFocFdHLWt3VGdKOXRYVU11b2dZaFl2Qzh4Z1ZydXg0S0g5OGIwSUJSZkJkeW5LQnNPSS13LXVoYW9xSTloczZnT1NFcTBFUlpXVDRYcDVLYVRtRExhb0xRbGxEa0pQWTZGTldQcUUwSmFUNlNtc0dYUGs4Vzk3cENOb0k2NmNGdE9SV3B5Y0V0MFNXSGFFZzZOUi1JbGl0SFQyWEItMHNNM2R2aHZWQkJ0SFc4bmpCdDdwYVR1ZWdYeEVlakxaR3RWdjFlV0ZnUEZ4cGtVenBOOHFxcExWZHNaN3dDbHhhNnZTaWlhbHAxU3c4TmZuZEJjV3R5TmYwa0JLSzdOcnNOS1hfbllfNHktVHpYbmxWdkU5ZDNINF9aR3B1Y3JvbTNjMlBadzZDNWVxelJUUTh2T3EwQWU2a05wbTdNNkFOSFhPcklVVU5WQUdTMjNQU0RxVWE5WDc2cVVBNHlGN0tSelN0WWlma2tXODF0bjAzTzl2Slk1V2ZrNkJyMERsZU5DZkpWdTliYUdKUVhNVzFUR2NoQnFaS1hWTmt0OS1zZzIwdXFlYlI5WmRJTTd0VkRWQzdHVFdaNEhwMVFYSTlyV19tZDVrcEcxbkU2MlVjSHpQaHhqNTdNMU9kNG1COFdhaGFYcE9taTJrSzJudXhOMlk2WUwtVFQzSHFKRXU2aDFTV0xZaVpITXZVcm8zQVh6N1FOS0g5aUdXU0IzQmxrMTZUN215clRGVlIxUg?oc=5",
+        "titular": "طنجة المتوسط يربط 70 بلدا وميناء الداخلة يستهدف 35 مليون طن من أجل اقتصاد أزرق - اقتصادكم"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNY2UwTjM2Mmh3a28tSXJFbmZPMHFBaVczSURDUGozSnp4anBCMXVCVEloU0NiNVNqMmdKaDd3ZFF0aXZPSDhXajBkcGwwU0pwcGJaSFJQZFVBM0RrQmRNcWtyZU5uZlE1TDBzOENPNFp5WlQ2SE5rTWZid0pzdXkwcHRDbDMxVmdPR2UtMmVEdUpUMjBTUDU5XzVIYlhjWVdZNGEyczFpLUUtUDJpV2pUbHBxTWZGU2F3eUtnOENrR1BUaWNSYmJQUUFyRHk5MndtY3g5SC1wVkNhaV9FbF9HaGllaVZxQWN1bXhQWnVMS3hwNWxqR0ZwTnRWT0VpTlBUMnJQSTlEVWJvNUNHd0M4X04tcHJtbU9qZ0tvU0JMSS1WN3ZpeFRsdDZoNkhGclZJVXZRTDJGX0Q?oc=5",
+        "titular": "مسؤولو مقاولات فرنسية يستكشفون المؤهلات الاقتصادية لجهة الداخلة–وادي الذهب - Le12.ma"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Inglés",
+        "idioma": "Inglés",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT0VDT1ZPUG1kRnRPOU1ER0Zvb1U3ZjFTb1dtS1VUdFJyMXVKNGh3RDlQel93cjhxd2JLYkRwSzdsVHN1aDlKcmZJNlFka19ERXl6MlZELXpYX2FSSnNiei1BcDBiYUQxVFB6anoyN1NQUnJLWXhmTWNoTWpVS2d3Q25udklKb0h0WHk5RUZ1bDhlNFpvOE95OTJRWDJSR2RrRmJYV1dqZ1FqWFRWTGZTcnVxMU9aTWc1SmdxWmVMbXo1LUtJ?oc=5",
+        "titular": "French Business Leaders Scout Investment Opportunities in Dakhla-Oued Eddahab - Morocco World News"
+      }
+    ],
+    "resumen_ia": "Los trabajos en el Puerto Dakhla Atlántico continúan avanzando, alcanzando un 74 % de ejecución y acercándose a una nueva fase de desarrollo, según los medios locales. Además, se menciona que el puerto de Dakhla, en el contexto del hub de Tanger‑Med que conecta 70 países, tiene como objetivo manejar 35 millones de toneladas para impulsar una economía azul.\n\nEmpresarios y directivos franceses están explorando oportunidades de inversión y evaluando las condiciones económicas de la zona de Dakhla‑Oued Eddahab, con la intención de identificar proyectos y potenciales colaboraciones en la región."
   }
 }
