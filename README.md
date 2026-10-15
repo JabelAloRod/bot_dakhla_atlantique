@@ -13,6 +13,47 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-15</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-15)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla : L'agriculture durable et les technologies agricoles attirent les investissements américains - L'Opinion 🔗<a href="https://news.google.com/rss/articles/CBMimgJBVV95cUxNQ1pWcHdPWDFHY05ucmlsb2dWX1dKQmkwd0dVSHNWLWpJc1BiOTFkQ1ZaVVk1cTNET2Rrd0cwZ2t3eHFBRUt6ZVZRRmNiTDAzeTBrbk5xQVRXeDhnWkxzQ1kzNkVBWDVlUXVpUHBLemVzalhNRWd6MjZSNkh2SHNVY0pzeERrYjZOYjRncXJBdU5LbzJnYkxPSjdfRmlUSWNNQ3gzM2M0c0dTSVY5cW1zbnlhZE82MHdsQkVkQ0VWYnQtZ0tOVG5qU2E5SXlvYk1oTWpUaDhiSVJWYlEzNjhUUW85VEdpZmRhUWhzZkhvM2NzNl9nNC0tcXplQmU1cjBjeDN6ekJ5SFBEdjZIblJDYTk0bXM1azhXZ1E?oc=5">LINK</a>
+2️⃣ Le Maroc mise sur sa stratégie maritime pour renforcer son influence régionale - Infomédiaire 🔗<a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOSjJ0S2d2WFoySlUydnBJXzFkZHAyRkNyN0RnNUFWdEx5a1dtR2txMzVUdHJLdk5vS0xoeUZEZzZxTnJnXzNOVng4S0VnRVQ1TmlCeUNHM0lIc0tBYlBSYTdWR3ZJZlJMZ2hCZ2ZxLVRjaVZ5TGV4NjFCWkhUUko5UjlJbkxWaV9BZG9UamtycjBYZ3ktZ3Zuak5vbFFBUm52c21ndVlHc3dwNi16?oc=5">LINK</a>
+3️⃣ Carte postale – Maroc : à la découverte de Dakhla - Africa24 TV 🔗<a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1meWkwM3FURzNPOHVoWDNUVGNIanVpRGVRMURkSHJUaFd3dlBwR1pDSUtIM2ZOX294ald3VDNrTTQ2WlhjNUFaNzRxN0dtalZvR2JXVmFraEMtUzBxQm00b3B1Z0FSTzJfS2MzVVZGVWJpVlRMcHBzaA?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي.. وتيرة الأشغال تفوق %70 والتسليم النهائي في 2028 - 24saa.com 🔗<a href="https://news.google.com/rss/articles/CBMivAJBVV95cUxPYmd4WG5wYUhLWWk3LXpSeGxVTFNTOGhMSlBjU0xMUGNZaWxWZV9PN1M3S1B0WllGb2RFSWQxREdaY1FHWEJJQ0x5Wmw5dTlTWW1ZcnZYMmhKVVVROWVJMHNFMzFDLXY0RmVNdHNmb1BZLV90OWtMNXlIRi01YmJMUGo4SkI4VDF3Y18tcGNRV0lTRVB2U1pTTHJaOXQxUVE5c3ZBdnlVUGtWOS02Nmxwc2tkTDgxTVR4SjFMM084X2JGanQxVDVQeEJjZHhZM2lCQTM4RkZDUmRHb0g2emh4bmtxeGFwT0JEX0FDRnlMX0gxV2w4c0pjUlMxUXhLbmM3QVVxTS01YXdBYUtuQjA5aWRBSjFQZVpRNU1MM3FGaUs3Sm82dGEzNjM3MGtpcFBXTVJuV2VTTG5Wb1U2?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي يتقدم نحو مرحلة جديدة - Attasiaa 🔗<a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXkyNVlmUV9DNGdaQkVrWVloaXR2NGZTQWVQMWV2cFFwTUlnQmdjSVF0N0N2NmI5OFFmQnpCTFZFM29qWG5mNVhscEYwNm9EaUZqSDB1bnJLV2xQcUhMYlNaZXhVN3IxN1ZQVGUtb1VEa2VXdE1pXzFmWEdmVWpuTHBqeVZoN2EydlZnVXdCRkVWbFJkekp1MGVieUNEYnNTMzlKYWEzV3o3NzRkbTEzU2FzbmlSeld3RnFsWnNxZEtUNFIzdE9IRzlCc1QwLWh3UEJtdg?oc=5">LINK</a>
+‎3️⃣ واش الأشغال فميناء الداخلة الأطلسي توقفات.. مصدر لـ”كود” وصلو لمرحلة حساسة والوتيرة نقصات - كود 🔗<a href="https://news.google.com/rss/articles/CBMiygJBVV95cUxPSFFhS1dJcWVoZVFmT0dBd2NEbUh3WHQtalNmSjJFUWg1Q2hSbDM4bVFFTHc0amhtMTlCSWlrblZnX2Z3T0JDck5KczVNRXhpTnp3T1p5VDVWdUFVaGdqMk9qeDVKSTZaX3F0amNidDNUZU1mLUo4Q09BN2pIZ2JvMEdEeVlHaXJhYUNsVWhhQlN1TGJSZ2Fic3laaExFS3RuTFY2NTJNMlpKamdGV0tjR2taN3ZLR3hVSEVOLUlJMU90THo4aHk0ekRGS3diNXRaczZXUU9XMUJfRW56LUJZeDU2VnNHMFRNWlFEeEJDUGlKbG1uakhyQWNhMG9GNWJwc1JHbm9sdFZJSWZtQ1pjRmxvUHhKaTRYOHhxTC1RbDdwX2c5RXV6N2I3MkFGUHBwbzhZX18wdzZ2TzM3TU9uNEVKTkJjdHdhWHc?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los titulares de hoy indican que en Dakhla la agricultura sostenible y las tecnologías agrícolas están atrayendo inversiones estadounidenses, mientras que Marruecos apuesta por su estrategia marítima para reforzar su influencia regional. Además, se ha publicado una pieza visual que invita a descubrir la ciudad de Dakhla.
+
+En cuanto al Puerto de Dakhla Atlántico, los informes señalan que el ritmo de los trabajos supera el 70 % y que la entrega final está prevista para 2028, con el proyecto avanzando hacia una nueva fase. Sin embargo, también se reporta que las obras han experimentado interrupciones, habiendo llegado a una etapa sensible y una disminución del ritmo de ejecución.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-14</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-14)
