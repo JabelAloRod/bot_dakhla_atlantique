@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-16</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-16)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الداخلة الأطلسي يفتح جبهة تنافس جديدة.. جزر الكناري تترقب التحولات المينائية - جريدة الساحل بريس 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxQaWFxUnNDWWNQcmFER01NSUtUUXVKa1A2dW56WEFhdWpvdFRURWJndlpMeXoxZG05S0UxZFQ5NGVwRzdfbFdwc0RhaDJJY2N5ajktOFFWMHFubjUxZ2lJNWFyR2h0MXRRZjNtbHVjdFc2TEtLOHFSUWpZYW1zTGJBSHJqRTVpVlktU2J6OW9ELUhIOGZnLTB0ZnBXY1dKVFhob1RnQ0hrdW9SUXhiR09zSTNfMG5leWl1amxUY29MOE10RjFGaklISFFLOXZqdVhCQVptNmVKeVZZNmxxaUpxektfMHhJNnVQdy01RWFFYzZveWNiczdVN3dpelU4eElMZzdOTzdPcHVOR0hGN1JqZU15SGJ5c0ZNaTJrYVN1NTVybVdSSWxEeGd0S3I3QzltUDdiUmdibV9WT25fXzFnXzdQbw?oc=5">LINK</a>
+‎2️⃣ ميناء المهدية يخسر 39 مليون درهم من مداخيل الصيد البحري - Attasiaa 🔗<a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPaGFKNkZ6UTBEVV80ZkpzUDFHT2cxNDVtU19scVZMalBPeVRfa0ZwWVYtWkxNOUZYb2puTGd1TjFaWk5BRG5JTnVvWHBCWU52cG5WRlI0ZWFLdU90QmtVUXZkaVM1djh1UHk4LURTWnZEczAtT3JVQ3M5NS1meUlQN25XM25sUUNPRkVjeFRYN2xibzg4bXYyVGNDTQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el Puerto de Dakhla Atlántico está abriendo una nueva fase de competencia, mientras que las Islas Canarias siguen de cerca los cambios portuarios que se están produciendo.
+
+En otro titular, se informa que el Puerto de M'dahra ha registrado una pérdida de 39 millones de dirhams en los ingresos provenientes de la pesca.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-15</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-15)
