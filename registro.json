@@ -1383,5 +1383,29 @@
       }
     ],
     "resumen_ia": "Hoy se ha publicado un titular que anuncia una inversión de 1,2 mil millones de dólares en la construcción de un puerto de gran escala, descrito como un proyecto que “redibuja” el continente africano."
+  },
+  "2026-10-19": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41RWRkbl81YVZVUWJNY0I1WU1XUkZYZUw3RmhDMWhxM0dRRmJGN1hXaC1Fb1NTU1JqZDFkRXZCWXpqQS1MZVFlZk1pVdIBU0FVX3lxTE5VS010cHNDZ3pfbWpqcWJFYkNqeDR3SktWRjQ2a1hHR05Pd1l2c3h6ajBCSkg1Q0F1U2pfUUQ0V3Noa3pnUk5wdVA3MW1aelI2WEpB?oc=5",
+        "titular": "74% من أشغال ميناء الداخلة الأطلسي.. ورش استراتيجي يقترب من محطته الحاسمة - تليكسبريس - Telexpresse"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=-608aLbUNm4",
+        "titular": "MAROC-ALGERIE EPISODE 29 LES PORTS DU MAROC"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=Y0JXgNJn_EE",
+        "titular": "مشروع القرن في المغرب: لماذا يخشى العالم ميناء الداخلة؟"
+      }
+    ],
+    "resumen_ia": "Hoy se ha publicado que el 74 % de las obras del Puerto de Dakhla Atlántico está completado y que un taller estratégico se acerca a su fase decisiva, según informa Telexpresse. Además, se lanzó el episodio 29 de la serie “Maroc‑Algérie”, dedicado a los puertos de Marruecos, en el que se menciona el puerto de Dakhla.\n\nOtro titular de la jornada califica al Puerto de Dakhla como “el proyecto del siglo” en Marruecos y plantea la pregunta de por qué el mundo le tiene temor."
   }
 }

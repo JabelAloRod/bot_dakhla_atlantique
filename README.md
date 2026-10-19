@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-19</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-19)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ 74% من أشغال ميناء الداخلة الأطلسي.. ورش استراتيجي يقترب من محطته الحاسمة - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE41RWRkbl81YVZVUWJNY0I1WU1XUkZYZUw3RmhDMWhxM0dRRmJGN1hXaC1Fb1NTU1JqZDFkRXZCWXpqQS1MZVFlZk1pVdIBU0FVX3lxTE5VS010cHNDZ3pfbWpqcWJFYkNqeDR3SktWRjQ2a1hHR05Pd1l2c3h6ajBCSkg1Q0F1U2pfUUQ0V3Noa3pnUk5wdVA3MW1aelI2WEpB?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ MAROC-ALGERIE EPISODE 29 LES PORTS DU MAROC 🔗<a href="https://www.youtube.com/watch?v=-608aLbUNm4">LINK</a>
+2️⃣ مشروع القرن في المغرب: لماذا يخشى العالم ميناء الداخلة؟ 🔗<a href="https://www.youtube.com/watch?v=Y0JXgNJn_EE">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el 74 % de las obras del Puerto de Dakhla Atlántico está completado y que un taller estratégico se acerca a su fase decisiva, según informa Telexpresse. Además, se lanzó el episodio 29 de la serie “Maroc‑Algérie”, dedicado a los puertos de Marruecos, en el que se menciona el puerto de Dakhla.
+
+Otro titular de la jornada califica al Puerto de Dakhla como “el proyecto del siglo” en Marruecos y plantea la pregunta de por qué el mundo le tiene temor.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-18</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-18)
