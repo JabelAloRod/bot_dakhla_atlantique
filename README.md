@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-20</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-20)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : Où en est le chantier? - L'Economiste 🔗<a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQejNPUzJpLW5ZTDI1SzNmd0EzU1hkWGl0a3RzOExRLXRyTm9abVV0TGNremE5ek54R0xYR2I5QWtaODNRTTJaaGQ3NzJ1SFRKa2xfdEFDNmhyLThoMDhncmtNU2tPcTB3STczd2piOXBjd0FkWUh4RHFhWEE2eFlwN2liM3loaklNZHJJZ1NB?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ بأكثر من 74% من الأشغال.. ميناء الداخلة الأطلسي يرسم ملامح قطب بحري جديد بالمغرب - Albahr info 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE43TmVncnJYdE03c1k2MWlWdzgydkZ0bUFJbnhFSTlVd3RQVkNwS1dzczRzbFdZU2RkbXBrakdVMVI4dGFWMFE?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي.. نسبة الأشغال تتجاوز 74% مع نهاية شتنبر - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YVUtoQTFKLUZaWEVFZEU2ZjlwR0N0a1RvZnRBRjFkUVJ4Q1J5UnAxbUFNSUlFWnBqSHZVWTB0cDVsUFBGRVlyaGZkSdIBU0FVX3lxTE5LdlFvQWFOLVdZdzVFbEE3anA0Mk1OYlNNOTRQbnVqRDVLdlJSQ2NYQU5zZ3Jxd3pYbkpGNFVTNklSQkY4cTMxUXlZQ0l3UUFDMDY4?oc=5">LINK</a>
+‎3️⃣ ميناء الداخلة.. انخفاض الكميات المفرغة من منتجات الصيد الساحلي والتقليدي بـ 43 في المائة عند متم شتنبر الماضي (مكتب) - Maroc24 🔗<a href="https://news.google.com/rss/articles/CBMiygZBVV95cUxQLUFxT1lUSDY1c2ozNHVfTVc0NWlhMzgwRUVJZElVR20xYUs4X2lOVkdpUUN5NWdFeHR4NWJBcmFsdnhfUG8taUY1ZHZxbmthUUV3NGtLazdnMGtUOXp2b3g4WEdDWnNBbl8wNDRFRmVsMEEwQnNLRmk5QTg0VFptWGdqUW5lYVQzbHB5NzdIb0tHaVpRTGJCSWdOQllfb19TTWdxcW9Lang1X1FITE45MzRXNTcwRVEtTm1Ibk9aTmxvWnd5VVFQcjE5bXkzcUxIX25fUWRjeGpmUWR6d0NXMVpmcTVyMFA5OGwyNE4yQkhPUFoxZXh0S0JhVkRKYnA2N2thRTdVYnVyNEdvczdVbTRHSTB2dHFxS3I4TVZ3M09RcldqaWlOWmt3TkFxMXBGSjlOd1JKWjI1c1h5RUZvNnZMdUVjTUI5QXZNWnd0eWpyS1U3X1dUSGthQXRNNnlXaE5qTEFsM3N5N296OU9xYVhnQ2FIbUsyWXYyM0EtVWg0a29nODNNVlBOSEJYTXdTSkJtZm5Hckx3WU1ZTG1vbWJWN1VVSmJoc2JLcW90bjZIYUNZVVg4dTMtUTNhc2dkWUNOV0JrbDhzQ000RWprdXpoNzd5STZCbFFHZHY5ZVZXWGh2bTBwMUhpanRDdFJob2pIVmtMRnhlTWxpdzJGTlhWaUZNYTRrVlVSRC1HT0pnZE52UlZhOVg3WmlEN0oxalY2bHJLMnJmZDgxMmM3M2NqVU1KbERiRlJ2aW44VW5oX0tWUndfTGxSMlRfWVpIM19ILUY4UVhOTE5HSlgzYW5LY20yWFk5OXJvOS1fU1BKTW9xNWVBSmNRYlkxaDdUM0ZtMnl1YTBZNkg4RnMtOHJpNDRjZlNIS1BaajEwQ0JOT1ctUEpmRktnT1JoaXFGQWpDZlhOakp4SmFSYXE5cFVpSmVfN1J4XzB4T1N0SGk0OVJrTkpXVXhtMjhFMmhwaEpRSS1lVXZIeWdRdEhZaGxhWVozUnFfUmdfMXB2bnpQZVBiUy1TTkgxblRYUDE1bzdHQU5leldaSTRUakduQ3NaWUtvTlpaQWwySm1BV2RBVGVYWkhvajI4b0VnYTV5blF6M2NsdDIxUQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Le port de Dakhla et son marché aux poissons  🇲🇦 🔗<a href="https://www.youtube.com/watch?v=_pyZwGmEA_E">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los medios de hoy informan que el puerto de Dakhla Atlántico avanza con más del 74 % de los trabajos completados, según varios informes que citan cifras al cierre de septiembre y describen al puerto como un nuevo polo marítimo en Marruecos. Además, se publica una pregunta sobre el estado actual de la obra en el sitio web de L’Economiste.
+
+En el mismo periodo, el puerto registra una caída del 43 % en las cantidades descargadas de productos pesqueros costeros y tradicionales, según datos de la oficina citada por Maroc24, y se menciona la existencia de su mercado de pescado.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-19</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-19)
