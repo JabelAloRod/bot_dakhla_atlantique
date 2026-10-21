@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-21</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-21)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : les travaux dépassent 74% d’avancement - Finances News Hebdo 🔗<a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQS015dEl3TGxFRGlFQUZPU2lZQ3R2SWNiNmRKM2EzOENfSTlKaFJWRlhTSkRJRDFDSExqUldmX1RodEczV0ZxSmR4WU5uaklsRktqUl9ubm1nSDk1Njg3bWxLWTVfMy1NQmZCMUo0TXdRblF6NWJaaDNLNXNjSE4wbmVHMzdMR3FwUVVXNg?oc=5">LINK</a>
+2️⃣ Port Dakhla Atlantique : Le taux d’avancement des travaux dépasse 74% à fin septembre 2026 - Boursenews 🔗<a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxOR3o2Y1hHaldxZ2l0Q1NMSXRXZzIxMnZSWkljUS1fblB5VHpfVVdMVmtmSjRUWV9nNW5lNWxCOXNhaEdDLTNxQ0paN0dXT1VNOVJVZm5NQjRJVUwxU3N5UEtqcGZnZ1ExMjNWRWZ3S3BqY3NNaE40RHBTWUg3emJCUWR6bGZwYk44YVd3RFJKTVFEdXRrU0NFc2U2NlloSm9QSFJVZG1zUkt2MzJXVkZwVg?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ من طنجة المتوسط إلى الداخلة الأطلسي.. المغرب يعزز بنياته اللوجستيكية لدعم التنمية الإفريقية (صور) - كيفاش 🔗<a href="https://news.google.com/rss/articles/CBMiwAJBVV95cUxNU1V5OVZfR1NMcnVwYXlTdkVETzlMTHdra19TZjJEdFZnQWMtbzdnSWpBT0NpdFhhT1pqQ3JzbkF2Szl1LVU0ZTdBWmlIVlpCZTI4ZUZuejdQQjlDYy1weVJla2QtVFJTanprUjY4ajJpNlppeEllX2U5UEQ5bzhSVVNWZWRkbDZkem51QWlEZ1htMmRzaGNwMlVRNjkxeDZReVFUUV84OGwzNWlYbDRBZjJnbTVsQ2M3QzJ2V0twbWMwMnFmYTdPd3dzaVpDSVdJSy14WS1XVHdqblJZMUszcWdjdjN0bnFWS25sTTNMTklUWU80VEViQTRyb1hkY0VUNExyRVBLNnhiSmdMSk5DZGFLTmNIVUpsX1IzSDJhYmZ3ZWM1bDZfdUlqSUQyai1BRUZNLUJySk1NT0ZGaVV4MA?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Kayouh : Le développement de la connectivité et le renforcement de l’intégration africaine, un choix stratégique du Maroc - Medi1news 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3RHowaUk3S2ltVmJkM200TDVkMFFZT3ZidU4xdER0cXdBWjFqS1Z2M2VrTUpLRzR5QzNMbW9VRV9hZEVBa0hNRnVLUmhiaFd3MlYxbFRXU1Y2b0Q4?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ قيوح: ميناء طنجة المتوسط الأول إفريقيا.. وهذا موعد انتهاء أشغال ميناء الداخلة 🔗<a href="https://www.youtube.com/watch?v=HVjuvNdC0sQ">LINK</a>
+2️⃣ Dakhla: le Maroc construit un port en mer pour redessiner le commerce du Sahel #Shorts 🔗<a href="https://www.youtube.com/watch?v=jB4BIAeZJp0">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los trabajos del Puerto Dakhla Atlántico superan el 74 % de avance a final de septiembre de 2026, según informan Finances News Hebdo y Boursenews.  
+
+Marroquía está reforzando su red logística desde el Puerto de Tánger Med hasta Dakhla Atlántico para impulsar el desarrollo africano, señalando que Tánger Med es el primer puerto de África y anunciando la fecha de culminación de las obras en Dakhla. Además, se difunde un video corto que muestra la construcción de un puerto marítimo en Dakhla para rediseñar el comercio del Sahel, y Kayouh declara que el desarrollo de la conectividad y el fortalecimiento de la integración africana son una elección estratégica de Marruecos.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-20</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-20)
