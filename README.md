@@ -13,6 +13,46 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-22</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-22)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Infrastructures portuaires : Dakhla Atlantique dépasse 74 % d’avancement - Industrie du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQRzZrbS1iZTNPQVp2TkVXZThXLWprTHRZOVBTRTNxRWFidWRVTWVILVFWeGlxVVRENTI5LWVtcS1QWWJJNkpkNHZ0MlNMU0U4eXA3d3FuVmRwaDRKZm5hRUNwY2k0bGVJZ0hPSkhNSC1QX2U0YUZEQjFwRE5CakRrTDd3ejlmZ3lKMkI5d0U4N2I5dUpD?oc=5">LINK</a>
+2️⃣ Port Dakhla Atlantique: Le taux d’avancement des travaux dépasse 74% à fin septembre 2026 - La Releve.ma 🔗<a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTFByUHVYZTNuMnZkV0NsekZaYlRqVmhLVXBFcXozTlI2bGczTDM4MldtWkZxRnFtTjNZU2VJUkJ2X3k?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ أشغال ميناء الداخلة الأطلسي تتجاوز 74% في أفق تعزيز الربط مع إفريقيا - العالم 24 🔗<a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE04U0N6bU1CcUZCbmhOZk03UEhaUXdrRjhrTldMVzctUTY4SDZLNHRUbUlPOUJHZWNZaWgxWjRCNlNYa2JCdVlrdw?oc=5">LINK</a>
+‎2️⃣ البنيات التحتية المينائية: تقدم أشغال ميناء الداخلة الأطلسي يتجاوز 74% ويمهد لدينامية صناعية جديدة - Industrie du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxOcUxCNW4xZFlaODYwa2ZWd3p6RmM5SDVGUDdzMy1IOWhva3pmM3ZLd0xZZ3dnSlJ3d3dFWFpOUm9yN3pSVFQ0Zll6SlBwaTVkTlhnNUxITkY0bTJrWjYwYUlvOGtIS3VsWnF5bUFpSWlDMWxxNlFPbV94dnBVTkF4V2dXOWhxU3RmLWNJMkx1cEt1STJpV2lHLWZ6QTZHamlUOVNLLTFqaGtjWjV0XzBzVUxFdkhybUYzZ0ZkVzhmbnFab1lGLURZZDZEQmVkMTVoakV1U0tyRTVLT3BwR1kxalkzSVlkc0VRejUwX1ZwYjhZUk42c0JHcDh2V0g4SmE1TEp4MjBJclhiVU5wZHF4REZPLXdNTkU4RWx1ci1KcWlIRFhXcG0tOURHU0dWOGxuV19tUWktSllzMDB4ZGZ0UkNQYzY?oc=5">LINK</a>
+‎3️⃣ المغرب يبرمج أكثر من 750 هكتارا للمناطق اللوجستيكية ويدعم الربط التجاري مع إفريقيا - اقتصادكم 🔗<a href="https://news.google.com/rss/articles/CBMi_ARBVV95cUxQSWYwSUVBNURLQWMwWWJ0QlVTYTItZDJpTTFmQmhxc2N4aG9Ed3FkSDFaT21mWE1MVWJic1Ffb1hhM3FQRmxXdExOeW9MU0VkcVp2RkRkdlF4MDhnTC16cV9mQmRlanpVRmdVakRDdFFqMnBPVno1M0p1UE8zUENNdG9YbDI5WWoxMWtGTk01S2RlS2xyOUNhRUN2NllWazJ6c2dHdEhUV2t1b1pyRUF3SlpFdGhhWENmWGFTZW4xTGFfQmR4dFlmLWx2MTRfc3hkTkNFcERiV0gwYVJ6YnJoektNTzgwdkRxY0FBQ2RDR0hYTWFIS0NFNi1hZk1PbG9YLWtFTUpndkcxQlVqMnJINjgxaUptTlktdDZjSV9ldDNIcWM1ZjhicjEweGw2dXdXLTFudjZRWkkxS0FTRFptSlEyLVkta29oWEVUU3JobDlQS3FtT284dXU5SmdWV2l3TF92c0ozYTF2V280eHJEQ3pqeWoxZUZiVGxCTUx4bEpwekVUXzdFZGZjRkNLMEs0NFMxR2ppZnJJcDZNdHBQYU1tNXU2QkE4ZjZnSWNTc3lqTlR4dDZBLU5HemF4V1pleTkxZlM4d2pQYkNxZkY3YWxrMW5lM3Q5a01aQmxXWDNSakJ4WW9OTldIZ0lQc01UWlcwMnpMUlJWemxHOXdkZlNwTVRkZk5BclRuQTB2SnM3S01MYzBJTUtDN0FlNHFIbV85c2dfVkkwUE5rVjFucTdodXV2bGJycmNlWHFuZnczNnJQT0FWZmxxTHJQRjdnMmlHc0ZhdUpiVlZOQnhXbTkzZWJaYjFVVXhlNHdYaHoxSXBndDk1cWFHSjQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los trabajos de infraestructura del puerto de Dakhla Atlántico han superado el 74 % de avance, según varios medios que informan que este nivel de ejecución se registra a finales de septiembre de 2026.
+
+Paralelamente, el gobierno de Marruecos está programando la creación de más de 750 hectáreas destinadas a zonas logísticas, con el objetivo de reforzar el vínculo comercial con África.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-21</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-21)
