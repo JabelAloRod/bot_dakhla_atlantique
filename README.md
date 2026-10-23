@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-23</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-23)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique: le méga-chantier portuaire dépasse les 74% d’avancement - La Releve.ma 🔗<a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE9DYzNOSUZEanRSWlg3WElXclZLTzRHTG5lLURxODFJb1ExcF82RTc3ZFh4THZmSGFKX0JnZzEwY0c?oc=5">LINK</a>
+2️⃣ Le Maroc n’a pas encore ouvert Dakhla que les Canaries envisagent déjà des rabais - Bladi.net 🔗<a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1Z5Ql9YbXJUVjNhMkxwUENFV0xkM2FIRjFBWU5lTU9Zc1EtNkFoMnh3bGVFSjFUTHZfNF9LNUpQcHVHZ291WjVUN3BRN0xBWXVobVNscWZNNjR3WjhZbE5WenhZU2hxVThBMEF1NGVHTUpVc0JZY0FIYTZoMnFPWGFPbEJLQ3c?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Port Dakhla Atlantique: le méga-chantier portuaire dépasse les 74% d’avancement 🔗<a href="https://www.youtube.com/watch?v=HMQL92bfs84">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El mega‑chantier del Puerto Dakhla Atlantique ha superado el 74 % de avance, según informa el medio La Releve.ma (titular repetido).  
+
+Por otro lado, Bladi.net indica que Marruecos aún no ha inaugurado Dakhla, mientras que las Islas Canarias ya están considerando la aplicación de descuentos.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-22</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-22)

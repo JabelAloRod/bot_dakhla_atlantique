@@ -1530,5 +1530,30 @@
       }
     ],
     "resumen_ia": "Los trabajos de infraestructura del puerto de Dakhla Atlántico han superado el 74 % de avance, según varios medios que informan que este nivel de ejecución se registra a finales de septiembre de 2026.\n\nParalelamente, el gobierno de Marruecos está programando la creación de más de 750 hectáreas destinadas a zonas logísticas, con el objetivo de reforzar el vínculo comercial con África."
+  },
+  "2026-10-23": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9DYzNOSUZEanRSWlg3WElXclZLTzRHTG5lLURxODFJb1ExcF82RTc3ZFh4THZmSGFKX0JnZzEwY0c?oc=5",
+        "titular": "Port Dakhla Atlantique: le méga-chantier portuaire dépasse les 74% d’avancement - La Releve.ma"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1Z5Ql9YbXJUVjNhMkxwUENFV0xkM2FIRjFBWU5lTU9Zc1EtNkFoMnh3bGVFSjFUTHZfNF9LNUpQcHVHZ291WjVUN3BRN0xBWXVobVNscWZNNjR3WjhZbE5WenhZU2hxVThBMEF1NGVHTUpVc0JZY0FIYTZoMnFPWGFPbEJLQ3c?oc=5",
+        "titular": "Le Maroc n’a pas encore ouvert Dakhla que les Canaries envisagent déjà des rabais - Bladi.net"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=HMQL92bfs84",
+        "titular": "Port Dakhla Atlantique: le méga-chantier portuaire dépasse les 74% d’avancement"
+      }
+    ],
+    "resumen_ia": "El mega‑chantier del Puerto Dakhla Atlantique ha superado el 74 % de avance, según informa el medio La Releve.ma (titular repetido).  \n\nPor otro lado, Bladi.net indica que Marruecos aún no ha inaugurado Dakhla, mientras que las Islas Canarias ya están considerando la aplicación de descuentos."
   }
 }
