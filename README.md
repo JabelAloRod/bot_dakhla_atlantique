@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-24</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-24)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique, Nador West Med, infrastructures routières: le calendrier et les budgets des grands chantiers - Le360 🔗<a href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMU1LbjZJd1dHS0x5ZDhoVUpKY18wZEl5N1pjcnFVTWlpbzlmUThRZkU3SUd6endKc0syY01ULUR4Y2lYMjNGNmZOdWVRTVVjX2pqb2lvWURYZHJiNDdKUUhDWlA5R3l5UzVPbnozUEF3cnVKVFFWeXZRMjVkZFRUTko0TmIxbDZrcF9hM3QtMjNTZWwyMjNHakl5cGcwSVVXdEFoWWJ6Q3VybUx5X1lRRXJhLVRIX1lrVHdQcU1LeXgybmdCdHp1XzVEU0ZOOWF3OUZRTlAxN1FvMWkxeEh0aUlxM0FmSDRtbk5v?oc=5">LINK</a>
+2️⃣ Au Maroc, le Sahara fait plus que jamais figure de laboratoire de la régionalisation - Jeune Afrique 🔗<a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxNVi1ud1pIcng1b3h5czVXUURTckE0NmNIdHpUSG0zREs4UGJsYlNSTVBOOGNjNzBIcktOdVduZ3JBeHhQYjVsYmJ0UGhRU24wd0pSNWdpd0txRUxBVGJ2ZHVJY18yUEZoNUlzUXc3R3p3dkg4ZFpvbm5odVpKN3dvSEs5Q1dfTGpsXzNHR09jV1V3ZklWZzJqUWVPU3FVQ3VJVXhGQWFCejNQdlc1eVZsYmRQNWZzQ29FOWdNMnJDMURvemlDWmdrRndOOA?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado en Le360 un artículo que aborda el calendario y los presupuestos de los grandes proyectos de infraestructuras viales en Dakhla Atlantique y Nador West Med.  
+
+En Jeune Afrique se destaca que, en Marruecos, el Sahara se presenta cada vez más como un laboratorio para la regionalización.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-23</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-23)
