@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-25</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-25)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+1️⃣ Dakhla Atlantique, Nador West Med e infraestructuras viarias: el calendario y los presupuestos de las grandes obras del Reino - Le360 🔗<a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSGFrbHJyektiTHFubjh2b3JoeTdGYXVUcUZ1czRmaTZIbXdfQnkzdmViV0ZkZHZtSjNycGlfcHMwZVowajRoRm04SjV5SUF4YVB5eGIxQXNEVXlDbk1DWkwxRUdJUUlVZWJCcGVVVXU2MWtvVVViWko4ZVNsaGNYWldPT1A0RFg3NTNsN0d3MU1kbDhTZmlhc3c5Y3VIRzU3N3dZWVJsTW0xdlEteHNEb2d4cXNVTlRXQkJHVW8xSWR5YnF5QVEtSS1NcDhKVTBaNDFnRjBCVnNvRTE5QjJrMmswZmhLNGFGOUpraQ?oc=5">LINK</a>
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : Le taux d’avancement des travaux dépasse 74% - L'Opinion 🔗<a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVnlMZ3R0dDdPWVRrNUl5N252Y1V1ekhJYTJVR01LTHRFR3BTTHNuUXNVZXF3a0pLNjdmSm9TeDM5UFRrZUVMREJTUzlUbWhIM0JGYzMwSDNRcUxFQ0pTLXRWSnZrWTRSdHJlNEZCWTBHb0JvZDM4Y0Etd1pyR0VKdVU1ZFBPS0NWc0I3bTN1WDNLYjVTWDB0TXhaU0E2WURUWWFRbHM1TG9mVDZIcWV0NkxFbmpuZ1V0cXhuc3RMOTN1LXVJTkUxX2RxSUxoakx6YzlwdFZRSXUybHpVTlFtQkZEQjA3SDFfQzdvb1M5QQ?oc=5">LINK</a>
+2️⃣ Quinze responsables somaliens à Dakhla pour explorer les opportunités économiques - Atlasinfo 🔗<a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS2V0UE01d2RXb3c2M2lxNUFkRzhnR0hBdS1rQlgwVzNnMXVlbE5jazVuTHdWVG1CNmFzNlJoajFvNzZBRnhiaC1HNi1TcU5XUHJCdklsZFRUREpnSVhONmhNM1VQN1RRMWdKZnFlazdxeDhEM19QRHhHV21XZU1pVGE2TjM3UTFocGZ2SEhtZjNVaEx5ZDZJTHlRdnJPNElMWlJDQ1pPRXNESUk?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ المغرب البحري: من الموانئ إلى آفاق بحرية لا حصر - AchPress 🔗<a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zb3RJanl0M2hYWTloSmpNeTJfdlhySjAyUDFfck40eC1hUE5oOUh5cTJ6SmZDemxFV1FGNWhyUHM0OGNuMzZoYUFn?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado varios titulares sobre el Puerto de Dakhla Atlantique. Le360 informa sobre el calendario y los presupuestos de las grandes obras del Reino, que incluyen Dakhla Atlantique, Nador West Med e infraestructuras viarias. L’Opinion indica que el nivel de avance de los trabajos en el puerto supera el 74 %.
+
+Atlasinfo informa que quince responsables somalíes se encuentran en Dakhla para explorar oportunidades económicas. Por su parte, AchPress publica un artículo bajo el título «المغرب البحري: من الموانئ إلى آفاق بحرية لا حصر».
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-24</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-24)
