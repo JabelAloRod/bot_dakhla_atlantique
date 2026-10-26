@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-26</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-26)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique à 70 % d’avancement, Nador West Med prépare sa mise en service - la vérité 🔗<a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9mRXZNaXkza3hRd1d5TEFHVGxkNUZJT05fcVJWc19CaFkwdHNpWTFydEVLdDUxaW1RSnJEdk4zM0xrblYwNkNqSWNRbjYyWDl4ZmxXSTZiNHNMMXJPejI4STQwU2ZKMGhIVktncEJyQi1jODFZSEszWHI4MjAzdw?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el proyecto del Puerto de Dakhla Atlantique avanza en un 70 % de su ejecución. Asimismo, se informa que el puerto de Nador West Med está preparando su puesta en marcha.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-25</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-25)
