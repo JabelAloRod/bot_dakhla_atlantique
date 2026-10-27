@@ -13,6 +13,46 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-27</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-27)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Nador West, Tanger Med, Dakhla Atlantique : Ces ports qui font l’attractivité du Maroc - Aujourd'hui le Maroc 🔗<a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVdrUzdLUHZSZGdHMW1JaFVGOVlkdVh4TlRCYzRCVzUwbU5kM3ZweUFEeHp3UVNxc0tHUkFsVVdreGdldUlaZklIUUplemFnQkc4YUJ3eE9kNDZ3N3k1TGdYNThXc1pTYi1GYlJXYlZnRVN6NGxaRDlPbDRmVjg4MXZRMFhVc1o5MWdHUlVGT2ltSUs5T3JtQ2FGSGJzRU5zd056bjlXS1Q2MFNOZ1dCNmpWQQ?oc=5">LINK</a>
+2️⃣ Port de Dakhla : le Maroc anticipe la montée des échanges avec l’Afrique de l’Ouest - Capmad 🔗<a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQclNYRkNsZFBldEV0VmFocVpFY1NlU1c3c0ZwSGFMZ3JmYVlINXFUbDVrRDkwVENIaUNXT0pOeTZVa2p3aGRYX2I0cGRnQUp4X2FWa0lOZ1VFRmVwbDFJWEM3NUMxc1VySEpld3A1TW5aSTV1d3hQXzVrcXMtUURyNkN4R1lyaFhJaFFYVXI4RmRRT1JEYll6ZFBhRVJtME9vM2lHSVB5WDZ1cVJFUmk0?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة يتجاوز 15 مليار درهم.. واعتمادات جديدة لتوسيع قدرات الناظور والدار البيضاء - أنوار بريس 🔗<a href="https://news.google.com/rss/articles/CBMiREFVX3lxTE1lUVFvbWtjVmF2WDJ6YkxQUkZ1RkQ5RUJNN3JCQWpnS0hUUXFzbzhFaVg1QlZSTnJzVFdjY0RPVzk3UmQ0?oc=5">LINK</a>
+‎2️⃣ ولوج المغرب لـ5 موانئ فجزر الكناري عبر “مارسا ماروك” مرون الصبليون وخايفين من ميناء الداخلة الأطلسي يقضي عليهم - كود 🔗<a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxNaXFWVXFQQ3pISDJyMkRyRG5SSEhFMlRJYjFYcFpxX1J6Tm00WlBOS2V6eUpJSjUtYk5ha1c5V1FDV3l4dWZ6RFNJSmxNRDMtRnNCUDVRLUU3VUxGZnpHR3RVVE1LQ0QyTWxoUHdJMkdVdTVHX01BeVhocVp5akQwbm1kaDhGOXYwa0Z4TlBLaTF6LXB3TWVyZUhDd3I2ckRsTkJqUTNOVnNZcGx6Z2JiVHBYZDE0X2NVS2RmQlJfNkpFYV9QWV9zNXktMHRSNy1kZVNnQmYySnUxVTAydWlaRlBYZXluZ0xnWVNsUFE0VVgzNDdsYl9xTDZwSFlCQUtkRGd4RTVvbmRTamRwbnl0NmMwb2cydUhXcVZlZlBRMjZRd2cyRVdDWXhYTUlrcHF4UWFXdWdRSDNoRFYyUzJTQjJKdkc?oc=5">LINK</a>
+‎3️⃣ المغرب يربط الموانئ بالطاقة.. أوراش استراتيجية لتعزيز الاستثمار والتجارة - أنا الخبر - Analkhabar 🔗<a href="https://news.google.com/rss/articles/CBMirwJBVV95cUxPakRnRnhoeDNqUWVHQ2JIRzBxSGhyWldIRTFmXzhZNFJPWkdYMU5LbUp2WElPc3YwZ0t0bnZIeldoM0QwMU1xWDNfeTdBWE5laWZtckVaX2Q0YWhSV1dhOGlzMEpHaWI0YWdWSm51Q3Mzblgwem44NHh6MlNXdThUWXRBY3dfMFYtY0dGQjNDdWVqNV8xVExEb0djTFFWVjVzUlRzSF9sV2tnM0NrSXp1QVE1SzdqR0hjby1JUUFONkphcUhkcVBJU1VxZWtTejVVZjZESGNBcHkzS29PYXNsY3kzRkdJaEx1THRBRnlJUzVaT2w0WGtXTEFCUk5IeFplbC1ueHRobEoxZUdpclRQY0xGR0puOG1ibEZBTEZQMENQZmtoT3d2eHRrc0puUXM?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ 🚢 FIN DE JEU ! Le Maroc &amp;quot;Tue&amp;quot; les Ports d’Algérie et d’Espagne ! (Dakhla &amp;amp; Nador) 🔗<a href="https://www.youtube.com/watch?v=fnZnUmG3F_o">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios han puesto de relieve el papel estratégico de los puertos marroquíes, en particular el de Dakhla Atlantique, junto a Nador West y Tanger Med, como impulsores de la atractividad del país. Se menciona que el puerto de Dakhla anticipa un aumento de los intercambios comerciales con África Occidental y que sus ingresos superan los 15 mil millones de dirhams, mientras que se han aprobado nuevas líneas de crédito para ampliar la capacidad de los puertos de Nador y Casablanca.  
+
+Otros titulares informan que Marruecos está vinculando sus puertos a proyectos energéticos mediante obras estratégicas para reforzar la inversión y el comercio, que ha accedido a cinco puertos en las Islas Canarias a través de “Marse Maroc”, y que, según una publicación sensacionalista, el país estaría superando a los puertos de Argelia y España, citando a Dakhla y Nador.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-26</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-26)
