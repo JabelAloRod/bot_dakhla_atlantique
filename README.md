@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-29</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-29)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناءا الداخلة الأطلسي والناظور غرب المتوسط والبنيات التحتية الطرقية: الجدول الزمني وميزانيات الأوراش الكبرى - Le 360 Arabe 🔗<a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84R1lMbVNsZ2xIUGZqS0h6Q0xsOS1zRHRyQmVMV1ZqT1hlYVA3VXdXU3BmZWwySnhkTDN6NUl3b09qZ2taRVBnU0luOVRjZTZ0Z1d6Nm9GaDhHSGYzeDRldm9aX2tXMEk?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ New Port of Dakhla, A Flagship Project of New Development Model for Southern Provinces - HESPRESS English - Morocco News 🔗<a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYTA2NUtaalNVRGlEMXJ4NEpPZGxjaEMzc3ZJZldYSVJpR1QwdlJBNHJ5ZG8xcU9sQXNGU1k0bDNfTW00X0JNM1BUMUpza2ZEZkwtcVVWMG9uaGg1d2ZnMmVFcmRlaG5CcW9Ud2FoVW1XYjFoa0JlakpFUUMtMlNmcE9yVXI2dDY0NUJlb21vRVJHbE1lQVVqWUl6bm43S1RoLWNwWWZxM3VFVnJUYmFMdm1IalZWSEhXeG5R?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ علاش المغرب اختار يبني ميناء ضخم وسط المحيط الأطلسي، 40 كيلومتر شمال الداخلة؟ 🔗<a href="https://www.youtube.com/watch?v=mNgFgBBGO4k">LINK</a>
+2️⃣ ميناء الداخلة الأطلسي: مشروع غادي يبدل التجارة ديال إفريقيا؟ 🔗<a href="https://www.youtube.com/watch?v=SXYPcNFEI-I">LINK</a>
+3️⃣ Le Maroc va-t-il faire payer le détroit de Gibraltar ? 🔗<a href="https://www.youtube.com/watch?v=TdMahQVdyjM">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado varios titulares que destacan la puesta en marcha del nuevo Puerto Atlántico de Dakhla, descrito como un proyecto emblemático del nuevo modelo de desarrollo para las provincias del sur de Marruecos. Los artículos mencionan la programación y los presupuestos de las obras mayores, así como la infraestructura vial asociada al puerto.
+
+Otros titulares plantean preguntas sobre la elección de construir un puerto de gran envergadura a 40 km al norte de Dakhla, su posible influencia en el comercio africano y la hipótesis de que Marruecos pueda cobrar por el uso del estrecho de Gibraltar.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-28</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-28)

@@ -1676,5 +1676,42 @@
       }
     ],
     "resumen_ia": "Hoy se publicó un titular que plantea la pregunta sobre si el puerto de Dakhla, ubicado en la costa atlántica, podría cambiar África. El texto se limita a interrogar sobre el posible impacto del puerto sin ofrecer detalles adicionales."
+  },
+  "2026-10-29": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84R1lMbVNsZ2xIUGZqS0h6Q0xsOS1zRHRyQmVMV1ZqT1hlYVA3VXdXU3BmZWwySnhkTDN6NUl3b09qZ2taRVBnU0luOVRjZTZ0Z1d6Nm9GaDhHSGYzeDRldm9aX2tXMEk?oc=5",
+        "titular": "ميناءا الداخلة الأطلسي والناظور غرب المتوسط والبنيات التحتية الطرقية: الجدول الزمني وميزانيات الأوراش الكبرى - Le 360 Arabe"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Inglés",
+        "idioma": "Inglés",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYTA2NUtaalNVRGlEMXJ4NEpPZGxjaEMzc3ZJZldYSVJpR1QwdlJBNHJ5ZG8xcU9sQXNGU1k0bDNfTW00X0JNM1BUMUpza2ZEZkwtcVVWMG9uaGg1d2ZnMmVFcmRlaG5CcW9Ud2FoVW1XYjFoa0JlakpFUUMtMlNmcE9yVXI2dDY0NUJlb21vRVJHbE1lQVVqWUl6bm43S1RoLWNwWWZxM3VFVnJUYmFMdm1IalZWSEhXeG5R?oc=5",
+        "titular": "New Port of Dakhla, A Flagship Project of New Development Model for Southern Provinces - HESPRESS English - Morocco News"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=mNgFgBBGO4k",
+        "titular": "علاش المغرب اختار يبني ميناء ضخم وسط المحيط الأطلسي، 40 كيلومتر شمال الداخلة؟"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=SXYPcNFEI-I",
+        "titular": "ميناء الداخلة الأطلسي: مشروع غادي يبدل التجارة ديال إفريقيا؟"
+      },
+      {
+        "categoria": "YouTube",
+        "etiqueta": "Vídeo",
+        "link": "https://www.youtube.com/watch?v=TdMahQVdyjM",
+        "titular": "Le Maroc va-t-il faire payer le détroit de Gibraltar ?"
+      }
+    ],
+    "resumen_ia": "Hoy se han publicado varios titulares que destacan la puesta en marcha del nuevo Puerto Atlántico de Dakhla, descrito como un proyecto emblemático del nuevo modelo de desarrollo para las provincias del sur de Marruecos. Los artículos mencionan la programación y los presupuestos de las obras mayores, así como la infraestructura vial asociada al puerto.\n\nOtros titulares plantean preguntas sobre la elección de construir un puerto de gran envergadura a 40 km al norte de Dakhla, su posible influencia en el comercio africano y la hipótesis de que Marruecos pueda cobrar por el uso del estrecho de Gibraltar."
   }
 }
