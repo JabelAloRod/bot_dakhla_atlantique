@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-30</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-30)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Fête de l’Unité – Port Dakhla Atlantique: Un état d’avancement à hauteur de 70% - L'Economiste 🔗<a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOMGM2QTFZUDVQQlFXU2lEdGRkVjN3Sk1IVTlqcjdXX2tzbFZBWnJhRzdVcE9ZcWF2VWMtSVpzcDNGWVFzOWJkUDhxalhiZHhMVzFfalI5X1lKdlo1bHN5MU9nZDNndk1IVnEzdm1aQTRBM2NoQmdjZ1RrUm91QjhDMU1zSXJGNktQNWFUSG1ZMnptMlp3SWNROFZ5aDY3S09TT2NIMA?oc=5">LINK</a>
+2️⃣ De Mogador à Dakhla : Othman El Ferdaous sur les ports du Maroc - Le1.ma 🔗<a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQZHA2dm9VZFBydktHcm1lQW4tV2hoaFBpUmw0LU1aMXpfdUw5eFd5OVl5SUNvU0FPcEE1WERDSUlEZ1MwZ1ZhVmhwZkxMSFlmV2gzSXpibG0xWFFrLXBjS1RpeTE2NF9xODllVndFUFJ6eHh2NmxXY093SDIwUlZUd1V4QmUtQQ?oc=5">LINK</a>
+3️⃣ Les ports, clés de voûte de l’ambition marocaine - Medias24 🔗<a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFA5SmdCeGoxRVRtSW11amw0VllOblpRM1FaRWdFc000bVVJejBwaFNpRDlPdW5VM01IdmI2TVlySDYwbHZWTndLeHd4c0VIamIwbnZHUlBkUUdjaElQakZqN2lGRUUzd2wzOHJVaEJkOUNjcVplMjN3WlE1Yw?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة الأطلسي: علاش كاين فرق بين 23 و16 متر في العمق ديال كل واحد؟ 🔗<a href="https://www.youtube.com/watch?v=6Uqvmy_rlTs">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se informó que el Puerto Dakhla Atlántico ha alcanzado un estado de avance del 70 % y que Othman El Ferdaous comentó sobre los puertos de Marruecos, desde Mogador hasta Dakhla. Asimismo, se destacó que los puertos son considerados una pieza clave de la ambición marroquí.
+
+En otro titular se plantea la cuestión de por qué existe una diferencia de profundidad entre 23 metros y 16 metros en el Puerto de Dakhla Atlántico.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-29</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-29)
