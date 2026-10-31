@@ -13,6 +13,49 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
+<summary>📅 <b>2026-10-31</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-31)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Ports: Dakhla Atlantique prépare son futur modèle de gestion - LesEco.ma 🔗<a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPeEIwWDdQd3VGNVpfdjJma0xMc25LZF90T3EtZnNwbHMwanNnMWRBZG91dVJVSXBVZDVPWDR5QzRDWWdzRHJIalhUckJ6cFFqaFVTOExQbHBTOFluUTRWYUVJZ3pxSk4wZl9fTEx2TGVCMWNqU3IyX0pJNl9UNFB0eDhHY2VLLUVsTXVieVItSzZ3dw?oc=5">LINK</a>
+2️⃣ Commerce maritime : le Maroc à bon port - Telquel.ma 🔗<a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOZnluZW5VaU0wakRSV1Q5R1YxOEdrUU1URGt3ZkN6OHZaeGE0akZYejlNTlhGOHVXRVRtLVRzOXBJV01sclFEakEwNmNxTUNWVWNUcDdmYldJYTVpRnU3QjFOZ19WTUZIQTdVdGhwUVgwcTJpSlRnSXctYWQ1MmlkZE9pcHdQVmFxV3c?oc=5">LINK</a>
+3️⃣ Nador West Med et Tanger Med 3 : Les moyens d’une souveraineté stratégique ! - L'Opinion 🔗<a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQ3cwUHN6dnZXM25qMlhuWWhpaDlXMTVOWU5fRWxuWU5nNE5YNnFoZHkydVlBMkdVU1d0WFE4cGVqRzFXNmhwSC11aU1ZSU9hVkJxVTJqNUFRZlpGTVo3ZGg3TEk0TkJfb2VHSzFqOFM2aGtmRDEwOVdtMmNTODBibmNvdTY4ZDg2b3p4QlNnaFZSaDNtMzQyLVBHemx4X20yVTZnR2NGSzRqRjRzSEdHc2VjdFV3Qjk0a3RKdmJ2SmtiV09PMlZMMWJlRDdEQXBvRlJ4Mk0tTi1IRWIxRi1TSEMxaVpsQjBXME1PVjQ3ZU9vWHI2?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي.. حين تتحول مغربية الصحراء إلى مشروع اقتصادي يربط المغرب بعمقه الإفريقي - فاس24 🔗<a href="https://news.google.com/rss/articles/CBMiwgJBVV95cUxNSmdQcy1aWlplTDZfdEdCOTdSMHdacC1DbGFXRHdBSHhVZHJ2c0pxV0taYVY2b19jZ1lIMk9md1pZa2w4dGNhLUM5R0pmYnlITGU0YTFIQXFjai1JT2ZYZENuTklDMkxzUlVwMFBYSk4xdldWQU52TTZRRHpoNDI3Y2FMUVRsWHQ5Q2xPQnpvYUp5Z3ZKanEwZ1VBUFA3Y2ViM0MwT003Y0lUQUY2ZnRPX2JGR1dteTdKbGN0eG54bmZPcmtvSlFvbWw1VEljMndTc0RLVWgyblRFLVZteWtUbE1WMmJwdXBvWTRjeGRsbFlTSXVpQS05R0hQSEZqdXN0OG9nc29Pc0x3Z3U5aDh5VTRiNlZTcmxZLW9SamdkbDJRX0N4b2xGaFl4ekJKa1B3SXJHd2wtTEtROUw2MWVWenVR?oc=5">LINK</a>
+‎2️⃣ عليوي يكشف لـ "اقتصادكم".. الرهانات الاقتصادية لميناء الداخلة الأطلسي - اقتصادكم 🔗<a href="https://news.google.com/rss/articles/CBMimwRBVV95cUxQNGxWa19TZlJOQXM2TTNkcWFCRjRkUE85NjVHcFE5M3V2Wm9uMHNfMFowNHJ4LUhESUsxVmZFQWQwYnpWZmtMd3RlNGxDaFQ1bEZyS05PQjBVRmxrMVlKZXE1VFNjX1owdG1lczZmMkt3RDJwd1VMRWFMS0JHTVZudWRiZWZOX3phY0dPNlB5NEI2VlN0S0NRMjhqSGNwZm9PdGVZRnhzWDBXNWpYdGthVWw3RnRZb3AxUHNRZm0yS0JUTXE4d2doaWdLdjJfQ0Y1Q19hSXVwSmx2eHNua2dfWE00TGhPbDFNVlFJbzBJSVV1WUFNcDVkOTZCRk5BZFBIcW5XTHloWmFEZWJGdVdiWnpaMlVHN0Yxd2NnTnN6WmdGWWRNb3ZyUU5QczNVVXhuZ0IxMUhKQkxSRUxfcnBiUXFUb0lRZU8zaWVXT2xnMGJBY0l4Tlo0QnZ1S0ljR0RuWWZGZ05zTEo1YTVKcHJISnk4YzMtTjc2ZHRlck1XVS1DUTNMaXZUTmtFNDdUM1BIdnAyMzFZSmc1SndLYlVGa3E4OXZ1TC02TmdWdXd6OGwySGg0ZHdIamhYeXJjQmZyelhfUFZXNW5GbU5pQjZMb1ZnUVNGYjY3OTF1SDRCUGxYNEpQamtaZjNpM2RUeVIzel8yb0lzYlBTQUlTUkpyaTZCNnlaaEVzOUtOamdsZDVSUVM4M096NENjcw?oc=5">LINK</a>
+‎3️⃣ المغرب يوسّع نفوذه البحري.. من طنجة المتوسط إلى الناظور غرب المتوسط والداخلة الأطلسي - الحدث 24 🔗<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSWmxXY1dwZ3RvRHduODZaOFJfeDhwLUhKR2NJcE1TY3J1cHVLUkVCSHNwcHAzR0djbzUxRmFndjhHQ2s2NTNMQ19jaHZIRHpwWVM0?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Chambre des conseillers : Lahcen Haddad s’entretient avec une délégation de haut niveau de la République du Chili - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VSGtRX0hqZDNoX2tfWUY4c2lkeXhpRkZvS3RHalg1MlRVQkJkdXcwb2dOYWRURXdOUVEtanRuRHktSzZPMGt5dHM2dVR4SW5GYS04NkNvMkRyS1Bt?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة الأطلسي: علاش الكناري خايفين منو؟ 🔗<a href="https://www.youtube.com/watch?v=VNLrDa6O3DE">LINK</a>
+2️⃣ رامي:  المبادرة الأطلسية تفتح لدول الساحل بوابة الأطلسي وتعزز الحضور الاستراتيجي للمغرب بإفريقيا 🔗<a href="https://www.youtube.com/watch?v=sr4Q6Z2XlLM">LINK</a>
+3️⃣ Commerce maritime : le Maroc à bon port 🔗<a href="https://www.youtube.com/watch?v=SNLTBrIAb-I">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios han publicado noticias sobre el puerto de Dakhla Atlántico. Se informa que está preparando un nuevo modelo de gestión y que, según distintas fuentes, representa un proyecto económico que conecta a Marruecos con el interior de África. Asimismo, se destacan los retos y apuestas económicas del puerto, así como la inquietud expresada por las Islas Canarias respecto a su desarrollo. Otros titulares señalan que la iniciativa atlántica del puerto abre una puerta al Atlántico para los países de la costa y refuerza la presencia estratégica de Marruecos en África.
+
+En el mismo día se publicaron notas sobre la estrategia marítima marroquí, que incluye los puertos de Nador West Med y Tanger Med 3 como medios de soberanía estratégica, y se menciona la ampliación del influjo marítimo del país desde Tánger Mediterráneo hasta Nador West Med y Dakhla Atlántico. Por último, se reportó que Lahcen Haddad, de la Cámara de Consejeros, sostuvo una reunión con una delegación de alto nivel de la República de Chile.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-10-30</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-10-30)
