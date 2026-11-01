@@ -10,6 +10,52 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📁 <b>2026</b></summary>
 
 <details>
+<summary>📂 <b>Noviembre</b></summary>
+
+<details>
+<summary>📅 <b>2026-11-01</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-01)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla: les retombées du modèle de développement des provinces du Sud se font sentir auprès de la population - La Releve.ma 🔗<a href="https://news.google.com/rss/articles/CBMiQEFVX3lxTE5Kbzl1NFY4eFF4VGF4OTUxWS1jTHZzSFdGX0toc3pCQ19kY1l4N2RTZTZhNHM4NjZJY3k2MExyc04?oc=5">LINK</a>
+2️⃣ Tanger Med 3 : le Maroc muscle ses ports, Dakar joue la montre avec Ndayane - Afrik 🔗<a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQT0M1ZTdJdjg1YWRtTkNDTzE3eW5xVFRvVndTX3B1X1hZVGxUX29qY3lydllGODlqZDF6SXg1WWpYbmtRc2tma3QzRjJGR3V5MHBnQjdObmVHd2hQSE9SeHdkTW42MHNHdHJ4dFZocU5KTF9TZzl3X2xEblRkWlUxQ0pBdFdfNEY0eGR6ejJnNTlSVldQcGNDeFVR?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ المغرب يدرس الهياكل في ميناء الداخلة - Hespress 🔗<a href="https://news.google.com/rss/articles/CBMizgJBVV95cUxPaGhuZmMwRUlQdG9mVXZycktQVmMwOGcxN1VYd3VyV3RPaGIyYm1wTHRQSnE4ZjVpUjlQd05IbzdJWHBrakJ6YzRrUUlNRkNfMTVaVVdLSzBKcWwtZHdPMHJ6TGpkR3hLV2VQRVlZQjJoVWxqbHA5bXpyNElqc002Q3dEV3NLZWxXWk9LMWxVY2REazBZbG1PdVFYd21kX2lXazBGU0l2VlJYQVdwTmUtY3NjMlNZWGhtQWExQ29DSlFPWkZSRVVmT2dPVS1CS2pPTnJkZmFGVlhrbHI1ek41U1dwNmVrNjN6SDdtS3FlbjVhTWV1LWJILUVWbUhRaFktSE1rWTlUcEl3Uk8tMmcwckVDVmxtX09KMW5iMzFoLW55ZHZrSkRzZDFkQlJ0TEgwRFFPV1BBOTlKNDZVUEdxOWRUcFY3UUJjM2c5V2FR?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي.. سباق نحو صياغة نموذج تدبيري بمعايير دولية - جريدة الساحل بريس 🔗<a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxNU1RWNmNpQ241cm9DQ3g3Q200ZndHQjJiQlhxbUhJdS1UV1ZQZEhSQ0N0d1d4TzRiX21OS0ZRcGU1c3ZoakZIRTNIMS12bk82ZnhmbmJRc3d1dUtiSmdwMGJqdGNzeUtNNURGVVpQVl9xZEIwU3gwNE1USXQ5TDFCQm44Z2hnbXdTa19TU1Q5dEUwQlUycDZBNXJBVVF5MjhMbTc0aXc4WGgtaXVvWGZnRUhVUkVUOFZGOTJXX3UwWnpWZWduNXRDV1dsdzdmZm1wd0E4T3ZDUlRKMlBBRmdPSF9RdWVpdXFQYmNBeHNhRml5a3ViTWlGRTNjYWlyOGJuVER0SFh0Y2hBcm5lQThIVTZVeHZabjUyODIxRTU0NGRVbUZPTEQ2Z3F5ZFg0bGZudWhpci1sTWFXYlZUajRCX1dHT0Y?oc=5">LINK</a>
+‎3️⃣ مديرية الموانئ تدرس النماذج الممكنة لتدبير ميناء الداخلة الأطلسي - Albahr News 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxOdko5X1hfS1Zvb2JLM2xjZ1QwSkZSY2M4eExEY0lFRE9xQkdmb2tNZHZiekdGVl9LSE1Vb2dpRl9VMVhlcEd5djE3NVcxcWlpZy1LNjZqWkdoRG1wS1pMb1Vnbmd4RUtXcVE2MFcxNnBSVGxKeXh6U3I5QU1VaTBPd19kQ0NCR0E5b0NfUG5ZTW84MThOSWpRdlhUbUZWQVpFRHNXZV93VFU5bGM5VF8xVnUyZFllUTdXWHBmR2xTaXFUcUtrWkZXVUZvaDV3SFRuUXM5cUNrem5TRE45N25vYV9SX1c5MXRiRUwzdWZDaWM3QlJQYzFlVkxlWWQ1cnhiRW9iU3hkUW56TEhXcG1ZVTVkVElCWUZKdE15V2NKcS1KcVJmOFpKRDZCV0kwSFFIVk85N3JQNGhpWllvRzVJOEw4cw?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Dakhla : les retombées du modèle de développement des provinces du Sud se font sentir auprès de la population - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TWjBWdUE0ZEhrVnlXdDhPOWsxVnMwSUFGN05jb3U5aF9ncS0ybGh1NEtscDFlODNTZHJCQ3Q3WFFOcFgzM1RlVHd3aFJJMFRWcjA1eFNWYnptTDJR?oc=5">LINK</a>
+2️⃣ Fête de l’Unité : une occasion de renouveler la mobilisation derrière SM le Roi pour consolider l’intégrité territoriale du Royaume - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWNDdzTElJTmx5MXAwcHBnYTd1SU1vd1pwdjRXMnA5b2hmdC1HdC1mdldVSk9XeE9iZk1uVmVxd3RSVjBLS0Nwa2RzU3liTzFlNlNPQWgzYUJFNXR6?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ علاش الكناري قلقانين من ميناء الداخلة؟ 🔗<a href="https://www.youtube.com/watch?v=RSpNYKUhQN4">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha difundido que el modelo de desarrollo aplicado a las provincias del sur está generando efectos perceptibles en la población de Dakhla, según varios medios y una entrevista radial. Asimismo, distintas publicaciones informan que el gobierno marroquí está estudiando diferentes estructuras y modelos de gestión para el puerto atlántico de Dakhla, con el objetivo de diseñar un esquema de administración que cumpla con normas internacionales; se menciona también la inquietud expresada por las Islas Canarias respecto a este puerto.
+
+En el mismo contexto, se señala que Marruecos está reforzando su red portuaria, destacando la expansión del proyecto Tanger Med 3 y una comparación con la situación del puerto de Dakar. Por otro lado, la cobertura de la Fiesta de la Unidad enfatiza la convocatoria a renovar la movilización detrás del rey para consolidar la integridad territorial del reino.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+</details>
+
+<details>
 <summary>📂 <b>Octubre</b></summary>
 
 <details>
