@@ -13,6 +13,48 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-02</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-02)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ بفضل الرؤية الملكية … ساكنة الداخلة تلمس أثر مشاريع النموذج التنموي للأقاليم الجنوبية - Achtari 24 🔗<a href="https://news.google.com/rss/articles/CBMivwJBVV95cUxORkVtdGZ5Tm96VXpnSG93azd6UTVHUm1jNzdqLVdLeE40WGlrZDE1cW42NGxfWl8yNjBka1dkb0JnVlpGbm1XckVEVW1HdThqT3V3NzVSMEN2ZWdBSjNfbkdFcXZOZ1RQM0JxbWRUY285TnczX0tSWEFfVzc2c084dXhjRWxHbUZtUThNM0NITmg3QTNnOTNncE1panNDcDV4WGJ2eE9Ed1RNMmFZZVc0Q1JsT1paVUJrMGdpZlFkc2U4UlFyOXJ4RjBHampwQUxQVUlEdGVPQl9wT200dlhaeWc1Q3ItcFU1Mm5YdmRpX0ZyT0RQSXV4aXVzckc5emlyWHlBOGl1enUzNDl1alloM3FKdGlncW5XZTJkcEVIQ1NNQWIwcGtPT3JGQmZJOWJHNTJaTElvTzI1X1hFVTln?oc=5">LINK</a>
+‎2️⃣ عيد الوحدة مناسبة للتعبئة وراء جلالة لترسيخ الوحدة الترابية للمملكة - Achtari 24 🔗<a href="https://news.google.com/rss/articles/CBMiyAJBVV95cUxPUllvUU1QQkk1WUx3YzlTQjh5amVjUUt3dUFoZF9YUUdPN3hDVkhHaUdOeUVmVW0tMWdlWnRrRnlxLTNjZzNObk1NdVAteXo0NWtUWGJXVXMyMUhqckp0WEZxSjloM2ZDaXRSVnRRMkpTS1JoT0pkWlNvSktxaUROcHluVHU5LVR3cGtSVWh6UHg3Y1VtSDNYVkJvWXpCY0dyMzFfbDFlTXJPVHpXVUdOeXhOdVdIWTEyc3A4M0JnRXQtVjdPSm9naVY0TmpvNW9hVkszSVZKdEtQaGhCdFVhMHRVRHVmYkY0OTlNV2VzbjZtQU55anNMTHFtYXM4MllDVHFrdHJxUlpjM1BnZUZvSUJ5Y0l5TXRWNUtYYUkzQ3BvNVdzZnF0Z1lmalVBa2t6MWVkWGI5Q0JHb214bm9OdWZnSDhmU1pw?oc=5">LINK</a>
+‎3️⃣ ولي العهد يطلق تشغيل أول محطة للحاويات بميناء الناظور غرب المتوسط باستثمارات ضخمة - alalam.ma 🔗<a href="https://news.google.com/rss/articles/CBMijwRBVV95cUxOV0hHT09vUGFabzN6M200Q1JhZ3E5VDJqaHdudWxtVVlZcUlzWDZKUTJrM0RzQzhNVVZPNFRmRlhwRWtGdlIzRF9GYi16cVoxQUNpYUVVbmIwd2tQNWxGaXl6MVdWNmZyVS1nRGR5UWVSR0JjMl9SVXJuSjFxQXlEeTFIY2FQUDZVZmhpOUJCR2lVMmljV3V4QkctdWFXeFpSbFc3cXQ1YU9HbUxjSlE0Y0tZb29LblY0Q0ZiVzM1QTcxX2ZrSXRhc2oxdHlOcG5GREYtX0Z4ajhPMVVOdmpITHBPSmxrVU9NS0ZYLTdzOGRQalVhdFJfSHptTk05NW02RFQwU2hRQm9EWjFnNUxhcHVZVmlfNktwcnNhMWFqSXR3R3diU0lRQmVtbzJrRHpNS09BRXd2T3haRldJdVdyZnRqMHhZb0JGWXNXUGItUXk1aFJwTFBMNlQ0dUtDUW4xdUVRbktiSHM5NHU2WVpCdEd6LXozV0g1MTlxNC03MmlfZ3pwdEp2Q3pZekNlSmF0Ri1vaHJwcnprY3JDdzBxS3dCX0xCbHdIRXktSXR6M1Y3R0E1UnVwblltR2JHY0x4WlZWellHRTVELWh1a2pXaUF3NEVjMmo3RGluLVpXYXNxRHhFQzZ5NFFSekNvNGFBRW1XYnhEc2JMTVFtVG1fbGRacDBZSjBZWGV4NGtGRQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Coffi Dieudonné Assouvi : L'Initiative Royale Atlantique, un jalon stratégique de la coopération Sud-Sud - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SR2ZKcklVYU9HSHJpekYtVlUyaXc5OG5GTjg0OEhPWE40VFpxOVhnZWUzNzlqREJIdDduN092THdDdEZYRzlGcGFoLTV3Y0w4bWVKc01FdkxBS3FI?oc=5">LINK</a>
+2️⃣ Fête de l'Unité : Une célébration portée par l’élan de développement des provinces du Sud - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nbXJ4MmZTdnNyR2k2X2NOaWZ3R0FVWmVmcUZOOUlCVW1ha2JwT1EzbHJlLUNfQ3FHUnp2RkRrR25tenJpWGRPa1F4WEFuWmF2cXBjcnNKT29HVlEt?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ PORT DAKHLA ATLANTIQUE 🇲🇦 : ميناء الداخلة الأطلسي 🇲🇦.. المشروع الذي قد يغيّر الخريطة الاقتصادية🌍⚓ 🔗<a href="https://www.youtube.com/watch?v=LaRMKJV8NNQ">LINK</a>
+2️⃣ cdm club 2029 Maroc, port de dakhla Atlantique, Casablanca rabat continental. marjane dakhla 🔗<a href="https://www.youtube.com/watch?v=QpG4D0RNMeI">LINK</a>
+3️⃣ الخطاط ينجا..ميناء الداخلة الأطلسي مشروع ضخم وليد رؤية سديدة لجلالة الملك 🔗<a href="https://www.youtube.com/watch?v=gOJxWNO2pkU">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios publicaron notas sobre el Puerto Dakhla Atlántico, describiéndolo como un proyecto de gran envergadura nacido de la visión del rey y señalado como una iniciativa que podría cambiar el mapa económico. Se menciona también como un hito estratégico de la cooperación Sur‑Sur y se relaciona con actividades como el CDM Club 2029 y la presencia de la cadena Marjane en Dakhla.
+
+En el mismo día, otras publicaciones reportaron que el príncipe heredero puso en marcha la primera estación de contenedores del puerto de Nador, con inversiones importantes, y que la celebración del Día de la Unidad sirvió para impulsar la unidad territorial del reino y el desarrollo de las provincias del sur, donde la población de Dakhla percibe los efectos del modelo de desarrollo regional.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-01</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-01)
