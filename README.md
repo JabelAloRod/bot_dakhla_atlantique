@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-03</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-03)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Grâce à la Vision Royale, Dakhla-Oued Eddahab consolide son positionnement en tant que pôle économique et logistique ouvert sur l’Afrique - libération 🔗<a href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVEVUakMybklvalBQREFGenpYSGRleE9ubmFoZDUtcjhSay1fT0dBWlFOZTBYS3NtSnpYNV9MZ1FWanlEc3J5ZXE0YkQzMkJodTRXWk1Ua2oyZzJOREhQbzVNdndyeTVTbnY4OWtqYm0yUEZHRjFaLTZRb3BaSjhfc05tWUUzblc5SllrQ2Fjd1FxZjN2UGNUSldxWkUtZHRHV2RPY1ZKTlJybGtJMThHQk1XclRlQ2VacC1vZW1hOTM4UmNTYWFqOV8xZzZyeThJOTFRTGJ4SFRmanJMT3dDNzZmY2ZNVDA?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ استقبال وفد اعلامي من جمهورية ألمانيا الاتحادية بجهة الداخلة وادي الذهب - المغرب الآن 🔗<a href="https://news.google.com/rss/articles/CBMiPkFVX3lxTE0wNUxDQ1E4ejM1azlIczNVSkEzQzVKR1ZmR3VSMk1kSUdYNVZ4MzZGQnM4dUpzMU8ycU9sa3pR?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Grâce à la Vision Royale, Dakhla-Oued Eddahab consolide son positionnement en tant que pôle économique et logistique ouvert sur l’Afrique (CRI) - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnNDh4MU9VbzBjNTVvYnBXRlgydDdIWWdjc2hGWGNjMU5FUHhVY255M1piZENDM1FTWUgxaTlxSHZhOEZodGRHUk5pSEhab01ZSktDSE9TV0xMYkti?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ PORT DE DAKHLA ATLANTIQUE : Le Maroc prépare-t-il un nouveau géant économique en Afrique ? 🌍 🔗<a href="https://www.youtube.com/watch?v=j3c4p8Snb6w">LINK</a>
+2️⃣ المبادرة الأطلسية الملكية.. ميناء الداخلة الأطلسي والخط الأزرق نحو باب المندب لتغيير وجه إفريقيا! ⚓ 🔗<a href="https://www.youtube.com/watch?v=ZS9or6qIkR8">LINK</a>
+3️⃣ Maroc : 5 projets GÉANTS qui vont changer le pays à jamais ! 🔗<a href="https://www.youtube.com/watch?v=Ir5wizX--Z4">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios publicaron que, bajo la “Visión Real”, Dakhla‑Oued Eddahab refuerza su posición como polo económico y logístico abierto a África, y que el puerto de Dakhla Atlántico forma parte de una iniciativa que incluye la “línea azul” hacia el estrecho de Bab al‑Mandeb para transformar la región. Además, se informó de la visita de una delegación de prensa de la República Federal de Alemania a la zona.
+
+Otros titulares plantean la posibilidad de que Marruecos esté preparando un nuevo gigante económico en África y enumeran cinco proyectos de gran envergadura que, según se indica, cambiarán el país de forma permanente. Todas las menciones provienen de los mismos medios que resaltan la importancia estratégica del puerto y de los planes vinculados a la iniciativa atlántica real.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-02</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-02)
