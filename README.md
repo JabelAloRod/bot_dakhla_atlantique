@@ -13,6 +13,48 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-04</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-04)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Un futur hub logistique et commercial majeur : Dakhla Atlantique parie sur un modèle de gouvernance gagnant - Aujourd'hui le Maroc 🔗<a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMnFXRFB2NmVERE1xQzFwQnk1MTNvV3BkVGViYUcwMS1PQnVUQ2hvcU11X1djR05yZGRKdXBSVFVQa0p1Mjl0MVItZXdrMWhORlhLbE9rNlhtcmlyUWE4b2hqMzkxZTRHZHlqdzlOYVAwa3NqZkRRdk16MUljUXowMDZXdXJ2ck9ERlhwUE1EVjZyZ0dyX2YxTFR2bjhycndRaGlkdXR0Y3E1UDVhRy1JNExrMlB5d2dMejV1VHdMdkNIVGFZYnZ5RFJBU0x5V1JZR1E?oc=5">LINK</a>
+2️⃣ Dakhla, le nouveau Far West - Le360 🔗<a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOSWtQQ3g0RWdOdXFhTFVac1c3MVdYdC1Bb2tuVWw4M01tclJZWnFHNThsN0l4UDNwdy04emwzcmdqSGgzYTBkZ1A0THNRRk9YcmlUM1hvT29uMkMwY2NSaG9tcXZUMjU0OHdkMTBSbGxFOThpR1RVYUI4bXAwTHpsSmFGLW9LTjVTaGJzWA?oc=5">LINK</a>
+3️⃣ Crises du commerce mondial : une opportunité stratégique pour le Maroc, mais elle n'est pas acquise d’avance - Le Matin.ma 🔗<a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjljczFYMldPTXh5QmpyaXRDQUwtN3dLeFRvWWpXcVNXb3VBNEVzS2VmcFFKeURJX04xcGU0YnhKXzQ2VDI5U1ZqSXcxaXlBcFB5MnRPM3NLSGh4a004MkxzUVdrLUlpcVdtLVVwUFJQVlAzVVMySnVoRFlHamYxeklQQWtpZi1aQnNlU3JvYlByczIwMzloTVFhVdIBoAFBVV95cUxPWHBaZWxROVBtNWlHdTV1UFRTLWhmRWt5eEh0bml2MXdVNGF3Q3BvZXdjUWJVNk1PYWlKSHAxWXMzQnZhaUtWczI4a0NiZXowNXlUTGJETmZYZWRFeFhvN0RGRUlSbzlRM05pQk83bDNobFNyWkhkV08ybHZfYnM2STVxVmpVaUJ2RTQ1a2ltdHkyV2xQNlZBdVRFbFNVWTZD?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الداخلة.. 3 ملايين درهم لدراسة نموذج تدبير الميناء الأطلسي - هبة بريس 🔗<a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE54cXFMMVdyLWFEVWFKM0M2TEFHT1plVFZ6XzlXLTAwdVJheXpDc1dGUlFmOFNValRqX1ZCekpPanFxOC1SMVRGTm8wSjFHbm92MENMUFFfcw?oc=5">LINK</a>
+‎2️⃣ فريق البام: ميناء الداخلة ومشاريع الجنوب تجسد سيادة المغرب على صحرائه - زنقة 20 🔗<a href="https://news.google.com/rss/articles/CBMiREFVX3lxTE5jYmFQWEJOeXlKYnFCUDJJM3JnWlFpN0JqVnpCMEt2THc5Y3BsanVJVWNtYXBkOWNHZzdpeHptSTFRLTNK?oc=5">LINK</a>
+‎3️⃣ النموذج التنموي لجهة الداخلة–وادي الذهب يضع الجهة كقطب اقتصادي منفتح على إفريقيا - شمالي chamaly.ma 🔗<a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxNR3V3Vk5iM1VvSkF3d1loYndIdUFKR0d1R3J1Xy1MUGNrdjRxVjRWTkhXVHBXeF9TdW5uYjRKRUxqcDh5VnktUjFQd3B3anFrQjNKbEhhRG44OGtuTV95eVA0S2l6MnliWTZiaEd4dUdENEUyT3plbE1UWGE0amR3SFNqSVhmalBFc0NSbHZZaktBRl9xVTViWlpHVi1yTTFkWFhrSTJXVzdFM0JIbEQ0MUtERFpkSmtLa2YyWXlzQ1c3LVFrc2ZNdDRLSUZTd0h5NWxpQkpIa1Z1dEduLWFvUHBtaTU0cV9WRlR6eFUyOWtsWWk2TTZ5YlBzYno2TUpBNlRsZ1ZCaEx5aW9aVkFlQ2xJLU1jaTRTdlJOWVVwOWRnWVBSVVVTNHIyUjBGUlFnYlJtb0RwMlllb2JvWFBRN18xRms?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Sahara marocain: les membres des deux Chambres du Parlement saluent hautement le contenu du communiqué du Cabinet Royal et les efforts diplomatiques du Royaume - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XbW1qRGo3cC1QNXdBYnF4YjNCcU1nZUdWamtRQ0l2cEY4eVVwcTBPNE82TmEyRlRoSnFuQzM2Ti1Hc1RTdFE2ZmVBQTFEMnRjZ1BpY01ieThWeFZq?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Initiative atlantique : ce que le Maroc change pour le Sahel 🔗<a href="https://www.youtube.com/watch?v=MgOjIoJ8Fno">LINK</a>
+2️⃣ الصحرا غادي تولي دبي؟ 😱 شوف شنو بانو فصور الساتليت 🔗<a href="https://www.youtube.com/watch?v=PGTJMov_yFg">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha destacado que el proyecto Dakhla Atlantique apuesta por convertirse en un futuro hub logístico y comercial importante, basándose en un modelo de gobernanza que consideran ganador. Se anunció una inversión de 3 millones de dirhams para estudiar el modelo de gestión del puerto atlántico, y el modelo de desarrollo de la zona de Dakhla‑Oued Ed‑Dahab la sitúa como un polo económico abierto a África. Además, el equipo del BEM señaló que el puerto de Dakhla y los proyectos del sur representan la soberanía de Marruecos sobre su territorio desértico, mientras que medios locales lo describen como el “nuevo Far West”.  
+
+En el contexto internacional, la crisis del comercio mundial se menciona como una oportunidad estratégica para Marruecos, aunque no garantizada, y se habla de la “Initiative atlantique” y de los cambios que el país está implementando para el Sahel. Parlamentarios de ambas cámaras elogiaron el comunicado del Gabinete Real y los esfuerzos diplomáticos del Reino respecto al Sahara marroquí, y circulan imágenes satelitales que comparan la región con Dubái.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-03</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-03)
