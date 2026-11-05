@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-05</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-05)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Sahara marocain - Façade atlantique : ce que les grandes puissances voient à Dakhla 🔗<a href="https://www.youtube.com/watch?v=25b6Eigf--E">LINK</a>
+2️⃣ Sahara marocain 96 millions de personnes sans la mer : l&amp;#39;océan peut-il changer le Sahel ? #Shorts 🔗<a href="https://www.youtube.com/watch?v=1BK6GNhq5V0">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado dos titulares sobre el Sahara marroquí y el puerto de Dakhla. El primero menciona que la fachada atlántica de Dakhla está siendo analizada por las grandes potencias, indicando el interés que estas tienen en la zona.
+
+El segundo titular señala que, según el contenido, 96 millones de personas del Sahara marroquí carecen de acceso al mar y plantea la pregunta de si el océano podría transformar la región del Sahel.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-04</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-04)
