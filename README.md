@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-06</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-06)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Stratégie portuaire: Le Maroc présente son modèle aux opérateurs chinois - La Vie éco 🔗<a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaklkbHpieTFkT3pKbXdhbnJIRGpxMzJzYUpuN1dCdk5RSW43MTZpUUdMSzhNcTJQWFNWQ1BDWVNnNUY4WFVhSU9zUWZGUmswM2ROZWhqb2lPMzNrMVlueXZMMm1JckFNajFHZElQQl9jYzBHbHF4N2JZaXE0YTdEQm1SYm0tQkJOWHF4eGYwcHQ0dk4yT2hLWXZQbS1meHhFTWFYN0VMbkVZUQ?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ من طنجة المتوسط إلى الداخلة الأطلسي.. المغرب يعرض للصين أوراق قوته المينائية - تليكسبريس - Telexpresse 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yUWhvZXBnWUZ2b3V6SnFzWVNkR2RaRUxCbFlTVWl5ejFVUWxseUJSNklfaTN3ejM5YUVDSkFGSHlwOEVjZE5RcGF2QdIBU0FVX3lxTE1veW9naVV2VG8zS0RxNWJzRm1yLVNla2NIYUJFYVcyMkVQeVVmYWhwRmJobGRzYVhZdk5wX3V3ekdGWVF3UzBIdGFVRm5zUXZiQVJR?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ 🌍🇲🇦مقطع فيديو يوتيوب: مشروع ميناء الداخلة الأطلسي 🔗<a href="https://www.youtube.com/watch?v=S2klPrVnylE">LINK</a>
+2️⃣ 🌍🇲🇦 مقدمة فيديو يوتيوب: مشروع ميناء الداخلة الأطلسي 🔗<a href="https://www.youtube.com/watch?v=B1PkUziCskA">LINK</a>
+3️⃣ Sahara Marocain - Façade atlantique : ce que les grandes puissances voient à Dakhla 🔗<a href="https://www.youtube.com/watch?v=B4Tp3fXz1Zw">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios informan que Marruecos está presentando su modelo y estrategia portuaria a operadores chinos, destacando la capacidad de sus puertos desde Tánger Med hasta Dakhla Atlántico. En los mismos reportes se menciona que el país muestra a China sus “cartas” de fuerza portuaria.
+
+Además, se difunden en YouTube un video y su introducción sobre el proyecto del puerto de Dakhla Atlántico, y se publica un artículo que analiza lo que las grandes potencias observan en Dakhla dentro del contexto del Sahara marroquí.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-05</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-05)
