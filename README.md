@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-07</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-07)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Provinces du Sud: une nouvelle géographie de la croissance - LesEco.ma 🔗<a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQdFg2S25uOHVCT01tTlF2Q3dTTUlYaTVWdlBxc3U4ODJEdXRnNFFNM1RmS0g5OUl0Z2k3LXIxTXZHRm9pNGxSQzJ6R3haRGZrNndXNmFaaV9vcEVGYkNGVXpGQk9uV0JLQ0RJLTdPYUNsaUJySTl5a0Q0WVM4NEVpQmpXSFJQNmoyeGlXZWFSWQ?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يسجل نسبة إنجاز تبلغ 75 في المائة لتعزيز الربط الاقتصادي للمغرب بعمقه الإفريقي - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QQTlBT1JJTHNqNVIzT3RhNkhpZW5TYUQ1aFc1RGtHc1h1RGlXNkVrVnZWQ0hjN1VnVXlnN19NcHltVGtEZ3BaYnNpNGhMM2VrY3B3VENwM1BHZUFU?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي يرسم آفاقا جديدة للربط مع إفريقيا - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5va0tuOEZZclFmcWlINU1SOWlTOF96bmc4dzRlQ1VXclpBRnZNM1hwdjdPLW5XU2t4NmNPMG5ob2VaNUpsYThSX3pYZzlHLWdfdm01bm5BSVVCWUhx?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Port Dakhla Atlantique : le taux d'avancement des travaux est de 75% - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pM2hucGxpWEgwblZhOEpDT2c5SkEwcUJmNjk5eHloM2FrYmt3MFVpcXZWVlRLcDJiWVk4MDEwTjZjMzRaM2JvRHJRQXF5N2tXWENDandOZGhlejNL?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Port Dakhla Atlantique : le taux d&amp;#39;avancement des travaux est de 75% 🔗<a href="https://www.youtube.com/watch?v=cGDktZXX4hY">LINK</a>
+2️⃣ واشنطن وباريس وبكين في قلب الصحراء المغربية.. كيف فرض ميناء الداخلة معادلة جديدة؟ 🔗<a href="https://www.youtube.com/watch?v=2IhBsRPdnQE">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios han publicado información sobre el Puerto de Dakhla Atlántico, indicando que el avance de las obras ha alcanzado el 75 % y que el proyecto pretende reforzar la conexión económica de Marruecos con África, abriendo nuevas perspectivas de enlace con el continente. En los mismos reportes se menciona que el puerto está siendo considerado como un factor que introduce una “nueva ecuación” en la región del desierto marroquí, con la atención de actores internacionales como Washington, París y Pekín.
+
+Paralelamente, el sitio LesEco.ma ha publicado un artículo titulado “Provinces du Sud: une nouvelle géographie de la croissance”, que aborda una nueva configuración geográfica del crecimiento para las provincias del sur. No se proporcionan datos adicionales más allá de los contenidos de los titulares.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-06</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-06)
