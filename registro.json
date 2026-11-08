@@ -2136,5 +2136,24 @@
       }
     ],
     "resumen_ia": "Hoy varios medios han publicado información sobre el Puerto de Dakhla Atlántico, indicando que el avance de las obras ha alcanzado el 75 % y que el proyecto pretende reforzar la conexión económica de Marruecos con África, abriendo nuevas perspectivas de enlace con el continente. En los mismos reportes se menciona que el puerto está siendo considerado como un factor que introduce una “nueva ecuación” en la región del desierto marroquí, con la atención de actores internacionales como Washington, París y Pekín.\n\nParalelamente, el sitio LesEco.ma ha publicado un artículo titulado “Provinces du Sud: une nouvelle géographie de la croissance”, que aborda una nueva configuración geográfica del crecimiento para las provincias del sur. No se proporcionan datos adicionales más allá de los contenidos de los titulares."
+  },
+  "2026-11-08": {
+    "items": [
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Francés",
+        "idioma": "Francés",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRndHX19JZ19mU2o0YWF2ZmxNREFycnRWTzJjZjZvUVBxaWdoZUZSenJpOUlFOGdrWTl4NG9lR3Q2MTJqRzlub2VuamdGbmxUazczMll6ZThuU0hOM28wcDN6clduVm1wemcxRVUyRGJOV0FJOWhCNHZ3MVFpLUhGUklSNDRjdGlvNkdGR3N3VQ?oc=5",
+        "titular": "Sahara: le pari royal qui change la donne géopolitique - Challenge.ma"
+      },
+      {
+        "categoria": "Prensa",
+        "etiqueta": "Árabe",
+        "idioma": "Árabe",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkdlBNV0czSlIxNHNDaWF3M2RQRGUtWjN5RHZpbk9mSUp4T194RExWQnRIcDBGWDF2VmFBZVBrcExXQ09Da292US1oOA?oc=5",
+        "titular": "ميناء الداخلة الأطلسي يقترب من الاكتمال بنسبة إنجاز تبلغ 75 في المائة - نيشان الآن"
+      }
+    ],
+    "resumen_ia": "Hoy se publicaron dos titulares relacionados con el Puerto de Dakhla Atlántico. Uno, de Challenge.ma, destaca que el Sahara está involucrado en una “apuesta real” que modifica el panorama geopolítico. El otro, de Neshan Alaan, informa que el puerto de Dakhla Atlántico se encuentra próximo a su finalización, alcanzando un 75 % de avance."
   }
 }

@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-08</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-08)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Sahara: le pari royal qui change la donne géopolitique - Challenge.ma 🔗<a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPRndHX19JZ19mU2o0YWF2ZmxNREFycnRWTzJjZjZvUVBxaWdoZUZSenJpOUlFOGdrWTl4NG9lR3Q2MTJqRzlub2VuamdGbmxUazczMll6ZThuU0hOM28wcDN6clduVm1wemcxRVUyRGJOV0FJOWhCNHZ3MVFpLUhGUklSNDRjdGlvNkdGR3N3VQ?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يقترب من الاكتمال بنسبة إنجاز تبلغ 75 في المائة - نيشان الآن 🔗<a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkdlBNV0czSlIxNHNDaWF3M2RQRGUtWjN5RHZpbk9mSUp4T194RExWQnRIcDBGWDF2VmFBZVBrcExXQ09Da292US1oOA?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se publicaron dos titulares relacionados con el Puerto de Dakhla Atlántico. Uno, de Challenge.ma, destaca que el Sahara está involucrado en una “apuesta real” que modifica el panorama geopolítico. El otro, de Neshan Alaan, informa que el puerto de Dakhla Atlántico se encuentra próximo a su finalización, alcanzando un 75 % de avance.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-07</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-07)
