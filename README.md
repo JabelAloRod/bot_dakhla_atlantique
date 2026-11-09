@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-09</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-09)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ رؤية ملكية تُعيد رسم مستقبل الأقاليم الجنوبية للمغرب - ميدل ايست اونلاين 🔗<a href="https://news.google.com/rss/articles/CBMivANBVV95cUxPQ01EZjdiVTZNR0czS2g0Vkt2RTVFRWlYazZVVDFsb3ZfZkR4ZnFwTVFXQ2dZdUdHMmg0dTZzRHctc1d1T0JFdTZzRXlFSnhNeVV3NXJIdjFnbDk4Wl9ISlN5X25odXFMbEJhYi1hUXBPbjBiWXB0RWd3aERBVTJrcmZ6Z3g1bThLTmVzako3Nnh6M0l3TVdtc1F5RVRReEJjd3N4bi0ydFRCaHJzUVpkT0Y2NjRIRFltRmtRekJZS09iWnAzS1o5SElHSEUxVG9hSHJDd1Q1MVBqX1hRVEtaa1ZOLWhkcHZJNEFPdkhxeDVYZ0NSUmpoc0txN0RIV3FlZXh5RjJrblJIVWU1REU2UlJhZlZQVV9FNmJSdzVjVU9uQkpvbmZ0NDBQbXNhZ2pySGRxeXJDd3Qxbkx5WldZNlZOSWRhQUl4WEpJVko4LTFyNy11bS0ySkhlQ3dmNmlRWXo4RGtxMElGMEY5dDRVZEtvRnNUT0VxdnE3RmlfNnlMaEJmSi16QkxNN3BOSTBZU2VJaFd0U0Q0LXRqSEhacndhVFEwaURPLVBoa19mRzdDcl9uUFJFcEI0Y1I?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ 🔴AFRIQUE ÉCO / MAROC   LE PORT DAKHLA ATLANTIQUE, UN HUB STRATÉGIQUE POUR L’AFRIQUE 🔗<a href="https://www.youtube.com/watch?v=iotIzcO5f9s">LINK</a>
+2️⃣ الداخلة كتستعد لقفزة؟ الميناء والطريق والماء والطاقة 🔗<a href="https://www.youtube.com/watch?v=XB_WtpnhpxU">LINK</a>
+3️⃣ INITIATIVE ATLANTIQUE : Comment le Maroc offre une façade maritime au Sahel ! 🔗<a href="https://www.youtube.com/watch?v=UzHrTV4UCLY">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los medios de hoy destacan una visión real que busca redefinir el futuro de las regiones del sur de Marruecos, según informa Middle East Online. En el mismo sentido, se señala que el puerto de Dakhla Atlántico se presenta como un hub estratégico para el continente africano.
+
+Otros titulares indican que Dakhla se prepara para un salto de desarrollo, mencionando el puerto, la carretera, el suministro de agua y la energía, y describen la Iniciativa Atlántica como la forma en que Marruecos ofrece una fachada marítima al Sahel.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-08</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-08)
