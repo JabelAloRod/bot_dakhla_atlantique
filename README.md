@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-10</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-10)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ الاستراتيجية البحرية للمغرب: نظرة على المشاريع الكبرى والآفاق المستقبلية - الجريدة نت 🔗<a href="https://news.google.com/rss/articles/CBMizgJBVV95cUxOMjlSMFYxV2I1dXZZVVRTRE1iSDg4OEExX2lwdUNERTZKd3VQVXZYVXpZa09uUUl4cEJOU202NWlVVllEaF9lVHFYX0NQZlVyV3BjY1doM05EYWRBTFg1UjhyLXJybjVRZ0VUS2lKbGdfSTV0V1Btc3FJYXZ2aGJscWZmQ2lJNFRLQkxGaXdJckFzcnJHbEFKYWVrRUVMVmdpd0J2YXpzNGpQU0hacW9ocGRvRnZ5R3ZIRnNBT2otZ0NFZXF3YzdPXzdRVXA2QW5YS1k3Q0tYWVRuX0loVnNDSHRvdU5sQ29FN3QwZ0VpellZQVROSzVaZmZvOFV5VndlUWMxdXU0bGZRR3ZXdmJ3M1BhcUc5TE1GbURDc0k3NVVQbTY0b0pQYnNyTlZBN0Y2ZURvRWZKMXVWb3dOc28wT2w4cXhERVBDSHJRUE5R?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado un titular que presenta la estrategia marítima de Marruecos, ofreciendo una visión de los proyectos de gran envergadura y de las perspectivas futuras, según informa el medio Al‑Jarida Net.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-09</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-09)
