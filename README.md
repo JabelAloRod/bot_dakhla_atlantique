@@ -13,6 +13,49 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-11</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-11)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : une étude pour définir son futur mode de gestion - Medias24 🔗<a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFB2U0s5dWJ2bUpMY3lLWHdUXy1sWUpTVURCak1lczUwbFRlbTctRDZfM0xDOGpnWkxPMzV4bndZVjJQSzE3ay1SSmQzS0g3b1J0TWpMNDZiM1M2cVlQX29nWUN1ODBoczVIbUV6aFVFTnY?oc=5">LINK</a>
+2️⃣ Port Dakhla Atlantique : le Maroc lance l’étude qui désignera le futur gestionnaire - Le Desk 🔗<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxONFNocW1RdnYtalJWY1kxV3JGNGw1X09ET0hpa2ZXQmpiclM1XzRoVVJQRUc5WHBpaHgteThldEdtNGl4OHJQSjhzdVFmYm1FdDZqR1FkNFZrUHptRTdfTGFlZURmUUVDdHVRY3k5ZExkTnVKdlpiWnl3MFdpS1ZoaWZJYVF6LXp4RE1YMk9SNG1uSGVkS1VMb01TUmllanZIaTNZZm5BN2I?oc=5">LINK</a>
+3️⃣ Port de Dakhla Atlantique : 75 % des travaux réalisés, pour une mise en service prévue en 2029 - Hespress Français - Actualités du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZmh5a0NoWTBTTUE1eFZuUk8tNFdHLTZTaWtmUTlReHEzb3R6RkpBWHJzS01WOVFTUTgwRFlYcHNYdk9mZnMtM20yVi1ZTGZLUXhIREc1VTRKTUJzQ29Fc2JyYXExd25ROTh2aEhDanphVk5tVG9IX2hERmFpU05vTmdRandQakpKOU5ZNE0xcTBLbGlPQ2ptTXd5ZzhzajFJNWJIcjE2YWJ6cmN1R1FGSXJQVmpXbmR2aVdYaDVJcmhEbTA?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ إنجاز "ميناء الداخلة الأطلسي" يبلغ 75% بكلفة تتجاوز 15 مليار درهم - Hespress 🔗<a href="https://news.google.com/rss/articles/CBMi0gJBVV95cUxQVjBVRG95emJBdHdLTHZBRDJNMWRwVERhNlZfNTJId1BYV29hU2c5RVA2NS1DWnNaMlVCMUwybDR0TVRMNmdyUmdGSHNfX0gtSWpKWUZnS0thWGUyVlFXTjZFbU1zMVFQY2pCaTY0TWZ0M212MlFnMlozUmQ4bTUySGVyV2x4RDE4UThxcEU4TXRxY3JsZ0UtVWh0WWx2NFRwdGtYU2ltZFdNakdBSm14XzBhUkVDc0dMS1JEZ25IbWJUbjc4d1V4VkxmU3UzRHZQRHJLQVUzZTFzX1o5MURtM0M0dXIwVGxiZGpFcFltOEptMERiR2xtbEVDTTlJczJvaTI4MUswQ05GOFp2NGVHTE42YldETG5raVZaODdfYnlrdnNXcW8tWUo1MjIzNE1EcHpibWNEUEplX0wyX2ZCbGwxT0UwNzB1VlV0dTBkNFFsQQ?oc=5">LINK</a>
+‎2️⃣ بكلفة تبلغ 15 مليار درهما.. ميناء الداخلة الأطلسي يقترب من الاكتمال - بلبريس 🔗<a href="https://news.google.com/rss/articles/CBMiygJBVV95cUxNNXdLdE9rbVpGa2N1RS1xcjJjeGpkakRuQ3BKYUlmdFVPaHc4bGt6MUFUMVd3YU1sOUJOOFBZN3IzTVROQVdOb3B6UlpMOGhNYXNRVjFTU056VjlVcDRlTGRRakp4Q2RwbUxSOW5PZlRkOENleDVCcGxFeW01VG9GTUF0eVlkRWc0UzdXS1lTZkF1dHBvN05fdXFObG9VYkFock11ckJoaTZ6TVQzTlZGN0hmZmRZWDByUzFNRDZ4dUtwNk8zbG1nb1FEYWFsT2xjVGQ3eFVvWVRrZzRrM1VrczRZUElfQ182cElyZ0RmSTJxWXNSTHNvMnV4bllSZTJjc2RKVlNqdmxCazhyNjFhTmlhMDF2OXdvYURyVGdDTHgyVlhyOFRUOVo1THlQQWJmZ2ZMdDNSTklnT3ZqNlhodXBYRk9iX2wyR1E?oc=5">LINK</a>
+‎3️⃣ 75% من الأشغال أُنجزت.. ميناء الداخلة الأطلسي يقترب من التحول إلى عملاق اقتصادي بالجنوب - جريدة الساحل بريس 🔗<a href="https://news.google.com/rss/articles/CBMivwJBVV95cUxPWjBVZy1EdWJlZndMdGxmQkc4MzdNNTVNTXdvR1RreU5ic3RYTmViM2ZrVV9HWTZJeW42OXJ3VTNsVWY3SG9uN0g1clF4UVp0S3ZLbG9aTDFXOGJUbk9vc3NNNjl6bkx6Q3VHOGpsNTVqYUJuUGZtX0ptYUIwU1otS2RvSVYzWDhIRXJndGhvSWhWb214am5xcWlneG1oVWNXNHVvSkM3ZGtxZlhNNWJNSWpDbmU0NHZWZ0RUNVJRZUJwNVR1dncxeTcwaElpYl9BMFZlMFVXam1UVTE3bHRhT3hiX0xHQnVhSndxY3RWV0pHanoxLUZueUFES1R6ckQxcUZwbjM0UTBtZTdPbnhxeHJxNklobUtqME1qb1RQYUllY180TUdESUJVbm1JVlQ0N3dwbHk3dFppRU1paFpF?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ علاش ميناء الناظور.. سلاح المغرب الجديد في البحر المتوسط..؟ 🔗<a href="https://www.youtube.com/watch?v=Ngg1Cd1f2uA">LINK</a>
+2️⃣ ميناء الداخلة الأطلسي 🔗<a href="https://www.youtube.com/watch?v=poIgx-eabxA">LINK</a>
+3️⃣ ميناء الداخلة الأطلسي يبلغ 75% من الإنجاز بكلفة ضخمة #Shorts 🔗<a href="https://www.youtube.com/watch?v=OgUwdRUUe3k">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el gobierno de Marruecos ha puesto en marcha un estudio destinado a definir el futuro modo de gestión y a designar al futuro gestor del Puerto de Dakhla Atlántico.  
+
+Los medios también informan que las obras del puerto están avanzadas en un 75 % y que su puesta en marcha está prevista para 2029, con un coste que supera los 15 mil millones de dirhams, lo que lo posiciona como un potencial motor económico para el sur del país.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-10</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-10)
