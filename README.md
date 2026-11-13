@@ -13,6 +13,41 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-13</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-13)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : un chantier stratégique à 76 % d’avancement et une mise en service prévue en 2029 - Maroc Diplomatique 🔗<a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxQV0VzZHJyN0xabDQ3OE9EZ3ZwU2tMQjdZQzJpZFlMdDFpRE95dzR3Y0RLeFBZY0lfVDJPRmxxOW1COWVZbzBTUGduZjBucXJhSVN4RVBNeUhBVlRMRE83RnFFNE05WUJxSjluVFFhN0VCSENfQUpkbWFYS2hnS1ZGb1Vac3QxR0dCRWVsWlNPUXVkX1B2dkh0dENWVm1ZUEFWbkVvb0hGaXdGNXhfZGQ3V00ySm03RFNLc0p1V1hvNjNnTXhoVl9oRmFvQ3JSQQ?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El proyecto del Puerto Dakhla Atlantique se describe como una obra estratégica que ha alcanzado un 76 % de avance. Según el medio Maroc Diplomatique, la puesta en marcha del puerto está prevista para el año 2029.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-12</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-12)
