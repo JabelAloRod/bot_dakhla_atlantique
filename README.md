@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-14</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-14)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة الأطلسي: 15 مليار درهم! 🚢 إمتى غادي يخدم؟ #Shorts 🔗<a href="https://www.youtube.com/watch?v=dJpfZsnvfmk">LINK</a>
+2️⃣ COMMENT LE MAROC TRANSFORME LE SAHARA GRÂCE À L’OCÉAN ATLANTIQUE ! 🔗<a href="https://www.youtube.com/watch?v=b1rNM2IsTck">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se publicó un titular que menciona que el puerto de Dakhla Atlántico tiene un costo de 15 mil millones de dirhams y plantea la pregunta de cuándo comenzará a operar.  
+
+Otro titular destaca que Marruecos está transformando el Sahara mediante el aprovechamiento del océano Atlántico.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-13</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-13)
