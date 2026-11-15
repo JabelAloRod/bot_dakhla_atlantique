@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-15</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-15)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Provinces du Sud: Dakhla Atlantique, locomotive d’une nouvelle ère économique - LesEco.ma 🔗<a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmx4THBhM0J3TXpFcU11Wmg0aGRtd0hyazk4Z2lCOUxmOGJVd0tyNEtzYkItUTVmWm11ajdoa0pERlNuY2ZaMndjM2ZTRlV4OGFNSHhqUHlkcmw0VEduM2VlNVJJMHZBMEdVcVBxU29xMXlHMEgwZWJNN1VmTjRGc3NEczIwSkotV0NGUEMxSzg1cXp6RkdRTnJFcGFDUzFCQlBRaHZ3YmNDUQ?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يصل نسبة إنجاز بلغت 75 في المائة – اليوم 24 - اليوم 24 🔗<a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTFBCeWFMVko1d0s0dUJIWW1KeFFZcW1mQnR6SEd2a255VjdSN2dNV25nWDJsaDVHTHkxbzRvZUo1TVlXc0Y0NzFDSEpn?oc=5">LINK</a>
+‎2️⃣ ميناء الداخلة الأطلسي يفتح آفاقاً جديدة للتعاون الاقتصادي مع تشاد - جورنال 24 🔗<a href="https://news.google.com/rss/articles/CBMizwJBVV95cUxPNnJnaWpzeE5EREpVLVlQaTZNR2JCLTAwbjBkcWo2bzE0ckVnaDVLcVhfMXQ3VTJJSTB0QjVOdE4xWHFKVzFYMU02R0dhUVRNOGM4VklsS3A3V283Q1dJN0l5N2JsX1Z3YkNLY3R3emNlM2h5STFGWVdXbVVmX2dZOHJrdm9MWFRFa0RIemloZ2hqTl9TUjR0RjdtcGJ5aXNGUDlYdjlhbHZ6QUcybjVCM3psMmJoU3RleFY3UlQ2Q1phS2lUbC13dXNJSmxyMU5TbmVLVm03VUU5eUdoRENJLVhTRk53b3luTUhOdVNkS1pQc0hTR09seW1EOHJXMTNYUGM5Z3NVWkQydXdXYjhfT1Z5SDc4S2ZvX05hN21yNGxhU3BfNWRqYTFnTjZtLXd4WW5DTUoyT2N0YkthTGNKRnhOZUk1NGtIeUpHNVhPVQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+• No hay noticias
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy los medios destacan a Dakhla Atlantique como la locomotora de una nueva era económica en la región sur.  
+
+Asimismo, se informa que el puerto de Dakhla Atlantique ha alcanzado un 75 % de avance en su ejecución y que abre nuevas posibilidades de cooperación económica con Chad.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-14</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-14)
