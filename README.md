@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-16</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-16)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique: le futur port, pivot de la prospérité des provinces du Sud - Le360 🔗<a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxOT3U0NVFSWGNkbDJXclVMcjB3SzVwREEtRVVtUURzazBrYUQxbnBhLTV0T08xME5pV2MzWm53MzBmRU1CUXRQdjJtTWx5TEVHQWtqVDd4MGxnOGpzVnRnSXQ5QTA1MGlHdWNTcEdLSlVya0xIcVBrZVFqQ3E2ZmRRU214SGo0RzNUWW1xTDNKT3pENzB5MGdwQlVRV3dRbi1SNHRUalFuZlNMaHl2MWM3NDBYYWtTcGE0UzlPQkxnTDdQbUNaZTVmZ1Bkdmo?oc=5">LINK</a>
+2️⃣ La dernière ligne droite est enclenchée - L'Economiste 🔗<a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBSRlRzdHVwNjBZOGluQ0NUTHRQTTRXVC1GMC1Zam1URjAyVFFUTFhfMnNHbnFmV3ExZGczcVQ0LWJkQzYxdWp1bUdUQUJTcldmYzJLM2pjdGdTWnkyS1h5ZlBZdlNvVXd4SkhSMHpKOXlsMGV2RDIw?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة الأطلسي يبلغ 75 في المائة من الإنجاز 🔗<a href="https://www.youtube.com/watch?v=kCGuE3n8Zus">LINK</a>
+2️⃣ 🌊 DAKHLA CHANGE DE VISAGE | الداخلة كتبدّل وجهها 🇲🇦 Sahara Maroc 🔗<a href="https://www.youtube.com/watch?v=7_eYARldeIo">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy varios medios informan sobre el avance del puerto de Dakhla Atlantique. Según Le360, se trata del futuro puerto y un eje de la prosperidad de las provincias del sur, mientras que L’Economiste indica que el proyecto ha entrado en la última fase.
+
+En los titulares en árabe y en redes se menciona que el puerto ha alcanzado el 75 % de su ejecución y que está experimentando una transformación visible de su aspecto.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-15</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-15)
