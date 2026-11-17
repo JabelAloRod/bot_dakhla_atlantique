@@ -13,6 +13,47 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-17</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-17)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique : les préparatifs de la mise en exploitation, une étape déterminante - La Nouvelle Tribune 🔗<a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNLW9Mc0hFUFhseDZaZVhKSUxrUlEwenE0MXNJZFJRVHB1eEM1a2JkUy1JbU9sNWViMXd5S1VyejBNdjA1THM1d2NEbUNhTHpuanpvd09fZFNqQzk3X2NlTUgzbzh3ZGRRT1dvZVQxWnNWTkNRVFZ4dDB5bU1oZkgtOWVPdUhDQkJOYW5lZVVwYmRzWVJMSW1VQ2JpX19SN3lONk5fa2NqTQ?oc=5">LINK</a>
+2️⃣ Dakhla Atlantique : « Notre ambition n'est pas simplement de remplir les capacités du port, mais de construire un trafic durable - La Nouvelle Tribune 🔗<a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVDdEVmhQMGwxb0s5bl95NzZ2dzBfRy1UU2ZfYlVnTF8xdUZkcnlsLWhrVTRFZGFWTGkxa3VnZmZhUGVUWGwxRVdyVXk2MmVQVDR2WjRvMUYwUURpV3Vyem1objE1ZmdwNHhUS2Nkc29od3BIaDNzalFPRktoVnVTS2FseVUtc1ZXSXRldjc1bUNWSDhvNDVLcjlVTVF0UTVIbG95ODN0T2UyZV9FclVhaVNMcVpfXzMyU0pXeW5QTnJIbnYya3l3S1BEcWNZb3h1aVN1ag?oc=5">LINK</a>
+3️⃣ Port Dakhla Atlantique : les enjeux environnementaux d’un chantier en milieu océanique - La Nouvelle Tribune 🔗<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxORXQtN3RKNmtJMUU1TldIYXN3NVVIMmlfM2ZHTEhUdlJ6VnVCN25ReVNPaDQzb3RHLUFNRmpVcUpmeVExRi1JZlQ0Zk0yZW1yY1VHTUVDRlNQRDhYSVRQOW5ZMVpGZWlqa1pDS2JYLW9ldGZkMlZYdHBJOFlHR2pVaVZjUU4tSmdJYU1WRmFJRVRYOUF5SXZ3YnBwSlFkdDl2?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ ميناء الداخلة الأطلسي يتقدم بنسبة 76 في المائة.. استثمار بـ15 مليار درهم يستعد لإعادة رسم الخريطة الاقتصادية للأقاليم الجنوبية - فاس24 🔗<a href="https://news.google.com/rss/articles/CBMivgJBVV95cUxPcnBLVG5CcnBzRXc2YTcydFVJTjFSQ2ctbWhmaFE2U3QyMXFqcTRGNnBWczZ0WVJXZ0Y0MHZHOXBETnlwUG0zMi1iLWdaQVF6VmRuazZYbFBsczZncy1Bb2VVVmtRSDJud0s3Z2oxd0FqMXQtOWdPamtmNWdzMDBtalZPRXcwTGYxNWRmczRkanQzSFRqTjZzbWFmYUlycEZuWHpWSUkybHhIZkFnTmNDNkJYOWhaTFNWVlBiMDJoUGdhR1AwV2NCRG9Oa1llcU9ERTFRcVhKcFB0Ym5yUFRMVktfbF9faWdwMTRVZUlXZzhleEMweVlWV3pNc2doQ09oSDdiTkhvTkxrbHM2SmJtMDZMeXpBUC01MDBZWjA3a2lhd1R0V2xVMVZvNnFvWFdaQk1EOS1GOWszX3dFN3c?oc=5">LINK</a>
+‎2️⃣ دبلوماسيون ماليون يطلعون على الزخم التنموي بجهة الداخلة – وادي الذهب - i3lam tv - إعلام تيفي 🔗<a href="https://news.google.com/rss/articles/CBMiP0FVX3lxTE4tekVpR256Zk1Rc05ubFZjZ3VXbVRXQ2psT2tjUzRGU2pDU0xlLVpfWG1hTUNCVnVOdzhCVE9hOA?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة: منافس بحجم موانئ الكناري؟ #مرصاد #المغرب 🔗<a href="https://www.youtube.com/watch?v=zlCg4xOwA8c">LINK</a>
+2️⃣ خطة المغرب الكبرى في الصحراء.. كيف سيقلب &amp;quot;ميناء الداخلة&amp;quot; موازين التجارة ويربك إسبانيا والجزائر؟ 🔗<a href="https://www.youtube.com/watch?v=yUT7h3XWgkc">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los medios de hoy informan que el Puerto de Dakhla Atlántico avanza en sus preparativos para entrar en explotación, describiendo esta fase como determinante. Las autoridades destacan que la meta no es solo llenar la capacidad del puerto, sino generar un tráfico sostenible, al tiempo que subrayan los retos medioambientales que implica la obra en un entorno oceánico.
+
+Según los titulares, el proyecto avanza un 76 % y cuenta con una inversión de 15 mil millones de dirhams, lo que se espera que redibuje el mapa económico del sur del país. Diplomáticos y financieros han señalado el impulso del desarrollo en la zona, y se menciona que el puerto podría convertirse en un competidor de tamaño comparable a los puertos de las Islas Canarias, influyendo en los flujos comerciales y generando interés en España y Argelia.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-16</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-16)
