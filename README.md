@@ -13,6 +13,46 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-18</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-18)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Dakhla Atlantique : le transport de conteneurs et les corridors africains au centre des perspectives logistiques - La Nouvelle Tribune 🔗<a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPb1l5LU93emFGSFU0UE9ORDVPaUw5N0pWQ0hJY1N2bmVhZWM4S09rMkZKZ0FlUzNmOXpkUjhzaXRqb2JPSG9xbUVOZGNmU05aNnRwcWc1NE9zaVlkNkgzcEN4RGhKajVMM0M4WXNQa0RUdjhCT1EzVFZPUGNuNk40T3pqMkkwQXlTWXd6dmJIM3h0RFFPUDFnbzZYa1lEWEpzc09kN3l2OEF6U2IxSGlER2ttZkNTU09sb29QM19LMEcwZjJ4?oc=5">LINK</a>
+2️⃣ Dakhla Atlantique : la formation et l’emploi local au cœur des enjeux économiques - La Nouvelle Tribune 🔗<a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNeENMbXV1WHJjZ2ZfUU1mTDc0QVVfelJHZGNVUzI5MkFKSTItRjFBZ291dlB0NjZCQzNUYXd4eDVwdHhiUGY1aWtMNHpPYk9wX2JSYkVpZ1ZnN0dYaVdFdHRQZU1QR0ZBNjA3dnB3aHVMeVl3cVgyVHJlOFVyMjdDUTFaNENydnBDOEdxT0JvSXNQN2lsWGVyMXRxYw?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+1️⃣ Dakhla Atlantique Port Seen as Pivot for Southern Provinces’ Economic Growth - The North Africa Post 🔗<a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxOQy14TmN1MnJUR0xyNnhQTE1HNFprODVLREpERlE0ajhEclU3QVEzOC1lYWJULUtxTWROaTdIaFpEVlNMSHNOQTBneFRUblN6NjZtbXo0YWYybEFCd2ZNSnI3MURYUE9jckR3eGpEcUV2VEg2Mno2azFlbjdRanBkM0t3U0hKT01Ia1hOSHBnQjJtRzYzUWI2a0FWRUdKR0p2WjJMYnh5U09ZQkluZWVGT0hSTzEtUQ?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ جزيرة كاملة كتبنى فوسط المحيط 🇲🇦 ميناء الداخلة الأطلسي: 15 مليار درهم وجسر 1330 متر 🔗<a href="https://www.youtube.com/watch?v=mWuuXfY8xPU">LINK</a>
+2️⃣ Dakhla Atlantique : une île portuaire fabriquée en plein océan #innovation #dakhla 🔗<a href="https://www.youtube.com/watch?v=cHPyuOnHthY">LINK</a>
+3️⃣ تكلفة ميناء الداخلة الأطلسي: تفاصيل المليارات وأسرار أضخم مشروع بحري بالمغرب 🔗<a href="https://www.youtube.com/watch?v=8WMQKQowcIw">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Los titulares de hoy destacan que el Puerto de Dakhla Atlantique se posiciona como un eje central para el transporte de contenedores y los corredores logísticos africanos, y que la formación y el empleo local son elementos clave en sus desafíos económicos. Además, se señala que el puerto es visto como un punto de apoyo para el crecimiento económico de las provincias del sur.
+
+Otros informes resaltan que el puerto se ha construido como una isla portuaria en pleno océano, con una inversión que alcanza los 15 mil millones de dirhams y la incorporación de un puente de 1 330 metros. Se menciona también que el proyecto, considerado el mayor de su tipo en Marruecos, implica costos de varios miles de millones.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-17</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-17)
