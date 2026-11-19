@@ -13,6 +13,46 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-19</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-19)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+1️⃣ Puerto de Las Palmas: plan 35-45 contra Dakhla - Canarias en Pleno 🔗<a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBZM2M0LThxVU9fTlhUbHc0TVNycHdZQmZDcVJ3alNmNkRzV2J6cmkySlBpMHNfOWVFaldqZHhyaWdPdFZuSU03ZmszNUhjRWJobVltN2JGbmxmcVBzYzVwYnZNLUMtb1VzUS1VWVNR?oc=5">LINK</a>
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ مقترح ربط بحري بين الداخلة والمكسيك يعزز آفاق التعاون الاقتصادي بين البلدين - Attasiaa 🔗<a href="https://news.google.com/rss/articles/CBMixwJBVV95cUxNOE1tT0FoVldpUXg3MVJGbC1NaDU3ZmhFdVVOZ3dFOUowYndER0tSY1kxUmxIYTN4Mi1YQXdnUGszc2NLU2xOeTBmR0dMYmxLeXR3aTZnWE9ERkJEdHdoNC1hT2FYejFfWVpNeGRELUhGdTBHNWxTMzRSM2xISjVPWTVtTkw5UlgzTl93WWFZNzdoajhROS1KQldraDlZUDNJNjF0TGZWSGQ0bnF5VXpicFRXdHdBYjUwR2p0V3IweXc1T2VLYXBYZklYS29qaExxbmRINE1mM2E2dm9oYThNVTRxaTl1TUY2TGl6eHBzU1gwekRmdmM2d1RTUzdqa2xQdnN2WnN5TUpRa2Y0ZlFneWc4TWNnUk50eHptU0c3OUJraTBYVzNVQWNxdDh4eWU4SEZTaUhBZVk1bHFYS1o1bDc1c0RkZW8?oc=5">LINK</a>
+‎2️⃣ لقجع: الحكومة ستسرع ربط درعة تافيلالت بمراكش وأكادير عبر نفق تيشكا - العمق المغربي 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE5DYVJUOS1zU1NTSXZGNGEySmt0RF9FUy1nVnRmU2YzMjRhV1pRVk9kRXJOOHd3dGhoOXVwY1A3RGo1dHpkV3fSAUtBVV95cUxNNTNLcmkxc2lwZVZSd0JPUVY4Q0M1VFVBRHgtOVRfQ05ZajBya1ZkSm5aR0JHTkI3VnpHTmo5alY1aEh4WE10ekdFV0U?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ Dakhla, Nador, Tanger Med : le plan marocain pour redessiner le commerce africain 🔗<a href="https://www.youtube.com/watch?v=Gkzd5OlSg7s">LINK</a>
+2️⃣ ميناء الداخلة الأطلسي.. أين تذهب المليارات؟ الحواجز البحرية والرافعات والمنشآت العملاقة 🔗<a href="https://www.youtube.com/watch?v=UWbvDIlOjS8">LINK</a>
+3️⃣ علاش المغرب كيبني ميناء عملاق وسط المحيط الأطلسي فـ الداخلة؟ 🇲🇦⚓ #المغرب #الداخلة #Shorts 🔗<a href="https://www.youtube.com/watch?v=OZkbxPMNJ_I">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado varios titulares que abordan el desarrollo del Puerto de Dakhla Atlántico. En Canarias en Pleno se menciona el “plan 35‑45” de Las Palmas orientado contra Dakhla. Attasiaa informa de una propuesta para establecer un enlace marítimo entre Dakhla y México con el objetivo de reforzar la cooperación económica entre ambos países. Además, se destaca que el plan marroquí incluye a Dakhla, Nador y Tanger Med para rediseñar el comercio africano.
+
+Otros titulares se centran en la magnitud del proyecto portuario en Dakhla. Se cuestiona el destino de los miles de millones invertidos y se describen los obstáculos marítimos, grúas y estructuras de gran escala que se están construyendo. También se plantea la razón por la que Marruecos está edificando un puerto de dimensiones gigantes en el Atlántico en Dakhla. Por otro lado, el medio “العمق المغربي” cita al portavoz Lukja que el gobierno acelerará la conexión de la región de Drâa‑Tafilalet con Marrakech y Agadir mediante el túnel de Tichka.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-18</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-18)
