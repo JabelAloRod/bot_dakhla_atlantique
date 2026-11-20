@@ -13,6 +13,46 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-20</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-20)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+1️⃣ Puerto Dakhla Atlantique: el plan de Rabat que amenaza a Canarias - Canarias en Pleno 🔗<a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE41aUh0R1doUGdOblRiTkJvb0FpS1daWkVIRlZCTjBOTVVyQm5OREhCQUdZOWZ0czJaMTVTak5nUks2U1lhV3lyREhrNU1yak9MeU1ONXRJOFFSc2Nib1JoRW5VcHlyR2NrMXVMX1RBZV9QVXhZ?oc=5">LINK</a>
+
+🇫🇷 <b>Francés</b>
+1️⃣ Tanger Med-Nador West Med-Dakhla Atlantique: le triangle portuaire stratégique - Challenge.ma 🔗<a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPeldPZEt0Q0xEeG1UY0RhYnk1RGZ3Ti1kT0ZMeVd6STREVURsbnU1WWZxblo2QWI5RW1ySFJlN3FjNGR1WDUyaWRSYS1xSjhySzltd1V4V3JtaFdEckJwRmJMZl9PVEZHeWdRRWlkTXZMeXVSOGFpbFJMWnNpNjJ4WWZGdEZnd0xyRThGY2wxZThGcmpwai1RSW4zNGF4REZaVVhaWGxWYXQ1eXRQNElF?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ المغرب يسرّع وتيرة الربط الأطلسي لفك العزلة عن دول الساحل الإفريقي - Elaph 🔗<a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yNmFDRHl3YjFYcU13bWtjaEJJX2VLempOYnpjYV9lSzVJNXViQmxsVmFuWDZoeHZWc3o4V1NHU3BYVGJRYk1tNENGdlAzbVRJZ0ZhRzgtN1QyTXM?oc=5">LINK</a>
+‎2️⃣ مسؤولون مغاربة ومكسيكيون يبحثون فرص الاستثمار في الصحراء المغربية - جورنال 24 🔗<a href="https://news.google.com/rss/articles/CBMizwJBVV95cUxPNXFPWFpqUEEwbDUzd3BCYTh2TWl6ZlVNOG9NWmhtLXNXOUVyTmVQcHMzeTdSV2lIdTlMeER3QnRRQWVRUUhBbzYyMzkxb2o1Q0dOX3FCanAyRkU1ekhfRDZ5NG5semM2ZEVRSE5ta1RRM0swQ3NiTWlibWxpR3NXejAtLVEwa0VqRXpPQzVGOEtSYV9tYjhoR3ZEU29qYzV6MkROVDEtaUdfNkJrSHgxRUlIcDQ1TVg4MVlwa3phOV9fM2FnWFJ1azlOSXlYTEJQQUs0c0oyZkY5T1FsaVdrZTMxS05rLVUtaGVLODYxT1JZdWM0QnRLbThYNVVGQ2VGbkdwN1VZUUJia3BPUk9RemtoS3dMVS1uMXpjX2hiM1BGVDJEQ25oMGZKV0dpcDRaX3JnaGxQU0JqM0VtWEtVN2NqS21DbVREdUdoN1R3MA?oc=5">LINK</a>
+‎3️⃣ “فوكس نيوز”: المغرب يحسمها… الحكم الذاتي يُبنى على أرض الواقع، ولو دون انتظار أحد - العمق المغربي 🔗<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE5zZWVFZl95VHU3aW1Ec1NlU09FUTNyQU5NZmtyeHFsWGlQdTJiVnlkaF93ZGZoZVQ0N3Vsc2NLaC1mSTFfMnfSAUtBVV95cUxQVDNTNUd5VkFkMVcwMVhJQWtyaHVjb3dmY1ZQUWx3dDY2MTlyRUo4UVFpR2NGR0hoZHFkZU1kN3FFYjBNSjhkeG5aeHM?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Montréal : Kayouh tient une série d'entretiens bilatéraux en marge de la Conférence mondiale sur le transport aérien - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE56bWhUdGhWWlN5RDFWSWpMZ0tqMVl4YUsyT3ktUmxvbjhOeGRfdHV2TGZ5M0JDbEdodnA1NE9RaGM4bnZDSEhBeHRrZkJFbG9KUm1vU3RIc2JWdGxu?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ واش الموانئ هي السر الحقيقي لاقتصاد المغرب الجديد؟ 🔗<a href="https://www.youtube.com/watch?v=YmweTstDK4M">LINK</a>
+2️⃣ المغرب يتحرك نحو إفريقيا! هل تستطيع الجزائر منافسة مشروع ميناء الداخلة الأطلسي #أخبار_المغرب #المغرب 🔗<a href="https://www.youtube.com/watch?v=b6upvDLHh_4">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el plan de Rabat para el Puerto Dakhla Atlantique es percibido como una amenaza para Canarias y se enmarca dentro de un triángulo portuario estratégico que incluye a Tanger Med y Nador West Med. Asimismo, se plantea la posibilidad de que Argelia compita con el proyecto del puerto de Dakhla Atlantique mientras se discute si los puertos son el motor clave de la nueva economía marroquí y se destaca el movimiento de Marruecos hacia África.
+
+En otras notas, Marruecos acelera la conexión atlántica para reducir el aislamiento de los países costeros africanos y oficiales marroquíes y mexicanos exploran oportunidades de inversión en el Sahara marroquí. Se informa que el país avanza en la implantación del autogobierno sin esperar a terceros, y que Kayouh mantiene una serie de entrevistas bilaterales en Montreal durante la Conferencia mundial de transporte aéreo.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-19</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-19)
