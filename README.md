@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-21</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-21)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Le port de Dakhla n’est pas encore ouvert que les Canaries se préparent déjà - Bladi.net 🔗<a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE51OFhNbjBUSXRVYnFpbmFmOXNJbzYzRXBnZDFNWlhIN1RqWFFBS25uMV82R0haTXZBZlhITG1wMHl5NzA0MVlrQVhFU2MxVG5JeS1BeTBDUW9zb1drQ1dRLVp1WTVxRkNDTWFBLW52dE52S3dBVlFkTVoxNA?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة الأطلسي 🇲🇦🚢 | مشروع ضخم بـ1500 مليار سنتيم! 🔗<a href="https://www.youtube.com/watch?v=dhuGZY4xhno">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha publicado que el puerto de Dakhla aún no está abierto, aunque las Islas Canarias ya se están preparando, según informa Bladi.net.  
+
+Otro titular destaca que el proyecto del puerto atlántico de Dakhla es considerado “enorme”, con un presupuesto de 1500 mil millones de centimes.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-20</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-20)
