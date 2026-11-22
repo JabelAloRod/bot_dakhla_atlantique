@@ -13,6 +13,44 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-22</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-22)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Najib Cherfaoui : «Le Maroc est une puissance maritime internationale» - Challenge.ma 🔗<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOMEd6ZWt1OV81RS10U1BGR1hvNXNyS1ZHbFpNYmVQQ3M5d25ZV1lTaVBfLVRxcUtSUnIxc25jWkU2R3dQZEh5Z19WcVhyR0Q2d3JsTzhnRkc3UnNUdVlpNU5uYUx4X1R5Y1I0T0tpYjdIS3hIMFlPelA0elFJVTFpMDVKYVdUeTNRSzR6WURLUEQzajdJVW5ETE5NT3plTG9q?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ قالوا لا يوجد مستشفى جامعي بالداخلة…فذهبت بنفسي وصوّرت الحقيقة! #المغرب_الجزائر #الرحالة_رزق_المدني 🔗<a href="https://www.youtube.com/watch?v=70Cqx2gYLtA">LINK</a>
+2️⃣ المغرب كيبني المرسى الأطلسي اللي كانت الجزائر خايفة منو أكثر 🔗<a href="https://www.youtube.com/watch?v=par-I8Kyr_E">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Najib Cherfaoui declaró que Marruecos es una potencia marítima internacional, según el medio Challenge.ma.  
+
+En otro contexto, una publicación en redes sociales señaló que, pese a la afirmación de que no existe un hospital universitario en Dakhla, el autor se desplazó al lugar y grabó imágenes que supuestamente demuestran lo contrario; además, se informó que Marruecos está construyendo el puerto atlántico que, según se indica, generaba temor en Argelia.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-21</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-21)
