@@ -13,6 +13,42 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-23</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-23)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+• No hay noticias
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ وصول نظام جد متطور إلى ميناء الداخلة الأطلسي 🔗<a href="https://www.youtube.com/watch?v=IG6aBJ_5lQw">LINK</a>
+2️⃣ ميناء الداخلة الأطلسي .. نسبة الإنجاز متقدمة وتفاصيل مشروع القرن في المغرب  🔗<a href="https://www.youtube.com/watch?v=A37cCxbn98M">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se ha anunciado la llegada de un sistema muy avanzado al Puerto de Dakhla Atlántico. Además, los informes indican que la tasa de avance de las obras del puerto es alta y se han divulgado detalles sobre el llamado “proyecto del siglo” en Marruecos.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-22</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-22)
