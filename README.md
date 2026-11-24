@@ -13,6 +13,47 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-24</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-24)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+1️⃣ Sáhara: el embajador de Francia en Marruecos viaja a Dakhla para sellar nuevas alianzas - Le360 - Le média des actualités du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNX184UE5USVFUTDJ4OVFvTzVIMDk1bGEzY2s1bF9yNkdkRXp0aHdLY25DYWJfemZrRHhubE5ncTAySGtTb2RROTFpQlRKcEl3YUdsbWIzaENNTndlNjdGVUhtY0ZtTzVvbmNfWUZHQ09NVnZLY2dBQ3Q5UXlYUlpfM2lYRGVadzltQ0xLS0ExVG1RMFROcFJ2ZFhhcE1VcWJqM2hSVjFON3FvMXpjYkdUeVlmVmF1R1pCbWNKbjdWcFNKZXNJVXlLTWJMczRkekZmV0Q4QzFGaGNES3c?oc=5">LINK</a>
+
+🇫🇷 <b>Francés</b>
+1️⃣ Maroc–France | À Dakhla, Philippe Lalliot inscrit le partenariat dans des projets concrets - Industrie du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3BkQ1c1SWZtcGJNWDRTMTY1LWxaUDlEc0lURGV3MmhnM1MxQTBqaUtlQWxPQ0IyUGJlSXZ1WENJRnJTX2xleDNrNDUwdTV5YU0xRnNEd0FmcTktX3U3YjZrZldOTjExSXZPU0pwZVZKYUpkOU9IOFJyRzFTMU11bS1UN1EtV19aMnZUNmFoMU9HSURKZnRnclZVX0pxMWtrSzJpdnVvRmd5YmpzSmY4?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ السفير الفرنسي بالمغرب يزور الداخلة ويطلع على تقدم أشغال ميناء الداخلة الأطلسي (فيديو) - 2M 🔗<a href="https://news.google.com/rss/articles/CBMi-gNBVV95cUxNR19uWUxuRVM2NTJXbVoxMDFRYWpfQ2dueFA0UVBtc0h0clhsblQ5S21rSk1mZHJGSGwxRGR4X1N4SzFESmphZ3V6WERRSlI0Rjdtcy1vdWZUd1k4OFhnU2kycjZNRS1jeGZ5OFAyVFhxOWdFRTZ5WUIyZnd0UkJXZ18yMk43QTh0V3RfdzRrcjFycU9rU2E2cnJaUU02Y3BuZkFfS1lSU2JWQy00OUZ4VzBhbUp5b2xVeXBpNWk3SXZHaFdGdElGUVFlM3VscE55NnBqb2s1WjNYZWZiTmg2QkJkeUhxZG1Rc3NrX2dLbndNUW9odVhMYTVOUXE3dU1BSkplaU03a0Z4b2lkMjZsdDdvV3RiQV9XSzZ1aGdscjJEcFdxMFdUcXF4LVdubUwtNGVVYVJnVFNETkhTemJWTVA1NnlyUzB3cWVUSjdOWlZrdDNzWWVXWkdpV0t3SkRWQ2o3eTNsb08zay1CYmYta1BOY1pJUEVudGxiRjBEVXFIMkVSQnFnS0I4bkxOZFpOVXJ1OVJZY3BzYlRuUjhMWUR4RWJncjk4RkZXWVZuVTlUQVNfazhPaWNCaE05UkRvZDRZNXBvVzd6aU0wbndZRDctV0RZRDFfZExSQ2FxSktCLUNtam9RdklzLWsweEE4X0liRWN1a2l0Zw?oc=5">LINK</a>
+‎2️⃣ السفير الفرنسي بالمغرب فيليب لاليو يزور الداخلة في إطار الشراكة الاستثنائية المعززة بين البلدين - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FT3hPbkE1M1NtdUNOUnZPQnJBNlJqamY0amtQM0tTZjJxaHpfQ212c3FodUdfQ0VmaERhbVdWdXduQ3ptemluODVtOU1VenJlS005N3pQcDZzSHd6?oc=5">LINK</a>
+‎3️⃣ المغرب وفرنسا | في الداخلة، فيليب لاليو يترجم الشراكة الاستثنائية المعززة إلى مشاريع ملموسة - Industrie du Maroc 🔗<a href="https://news.google.com/rss/articles/CBMixgJBVV95cUxONHZ4MnByYmZDTVF5NW03OHo5blU5amdMMThwR3ZYMjl1N2s0YVNXbWQ4Z2J6Rkk4ZEJoX182U1lsMWJaM3VpYngyZGJrRm9FYkdyYzJwbWtUSWNiaDRnamRxTEhKUjhCTEFkVlF6bncyS2JVWTUtSF91a0ZGcDlQNVFWVURoVEpxaHkxWTRsSUE0Y003OHp2Uk4zeFFhbnVkYkFRYXJTSGxlei1Obnl1QmNoeEF1aHNoRlBkZlJNdGdIWlFpZWtHNGhQMXQ0NFo4T29ZVGtGSUZ4NDF5VGpnWlFId09QVk1EZE5ZeVJYN1pmZzA2cEVmaFNLWWU0YlVmY1FIQW95TDNPTDdodEhzcDMtMEJxNnV3U0l2V2ZKZEQ1WXNjSTEyNlJnalNvMzFUdVJoTnFieGNub24wblhhYk8tVldsZw?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+1️⃣ France Advances €115 Million in Morocco Financing for Ports, Dakhla Water Projects - Barlaman Today 🔗<a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbVBaSi10Q280bGtLRzVWV2RIUEd2VWpnM1MxTUtzLVQ0bEw1Q0tzWTRNaDkxT3pmYS1OT0QwYUlZc0l6bzFvQm8yR2xRb3RIc0pabkI2N2gzRjJGd3R6M20tcmp5bktLMVB4M2w4aGdMTU9jVWlDeHl2YUc3bjVtVnFTZFc2MW1sUWRqSkFWNGh1NE9Cb3VKR29iV25yclBqSkp6OGhnN0FmQ0NfV1Y0VmFxZWdWT0tXcWxv?oc=5">LINK</a>
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ L’ambassadeur de France au Maroc en visite à Dakhla dans le cadre du partenariat renforcé - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4ZGJYQzY2Tk9uYTFxdm02VTdrbkRXazZDYnI2Q1ZVUFV0dEM4dnozTE5VOHVQOG9uX0xEbVlzbWRreFB6ZXZhOWNBbUlpLWhobjFMY19MeXRGZi1K?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ ميناء الداخلة الأطلسي…عبقرية هندسية مغربية| عمر هلال…مسار دبلوماسي انطلق من القطار 🔗<a href="https://www.youtube.com/watch?v=X7cJWiLJZ5A">LINK</a>
+2️⃣ L’ambassadeur de France au Maroc en visite à Dakhla dans le cadre du partenariat renforcé 🔗<a href="https://www.youtube.com/watch?v=kV-sn2upvFg">LINK</a>
+3️⃣ France Invests in Dakhla: Water Deal and Atlantic Port | World in Focus 🔗<a href="https://www.youtube.com/watch?v=DBhEmSRvDPA">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El embajador de Francia en Marruecos, Philippe Lalliot, ha realizado una visita a Dakhla para sellar nuevas alianzas y reforzar la “partenariat exceptionnel renforcé” entre ambos países. Durante el viaje, el diplomático ha inspeccionado los avances de las obras del puerto atlántico de Dakhla y ha señalado la incorporación de la cooperación bilateral en proyectos concretos y tangibles, según varios medios marroquíes y franceses.  
+
+Francia ha anunciado una financiación de 115 millones de euros destinada a proyectos portuarios y de abastecimiento de agua en Dakhla, incluyendo un acuerdo específico para el desarrollo del puerto atlántico y la infraestructura hídrica, información difundida por fuentes como Barlaman Today y World in Focus.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-23</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-23)
