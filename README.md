@@ -13,6 +13,49 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-25</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-25)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique: La partie complexe du chantier finalisée - L'Economiste 🔗<a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNUTRwY0paTzRyUVdIWExvUEFEZjlYaXpIakJHZG1fZllGaHlrYngwSHJrNm04X1lwQzBLUjkxUGtVMHhtZ3BZUGlESTkzdDlOSmFfOTVPYzRQQjRwX0R5MC1ZTTIzSFVDQzhSTmJSVHZBb0pzcXN1Z0FIdjByMktoakZSdUNYbnFoUVZlWUlNbnZyMlJIVldv?oc=5">LINK</a>
+2️⃣ Dakhla : l’ambassadeur de France explore les perspectives de coopération régionale - Infomédiaire 🔗<a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE13bkJZdlBkSUxRNjY5aS1iTk8yTmF4Qk9sbHB1RHVLaG4wMVRvMzJtUkNjNjFaYk9VR1R2OUxveFFsWE0yQmFPdkVyVU9oT3J1Y25faHpwclk5Y2V4UWw4NlpkVFZibEVTY29YdlEtb1NpcVZsSjgzeUUtTQ?oc=5">LINK</a>
+3️⃣ Dakhla-Oued Eddahab : La dynamique de développement dans la région au centre des entretiens de l’ambassadeur de France au Maroc avec des responsables locaux - Maroc24 🔗<a href="https://news.google.com/rss/articles/CBMimAJBVV95cUxQNmtZVUYxN3VwVmd3UnNpQnk0NUpRSE13OXQzVHRDRUhWZ0hiOWxpY04zcS0wZTVhRllvQzZHaVZGakxkRjBxZWtIVS1vcFZMU1pVRmkxQTBPYkp4bXMyVXVGdTdVY241cDZRZmIxSER0X1E5VVpleFY4eTVxQ3pQcklVMnlZbHBsbmxEWjVTOGlKOFp3RTUxN2p3SHgyUFdzUjBPdmI0SHdHZTBxaUVKNmRjMXlVYTVJNVN4VkN4bnJJaFY5eENQZl9hM3pWYVJNVEFkU3JLc2hMTThRaVk4cldwVzZKWThEMnRUV21jcUFJS3l2T3UySlBDVW5BcVhaMm53QlFlVE5TVmRCV0Z2eFF0ZDJDMFhl?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ قبل زيارة الملك إلى باريس.. فرنسا تسعى للحصول على موطئ قدم في ميناء الداخلة الأطلسي وسفيرها يبحث عن شراكات اقتصادية جديدة في الصحراء - الصحيفة 🔗<a href="https://news.google.com/rss/articles/CBMiwAJBVV95cUxOSEJaNlBhSlFtajhtU3RjRk5oZ3FaX29YUnRBLTlCZG9KcE1VamlOYUFDWDZWdENZdXdMQjgtdDVGY0FXVmF6ZXdINy1RVURMWm9EUUE2NlFvY2hIckEwd0dHVmkxM09JMUpldWZtUTlJSEI1RlNqNXZ5RjRraWxtUFFVdFNaLVN5a3hkSG9IN2pBZGRRQmRBbGNLeEVqcVlxZElfTnJBWjVWY2NFSDVRSzBBT1RaeEU0NXJSbXRzcnhJVFJoU1RXb2wyN1YxQ0RqcGFWcXpUWDBTMjVLWjFhZl83WHF4TXRYY3BUNDd6STdMUngyaWhCMHdTaGJOMDYwQmQ4bWY4dVdFX0kzdVhucktxZzAyZm55M3dLcU1kbHVoUl9EOGpaYkZnMDVkOVhTckRDdmltVnJGZnFLRlJxaw?oc=5">LINK</a>
+‎2️⃣ سفير فرنسا بالداخلة.. مباحثات حول التنمية الاقتصادية وآفاق التعاون وميناء الداخلة الأطلسي - هنا الصحراء 🔗<a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxPSUFMaUdCWVY2bERUb2RGa3hwNF9YRXpfbmNIZjI0TndKYUtpdGdOX3JQVmpqejBBTnJ3MWpUTGc0TFBNTTktdGVRendDQmlVaXN2bHZoN1RNdTRLM0d0ck5uNmFrcS1fYnREcmtWQVI4dUJNeG9GYVA5X1pzcXF6Zlp6YVg3SktzT09lalk3XzlqS2R4X09Pc1d5Ti05ZkhwN3BLTjFraHNSblJ0R2k2WEFOWU4zNkJ6N0JrcFliRXRjMjNaSGNFbHM5QXNWOTdkWUlVM2JLeFpYY2VEclZCTGFvMEZqMU1QLUQxWVhfNmxXbG95bTRzRW05STNLNng0Y3pMbVpsU1cyaFJ5Y1pBcGdUNXV3VDMtRXN1T2YwM3FOZ1RnSHNQUmRyTG5HTFF5Yl82d1E4ZVI2NEVxV1BzZnZTV1A?oc=5">LINK</a>
+‎3️⃣ زيارة السفير الفرنسي إلى الداخلة.. الميناء الأطلسي والصيد في صلب الرهانات الإقتصادية والإستراتيجية - Albahr News 🔗<a href="https://news.google.com/rss/articles/CBMiwwJBVV95cUxPU1ExNm9UWkNRS2t1VVlnbHJUSFQxYTBOLUZKd3JHS1hlMDI4aE1kb0owT2RFOEZGNXE0elo1S1ZNaE1EVnQ0bWFmNEdyejlpTXZjQ2NVZUFHV1F3a0JFbkFraEQzQlV4clFVLS1ReWhoRDZsdVJ2UFNDcE5kaUE5bVNUZ3FBNmFOaXNqbW1JNkdrR0RBWXRiT281eGUwaGRGUkVWa3Iwc3pqSmxSWlJyZFdIaUNIa3M5N3R0bWxrV05BSXRpcDcxQ3YzcXkxSVZrZXE3U0ZFQkZtSXRuc253RnFJbFk4ZUR4ZktQSG45TFpKbWZMV0NlcmFMTURJdnV3emNDaGtPZXNDWnZwdlRVSVVKd0I1V0puaW9qTEFfSlVOWVF4aDJoaFFYX19yX0hoWGl0d1BKTy1sNzBsS1lsUVdyTQ?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Morocco consolidates its control over the Sahara following the end of MINURSO with 9,214 million in strategic investments - Atalayar 🔗<a href="https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQTRzLWZhR1FrZGc5WVhuNEd4c2UzX2FiemRHYUx0Zk1IeVFrc1NjVFUzdGpVSHg3UjBOMk1CYllLWDN6c0UydXVqb3VmNW44RWZQbFM5SmxJdldyQ1BHMFI0UWthb2ZoR3FRdnh5d0Zma3kxNjgwWmk4cmt0cUo4SXBtVFd3NzRLcGRBdWsxeEVNY080VHZwVVE1bUZpclNQdzE1Unc1NWZMWFdjYkhiNU1NY2tFVld3UHdRQjY1QUNJY1N5TFFMUkxzOVQ0ZWxjTnA0MWtQYXpVN3F1ajVFTnlzeTUyMEJ5bHBhcGdVU3FVT1FHOGN4aXZ6M3FoelJNVUNsRHpqbFJyS3c?oc=5">LINK</a>
+2️⃣ Morocco consolidates the Autonomy Plan in the Sahara through French investment in Dakhla and the disarmament of the Polisario Front in Mauritania - Atalayar 🔗<a href="https://news.google.com/rss/articles/CBMisgJBVV95cUxPOXluTnRYTUNLanYxaVE0Y3hrbWJGUjRLS0h0QmVYTjliYWU4NG9KSEZMZndHQ0xKVzE4Nkg0NmRpOE5SX1p3X1BwdUFSVGpQdzFfdnlnSUNFNVJFdnFHTlA1dHEwWXVfT3N0YnRlQXRoTnJnX0NZLTBqOUhNcWhkSzVQNnMySF9OdUFnYV9DS3k0dU5iZ1M4ZVZvcUZWYTBtWWxrTFpVaDZhOEYxVHNQRHAwM096RFYzd1dsdmNiNDVROFVXZDFGdWFxYUc0REU1bjZYUEthNUJRbHM2bXd5V2psci04X0dBWE5fNjcyLUJMaVU3Q2tFMkxnOEo5UlZPUFlFYTVZT2dWc3lUS0I2QWl4MUNOc2pVeDl6ZVFNYkxwSEEzc1VSSG9ybThFaFVlQkE?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ PARIS S&amp;#39;allie au MAROC à DAKLHA. ALGER gueule par rapport au SAHARA OCCIDENTAL 🔗<a href="https://www.youtube.com/watch?v=V3FTnAwYd0k">LINK</a>
+2️⃣ ميناء الداخلة الأطلسي: 15 مليار درهم فالصحراء.. واش غادي يكون طنجة المتوسط ديال الجنوب؟ 🔗<a href="https://www.youtube.com/watch?v=ztt8AukNNRY">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El día de hoy se informó que la fase compleja del proyecto del Puerto Dakhla Atlántico ha sido finalizada, según L’Economiste. Paralelamente, el embajador de Francia realizó una visita a Dakhla‑Oued Eddahab, donde sostuvo entrevistas con autoridades locales y abordó perspectivas de cooperación regional, desarrollo económico y nuevas alianzas en el sector pesquero, tal como destacan Infomédiaire, Maroc24, Al‑Sahra, Huna Al‑Sahra y Albahr News.
+
+En varios medios se menciona que Francia busca establecer una presencia en el puerto y explorar socios económicos en el Sahara, mientras que Marruecos avanza en la consolidación de su control y en la implementación del Plan de Autonomía, con inversiones estratégicas que incluyen 15 mil millones de dirhams y 9 214 millones de unidades monetarias, según la prensa citada. Estas iniciativas se presentan como parte de una dinámica de desarrollo y de reforzamiento de la infraestructura del sur del país.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-24</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-24)
