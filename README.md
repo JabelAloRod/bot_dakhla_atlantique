@@ -13,6 +13,43 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-26</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-26)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ سفير فرنسا يستهل زيارته للداخلة من بوابة الجماعة.. الاستثمار وميناء الداخلة الأطلسي في صلب المباحثات - ANFASPRESS 🔗<a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1aQ3pXcThSNFFXQVJUaUtCSVlKQXN5U296Si11ejhlWjMyUlUwM2RieU5yMmFtdFdHX2JVdDg5b2RFTi1KN3Vac2JNbmd3T1N4ZW43Sjh5T0NFZFFHWThFd3k2YWNFUkE1ZVA4?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+• No hay noticias
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ #الصحراء ميناء الداخلة الأطلسي مشروع استراتيجي يفتح آفاقاً اقتصادية جديدة ويعزز مكانة المغرب البحرية 🔗<a href="https://www.youtube.com/watch?v=eJTm3cvPCII">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy el embajador de Francia inició su visita a Dakhla, señalando que la inversión y el puerto atlántico de Dakhla son temas centrales de sus conversaciones, según informa ANFASPRESS.
+
+En otro titular se describe al puerto atlántico de Dakhla como un proyecto estratégico que abre nuevas perspectivas económicas y refuerza la posición marítima de Marruecos.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-25</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-25)
