@@ -13,6 +13,49 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-27</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-27)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+1️⃣ Port Dakhla Atlantique: le chantier avance à plus de 76% - Le360 🔗<a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNakJMMGVQTER2WjZaX1U1dExYdWNkbjAzWlFteXJGc0d4aW9OWkMyOS1VUWhWamxXNF93dEdSUFVRc3VFVjVXVy1oN1J1Q3FuckUweGNoWkplc2xvZ2phUjZVdnppemMxTlZYS0JxS3hHWWtRaXE0NjJoLXhmUTBFUlBmUFl2RjZjbUhBZ3BUd1pvd2tFb2ltMV90TkV3MjJaRFdvX2xKa21qdlc3YWlSQg?oc=5">LINK</a>
+2️⃣ Dakhla Atlantique : La France intensifie son offensive économique dans le Sahara Marocain à l’approche de la visite Royale à Paris - Le7tv.ma 🔗<a href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdC1ZeldBV2YtcHVQZEtoSURJSEwtZFBYdUFnR1VVWXQwQnlpVFBBY2N4ZDlvb0k1Q0Ytc3lIcDhYSnlRNzhjNFBxY2Vtcy1KTGJ2YnVDbFY1YjVVM0FEVGdTOFZyeG1ZbE1yeDczY2Z4S0x1YnBSWkZKZFM3UW4yeFJqZlp5eFFtV25feVFGNURPYlNTbWFnVmJycVJlNG5GTWh5SkRoVVFIV19oQ2wxRmJ2aUs1U2ZQYkRuQnl3Sy04STFPeUxkU2JFT3VITkVpMVo5VlU3czdaVERFWk5NR1Y4djdRXzNmSl8zblJMUk8?oc=5">LINK</a>
+3️⃣ Le port de Dakhla Atlantique au centre des débats aux MEDays de Tanger - Le360 🔗<a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxOSzZ0RFBYeExlSE1fdmdRWGNHcjVGSXl4SU1LeUU0cjZtTHI0TVdvQzhtVEZvRTBPZ0JBWHNia3RHc0hrQWdsZmhfNXdLYjE4RWNNNUVhMEtfVFJkU0dxT2ZpLXFQcDJ4cnJXT1RzeWdZYkdTTWZfSzBsTGlCOUlYY2hPNTNoLU96SXFtNVpVdlJ4YzkzNTZhczg4RHpDSkRqUWNnNU5KSnV5ZGUwU2t6NjZ5ckxTQ2ZtUFVQSktHcU9vSmoyckVtVnQ3WEVJRlJLNWpHaFhfVERYam40R0c0dkZTYTdWNjFTakpqXw?oc=5">LINK</a>
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ المغرب والبرازيل يدعوان إلى شراكة استراتيجية لتعزيز الأمن البحري بالأطلسي - Attasiaa 🔗<a href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUEdhNnJJanpSRUVUdjc4NDRCLXFBNGNUSVdDWlRDcHFSeFlKdF9yNUJ5eEVpUGJKaVFWYUl0eGdKTlpUVmloemQwSHRJQ2QzQ091ZUMzdTkyUEdWSGdMMlJKR3VTeF92WWhvQ3E5dzQ0UGxicENkR2ljN1VSMTRTMjROaWpoMTVla1FtQmhUOFNGTUl2Vlp4OXFwQlQtRk9zUE82dGJtLUtGSWZwengwaU5jZjQ3SjZoTjFFWmkwaElyU2Y1LUtFaG4tNnR4T0JoR3hLMlA5VTNyanM3c01OVTJadnhXUDR2N3c?oc=5">LINK</a>
+‎2️⃣ المغرب والبرازيل يدعوان إلى تعاون أوثق في خدمة الأمن والتنمية بجنوب المحيط الأطلسي - Maroc24 🔗<a href="https://news.google.com/rss/articles/CBMipwVBVV95cUxQRXlQMUpSRTZBeUtGMUVzTnlWdnVqSlJQMzVGaDVaZGY5Nmc3WmJkVzZ0S2w0NHU4bGlYS0EtWXJIbGJaZVBESkN2bmpOaEl2dUJaWGJjNkFWb1R5ajdFT2dFZDYwOEZKRmV0WUl3VWozbFkxZVRfcV9ibmRfdDRRbVdmV0FVM0psOFhRTmUwcDRoN3lwY1lXRTl6WFVuajhUUC1JSEpTOG1ubmNuMnlwNkZtMklXU3RIT3ZuUmgtRm1ZQ1RyY0EzUnp6NHozUDdEdFY5aHlVQ3BPYVc4b2hkSVVDbWZIQ0ZjbmYwYmthbDFLUUxPTGkxc0pCdS1lUHJwcURWS0Q0OFc3MGY2aGpIQnYxOTU1Wm4wSWU5cE1iYVFNUW5NRkdXSl9JTVZjMFVPaHE1R2tHLUY3TlZNOEFTZHVaMndCbHZSb0xucTlKT0Z0RzBsR2VYY0QxODVHazJyVjdWQ1loSmpVZnNmVnhyZFBxSkQ5SjdmRjVleDRPZjhQVUlyQ1VyVDMyZFY3UzFrQnFyaHNGZnVwZUxqYlRBT2xjak40X2htUTZLV1MxR0tuMUtSay1KcFFjbF9xaW11Ql9jMUZ1MWVDZ01WZjdLWDJrNi15b1FvSERLVmFpcVN0RTdrbkk0QnB2XzdYcXRNa0dLazliSWVlMlpfQkJsUHhCOTZRVEIxbkY5RTkwWlZyRlk4bFV0MEx3Rnp5NjlwbWY1TjdIVzZfNTJ5ejJySzkyeXFRMDhNSDBfNkxpZFJ0MDVNTXZQTExWVk9SS1hZTU10U3dGaUVnS0dKS0NWaXVlZXJEbVFXQTczcFg3SGNhX2ZDRHprZDA5R2JzdFgzV0dGYy14aW9fQ1NUNHhPb1ZGNzNBNHRqMVpXNVVLWm55RTgzR0lr?oc=5">LINK</a>
+‎3️⃣ السنغال تراهن على ميناء الداخلة الأطلسي.. القنصل العام بابو سين يدعو المستثمرين السنغاليين إلى التوجه نحو الأقاليم الجنوبية للمملكة - العيون الآن 🔗<a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxOc2hweGQ1V2hEOW1qQUtTNEw2cHVmMzdQUXh6RXlDa055MWtFYkE2cWZHT21uWHUwV3JrdlNwazVudzRfcVNfZW41TDdJZUxDSzh5cWVKM2pxYnREaWl4b1YyLU1XcURsNVh4QXJUSUtIc1lCZ3d1bG1jMVozcFEwTTRVWHJ1R0pRS0d0X1dKU2VOdzRrclJsWjZ4eGpRUGs3TGRvaEs3NW1CbWxHMVF3cTl6TExnMF9UT0RKdG5TS24yWVVVaEU4OUU1QWMxZWNhbXNoZ3dyY0FjdEVZNVd0OWVlMmNzaElFU1ZVd3lfM3FWdjZjWkc3YWQ2Y2V3RGZQTU9TY0NxV3JmenZwNDlFT1BsTnZESzBQWW9iOEVPcTA2ZTZZd0FVcmtXR2QwQ3FHQ2lKMXJsZzhmRjAwc1BVVWkzQU0?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Macky Sall à MEDI1TV : le Maroc, un acteur clé de l’intégration économique africaine - Medi1 News 🔗<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DUWswUVN4VUZTOWQwXzJsM2F2Qm9udWdYZXhsVzRCNGZyZ1p5aFRXYkhuNmRWZDZETjZBeHg4X1Q2d1N5TzVOLUg5VFJjMGU1VzlVMllOTmFWb2tP?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ المغرب لاح 200 ألف بلوك ف المحيط... باش يبني ميناء الداخلة الأطلسي 🔗<a href="https://www.youtube.com/watch?v=2DRwjx6GTPg">LINK</a>
+2️⃣ أعمق ميناء ف إفريقيا... ف الداخلة ⚓ #shorts 🔗<a href="https://www.youtube.com/watch?v=aDJr2Z4ZPL8">LINK</a>
+3️⃣ 4 دول بلا بحر… والمغرب يعرض عليها المحيط الأطلسي #shorts 🔗<a href="https://www.youtube.com/watch?v=5et5Lt8iMAU">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+El puerto de Dakhla Atlántico avanza con una obra que supera el 76 % de ejecución, según informó Le360, y se ha señalado que se han colocado 200 000 bloques en el mar para su construcción. En el MEDays de Tánger el puerto estuvo en el centro de los debates, y se ha destacado que será el puerto más profundo de África. Además, el cónsul general de Senegal ha invitado a inversores senegaleses a apostar por el puerto y por las regiones del sur de Marruecos.  
+
+En el plano diplomático y económico, Le7tv.ma informó que Francia intensifica su ofensiva económica en el Sahara marroquí antes de una visita real a París. Marruecos y Brasil han llamado a una asociación estratégica y a una cooperación más estrecha para reforzar la seguridad marítima y el desarrollo en el Atlántico sur. Asimismo, se ha mencionado que Marruecos ofrece acceso al Océano Atlántico a cuatro países sin salida al mar, y el presidente senegalés Macky Sall declaró que Marruecos es un actor clave en la integración económica africana.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-26</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-26)
