@@ -13,6 +13,45 @@ Los datos estructurados (los que usa el bot de Telegram para `/registro-historic
 <summary>📂 <b>Noviembre</b></summary>
 
 <details>
+<summary>📅 <b>2026-11-28</b> — pulsa para ver el reporte completo</summary>
+
+🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-28)
+
+📰 <b>Prensa Escrita Internacional</b>
+
+🇪🇸 <b>Español</b>
+• No hay noticias
+
+🇫🇷 <b>Francés</b>
+• No hay noticias
+
+🇲🇦 <b>Árabe</b>
+‎1️⃣ مسؤولون سنغاليون يدعون إلى تعزيز الاستثمار في الداخلة والاستفادة من فرص مينائها الأطلسي – اليوم 24 - اليوم 24 🔗<a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE9xWVdiZ1pzcjdIS3hZYzg2VGl6VFR2OTI2TFN2Uk1RMVA0NEU1dFVjcHFWeWQxSnlVUTBPaF85OG40MEV1bTQtcTNn?oc=5">LINK</a>
+
+🇬🇧 <b>Inglés</b>
+• No hay noticias
+
+🎙️📻 <b>Podcasts & Radio</b>
+
+1️⃣ Mohammed VI, intégration africaine, ONU : les confidences de Macky Sall sur MEDI1TV - Leral.net 🔗<a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnZZTWFQTnlTT0wtRUYyQnJNQ081a3dsSmZfbERacHZpbTBTVEVhbEN3NFJfNGJqX3JhX2Q4Wlc4NzQ5LXhSTDJ6RVBrbWxCX0NSdTlQZnpybFN6RFg1VDlmRkN1bm5qWktvby12TU1fbkZST29TM29sbmdld3ozXzhjcndELXlDTDh4SVEycHozN1RhT2RKWElPN0ZDT3RfaUFZZmNXNThialFMUWlINnRFV2s?oc=5">LINK</a>
+
+📺 <b>YouTube & Vídeos</b>
+
+1️⃣ العنوان: كيفاش كيبنيو ميناء الداخلة الأطلسي وسط الموج؟ | شنو بلان؟l #شنو_بلان #تكنولوجيا  #ترند 🔗<a href="https://www.youtube.com/watch?v=kp_kuLx0peE">LINK</a>
+2️⃣ المغرب غرس 16 كيلومتر ديال الحديد تحت البحر... ف مشروع ديال 15 مليار درهم 🔗<a href="https://www.youtube.com/watch?v=cowyh5HB_Tg">LINK</a>
+3️⃣ المغرب كيبني ميناء جديد... ولكن ماشي ف الشاطئ، وسط المحيط الأطلسي. #اكسبلور #المغرب 🔗<a href="https://www.youtube.com/watch?v=bHg78JGFd88">LINK</a>
+
+🤖✨ <b>Resumen Diario de la IA</b> ✨🤖
+
+Hoy se han publicado varios titulares sobre el Puerto de Dakhla Atlántico. Autoridades senegalesas han pedido reforzar la inversión en Dakhla y aprovechar las oportunidades que brinda su puerto atlántico. En redes se comenta cómo se está construyendo el puerto en medio de las olas y se pregunta por el plan detrás de la obra. Por su parte, Marruecos ha anunciado la instalación de 16 kilómetros de acero bajo el mar dentro de un proyecto valorado en 15 mil millones de dirhams, y la construcción de un nuevo puerto que no se ubicará en la costa sino en medio del océano Atlántico.
+
+Además, la cadena Radio Medi1 difundió una entrevista en la que Macky Sall habló sobre el rey Mohammed VI, la integración africana y la ONU.
+
+🤖 Informe generado por Mamé el Bot 🤖
+
+</details>
+
+<details>
 <summary>📅 <b>2026-11-27</b> — pulsa para ver el reporte completo</summary>
 
 🚢 <b>REPORTE DIARIO: PUERTO DE DAKHLA ATLANTIQUE</b> (2026-11-27)
